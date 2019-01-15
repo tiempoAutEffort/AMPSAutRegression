@@ -14,9 +14,21 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.setText(findTestObject('UI/General/Page_LoginPage/input_User'), 'qa')
+WebUI.setText(findTestObject('UI/General/Page_LandingPage/input_User'), user)
 
-WebUI.setText(findTestObject('UI/General/Page_LoginPage/input_Password'), 'a9yk100dD')
+WebUI.setText(findTestObject('UI/General/Page_LandingPage/input_Password'), password)
 
-WebUI.click(findTestObject('UI/General/Page_LoginPage/button_Login'))
+WebUI.click(findTestObject('UI/General/Page_LandingPage/button_Login'))
+
+WebUI.waitForElementPresent(findTestObject('UI/General/Page_AMPS Portal/img_AMPSLogo'), 5)
+
+WebUI.waitForElementVisible(findTestObject('UI/General/Page_AMPS Portal/img_AMPSLogo'), 5)
+
+WebUI.waitForElementPresent(findTestObject('UI/General/Page_AMPS Portal/span_ClientsMenu'), 5)
+
+WebUI.waitForElementVisible(findTestObject('UI/General/Page_AMPS Portal/span_ClientsMenu'), 5)
+
+WebUI.waitForElementPresent(findTestObject('UI/General/Page_AMPS Portal/h1_ClientsTitle'), 5)
+
+WebUI.waitForElementVisible(findTestObject('UI/General/Page_AMPS Portal/h1_ClientsTitle'), 5)
 
