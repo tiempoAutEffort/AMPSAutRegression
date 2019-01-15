@@ -13,23 +13,3 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('https://uat.advancedpricing.com/login')
-
-WebUI.maximizeWindow()
-
-WebUI.waitForElementPresent(findTestObject('UI/General/Page_LoginPage/a_ForgotPassword'), 5)
-
-WebUI.waitForElementVisible(findTestObject('UI/General/Page_LoginPage/a_ForgotPassword'), 5)
-
-WebUI.waitForElementPresent(findTestObject('UI/General/Page_LoginPage/button_Login'), 5)
-
-WebUI.waitForElementVisible(findTestObject('UI/General/Page_LoginPage/button_Login'), 5)
-
-WebUI.waitForElementPresent(findTestObject('UI/General/Page_LoginPage/input_Password'), 5)
-
-WebUI.waitForElementVisible(findTestObject('UI/General/Page_LoginPage/input_Password'), 5)
-
-WebUI.waitForElementPresent(findTestObject('UI/General/Page_LoginPage/input_User'), 5)
-
-WebUI.waitForElementVisible(findTestObject('UI/General/Page_LoginPage/input_User'), 5)
-
