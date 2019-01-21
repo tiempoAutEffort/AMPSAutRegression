@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login - Successful Client</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>151748ee-ed6b-4634-b1f1-a3760e870886</testCaseGuid>
+   <variable>
+      <defaultValue>'qaAuto'</defaultValue>
+      <description></description>
+      <id>5bcc89e0-03ba-4a2d-adfc-5ae8ffa63d4a</id>
+      <masked>false</masked>
+      <name>user</name>
+   </variable>
+   <variable>
+      <defaultValue>'a9yk100dD'</defaultValue>
+      <description></description>
+      <id>729ba0fa-b07f-4bc6-a57a-0f328e71d6ff</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

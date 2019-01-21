@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Schedule Reports - New schedule and search</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a59b5490-b8ee-4bd5-92d2-5d173712926c</testCaseGuid>
+   <variable>
+      <defaultValue>'qaAutoEdit'</defaultValue>
+      <description></description>
+      <id>05f64080-0564-46d5-92cc-21f79e5a306a</id>
+      <masked>false</masked>
+      <name>reportTypeName</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Account Maintenance - Employee" time="12" tests="4" failures="1" errors="0">
+   <testsuite name="Account Maintenance - Employee" tests="4" failures="1" errors="0" time="12" timestamp="2019-01-21 16:25:56" hostname="david avalos - TDG-MBL-MTY0359.tiempodev.local" id="Test Suites/UI/Client Services/Account Maintenance - Employee">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\David Avalos\\git\\AMPSAutRegression\\Reports\\UI\\Client Services\\Account Maintenance - Employee\\20190121_162457"/>
+         <property name="logFiles" value="C:\\Users\\David Avalos\\git\\AMPSAutRegression\\Reports\\UI\\Client Services\\Account Maintenance - Employee\\20190121_162457\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\David Avalos\\git\\AMPSAutRegression\\Reports\\UI\\Client Services\\Account Maintenance - Employee\\20190121_162457\\1548109567995.png"/>
+         <property name="hostName" value="david avalos - TDG-MBL-MTY0359.tiempodev.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.1.97"/>
+         <property name="sessionId" value="7ae2e7ca9bcef34cec397e4462434f8e"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/UI/General/openBrowser" classname="Test Cases/UI/General/openBrowser" status="PASSED">
+         <system-out><![CDATA[2019-01-21 16:25:56 - [TEST_CASE][PASSED] - Test Cases/UI/General/openBrowser: Test Cases/UI/General/openBrowser
+
+2019-01-21 16:25:56 - [TEST_STEP][PASSED] - openBrowser("https://uat.advancedpricing.com/login"): Browser is opened with url: 'https://uat.advancedpricing.com/login'
+
+2019-01-21 16:25:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-21 16:25:57 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-21 16:26:01 - [MESSAGE][PASSED] - Browser is opened with url: 'https://uat.advancedpricing.com/login'
+
+2019-01-21 16:26:01 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-21 16:26:02 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-21 16:26:02 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/Client/Client Services/ForgotPassword/a_ForgotPassword"), 5): Object 'Object Repository/UI/Client/Client Services/ForgotPassword/a_ForgotPassword' is present
+
+2019-01-21 16:26:02 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Client Services/ForgotPassword/a_ForgotPassword' is present
+
+2019-01-21 16:26:02 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/Client/Client Services/ForgotPassword/a_ForgotPassword"), 5): Object 'Object Repository/UI/Client/Client Services/ForgotPassword/a_ForgotPassword' is visible
+
+2019-01-21 16:26:02 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Client Services/ForgotPassword/a_ForgotPassword' is visible
+
+2019-01-21 16:26:02 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/General/Page_LoginPage/button_Login"), 5): Object 'Object Repository/UI/General/Page_LoginPage/button_Login' is present
+
+2019-01-21 16:26:02 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_LoginPage/button_Login' is present
+
+2019-01-21 16:26:02 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/General/Page_LoginPage/button_Login"), 5): Object 'Object Repository/UI/General/Page_LoginPage/button_Login' is visible
+
+2019-01-21 16:26:02 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_LoginPage/button_Login' is visible
+
+2019-01-21 16:26:02 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/General/Page_LoginPage/input_Password"), 5): Object 'Object Repository/UI/General/Page_LoginPage/input_Password' is present
+
+2019-01-21 16:26:02 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_LoginPage/input_Password' is present
+
+2019-01-21 16:26:02 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/General/Page_LoginPage/input_Password"), 5): Object 'Object Repository/UI/General/Page_LoginPage/input_Password' is visible
+
+2019-01-21 16:26:02 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_LoginPage/input_Password' is visible
+
+2019-01-21 16:26:02 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/General/Page_LoginPage/input_User"), 5): Object 'Object Repository/UI/General/Page_LoginPage/input_User' is present
+
+2019-01-21 16:26:02 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_LoginPage/input_User' is present
+
+2019-01-21 16:26:02 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/General/Page_LoginPage/input_User"), 5): Object 'Object Repository/UI/General/Page_LoginPage/input_User' is visible
+
+2019-01-21 16:26:02 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_LoginPage/input_User' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UI/General/Employee Login" classname="Test Cases/UI/General/Employee Login" status="PASSED">
+         <system-out><![CDATA[2019-01-21 16:26:02 - [TEST_CASE][PASSED] - Test Cases/UI/General/Employee Login: Test Cases/UI/General/Employee Login
+
+2019-01-21 16:26:03 - [TEST_STEP][PASSED] - setText(findTestObject("UI/General/Page_LoginPage/input_User"), user): Text 'qaAuto' is set on object 'Object Repository/UI/General/Page_LoginPage/input_User'
+
+2019-01-21 16:26:03 - [MESSAGE][PASSED] - Text 'qaAuto' is set on object 'Object Repository/UI/General/Page_LoginPage/input_User'
+
+2019-01-21 16:26:03 - [TEST_STEP][PASSED] - setText(findTestObject("UI/General/Page_LoginPage/input_Password"), password): Text 'a9yk100dD' is set on object 'Object Repository/UI/General/Page_LoginPage/input_Password'
+
+2019-01-21 16:26:03 - [MESSAGE][PASSED] - Text 'a9yk100dD' is set on object 'Object Repository/UI/General/Page_LoginPage/input_Password'
+
+2019-01-21 16:26:03 - [TEST_STEP][PASSED] - click(findTestObject("UI/General/Page_LoginPage/button_Login")): Object: 'Object Repository/UI/General/Page_LoginPage/button_Login' is clicked on
+
+2019-01-21 16:26:03 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/General/Page_LoginPage/button_Login' is clicked on
+
+2019-01-21 16:26:03 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/General/Page_Employee landing page/img_AMPSLogo"), 5): Object 'Object Repository/UI/General/Page_Employee landing page/img_AMPSLogo' is present
+
+2019-01-21 16:26:04 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_Employee landing page/img_AMPSLogo' is present
+
+2019-01-21 16:26:04 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/General/Page_Employee landing page/img_AMPSLogo"), 5): Object 'Object Repository/UI/General/Page_Employee landing page/img_AMPSLogo' is visible
+
+2019-01-21 16:26:04 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_Employee landing page/img_AMPSLogo' is visible
+
+2019-01-21 16:26:04 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/General/Page_Employee landing page/span_ClientsMenu"), 5): Object 'Object Repository/UI/General/Page_Employee landing page/span_ClientsMenu' is present
+
+2019-01-21 16:26:04 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_Employee landing page/span_ClientsMenu' is present
+
+2019-01-21 16:26:04 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/General/Page_Employee landing page/span_ClientsMenu"), 5): Object 'Object Repository/UI/General/Page_Employee landing page/span_ClientsMenu' is visible
+
+2019-01-21 16:26:04 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_Employee landing page/span_ClientsMenu' is visible
+
+2019-01-21 16:26:04 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/General/Page_Employee landing page/h1_ClientsTitle"), 5): Object 'Object Repository/UI/General/Page_Employee landing page/h1_ClientsTitle' is present
+
+2019-01-21 16:26:04 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_Employee landing page/h1_ClientsTitle' is present
+
+2019-01-21 16:26:04 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/General/Page_Employee landing page/h1_ClientsTitle"), 5): Object 'Object Repository/UI/General/Page_Employee landing page/h1_ClientsTitle' is visible
+
+2019-01-21 16:26:04 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_Employee landing page/h1_ClientsTitle' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UI/Employee/Client Services/Account Maintenance/Account - Fields can be modified and saved" classname="Test Cases/UI/Employee/Client Services/Account Maintenance/Account - Fields can be modified and saved" status="PASSED">
+         <system-out><![CDATA[2019-01-21 16:26:04 - [TEST_CASE][PASSED] - Test Cases/UI/Employee/Client Services/Account Maintenance/Account - Fields can be modified and saved: Test Cases/UI/Employee/Client Services/Account Maintenance/Account - Fields can be modified and saved
+
+2019-01-21 16:26:04 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Client Services/Account/a_SettingsMenu")): Object: 'Object Repository/UI/Employee/Client Services/Account/a_SettingsMenu' is clicked on
+
+2019-01-21 16:26:04 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Client Services/Account/a_SettingsMenu' is clicked on
+
+2019-01-21 16:26:04 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("UI/Employee/Client Services/Account/a_SettingsMenu"), 5): Scroll to object 'Object Repository/UI/Employee/Client Services/Account/a_SettingsMenu' successfully
+
+2019-01-21 16:26:04 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/UI/Employee/Client Services/Account/a_SettingsMenu' successfully
+
+2019-01-21 16:26:04 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Client Services/Account/span_AccountSubMenu")): Object: 'Object Repository/UI/Employee/Client Services/Account/span_AccountSubMenu' is clicked on
+
+2019-01-21 16:26:04 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Client Services/Account/span_AccountSubMenu' is clicked on
+
+2019-01-21 16:26:04 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/Employee/Client Services/Account/h1_Account Title"), 5): Object 'Object Repository/UI/Employee/Client Services/Account/h1_Account Title' is present
+
+2019-01-21 16:26:04 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Client Services/Account/h1_Account Title' is present
+
+2019-01-21 16:26:04 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/Employee/Client Services/Account/h1_Account Title"), 5): Object 'Object Repository/UI/Employee/Client Services/Account/h1_Account Title' is visible
+
+2019-01-21 16:26:05 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Client Services/Account/h1_Account Title' is visible
+
+2019-01-21 16:26:05 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("UI/Employee/Client Services/Account/h1_Account Title"), 5): Scroll to object 'Object Repository/UI/Employee/Client Services/Account/h1_Account Title' successfully
+
+2019-01-21 16:26:05 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/UI/Employee/Client Services/Account/h1_Account Title' successfully
+
+2019-01-21 16:26:05 - [TEST_STEP][PASSED] - clearText(findTestObject("UI/Employee/Client Services/Account/input_Account_First Name")): Text of object 'Object Repository/UI/Employee/Client Services/Account/input_Account_First Name' is cleared
+
+2019-01-21 16:26:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/UI/Employee/Client Services/Account/input_Account_First Name' is cleared
+
+2019-01-21 16:26:05 - [TEST_STEP][PASSED] - sendKeys(findTestObject("UI/Employee/Client Services/Account/input_Account_First Name"), firstName): Keys 'Quality' sent to object: 'Object Repository/UI/Employee/Client Services/Account/input_Account_First Name'
+
+2019-01-21 16:26:05 - [MESSAGE][PASSED] - Keys 'Quality' sent to object: 'Object Repository/UI/Employee/Client Services/Account/input_Account_First Name'
+
+2019-01-21 16:26:05 - [TEST_STEP][PASSED] - clearText(findTestObject("UI/Employee/Client Services/Account/input_Account_Last Name")): Text of object 'Object Repository/UI/Employee/Client Services/Account/input_Account_Last Name' is cleared
+
+2019-01-21 16:26:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/UI/Employee/Client Services/Account/input_Account_Last Name' is cleared
+
+2019-01-21 16:26:05 - [TEST_STEP][PASSED] - sendKeys(findTestObject("UI/Employee/Client Services/Account/input_Account_Last Name"), lastName): Keys 'Assurance' sent to object: 'Object Repository/UI/Employee/Client Services/Account/input_Account_Last Name'
+
+2019-01-21 16:26:05 - [MESSAGE][PASSED] - Keys 'Assurance' sent to object: 'Object Repository/UI/Employee/Client Services/Account/input_Account_Last Name'
+
+2019-01-21 16:26:05 - [TEST_STEP][PASSED] - clearText(findTestObject("UI/Employee/Client Services/Account/input_Account_Email Address")): Text of object 'Object Repository/UI/Employee/Client Services/Account/input_Account_Email Address' is cleared
+
+2019-01-21 16:26:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/UI/Employee/Client Services/Account/input_Account_Email Address' is cleared
+
+2019-01-21 16:26:05 - [TEST_STEP][PASSED] - sendKeys(findTestObject("UI/Employee/Client Services/Account/input_Account_Email Address"), emailAddress): Keys 'qa@advancedpricing.com' sent to object: 'Object Repository/UI/Employee/Client Services/Account/input_Account_Email Address'
+
+2019-01-21 16:26:05 - [MESSAGE][PASSED] - Keys 'qa@advancedpricing.com' sent to object: 'Object Repository/UI/Employee/Client Services/Account/input_Account_Email Address'
+
+2019-01-21 16:26:05 - [TEST_STEP][PASSED] - clearText(findTestObject("UI/Employee/Client Services/Account/input_Account_Telephone")): Text of object 'Object Repository/UI/Employee/Client Services/Account/input_Account_Telephone' is cleared
+
+2019-01-21 16:26:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/UI/Employee/Client Services/Account/input_Account_Telephone' is cleared
+
+2019-01-21 16:26:05 - [TEST_STEP][PASSED] - sendKeys(findTestObject("UI/Employee/Client Services/Account/input_Account_Telephone"), telephone): Keys '111-111-1112' sent to object: 'Object Repository/UI/Employee/Client Services/Account/input_Account_Telephone'
+
+2019-01-21 16:26:05 - [MESSAGE][PASSED] - Keys '111-111-1112' sent to object: 'Object Repository/UI/Employee/Client Services/Account/input_Account_Telephone'
+
+2019-01-21 16:26:05 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Client Services/Account/button_Account_Save Button")): Object: 'Object Repository/UI/Employee/Client Services/Account/button_Account_Save Button' is clicked on
+
+2019-01-21 16:26:06 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Client Services/Account/button_Account_Save Button' is clicked on
+
+2019-01-21 16:26:06 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/Employee/Client Services/Account/strong_Account_Profile Updated Message"), 5): Object 'Object Repository/UI/Employee/Client Services/Account/strong_Account_Profile Updated Message' is present
+
+2019-01-21 16:26:06 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Client Services/Account/strong_Account_Profile Updated Message' is present
+
+2019-01-21 16:26:06 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/Employee/Client Services/Account/strong_Account_Profile Updated Message"), 5): Object 'Object Repository/UI/Employee/Client Services/Account/strong_Account_Profile Updated Message' is visible
+
+2019-01-21 16:26:06 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Client Services/Account/strong_Account_Profile Updated Message' is visible
+
+2019-01-21 16:26:06 - [TEST_STEP][PASSED] - actualUpdateMessage = getText(findTestObject("UI/Employee/Client Services/Account/strong_Account_Profile Updated Message")): Text of object 'Object Repository/UI/Employee/Client Services/Account/strong_Account_Profile Updated Message' is: 'Profile Updated'
+
+2019-01-21 16:26:06 - [MESSAGE][PASSED] - Text of object 'Object Repository/UI/Employee/Client Services/Account/strong_Account_Profile Updated Message' is: 'Profile Updated'
+
+2019-01-21 16:26:06 - [TEST_STEP][PASSED] - verifyEqual(actualUpdateMessage, expectedUpdateMessage): Actual object 'Profile Updated' and expected object 'Profile Updated' are equal
+
+2019-01-21 16:26:06 - [MESSAGE][PASSED] - Actual object 'Profile Updated' and expected object 'Profile Updated' are equal]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UI/Employee/Client Services/Account Maintenance/Account - Fields and buttons validation" classname="Test Cases/UI/Employee/Client Services/Account Maintenance/Account - Fields and buttons validation" status="PASSED">
+         <system-out><![CDATA[2019-01-21 16:26:06 - [TEST_CASE][PASSED] - Test Cases/UI/Employee/Client Services/Account Maintenance/Account - Fields and buttons validation: Test Cases/UI/Employee/Client Services/Account Maintenance/Account - Fields and buttons validation
+
+2019-01-21 16:26:06 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Client Services/Account/a_SettingsMenu")): Object: 'Object Repository/UI/Employee/Client Services/Account/a_SettingsMenu' is clicked on
+
+2019-01-21 16:26:06 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Client Services/Account/a_SettingsMenu' is clicked on
+
+2019-01-21 16:26:06 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("UI/Employee/Client Services/Account/a_SettingsMenu"), 5): Scroll to object 'Object Repository/UI/Employee/Client Services/Account/a_SettingsMenu' successfully
+
+2019-01-21 16:26:06 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/UI/Employee/Client Services/Account/a_SettingsMenu' successfully
+
+2019-01-21 16:26:06 - [TEST_STEP][PASSED] - click(findTestObject("UI/Client/Client Services/Account/span_AccountSubMenu")): Object: 'Object Repository/UI/Client/Client Services/Account/span_AccountSubMenu' is clicked on
+
+2019-01-21 16:26:06 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Client/Client Services/Account/span_AccountSubMenu' is clicked on
+
+2019-01-21 16:26:06 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/Employee/Client Services/Account/h1_Account Title"), 5): Object 'Object Repository/UI/Employee/Client Services/Account/h1_Account Title' is present
+
+2019-01-21 16:26:06 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Client Services/Account/h1_Account Title' is present
+
+2019-01-21 16:26:06 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/Employee/Client Services/Account/h1_Account Title"), 5): Object 'Object Repository/UI/Employee/Client Services/Account/h1_Account Title' is visible
+
+2019-01-21 16:26:07 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Client Services/Account/h1_Account Title' is visible
+
+2019-01-21 16:26:07 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("UI/Employee/Client Services/Account/h1_Account Title"), 5, CONTINUE_ON_FAILURE): Scroll to object 'Object Repository/UI/Employee/Client Services/Account/h1_Account Title' successfully
+
+2019-01-21 16:26:07 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/UI/Employee/Client Services/Account/h1_Account Title' successfully
+
+2019-01-21 16:26:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Client Services/Account/b_Account_Identification"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Client Services/Account/b_Account_Identification' is visible
+
+2019-01-21 16:26:07 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Client Services/Account/b_Account_Identification' is visible
+
+2019-01-21 16:26:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Client Services/Account/label_Account_User Name"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Client Services/Account/label_Account_User Name' is visible
+
+2019-01-21 16:26:07 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Client Services/Account/label_Account_User Name' is visible
+
+2019-01-21 16:26:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Client Services/Account/input_Account_User Name"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Client Services/Account/input_Account_User Name' is visible
+
+2019-01-21 16:26:07 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Client Services/Account/input_Account_User Name' is visible
+
+2019-01-21 16:26:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Client Services/Account/label_Account_First Name"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Client Services/Account/label_Account_First Name' is visible
+
+2019-01-21 16:26:07 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Client Services/Account/label_Account_First Name' is visible
+
+2019-01-21 16:26:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Client Services/Account/input_Account_First Name"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Client Services/Account/input_Account_First Name' is visible
+
+2019-01-21 16:26:07 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Client Services/Account/input_Account_First Name' is visible
+
+2019-01-21 16:26:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Client Services/Account/label_Account_Last Name"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Client Services/Account/label_Account_Last Name' is visible
+
+2019-01-21 16:26:07 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Client Services/Account/label_Account_Last Name' is visible
+
+2019-01-21 16:26:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Client Services/Account/input_Account_Last Name"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Client Services/Account/input_Account_Last Name' is visible
+
+2019-01-21 16:26:07 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Client Services/Account/input_Account_Last Name' is visible
+
+2019-01-21 16:26:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Client Services/Account/label_Account_Email Address"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Client Services/Account/label_Account_Email Address' is visible
+
+2019-01-21 16:26:07 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Client Services/Account/label_Account_Email Address' is visible
+
+2019-01-21 16:26:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Client Services/Account/input_Account_Email Address"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Client Services/Account/input_Account_Email Address' is visible
+
+2019-01-21 16:26:07 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Client Services/Account/input_Account_Email Address' is visible
+
+2019-01-21 16:26:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Client Services/Account/label_Account_Telephone"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Client Services/Account/label_Account_Telephone' is visible
+
+2019-01-21 16:26:07 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Client Services/Account/label_Account_Telephone' is visible
+
+2019-01-21 16:26:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Client Services/Account/input_Account_Telephone"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Client Services/Account/input_Account_Telephone' is visible
+
+2019-01-21 16:26:07 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Client Services/Account/input_Account_Telephone' is visible
+
+2019-01-21 16:26:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Client Services/Account/b_Account_Password Change"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Client Services/Account/b_Account_Password Change' is visible
+
+2019-01-21 16:26:07 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Client Services/Account/b_Account_Password Change' is visible
+
+2019-01-21 16:26:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Client Services/Account/label_Account_Current Password"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Client Services/Account/label_Account_Current Password' is visible
+
+2019-01-21 16:26:07 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Client Services/Account/label_Account_Current Password' is visible
+
+2019-01-21 16:26:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Client Services/Account/input_Account_Current Password"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Client Services/Account/input_Account_Current Password' is visible
+
+2019-01-21 16:26:07 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Client Services/Account/input_Account_Current Password' is visible
+
+2019-01-21 16:26:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Client Services/Account/label_Account_New Password"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Client Services/Account/label_Account_New Password' is visible
+
+2019-01-21 16:26:07 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Client Services/Account/label_Account_New Password' is visible
+
+2019-01-21 16:26:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Client Services/Account/input_Account_New Password"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Client Services/Account/input_Account_New Password' is visible
+
+2019-01-21 16:26:07 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Client Services/Account/input_Account_New Password' is visible
+
+2019-01-21 16:26:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Client Services/Account/label_Account_Confirm Password"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Client Services/Account/label_Account_Confirm Password' is visible
+
+2019-01-21 16:26:07 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Client Services/Account/label_Account_Confirm Password' is visible
+
+2019-01-21 16:26:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Client Services/Account/input_Account_Confirm Password"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Client Services/Account/input_Account_Confirm Password' is visible
+
+2019-01-21 16:26:07 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Client Services/Account/input_Account_Confirm Password' is visible
+
+2019-01-21 16:26:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Client Services/Account/b_Account_Multifactor Authentication"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Client Services/Account/b_Account_Multifactor Authentication' is visible
+
+2019-01-21 16:26:07 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Client Services/Account/b_Account_Multifactor Authentication' is visible
+
+2019-01-21 16:26:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Client Services/Account/a_Account_Setup Button"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Client Services/Account/a_Account_Setup Button' is visible
+
+2019-01-21 16:26:07 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Client Services/Account/a_Account_Setup Button' is visible
+
+2019-01-21 16:26:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Client Services/Account/b_Account_info Message"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Client Services/Account/b_Account_info Message' is visible
+
+2019-01-21 16:26:07 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Client Services/Account/b_Account_info Message' is visible
+
+2019-01-21 16:26:07 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Client Services/Account/button_Account_Save Button"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Client Services/Account/button_Account_Save Button' is visible
+
+2019-01-21 16:26:07 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Client Services/Account/button_Account_Save Button' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UI/Employee/Client Services/Account Maintenance/Account - Change password" classname="Test Cases/UI/Employee/Client Services/Account Maintenance/Account - Change password" status="FAILED">
+         <failure type="FAILED" message="Test Cases/UI/Employee/Client Services/Account Maintenance/Account - Change password FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/UI/Employee/Client Services/Account/span_AccountSubMenu' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TDG-MBL-MTY0359', ip: '192.168.1.97', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\DAVIDA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60348}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 7ae2e7ca9bcef34cec397e4462434f8e)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Account - Change password.run(Account - Change password:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548109497039.run(TempTestSuite1548109497039.groovy:36)
+"/>
+         <system-out><![CDATA[2019-01-21 16:26:07 - [TEST_CASE][FAILED] - Test Cases/UI/Employee/Client Services/Account Maintenance/Account - Change password: Test Cases/UI/Employee/Client Services/Account Maintenance/Account - Change password FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/UI/Employee/Client Services/Account/span_AccountSubMenu' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TDG-MBL-MTY0359', ip: '192.168.1.97', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\DAVIDA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60348}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 7ae2e7ca9bcef34cec397e4462434f8e)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Account - Change password.run(Account - Change password:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548109497039.run(TempTestSuite1548109497039.groovy:36)
+
+
+2019-01-21 16:26:07 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Client Services/Account/a_SettingsMenu")): Object: 'Object Repository/UI/Employee/Client Services/Account/a_SettingsMenu' is clicked on
+
+2019-01-21 16:26:07 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Client Services/Account/a_SettingsMenu' is clicked on
+
+2019-01-21 16:26:07 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("UI/Employee/Client Services/Account/a_SettingsMenu"), 5): Scroll to object 'Object Repository/UI/Employee/Client Services/Account/a_SettingsMenu' successfully
+
+2019-01-21 16:26:07 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/UI/Employee/Client Services/Account/a_SettingsMenu' successfully
+
+2019-01-21 16:26:07 - [TEST_STEP][FAILED] - click(findTestObject("UI/Employee/Client Services/Account/span_AccountSubMenu")): click(findTestObject("UI/Employee/Client Services/Account/span_AccountSubMenu")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/UI/Employee/Client Services/Account/span_AccountSubMenu' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TDG-MBL-MTY0359', ip: '192.168.1.97', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\DAVIDA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60348}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 7ae2e7ca9bcef34cec397e4462434f8e)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Account - Change password.run(Account - Change password:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548109497039.run(TempTestSuite1548109497039.groovy:36)
+
+
+2019-01-21 16:26:08 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/UI/Employee/Client Services/Account/span_AccountSubMenu' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TDG-MBL-MTY0359', ip: '192.168.1.97', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\DAVIDA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60348}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 7ae2e7ca9bcef34cec397e4462434f8e)
+[[ATTACHMENT|C:\\Users\\David Avalos\\git\\AMPSAutRegression\\Reports\\UI\\Client Services\\Account Maintenance - Employee\\20190121_162457\\1548109567995.png]]
+
+2019-01-21 16:26:08 - [MESSAGE][FAILED] - click(findTestObject("UI/Employee/Client Services/Account/span_AccountSubMenu")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/UI/Employee/Client Services/Account/span_AccountSubMenu' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TDG-MBL-MTY0359', ip: '192.168.1.97', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\DAVIDA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60348}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 7ae2e7ca9bcef34cec397e4462434f8e)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Account - Change password.run(Account - Change password:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548109497039.run(TempTestSuite1548109497039.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-01-21 16:26:07 - [TEST_CASE][FAILED] - Test Cases/UI/Employee/Client Services/Account Maintenance/Account - Change password: Test Cases/UI/Employee/Client Services/Account Maintenance/Account - Change password FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/UI/Employee/Client Services/Account/span_AccountSubMenu' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TDG-MBL-MTY0359', ip: '192.168.1.97', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\DAVIDA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60348}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 7ae2e7ca9bcef34cec397e4462434f8e)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Account - Change password.run(Account - Change password:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548109497039.run(TempTestSuite1548109497039.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-21 16:25:56 - [TEST_SUITE][FAILED] - Account Maintenance - Employee: Test Cases/UI/Employee/Client Services/Account Maintenance/Account - Change password FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/UI/Employee/Client Services/Account/span_AccountSubMenu' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TDG-MBL-MTY0359', ip: '192.168.1.97', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\DAVIDA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60348}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 7ae2e7ca9bcef34cec397e4462434f8e)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Account - Change password.run(Account - Change password:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548109497039.run(TempTestSuite1548109497039.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-01-21 16:25:56 - [TEST_SUITE][FAILED] - Account Maintenance - Employee: Test Cases/UI/Employee/Client Services/Account Maintenance/Account - Change password FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/UI/Employee/Client Services/Account/span_AccountSubMenu' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'TDG-MBL-MTY0359', ip: '192.168.1.97', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\DAVIDA~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60348}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 7ae2e7ca9bcef34cec397e4462434f8e)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Account - Change password.run(Account - Change password:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548109497039.run(TempTestSuite1548109497039.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login - Successful Employee</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5e8d4374-169d-465d-b742-0858f24be7d4</testCaseGuid>
+   <variable>
+      <defaultValue>'qaAuto'</defaultValue>
+      <description></description>
+      <id>ef205fd0-feff-42c9-82c5-3ae51ab1eff5</id>
+      <masked>false</masked>
+      <name>user</name>
+   </variable>
+   <variable>
+      <defaultValue>'a9yk100dD'</defaultValue>
+      <description></description>
+      <id>44b254b5-8054-4188-bd9f-3e89eae8ae47</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

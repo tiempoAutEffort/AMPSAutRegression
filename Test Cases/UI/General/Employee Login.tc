@@ -4,5 +4,19 @@
    <name>Employee Login</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>096efa96-2be5-4657-a709-341c4f94ed6e</testCaseGuid>
+   <testCaseGuid>a9d2db09-7efd-4572-8a63-72cf4019b748</testCaseGuid>
+   <variable>
+      <defaultValue>'qaAuto'</defaultValue>
+      <description></description>
+      <id>8075eee0-79cd-4bd4-94c4-88aedff4315a</id>
+      <masked>false</masked>
+      <name>user</name>
+   </variable>
+   <variable>
+      <defaultValue>'a9yk100dD'</defaultValue>
+      <description></description>
+      <id>a831f136-c167-40d6-a56b-244e40f1a133</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
 </TestCaseEntity>

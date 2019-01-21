@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Schedule Reports - Filter by Column</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9d67ac4c-b19f-4a8c-8466-69c87667bab5</testCaseGuid>
+   <variable>
+      <defaultValue>'qaAuto'</defaultValue>
+      <description></description>
+      <id>97717cd1-1fb7-402f-b197-d0f5f98e10bc</id>
+      <masked>false</masked>
+      <name>scheduleReporName</name>
+   </variable>
+</TestCaseEntity>

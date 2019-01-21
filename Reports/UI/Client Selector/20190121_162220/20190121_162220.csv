@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Client Selector,,,2019-01-21 16:22:22,2019-01-21 16:22:24,1.647s,FAILED
+,,,,,,
+Test Cases/UI/General/openBrowser,,,2019-01-21 16:22:22,2019-01-21 16:22:23,0.631s,FAILED
+"openBrowser(""https://uat.advancedpricing.com/login"")",,,2019-01-21 16:22:23,2019-01-21 16:22:23,0.365s,FAILED
+,,,,,,
+Test Cases/UI/General/Employee Login,,,2019-01-21 16:22:23,2019-01-21 16:22:23,0.240s,FAILED
+"setText(findTestObject(""UI/General/Page_LoginPage/input_User""), user)",,,2019-01-21 16:22:23,2019-01-21 16:22:23,0.043s,FAILED
+,,,,,,
+Test Cases/UI/Employee/Client Selector/Client selector - Filter works correctly,,,2019-01-21 16:22:23,2019-01-21 16:22:23,0.200s,FAILED
+"click(findTestObject(""UI/Employee/Client Selector/span_ClientsMenu""), CONTINUE_ON_FAILURE)",,,2019-01-21 16:22:23,2019-01-21 16:22:23,0.019s,FAILED
+"waitForElementPresent(findTestObject(""UI/Employee/Client Selector/h1_ClientsTitle""), 5)",,,2019-01-21 16:22:23,2019-01-21 16:22:23,0.019s,FAILED
+,,,,,,
+Test Cases/UI/Employee/Client Selector/Client selector - Search and select an active client,,,2019-01-21 16:22:23,2019-01-21 16:22:24,0.189s,FAILED
+"click(findTestObject(""UI/Employee/Client Selector/span_ClientsMenu""))",,,2019-01-21 16:22:24,2019-01-21 16:22:24,0.009s,FAILED
+,,,,,,
+Test Cases/UI/Employee/Client Selector/Client selector - Verify presence of elements,,,2019-01-21 16:22:24,2019-01-21 16:22:24,0.147s,FAILED
+"click(findTestObject(""UI/Employee/Client Selector/span_ClientsMenu""), CONTINUE_ON_FAILURE)",,,2019-01-21 16:22:24,2019-01-21 16:22:24,0.006s,FAILED
+"waitForElementPresent(findTestObject(""UI/Employee/Client Selector/h1_ClientsTitle""), 5)",,,2019-01-21 16:22:24,2019-01-21 16:22:24,0.007s,FAILED

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Schedule Reports - Edit Schedule Report</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a4dae78c-2188-4cf7-a3bb-be85f5338e27</testCaseGuid>
+   <variable>
+      <defaultValue>'qaAutoEdit'</defaultValue>
+      <description></description>
+      <id>d9c66368-9768-493d-9f1b-40710148a0db</id>
+      <masked>false</masked>
+      <name>reportTypeName</name>
+   </variable>
+</TestCaseEntity>
