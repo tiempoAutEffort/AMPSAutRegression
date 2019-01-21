@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Client selector - Search and select an active client</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cb353bad-4ad5-4d30-a034-7a70d9c4c60c</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>827c26a2-7a99-4f81-9bf7-1256bb5356e7</id>
+      <masked>false</masked>
+      <name>claimListHeader</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>51d85246-8753-40bf-a033-2a7d8e879789</id>
+      <masked>false</masked>
+      <name>logoutButtonText</name>
+   </variable>
+   <variable>
+      <defaultValue>'AUX'</defaultValue>
+      <description></description>
+      <id>b109b718-8ba4-4279-b0d6-a57fe38c47f5</id>
+      <masked>false</masked>
+      <name>clientAbbr</name>
+   </variable>
+</TestCaseEntity>

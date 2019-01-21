@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Report Types - Create new report</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>43ad81d3-f54f-4ad5-afa3-bf32534e4a84</testCaseGuid>
+   <variable>
+      <defaultValue>'qaAuto'</defaultValue>
+      <description></description>
+      <id>0e336a3c-8b7d-4067-a1e5-4f0e07be6e33</id>
+      <masked>false</masked>
+      <name>reportName</name>
+   </variable>
+</TestCaseEntity>

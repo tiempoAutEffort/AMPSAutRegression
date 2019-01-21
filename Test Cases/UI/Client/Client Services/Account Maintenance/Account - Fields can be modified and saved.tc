@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Account - Fields can be modified and saved</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d2b15655-38c9-4bba-a7d5-35a487315896</testCaseGuid>
+   <variable>
+      <defaultValue>'Quality'</defaultValue>
+      <description></description>
+      <id>46f0c154-2d97-4cea-9b7c-b1702154e164</id>
+      <masked>false</masked>
+      <name>firstName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Assurance'</defaultValue>
+      <description></description>
+      <id>b0516459-0e2a-494d-a38f-3665729243b5</id>
+      <masked>false</masked>
+      <name>lastName</name>
+   </variable>
+   <variable>
+      <defaultValue>'qa@advancedpricing.com'</defaultValue>
+      <description></description>
+      <id>a5a4efe8-248c-4d8f-84cf-9c936eaf1479</id>
+      <masked>false</masked>
+      <name>emailAddress</name>
+   </variable>
+   <variable>
+      <defaultValue>'111-111-1112'</defaultValue>
+      <description></description>
+      <id>58e259cd-cccc-4e3d-9c46-e4789e9401ae</id>
+      <masked>false</masked>
+      <name>telephone</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>cbb8f072-237b-426c-9e8d-7f5428319868</id>
+      <masked>false</masked>
+      <name>actualUpdateMessage</name>
+   </variable>
+   <variable>
+      <defaultValue>'Profile Updated'</defaultValue>
+      <description></description>
+      <id>280529bf-0552-4e2a-9e8d-3332ff2be517</id>
+      <masked>false</masked>
+      <name>expectedUpdateMessage</name>
+   </variable>
+</TestCaseEntity>

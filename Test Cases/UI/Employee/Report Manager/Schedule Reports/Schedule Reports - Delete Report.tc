@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Schedule Reports - Delete Report</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>53bf77a7-184f-4cf0-b164-4e4b2b0a2592</testCaseGuid>
+   <variable>
+      <defaultValue>'qaAutoEdit'</defaultValue>
+      <description></description>
+      <id>b7047214-8452-44ed-8784-ad592a62e62a</id>
+      <masked>false</masked>
+      <name>reportTypeName</name>
+   </variable>
+</TestCaseEntity>

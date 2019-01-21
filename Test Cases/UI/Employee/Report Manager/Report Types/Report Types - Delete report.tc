@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Report Types - Delete report</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2b3c8516-9446-48aa-85ff-04812c2fe5f1</testCaseGuid>
+   <variable>
+      <defaultValue>'qaAutoEdit'</defaultValue>
+      <description></description>
+      <id>190d5ea8-e4f3-4db0-8cfa-db82a84a5a88</id>
+      <masked>false</masked>
+      <name>reportName</name>
+   </variable>
+</TestCaseEntity>

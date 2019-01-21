@@ -4,5 +4,19 @@
    <name>Client Login</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>ded28a85-c0f8-4b6f-9f3b-aff2661eeab7</testCaseGuid>
+   <testCaseGuid>3add62f3-ec5e-4524-854f-444ef16ec337</testCaseGuid>
+   <variable>
+      <defaultValue>'qaAuto'</defaultValue>
+      <description></description>
+      <id>2c375809-5ac2-45ce-bce2-b1d7d525b69d</id>
+      <masked>false</masked>
+      <name>user</name>
+   </variable>
+   <variable>
+      <defaultValue>'a9yk100dD'</defaultValue>
+      <description></description>
+      <id>84c29f67-3245-475c-a91f-f2b2bbc93833</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
 </TestCaseEntity>

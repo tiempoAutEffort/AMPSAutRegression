@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Account Maintenance - Client" time="12" tests="5" failures="0" errors="0">
+   <testsuite name="Account Maintenance - Client" tests="5" failures="0" errors="0" time="12" timestamp="2019-01-21 16:25:42" hostname="david avalos - TDG-MBL-MTY0359.tiempodev.local" id="Test Suites/UI/Client Services/Account Maintenance - Client">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\David Avalos\\git\\AMPSAutRegression\\Reports\\UI\\Client Services\\Account Maintenance - Client\\20190121_162457"/>
+         <property name="logFiles" value="C:\\Users\\David Avalos\\git\\AMPSAutRegression\\Reports\\UI\\Client Services\\Account Maintenance - Client\\20190121_162457\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="david avalos - TDG-MBL-MTY0359.tiempodev.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.1.97"/>
+         <property name="sessionId" value="f16dd266fc25d761fa3f7496e402d385"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/UI/General/openBrowser" classname="Test Cases/UI/General/openBrowser" status="PASSED">
+         <system-out><![CDATA[2019-01-21 16:25:42 - [TEST_CASE][PASSED] - Test Cases/UI/General/openBrowser: Test Cases/UI/General/openBrowser
+
+2019-01-21 16:25:42 - [TEST_STEP][PASSED] - openBrowser("https://uat.advancedpricing.com/login"): Browser is opened with url: 'https://uat.advancedpricing.com/login'
+
+2019-01-21 16:25:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-21 16:25:42 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-21 16:25:47 - [MESSAGE][PASSED] - Browser is opened with url: 'https://uat.advancedpricing.com/login'
+
+2019-01-21 16:25:47 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-21 16:25:48 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-21 16:25:48 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/Client/Client Services/ForgotPassword/a_ForgotPassword"), 5): Object 'Object Repository/UI/Client/Client Services/ForgotPassword/a_ForgotPassword' is present
+
+2019-01-21 16:25:48 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Client Services/ForgotPassword/a_ForgotPassword' is present
+
+2019-01-21 16:25:48 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/Client/Client Services/ForgotPassword/a_ForgotPassword"), 5): Object 'Object Repository/UI/Client/Client Services/ForgotPassword/a_ForgotPassword' is visible
+
+2019-01-21 16:25:48 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Client Services/ForgotPassword/a_ForgotPassword' is visible
+
+2019-01-21 16:25:48 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/General/Page_LoginPage/button_Login"), 5): Object 'Object Repository/UI/General/Page_LoginPage/button_Login' is present
+
+2019-01-21 16:25:48 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_LoginPage/button_Login' is present
+
+2019-01-21 16:25:48 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/General/Page_LoginPage/button_Login"), 5): Object 'Object Repository/UI/General/Page_LoginPage/button_Login' is visible
+
+2019-01-21 16:25:48 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_LoginPage/button_Login' is visible
+
+2019-01-21 16:25:48 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/General/Page_LoginPage/input_Password"), 5): Object 'Object Repository/UI/General/Page_LoginPage/input_Password' is present
+
+2019-01-21 16:25:48 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_LoginPage/input_Password' is present
+
+2019-01-21 16:25:48 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/General/Page_LoginPage/input_Password"), 5): Object 'Object Repository/UI/General/Page_LoginPage/input_Password' is visible
+
+2019-01-21 16:25:48 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_LoginPage/input_Password' is visible
+
+2019-01-21 16:25:48 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/General/Page_LoginPage/input_User"), 5): Object 'Object Repository/UI/General/Page_LoginPage/input_User' is present
+
+2019-01-21 16:25:48 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_LoginPage/input_User' is present
+
+2019-01-21 16:25:48 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/General/Page_LoginPage/input_User"), 5): Object 'Object Repository/UI/General/Page_LoginPage/input_User' is visible
+
+2019-01-21 16:25:48 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_LoginPage/input_User' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UI/General/Client Login" classname="Test Cases/UI/General/Client Login" status="PASSED">
+         <system-out><![CDATA[2019-01-21 16:25:48 - [TEST_CASE][PASSED] - Test Cases/UI/General/Client Login: Test Cases/UI/General/Client Login
+
+2019-01-21 16:25:48 - [TEST_STEP][PASSED] - setText(findTestObject("UI/General/Page_LoginPage/input_User"), user): Text 'qaAuto' is set on object 'Object Repository/UI/General/Page_LoginPage/input_User'
+
+2019-01-21 16:25:49 - [MESSAGE][PASSED] - Text 'qaAuto' is set on object 'Object Repository/UI/General/Page_LoginPage/input_User'
+
+2019-01-21 16:25:49 - [TEST_STEP][PASSED] - setText(findTestObject("UI/General/Page_LoginPage/input_Password"), password): Text 'a9yk100dD' is set on object 'Object Repository/UI/General/Page_LoginPage/input_Password'
+
+2019-01-21 16:25:49 - [MESSAGE][PASSED] - Text 'a9yk100dD' is set on object 'Object Repository/UI/General/Page_LoginPage/input_Password'
+
+2019-01-21 16:25:49 - [TEST_STEP][PASSED] - click(findTestObject("UI/General/Page_LoginPage/button_Login")): Object: 'Object Repository/UI/General/Page_LoginPage/button_Login' is clicked on
+
+2019-01-21 16:25:49 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/General/Page_LoginPage/button_Login' is clicked on
+
+2019-01-21 16:25:49 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/General/Page_Employee landing page/img_AMPSLogo"), 5): Object 'Object Repository/UI/General/Page_Employee landing page/img_AMPSLogo' is present
+
+2019-01-21 16:25:49 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_Employee landing page/img_AMPSLogo' is present
+
+2019-01-21 16:25:49 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/General/Page_Employee landing page/img_AMPSLogo"), 5): Object 'Object Repository/UI/General/Page_Employee landing page/img_AMPSLogo' is visible
+
+2019-01-21 16:25:49 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_Employee landing page/img_AMPSLogo' is visible
+
+2019-01-21 16:25:49 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/General/Page_Client landing page/h1_Claim List Title"), 5): Object 'Object Repository/UI/General/Page_Client landing page/h1_Claim List Title' is present
+
+2019-01-21 16:25:49 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_Client landing page/h1_Claim List Title' is present
+
+2019-01-21 16:25:49 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/General/Page_Client landing page/h1_Claim List Title"), 5): Object 'Object Repository/UI/General/Page_Client landing page/h1_Claim List Title' is visible
+
+2019-01-21 16:25:49 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_Client landing page/h1_Claim List Title' is visible
+
+2019-01-21 16:25:49 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/General/Page_Client landing page/span_Claims Menu"), 5): Object 'Object Repository/UI/General/Page_Client landing page/span_Claims Menu' is present
+
+2019-01-21 16:25:50 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_Client landing page/span_Claims Menu' is present
+
+2019-01-21 16:25:50 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/General/Page_Client landing page/span_Claims Menu"), 5): Object 'Object Repository/UI/General/Page_Client landing page/span_Claims Menu' is visible
+
+2019-01-21 16:25:50 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_Client landing page/span_Claims Menu' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UI/Client/Client Services/Account Maintenance/Account - Fields and buttons validation" classname="Test Cases/UI/Client/Client Services/Account Maintenance/Account - Fields and buttons validation" status="PASSED">
+         <system-out><![CDATA[2019-01-21 16:25:50 - [TEST_CASE][PASSED] - Test Cases/UI/Client/Client Services/Account Maintenance/Account - Fields and buttons validation: Test Cases/UI/Client/Client Services/Account Maintenance/Account - Fields and buttons validation
+
+2019-01-21 16:25:50 - [TEST_STEP][PASSED] - click(findTestObject("UI/Client/Client Services/Account/a_SettingsMenu")): Object: 'Object Repository/UI/Client/Client Services/Account/a_SettingsMenu' is clicked on
+
+2019-01-21 16:25:50 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Client/Client Services/Account/a_SettingsMenu' is clicked on
+
+2019-01-21 16:25:50 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("UI/Client/Client Services/Account/a_SettingsMenu"), 5): Scroll to object 'Object Repository/UI/Client/Client Services/Account/a_SettingsMenu' successfully
+
+2019-01-21 16:25:50 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/UI/Client/Client Services/Account/a_SettingsMenu' successfully
+
+2019-01-21 16:25:50 - [TEST_STEP][PASSED] - click(findTestObject("UI/Client/Client Services/Account/span_AccountSubMenu")): Object: 'Object Repository/UI/Client/Client Services/Account/span_AccountSubMenu' is clicked on
+
+2019-01-21 16:25:50 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Client/Client Services/Account/span_AccountSubMenu' is clicked on
+
+2019-01-21 16:25:50 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/Client/Client Services/Account/h1_Account Title"), 5): Object 'Object Repository/UI/Client/Client Services/Account/h1_Account Title' is present
+
+2019-01-21 16:25:50 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Client Services/Account/h1_Account Title' is present
+
+2019-01-21 16:25:50 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/Client/Client Services/Account/h1_Account Title"), 5): Object 'Object Repository/UI/Client/Client Services/Account/h1_Account Title' is visible
+
+2019-01-21 16:25:50 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Client Services/Account/h1_Account Title' is visible
+
+2019-01-21 16:25:50 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("UI/Client/Client Services/Account/h1_Account Title"), 5, CONTINUE_ON_FAILURE): Scroll to object 'Object Repository/UI/Client/Client Services/Account/h1_Account Title' successfully
+
+2019-01-21 16:25:50 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/UI/Client/Client Services/Account/h1_Account Title' successfully
+
+2019-01-21 16:25:50 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Client/Client Services/Account/b_Account_Identification"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Client/Client Services/Account/b_Account_Identification' is visible
+
+2019-01-21 16:25:50 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Client Services/Account/b_Account_Identification' is visible
+
+2019-01-21 16:25:50 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Client/Client Services/Account/label_Account_User Name"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Client/Client Services/Account/label_Account_User Name' is visible
+
+2019-01-21 16:25:50 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Client Services/Account/label_Account_User Name' is visible
+
+2019-01-21 16:25:50 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Client/Client Services/Account/input_Account_User Name"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Client/Client Services/Account/input_Account_User Name' is visible
+
+2019-01-21 16:25:50 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Client Services/Account/input_Account_User Name' is visible
+
+2019-01-21 16:25:50 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Client/Client Services/Account/label_Account_First Name"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Client/Client Services/Account/label_Account_First Name' is visible
+
+2019-01-21 16:25:50 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Client Services/Account/label_Account_First Name' is visible
+
+2019-01-21 16:25:50 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Client/Client Services/Account/input_Account_First Name"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Client/Client Services/Account/input_Account_First Name' is visible
+
+2019-01-21 16:25:50 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Client Services/Account/input_Account_First Name' is visible
+
+2019-01-21 16:25:50 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Client/Client Services/Account/label_Account_Last Name"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Client/Client Services/Account/label_Account_Last Name' is visible
+
+2019-01-21 16:25:50 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Client Services/Account/label_Account_Last Name' is visible
+
+2019-01-21 16:25:50 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Client/Client Services/Account/input_Account_Last Name"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Client/Client Services/Account/input_Account_Last Name' is visible
+
+2019-01-21 16:25:50 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Client Services/Account/input_Account_Last Name' is visible
+
+2019-01-21 16:25:50 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Client/Client Services/Account/label_Account_Email Address"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Client/Client Services/Account/label_Account_Email Address' is visible
+
+2019-01-21 16:25:50 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Client Services/Account/label_Account_Email Address' is visible
+
+2019-01-21 16:25:50 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Client/Client Services/Account/input_Account_Email Address"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Client/Client Services/Account/input_Account_Email Address' is visible
+
+2019-01-21 16:25:50 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Client Services/Account/input_Account_Email Address' is visible
+
+2019-01-21 16:25:50 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Client/Client Services/Account/label_Account_Telephone"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Client/Client Services/Account/label_Account_Telephone' is visible
+
+2019-01-21 16:25:50 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Client Services/Account/label_Account_Telephone' is visible
+
+2019-01-21 16:25:50 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Client/Client Services/Account/input_Account_Telephone"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Client/Client Services/Account/input_Account_Telephone' is visible
+
+2019-01-21 16:25:50 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Client Services/Account/input_Account_Telephone' is visible
+
+2019-01-21 16:25:50 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Client/Client Services/Account/b_Account_Password Change"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Client/Client Services/Account/b_Account_Password Change' is visible
+
+2019-01-21 16:25:51 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Client Services/Account/b_Account_Password Change' is visible
+
+2019-01-21 16:25:51 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Client/Client Services/Account/label_Account_Current Password"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Client/Client Services/Account/label_Account_Current Password' is visible
+
+2019-01-21 16:25:51 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Client Services/Account/label_Account_Current Password' is visible
+
+2019-01-21 16:25:51 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Client/Client Services/Account/input_Account_Current Password"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Client/Client Services/Account/input_Account_Current Password' is visible
+
+2019-01-21 16:25:51 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Client Services/Account/input_Account_Current Password' is visible
+
+2019-01-21 16:25:51 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Client/Client Services/Account/label_Account_New Password"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Client/Client Services/Account/label_Account_New Password' is visible
+
+2019-01-21 16:25:51 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Client Services/Account/label_Account_New Password' is visible
+
+2019-01-21 16:25:51 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Client/Client Services/Account/input_Account_New Password"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Client/Client Services/Account/input_Account_New Password' is visible
+
+2019-01-21 16:25:51 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Client Services/Account/input_Account_New Password' is visible
+
+2019-01-21 16:25:51 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Client/Client Services/Account/label_Account_Confirm Password"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Client/Client Services/Account/label_Account_Confirm Password' is visible
+
+2019-01-21 16:25:51 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Client Services/Account/label_Account_Confirm Password' is visible
+
+2019-01-21 16:25:51 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Client/Client Services/Account/input_Account_Confirm Password"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Client/Client Services/Account/input_Account_Confirm Password' is visible
+
+2019-01-21 16:25:51 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Client Services/Account/input_Account_Confirm Password' is visible
+
+2019-01-21 16:25:51 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Client/Client Services/Account/b_Account_Multifactor Authentication"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Client/Client Services/Account/b_Account_Multifactor Authentication' is visible
+
+2019-01-21 16:25:51 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Client Services/Account/b_Account_Multifactor Authentication' is visible
+
+2019-01-21 16:25:51 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Client/Client Services/Account/a_Account_Setup Button"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Client/Client Services/Account/a_Account_Setup Button' is visible
+
+2019-01-21 16:25:51 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Client Services/Account/a_Account_Setup Button' is visible
+
+2019-01-21 16:25:51 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Client/Client Services/Account/b_Account_info Message"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Client/Client Services/Account/b_Account_info Message' is visible
+
+2019-01-21 16:25:51 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Client Services/Account/b_Account_info Message' is visible
+
+2019-01-21 16:25:51 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Client/Client Services/Account/button_Account_Save Button"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Client/Client Services/Account/button_Account_Save Button' is visible
+
+2019-01-21 16:25:51 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Client Services/Account/button_Account_Save Button' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UI/Client/Client Services/Account Maintenance/Account - Fields can be modified and saved" classname="Test Cases/UI/Client/Client Services/Account Maintenance/Account - Fields can be modified and saved" status="PASSED">
+         <system-out><![CDATA[2019-01-21 16:25:51 - [TEST_CASE][PASSED] - Test Cases/UI/Client/Client Services/Account Maintenance/Account - Fields can be modified and saved: Test Cases/UI/Client/Client Services/Account Maintenance/Account - Fields can be modified and saved
+
+2019-01-21 16:25:51 - [TEST_STEP][NOT_RUN] - click(findTestObject("UI/Client/Client Services/Account/a_SettingsMenu")): NOT_RUN: click(findTestObject("UI/Client/Client Services/Account/a_SettingsMenu"))
+
+2019-01-21 16:25:51 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("UI/Client/Client Services/Account/a_SettingsMenu"))
+
+2019-01-21 16:25:51 - [TEST_STEP][NOT_RUN] - scrollToElement(findTestObject("UI/Client/Client Services/Account/a_SettingsMenu"), 5): NOT_RUN: scrollToElement(findTestObject("UI/Client/Client Services/Account/a_SettingsMenu"), 5)
+
+2019-01-21 16:25:51 - [MESSAGE][NOT_RUN] - NOT_RUN: scrollToElement(findTestObject("UI/Client/Client Services/Account/a_SettingsMenu"), 5)
+
+2019-01-21 16:25:51 - [TEST_STEP][NOT_RUN] - click(findTestObject("UI/Client/Client Services/Account/span_AccountSubMenu")): NOT_RUN: click(findTestObject("UI/Client/Client Services/Account/span_AccountSubMenu"))
+
+2019-01-21 16:25:51 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("UI/Client/Client Services/Account/span_AccountSubMenu"))
+
+2019-01-21 16:25:51 - [TEST_STEP][NOT_RUN] - waitForElementPresent(findTestObject("UI/Client/Client Services/Account/h1_Account Title"), 5): NOT_RUN: waitForElementPresent(findTestObject("UI/Client/Client Services/Account/h1_Account Title"), 5)
+
+2019-01-21 16:25:51 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementPresent(findTestObject("UI/Client/Client Services/Account/h1_Account Title"), 5)
+
+2019-01-21 16:25:51 - [TEST_STEP][NOT_RUN] - waitForElementVisible(findTestObject("UI/Client/Client Services/Account/h1_Account Title"), 5): NOT_RUN: waitForElementVisible(findTestObject("UI/Client/Client Services/Account/h1_Account Title"), 5)
+
+2019-01-21 16:25:51 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementVisible(findTestObject("UI/Client/Client Services/Account/h1_Account Title"), 5)
+
+2019-01-21 16:25:51 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("UI/Client/Client Services/Account/h1_Account Title"), 5): Scroll to object 'Object Repository/UI/Client/Client Services/Account/h1_Account Title' successfully
+
+2019-01-21 16:25:51 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/UI/Client/Client Services/Account/h1_Account Title' successfully
+
+2019-01-21 16:25:51 - [TEST_STEP][PASSED] - clearText(findTestObject("UI/Client/Client Services/Account/input_Account_First Name")): Text of object 'Object Repository/UI/Client/Client Services/Account/input_Account_First Name' is cleared
+
+2019-01-21 16:25:51 - [MESSAGE][PASSED] - Text of object 'Object Repository/UI/Client/Client Services/Account/input_Account_First Name' is cleared
+
+2019-01-21 16:25:51 - [TEST_STEP][PASSED] - sendKeys(findTestObject("UI/Client/Client Services/Account/input_Account_First Name"), firstName): Keys 'Quality' sent to object: 'Object Repository/UI/Client/Client Services/Account/input_Account_First Name'
+
+2019-01-21 16:25:51 - [MESSAGE][PASSED] - Keys 'Quality' sent to object: 'Object Repository/UI/Client/Client Services/Account/input_Account_First Name'
+
+2019-01-21 16:25:51 - [TEST_STEP][PASSED] - clearText(findTestObject("UI/Client/Client Services/Account/input_Account_Last Name")): Text of object 'Object Repository/UI/Client/Client Services/Account/input_Account_Last Name' is cleared
+
+2019-01-21 16:25:51 - [MESSAGE][PASSED] - Text of object 'Object Repository/UI/Client/Client Services/Account/input_Account_Last Name' is cleared
+
+2019-01-21 16:25:51 - [TEST_STEP][PASSED] - sendKeys(findTestObject("UI/Client/Client Services/Account/input_Account_Last Name"), lastName): Keys 'Assurance' sent to object: 'Object Repository/UI/Client/Client Services/Account/input_Account_Last Name'
+
+2019-01-21 16:25:51 - [MESSAGE][PASSED] - Keys 'Assurance' sent to object: 'Object Repository/UI/Client/Client Services/Account/input_Account_Last Name'
+
+2019-01-21 16:25:51 - [TEST_STEP][PASSED] - clearText(findTestObject("UI/Client/Client Services/Account/input_Account_Email Address")): Text of object 'Object Repository/UI/Client/Client Services/Account/input_Account_Email Address' is cleared
+
+2019-01-21 16:25:52 - [MESSAGE][PASSED] - Text of object 'Object Repository/UI/Client/Client Services/Account/input_Account_Email Address' is cleared
+
+2019-01-21 16:25:52 - [TEST_STEP][PASSED] - sendKeys(findTestObject("UI/Client/Client Services/Account/input_Account_Email Address"), emailAddress): Keys 'qa@advancedpricing.com' sent to object: 'Object Repository/UI/Client/Client Services/Account/input_Account_Email Address'
+
+2019-01-21 16:25:52 - [MESSAGE][PASSED] - Keys 'qa@advancedpricing.com' sent to object: 'Object Repository/UI/Client/Client Services/Account/input_Account_Email Address'
+
+2019-01-21 16:25:52 - [TEST_STEP][PASSED] - clearText(findTestObject("UI/Client/Client Services/Account/input_Account_Telephone")): Text of object 'Object Repository/UI/Client/Client Services/Account/input_Account_Telephone' is cleared
+
+2019-01-21 16:25:52 - [MESSAGE][PASSED] - Text of object 'Object Repository/UI/Client/Client Services/Account/input_Account_Telephone' is cleared
+
+2019-01-21 16:25:52 - [TEST_STEP][PASSED] - sendKeys(findTestObject("UI/Client/Client Services/Account/input_Account_Telephone"), telephone): Keys '111-111-1112' sent to object: 'Object Repository/UI/Client/Client Services/Account/input_Account_Telephone'
+
+2019-01-21 16:25:52 - [MESSAGE][PASSED] - Keys '111-111-1112' sent to object: 'Object Repository/UI/Client/Client Services/Account/input_Account_Telephone'
+
+2019-01-21 16:25:52 - [TEST_STEP][PASSED] - click(findTestObject("UI/Client/Client Services/Account/button_Account_Save Button")): Object: 'Object Repository/UI/Client/Client Services/Account/button_Account_Save Button' is clicked on
+
+2019-01-21 16:25:52 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Client/Client Services/Account/button_Account_Save Button' is clicked on
+
+2019-01-21 16:25:52 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/Client/Client Services/Account/strong_Account_Profile Updated Message"), 5): Object 'Object Repository/UI/Client/Client Services/Account/strong_Account_Profile Updated Message' is present
+
+2019-01-21 16:25:53 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Client Services/Account/strong_Account_Profile Updated Message' is present
+
+2019-01-21 16:25:53 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/Client/Client Services/Account/strong_Account_Profile Updated Message"), 5): Object 'Object Repository/UI/Client/Client Services/Account/strong_Account_Profile Updated Message' is visible
+
+2019-01-21 16:25:53 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Client Services/Account/strong_Account_Profile Updated Message' is visible
+
+2019-01-21 16:25:53 - [TEST_STEP][PASSED] - actualUpdateMessage = getText(findTestObject("UI/Client/Client Services/Account/strong_Account_Profile Updated Message")): Text of object 'Object Repository/UI/Client/Client Services/Account/strong_Account_Profile Updated Message' is: 'Profile Updated'
+
+2019-01-21 16:25:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/UI/Client/Client Services/Account/strong_Account_Profile Updated Message' is: 'Profile Updated'
+
+2019-01-21 16:25:53 - [TEST_STEP][PASSED] - verifyEqual(actualUpdateMessage, expectedUpdateMessage): Actual object 'Profile Updated' and expected object 'Profile Updated' are equal
+
+2019-01-21 16:25:53 - [MESSAGE][PASSED] - Actual object 'Profile Updated' and expected object 'Profile Updated' are equal]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UI/Client/Client Services/Account Maintenance/Account - Change password" classname="Test Cases/UI/Client/Client Services/Account Maintenance/Account - Change password" status="PASSED">
+         <system-out><![CDATA[2019-01-21 16:25:53 - [TEST_CASE][PASSED] - Test Cases/UI/Client/Client Services/Account Maintenance/Account - Change password: Test Cases/UI/Client/Client Services/Account Maintenance/Account - Change password
+
+2019-01-21 16:25:53 - [TEST_STEP][NOT_RUN] - click(findTestObject("UI/Client/Client Services/Account/a_SettingsMenu")): NOT_RUN: click(findTestObject("UI/Client/Client Services/Account/a_SettingsMenu"))
+
+2019-01-21 16:25:53 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("UI/Client/Client Services/Account/a_SettingsMenu"))
+
+2019-01-21 16:25:53 - [TEST_STEP][NOT_RUN] - scrollToElement(findTestObject("UI/Client/Client Services/Account/a_SettingsMenu"), 5): NOT_RUN: scrollToElement(findTestObject("UI/Client/Client Services/Account/a_SettingsMenu"), 5)
+
+2019-01-21 16:25:53 - [MESSAGE][NOT_RUN] - NOT_RUN: scrollToElement(findTestObject("UI/Client/Client Services/Account/a_SettingsMenu"), 5)
+
+2019-01-21 16:25:53 - [TEST_STEP][NOT_RUN] - click(findTestObject("UI/Client/Client Services/Account/span_AccountSubMenu")): NOT_RUN: click(findTestObject("UI/Client/Client Services/Account/span_AccountSubMenu"))
+
+2019-01-21 16:25:53 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("UI/Client/Client Services/Account/span_AccountSubMenu"))
+
+2019-01-21 16:25:53 - [TEST_STEP][NOT_RUN] - waitForElementPresent(findTestObject("UI/Client/Client Services/Account/h1_Account Title"), 5): NOT_RUN: waitForElementPresent(findTestObject("UI/Client/Client Services/Account/h1_Account Title"), 5)
+
+2019-01-21 16:25:53 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementPresent(findTestObject("UI/Client/Client Services/Account/h1_Account Title"), 5)
+
+2019-01-21 16:25:53 - [TEST_STEP][NOT_RUN] - waitForElementVisible(findTestObject("UI/Client/Client Services/Account/h1_Account Title"), 5): NOT_RUN: waitForElementVisible(findTestObject("UI/Client/Client Services/Account/h1_Account Title"), 5)
+
+2019-01-21 16:25:53 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementVisible(findTestObject("UI/Client/Client Services/Account/h1_Account Title"), 5)
+
+2019-01-21 16:25:53 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("UI/Client/Client Services/Account/h1_Account Title"), 5): Scroll to object 'Object Repository/UI/Client/Client Services/Account/h1_Account Title' successfully
+
+2019-01-21 16:25:53 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/UI/Client/Client Services/Account/h1_Account Title' successfully
+
+2019-01-21 16:25:53 - [TEST_STEP][PASSED] - sendKeys(findTestObject("UI/Client/Client Services/Account/input_Account_Current Password"), currentPassword): Keys 'tbdtbdtbd' sent to object: 'Object Repository/UI/Client/Client Services/Account/input_Account_Current Password'
+
+2019-01-21 16:25:53 - [MESSAGE][PASSED] - Keys 'tbdtbdtbd' sent to object: 'Object Repository/UI/Client/Client Services/Account/input_Account_Current Password'
+
+2019-01-21 16:25:53 - [TEST_STEP][PASSED] - sendKeys(findTestObject("UI/Client/Client Services/Account/input_Account_New Password"), newPassword): Keys 'tbdtbdtbd' sent to object: 'Object Repository/UI/Client/Client Services/Account/input_Account_New Password'
+
+2019-01-21 16:25:53 - [MESSAGE][PASSED] - Keys 'tbdtbdtbd' sent to object: 'Object Repository/UI/Client/Client Services/Account/input_Account_New Password'
+
+2019-01-21 16:25:53 - [TEST_STEP][PASSED] - sendKeys(findTestObject("UI/Client/Client Services/Account/input_Account_Confirm Password"), newPassword): Keys 'tbdtbdtbd' sent to object: 'Object Repository/UI/Client/Client Services/Account/input_Account_Confirm Password'
+
+2019-01-21 16:25:53 - [MESSAGE][PASSED] - Keys 'tbdtbdtbd' sent to object: 'Object Repository/UI/Client/Client Services/Account/input_Account_Confirm Password'
+
+2019-01-21 16:25:53 - [TEST_STEP][NOT_RUN] - click(findTestObject("UI/Client/Client Services/Account/button_Account_Save Button")): NOT_RUN: click(findTestObject("UI/Client/Client Services/Account/button_Account_Save Button"))
+
+2019-01-21 16:25:53 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("UI/Client/Client Services/Account/button_Account_Save Button"))
+
+2019-01-21 16:25:53 - [TEST_STEP][NOT_RUN] - waitForElementPresent(findTestObject("UI/Client/Client Services/Account/strong_Account_Profile Updated Message"), 5): NOT_RUN: waitForElementPresent(findTestObject("UI/Client/Client Services/Account/strong_Account_Profile Updated Message"), 5)
+
+2019-01-21 16:25:53 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementPresent(findTestObject("UI/Client/Client Services/Account/strong_Account_Profile Updated Message"), 5)
+
+2019-01-21 16:25:53 - [TEST_STEP][NOT_RUN] - waitForElementVisible(findTestObject("UI/Client/Client Services/Account/strong_Account_Profile Updated Message"), 5): NOT_RUN: waitForElementVisible(findTestObject("UI/Client/Client Services/Account/strong_Account_Profile Updated Message"), 5)
+
+2019-01-21 16:25:53 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementVisible(findTestObject("UI/Client/Client Services/Account/strong_Account_Profile Updated Message"), 5)
+
+2019-01-21 16:25:53 - [TEST_STEP][NOT_RUN] - actualUpdateMessage = getText(findTestObject("UI/Client/Client Services/Account/strong_Account_Profile Updated Message")): NOT_RUN: actualUpdateMessage = getText(findTestObject("UI/Client/Client Services/Account/strong_Account_Profile Updated Message"))
+
+2019-01-21 16:25:53 - [MESSAGE][NOT_RUN] - NOT_RUN: actualUpdateMessage = getText(findTestObject("UI/Client/Client Services/Account/strong_Account_Profile Updated Message"))
+
+2019-01-21 16:25:53 - [TEST_STEP][NOT_RUN] - verifyEqual(actualUpdateMessage, expectedUpdateMessage): NOT_RUN: verifyEqual(actualUpdateMessage, expectedUpdateMessage)
+
+2019-01-21 16:25:53 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyEqual(actualUpdateMessage, expectedUpdateMessage)
+
+2019-01-21 16:25:53 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("UI/Client/Client Services/Account/h1_Account Title"), 5): Scroll to object 'Object Repository/UI/Client/Client Services/Account/h1_Account Title' successfully
+
+2019-01-21 16:25:53 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/UI/Client/Client Services/Account/h1_Account Title' successfully
+
+2019-01-21 16:25:53 - [TEST_STEP][PASSED] - sendKeys(findTestObject("UI/Client/Client Services/Account/input_Account_Current Password"), newPassword): Keys 'tbdtbdtbd' sent to object: 'Object Repository/UI/Client/Client Services/Account/input_Account_Current Password'
+
+2019-01-21 16:25:53 - [MESSAGE][PASSED] - Keys 'tbdtbdtbd' sent to object: 'Object Repository/UI/Client/Client Services/Account/input_Account_Current Password'
+
+2019-01-21 16:25:53 - [TEST_STEP][PASSED] - sendKeys(findTestObject("UI/Client/Client Services/Account/input_Account_New Password"), currentPassword): Keys 'tbdtbdtbd' sent to object: 'Object Repository/UI/Client/Client Services/Account/input_Account_New Password'
+
+2019-01-21 16:25:54 - [MESSAGE][PASSED] - Keys 'tbdtbdtbd' sent to object: 'Object Repository/UI/Client/Client Services/Account/input_Account_New Password'
+
+2019-01-21 16:25:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("UI/Client/Client Services/Account/input_Account_Confirm Password"), currentPassword): Keys 'tbdtbdtbd' sent to object: 'Object Repository/UI/Client/Client Services/Account/input_Account_Confirm Password'
+
+2019-01-21 16:25:54 - [MESSAGE][PASSED] - Keys 'tbdtbdtbd' sent to object: 'Object Repository/UI/Client/Client Services/Account/input_Account_Confirm Password'
+
+2019-01-21 16:25:54 - [TEST_STEP][NOT_RUN] - click(findTestObject("UI/Client/Client Services/Account/button_Account_Save Button")): NOT_RUN: click(findTestObject("UI/Client/Client Services/Account/button_Account_Save Button"))
+
+2019-01-21 16:25:54 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("UI/Client/Client Services/Account/button_Account_Save Button"))
+
+2019-01-21 16:25:54 - [TEST_STEP][NOT_RUN] - waitForElementPresent(findTestObject("UI/Client/Client Services/Account/strong_Account_Profile Updated Message"), 5): NOT_RUN: waitForElementPresent(findTestObject("UI/Client/Client Services/Account/strong_Account_Profile Updated Message"), 5)
+
+2019-01-21 16:25:54 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementPresent(findTestObject("UI/Client/Client Services/Account/strong_Account_Profile Updated Message"), 5)
+
+2019-01-21 16:25:54 - [TEST_STEP][NOT_RUN] - waitForElementVisible(findTestObject("UI/Client/Client Services/Account/strong_Account_Profile Updated Message"), 5): NOT_RUN: waitForElementVisible(findTestObject("UI/Client/Client Services/Account/strong_Account_Profile Updated Message"), 5)
+
+2019-01-21 16:25:54 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementVisible(findTestObject("UI/Client/Client Services/Account/strong_Account_Profile Updated Message"), 5)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-21 16:25:42 - [TEST_SUITE][PASSED] - Account Maintenance - Client: Test Cases/UI/Client/Client Services/Account Maintenance/Account - Change password]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

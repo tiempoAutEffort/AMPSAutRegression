@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Report Types - Edit report</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7d6f3243-d970-4874-991b-d812d18e8989</testCaseGuid>
+   <variable>
+      <defaultValue>'qaAuto'</defaultValue>
+      <description></description>
+      <id>8a292845-0d32-41ac-939f-1e771184d202</id>
+      <masked>false</masked>
+      <name>reportName</name>
+   </variable>
+   <variable>
+      <defaultValue>'qaAutoEdit'</defaultValue>
+      <description></description>
+      <id>74a94bab-6d20-473c-9781-e09809fbab0f</id>
+      <masked>false</masked>
+      <name>editedReportName</name>
+   </variable>
+</TestCaseEntity>
