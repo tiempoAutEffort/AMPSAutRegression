@@ -1,0 +1,340 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Claim Services,Chrome 71.0.3578.98,,2019-01-22 15:03:28,2019-01-22 15:06:26,2m - 58.175s,FAILED
+,,,,,,
+Test Cases/UI/Client/Claim Services/Add_NewClaim,Chrome 71.0.3578.98,Add a new Claim and attach a file to it after it has been created.,2019-01-22 15:03:28,2019-01-22 15:04:40,1m - 11.526s,PASSED
+"UAT = ""https://uat.advancedpricing.com""",Chrome 71.0.3578.98,,2019-01-22 15:03:29,2019-01-22 15:03:29,0.001s,PASSED
+"USER = ""qaAuto""",Chrome 71.0.3578.98,,2019-01-22 15:03:29,2019-01-22 15:03:29,0.000s,PASSED
+"PASSWD = ""a9yk100dD""",Chrome 71.0.3578.98,,2019-01-22 15:03:29,2019-01-22 15:03:29,0.000s,PASSED
+"CLAIMNUMBER = ""22222""",Chrome 71.0.3578.98,,2019-01-22 15:03:29,2019-01-22 15:03:29,0.000s,PASSED
+"RXDATE = ""01/18/2019""",Chrome 71.0.3578.98,,2019-01-22 15:03:29,2019-01-22 15:03:29,0.000s,PASSED
+"BILLCHRG = ""182019""",Chrome 71.0.3578.98,,2019-01-22 15:03:29,2019-01-22 15:03:29,0.000s,PASSED
+"PPONAME = ""None""",Chrome 71.0.3578.98,,2019-01-22 15:03:29,2019-01-22 15:03:29,0.000s,PASSED
+"UPFILE = ""C:\uploadAMPS\MedRecords-Demo.png""",Chrome 71.0.3578.98,,2019-01-22 15:03:29,2019-01-22 15:03:29,0.000s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-22 15:03:29,2019-01-22 15:03:32,3.170s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-22 15:03:32,2019-01-22 15:03:33,1.180s,PASSED
+navigateToUrl(UAT),Chrome 71.0.3578.98,,2019-01-22 15:03:33,2019-01-22 15:03:34,1.505s,PASSED
+waitForPageLoad(5),Chrome 71.0.3578.98,,2019-01-22 15:03:34,2019-01-22 15:03:34,0.054s,PASSED
+"setText(findTestObject(""UI/Client/Claim Services/input_userCode""), USER)",Chrome 71.0.3578.98,,2019-01-22 15:03:34,2019-01-22 15:03:35,0.177s,PASSED
+"setText(findTestObject(""UI/Client/Claim Services/input_userPassword""), PASSWD)",Chrome 71.0.3578.98,,2019-01-22 15:03:35,2019-01-22 15:03:35,0.160s,PASSED
+"waitForElementClickable(findTestObject(""UI/Client/Claim Services/input_loginButton""), 5)",Chrome 71.0.3578.98,,2019-01-22 15:03:35,2019-01-22 15:03:35,0.058s,PASSED
+"click(findTestObject(""UI/Client/Claim Services/input_loginButton""))",Chrome 71.0.3578.98,,2019-01-22 15:03:35,2019-01-22 15:03:35,0.119s,PASSED
+waitForPageLoad(5),Chrome 71.0.3578.98,,2019-01-22 15:03:35,2019-01-22 15:03:35,0.006s,PASSED
+"waitForElementClickable(findTestObject(""UI/Client/Claim Services/span_ABMSClient""), 5)",Chrome 71.0.3578.98,,2019-01-22 15:03:35,2019-01-22 15:03:36,1.121s,PASSED
+"click(findTestObject(""UI/Client/Claim Services/span_ABMSClient""))",Chrome 71.0.3578.98,,2019-01-22 15:03:36,2019-01-22 15:03:36,0.286s,PASSED
+waitForPageLoad(5),Chrome 71.0.3578.98,,2019-01-22 15:03:36,2019-01-22 15:03:36,0.006s,PASSED
+"waitForElementClickable(findTestObject(""UI/Client/Claim Services/NewClaim/a_addClaim""), 5)",Chrome 71.0.3578.98,,2019-01-22 15:03:36,2019-01-22 15:03:36,0.029s,PASSED
+"click(findTestObject(""UI/Client/Claim Services/NewClaim/a_addClaim""))",Chrome 71.0.3578.98,,2019-01-22 15:03:36,2019-01-22 15:03:37,0.207s,PASSED
+waitForPageLoad(5),Chrome 71.0.3578.98,,2019-01-22 15:03:37,2019-01-22 15:03:37,0.007s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-22 15:03:37,2019-01-22 15:03:40,3.024s,PASSED
+"focus(findTestObject(""UI/Client/Claim Services/NewClaim/h4_termsConditions""))",Chrome 71.0.3578.98,,2019-01-22 15:03:40,2019-01-22 15:03:40,0.113s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-22 15:03:40,2019-01-22 15:03:43,3.001s,PASSED
+"click(findTestObject(""UI/Client/Claim Services/NewClaim/button_Accept""))",Chrome 71.0.3578.98,,2019-01-22 15:03:43,2019-01-22 15:03:43,0.432s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-22 15:03:43,2019-01-22 15:03:45,2.001s,PASSED
+"waitForElementVisible(findTestObject(""UI/Client/Claim Services/NewClaim/span_newClaimHeader""), 5)",Chrome 71.0.3578.98,,2019-01-22 15:03:45,2019-01-22 15:03:45,0.090s,PASSED
+"newClaim = getText(findTestObject(""UI/Client/Claim Services/NewClaim/span_newClaimHeader""))",Chrome 71.0.3578.98,,2019-01-22 15:03:45,2019-01-22 15:03:45,0.046s,PASSED
+"verifyMatch(newClaim, ""New"", false)",Chrome 71.0.3578.98,,2019-01-22 15:03:45,2019-01-22 15:03:45,0.008s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-22 15:03:45,2019-01-22 15:03:48,3.002s,PASSED
+"waitForElementClickable(findTestObject(""UI/Client/Claim Services/NewClaim/select_clientGroupId""), 5)",Chrome 71.0.3578.98,,2019-01-22 15:03:48,2019-01-22 15:03:48,0.091s,PASSED
+"click(findTestObject(""UI/Client/Claim Services/NewClaim/select_clientGroupId""))",Chrome 71.0.3578.98,,2019-01-22 15:03:48,2019-01-22 15:03:49,0.128s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-22 15:03:49,2019-01-22 15:03:51,2.002s,PASSED
+"click(findTestObject(""UI/Client/Claim Services/NewClaim/option_twoKellog""))",Chrome 71.0.3578.98,,2019-01-22 15:03:51,2019-01-22 15:03:51,0.120s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-22 15:03:51,2019-01-22 15:03:53,2.004s,PASSED
+"waitForElementVisible(findTestObject(""UI/Client/Claim Services/NewClaim/input_claimNumber""), 5)",Chrome 71.0.3578.98,,2019-01-22 15:03:53,2019-01-22 15:03:53,0.086s,PASSED
+"setText(findTestObject(""UI/Client/Claim Services/NewClaim/input_claimNumber""), CLAIMNUMBER)",Chrome 71.0.3578.98,,2019-01-22 15:03:53,2019-01-22 15:03:53,0.176s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-22 15:03:53,2019-01-22 15:03:55,2.004s,PASSED
+"waitForElementVisible(findTestObject(""UI/Client/Claim Services/NewClaim/input_receiveDate""), 5)",Chrome 71.0.3578.98,,2019-01-22 15:03:55,2019-01-22 15:03:55,0.074s,PASSED
+"setText(findTestObject(""UI/Client/Claim Services/NewClaim/input_receiveDate""), RXDATE)",Chrome 71.0.3578.98,,2019-01-22 15:03:55,2019-01-22 15:03:55,0.249s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-22 15:03:55,2019-01-22 15:03:57,2.003s,PASSED
+"waitForElementClickable(findTestObject(""UI/Client/Claim Services/NewClaim/radio_noneNetwork""), 5)",Chrome 71.0.3578.98,,2019-01-22 15:03:57,2019-01-22 15:03:57,0.089s,PASSED
+"check(findTestObject(""UI/Client/Claim Services/NewClaim/radio_noneNetwork""))",Chrome 71.0.3578.98,,2019-01-22 15:03:57,2019-01-22 15:03:57,0.110s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-22 15:03:57,2019-01-22 15:03:59,2.002s,PASSED
+"waitForElementVisible(findTestObject(""UI/Client/Claim Services/NewClaim/input_billedCharges""), 5)",Chrome 71.0.3578.98,,2019-01-22 15:03:59,2019-01-22 15:04:00,0.094s,PASSED
+"setText(findTestObject(""UI/Client/Claim Services/NewClaim/input_billedCharges""), BILLCHRG)",Chrome 71.0.3578.98,,2019-01-22 15:04:00,2019-01-22 15:04:00,0.172s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-22 15:04:00,2019-01-22 15:04:02,2.001s,PASSED
+"waitForElementVisible(findTestObject(""UI/Client/Claim Services/NewClaim/input_ppoName""), 5)",Chrome 71.0.3578.98,,2019-01-22 15:04:02,2019-01-22 15:04:02,0.092s,PASSED
+"setText(findTestObject(""UI/Client/Claim Services/NewClaim/input_ppoName""), PPONAME)",Chrome 71.0.3578.98,,2019-01-22 15:04:02,2019-01-22 15:04:02,0.161s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-22 15:04:02,2019-01-22 15:04:07,5.001s,PASSED
+"waitForElementClickable(findTestObject(""UI/Client/Claim Services/NewClaim/button_saveClaim""), 5)",Chrome 71.0.3578.98,,2019-01-22 15:04:07,2019-01-22 15:04:07,0.086s,PASSED
+"check(findTestObject(""UI/Client/Claim Services/NewClaim/button_saveClaim""))",Chrome 71.0.3578.98,,2019-01-22 15:04:07,2019-01-22 15:04:07,0.093s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-22 15:04:07,2019-01-22 15:04:12,5.003s,PASSED
+"focus(findTestObject(""UI/Client/Claim Services/NewClaim/h4_alertClaim""))",Chrome 71.0.3578.98,,2019-01-22 15:04:12,2019-01-22 15:04:12,0.092s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-22 15:04:12,2019-01-22 15:04:15,3.002s,PASSED
+"click(findTestObject(""UI/Client/Claim Services/NewClaim/button_closeAlertClaim""))",Chrome 71.0.3578.98,,2019-01-22 15:04:15,2019-01-22 15:04:15,0.211s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-22 15:04:15,2019-01-22 15:04:18,3.002s,PASSED
+"waitForElementVisible(findTestObject(""UI/Client/Claim Services/NewClaim/span_attachFiles""), 5)",Chrome 71.0.3578.98,,2019-01-22 15:04:18,2019-01-22 15:04:19,0.067s,PASSED
+"verifyElementVisible(findTestObject(""UI/Client/Claim Services/NewClaim/span_attachFiles""))",Chrome 71.0.3578.98,,2019-01-22 15:04:19,2019-01-22 15:04:19,0.052s,PASSED
+"waitForElementClickable(findTestObject(""UI/Client/Claim Services/a_FilesTab""), 5)",Chrome 71.0.3578.98,,2019-01-22 15:04:19,2019-01-22 15:04:19,0.028s,PASSED
+"click(findTestObject(""UI/Client/Claim Services/a_FilesTab""))",Chrome 71.0.3578.98,,2019-01-22 15:04:19,2019-01-22 15:04:19,0.081s,PASSED
+waitForPageLoad(5),Chrome 71.0.3578.98,,2019-01-22 15:04:19,2019-01-22 15:04:19,0.009s,PASSED
+"uploadFile(findTestObject(""UI/Client/Claim Services/input_NewFile""), UPFILE)",Chrome 71.0.3578.98,,2019-01-22 15:04:19,2019-01-22 15:04:19,0.059s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-22 15:04:19,2019-01-22 15:04:22,3.003s,PASSED
+"waitForElementClickable(findTestObject(""UI/Client/Claim Services/selectFileNameDropDown""), 5)",Chrome 71.0.3578.98,,2019-01-22 15:04:22,2019-01-22 15:04:22,0.055s,PASSED
+"click(findTestObject(""UI/Client/Claim Services/selectFileNameDropDown""))",Chrome 71.0.3578.98,,2019-01-22 15:04:22,2019-01-22 15:04:22,0.128s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-22 15:04:22,2019-01-22 15:04:24,2.002s,PASSED
+"click(findTestObject(""UI/Client/Claim Services/option_otherFile""))",Chrome 71.0.3578.98,,2019-01-22 15:04:24,2019-01-22 15:04:24,0.095s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-22 15:04:24,2019-01-22 15:04:27,3.003s,PASSED
+"waitForElementClickable(findTestObject(""UI/Client/Claim Services/buttonSaveUpload""), 5)",Chrome 71.0.3578.98,,2019-01-22 15:04:27,2019-01-22 15:04:27,0.073s,PASSED
+"click(findTestObject(""UI/Client/Claim Services/buttonSaveUpload""))",Chrome 71.0.3578.98,,2019-01-22 15:04:27,2019-01-22 15:04:27,0.084s,PASSED
+waitForPageLoad(5),Chrome 71.0.3578.98,,2019-01-22 15:04:27,2019-01-22 15:04:27,0.018s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-22 15:04:27,2019-01-22 15:04:30,3.002s,PASSED
+"verifyElementVisible(findTestObject(""UI/Client/Claim Services/strong_uploadedFileMessage""))",Chrome 71.0.3578.98,,2019-01-22 15:04:30,2019-01-22 15:04:30,0.088s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-22 15:04:30,2019-01-22 15:04:35,5.000s,PASSED
+"waitForElementClickable(findTestObject(""UI/General/Log/span_logoutAsClient""), 5)",Chrome 71.0.3578.98,,2019-01-22 15:04:35,2019-01-22 15:04:35,0.041s,PASSED
+"click(findTestObject(""UI/General/Log/span_logoutAsClient""))",Chrome 71.0.3578.98,,2019-01-22 15:04:35,2019-01-22 15:04:36,0.149s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-22 15:04:36,2019-01-22 15:04:37,1.002s,PASSED
+"waitForElementClickable(findTestObject(""UI/General/Log/a_userAvatar""), 5)",Chrome 71.0.3578.98,,2019-01-22 15:04:37,2019-01-22 15:04:37,0.056s,PASSED
+"click(findTestObject(""UI/General/Log/a_userAvatar""))",Chrome 71.0.3578.98,,2019-01-22 15:04:37,2019-01-22 15:04:37,0.113s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-22 15:04:37,2019-01-22 15:04:38,1.001s,PASSED
+"waitForElementClickable(findTestObject(""UI/General/Log/a_signOutAMPS""), 5)",Chrome 71.0.3578.98,,2019-01-22 15:04:38,2019-01-22 15:04:38,0.068s,PASSED
+"click(findTestObject(""UI/General/Log/a_signOutAMPS""))",Chrome 71.0.3578.98,,2019-01-22 15:04:38,2019-01-22 15:04:38,0.125s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-22 15:04:38,2019-01-22 15:04:39,1.002s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-22 15:04:39,2019-01-22 15:04:40,0.663s,PASSED
+,,,,,,
+Test Cases/UI/Client/Claim Services/Claim_Details,Chrome 71.0.3578.98,Click on a specific Claim to display its contents.,2019-01-22 15:04:40,2019-01-22 15:04:55,15.290s,PASSED
+"UAT = ""https://uat.advancedpricing.com""",Chrome 71.0.3578.98,,2019-01-22 15:04:40,2019-01-22 15:04:40,0.000s,PASSED
+"USER = ""qaAuto""",Chrome 71.0.3578.98,,2019-01-22 15:04:40,2019-01-22 15:04:40,0.001s,PASSED
+"PASSWD = ""a9yk100dD""",Chrome 71.0.3578.98,,2019-01-22 15:04:40,2019-01-22 15:04:40,0.000s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-22 15:04:40,2019-01-22 15:04:42,2.246s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-22 15:04:42,2019-01-22 15:04:43,1.164s,PASSED
+navigateToUrl(UAT),Chrome 71.0.3578.98,,2019-01-22 15:04:43,2019-01-22 15:04:45,1.517s,PASSED
+waitForPageLoad(5),Chrome 71.0.3578.98,,2019-01-22 15:04:45,2019-01-22 15:04:45,0.007s,PASSED
+"setText(findTestObject(""UI/Client/Claim Services/input_userCode""), USER)",Chrome 71.0.3578.98,,2019-01-22 15:04:45,2019-01-22 15:04:45,0.147s,PASSED
+"setText(findTestObject(""UI/Client/Claim Services/input_userPassword""), PASSWD)",Chrome 71.0.3578.98,,2019-01-22 15:04:45,2019-01-22 15:04:45,0.138s,PASSED
+"waitForElementClickable(findTestObject(""UI/Client/Claim Services/input_loginButton""), 5)",Chrome 71.0.3578.98,,2019-01-22 15:04:45,2019-01-22 15:04:45,0.028s,PASSED
+"click(findTestObject(""UI/Client/Claim Services/input_loginButton""))",Chrome 71.0.3578.98,,2019-01-22 15:04:45,2019-01-22 15:04:45,0.084s,PASSED
+waitForPageLoad(5),Chrome 71.0.3578.98,,2019-01-22 15:04:45,2019-01-22 15:04:45,0.006s,PASSED
+"waitForElementClickable(findTestObject(""UI/Client/Claim Services/span_ABMSClient""), 5)",Chrome 71.0.3578.98,,2019-01-22 15:04:45,2019-01-22 15:04:46,1.087s,PASSED
+"click(findTestObject(""UI/Client/Claim Services/span_ABMSClient""))",Chrome 71.0.3578.98,,2019-01-22 15:04:46,2019-01-22 15:04:47,0.311s,PASSED
+waitForPageLoad(5),Chrome 71.0.3578.98,,2019-01-22 15:04:47,2019-01-22 15:04:47,0.006s,PASSED
+"waitForElementClickable(findTestObject(""UI/Client/Claim Services/span_firstClaim""), 5)",Chrome 71.0.3578.98,,2019-01-22 15:04:47,2019-01-22 15:04:47,0.542s,PASSED
+"click(findTestObject(""UI/Client/Claim Services/span_firstClaim""))",Chrome 71.0.3578.98,,2019-01-22 15:04:47,2019-01-22 15:04:48,0.504s,PASSED
+waitForPageLoad(5),Chrome 71.0.3578.98,,2019-01-22 15:04:48,2019-01-22 15:04:48,0.007s,PASSED
+"waitForElementVisible(findTestObject(""UI/Client/Claim Services/span_ClaimHeader""), 5)",Chrome 71.0.3578.98,,2019-01-22 15:04:48,2019-01-22 15:04:48,0.037s,PASSED
+"claimHeader = getText(findTestObject(""UI/Client/Claim Services/span_ClaimHeader""))",Chrome 71.0.3578.98,,2019-01-22 15:04:48,2019-01-22 15:04:48,0.030s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-22 15:04:48,2019-01-22 15:04:51,3.003s,PASSED
+"waitForElementClickable(findTestObject(""UI/General/Log/span_logoutAsClient""), 5)",Chrome 71.0.3578.98,,2019-01-22 15:04:51,2019-01-22 15:04:51,0.096s,PASSED
+"click(findTestObject(""UI/General/Log/span_logoutAsClient""))",Chrome 71.0.3578.98,,2019-01-22 15:04:51,2019-01-22 15:04:51,0.140s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-22 15:04:51,2019-01-22 15:04:52,1.003s,PASSED
+"waitForElementClickable(findTestObject(""UI/General/Log/a_userAvatar""), 5)",Chrome 71.0.3578.98,,2019-01-22 15:04:52,2019-01-22 15:04:52,0.073s,PASSED
+"click(findTestObject(""UI/General/Log/a_userAvatar""))",Chrome 71.0.3578.98,,2019-01-22 15:04:52,2019-01-22 15:04:52,0.075s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-22 15:04:52,2019-01-22 15:04:53,1.001s,PASSED
+"waitForElementClickable(findTestObject(""UI/General/Log/a_signOutAMPS""), 5)",Chrome 71.0.3578.98,,2019-01-22 15:04:53,2019-01-22 15:04:53,0.068s,PASSED
+"click(findTestObject(""UI/General/Log/a_signOutAMPS""))",Chrome 71.0.3578.98,,2019-01-22 15:04:53,2019-01-22 15:04:53,0.118s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-22 15:04:53,2019-01-22 15:04:54,1.003s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-22 15:04:54,2019-01-22 15:04:55,0.641s,PASSED
+,,,,,,
+Test Cases/UI/Client/Claim Services/Download_successful,Chrome 71.0.3578.98,Download a file attached to a specific Claim.,2019-01-22 15:04:55,2019-01-22 15:05:03,8.509s,FAILED
+"UAT = ""https://uat.advancedpricing.com""",Chrome 71.0.3578.98,,2019-01-22 15:04:55,2019-01-22 15:04:55,0.000s,PASSED
+"USER = ""qaAuto""",Chrome 71.0.3578.98,,2019-01-22 15:04:55,2019-01-22 15:04:55,0.000s,PASSED
+"PASSWD = ""a9yk100dD""",Chrome 71.0.3578.98,,2019-01-22 15:04:55,2019-01-22 15:04:55,0.001s,PASSED
+"downloadPath = ""C:\Users\rogelio medrano\Downloads""",Chrome 71.0.3578.98,,2019-01-22 15:04:55,2019-01-22 15:04:55,0.000s,PASSED
+"FILEDOWN = ""MedRecords-Demo.png""",Chrome 71.0.3578.98,,2019-01-22 15:04:55,2019-01-22 15:04:55,0.000s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-22 15:04:55,2019-01-22 15:04:57,2.220s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-22 15:04:57,2019-01-22 15:04:58,1.119s,PASSED
+navigateToUrl(UAT),Chrome 71.0.3578.98,,2019-01-22 15:04:58,2019-01-22 15:05:00,1.407s,PASSED
+waitForPageLoad(5),Chrome 71.0.3578.98,,2019-01-22 15:05:00,2019-01-22 15:05:00,0.007s,PASSED
+"setText(findTestObject(""UI/Client/Claim Services/input_userCode""), USER)",Chrome 71.0.3578.98,,2019-01-22 15:05:00,2019-01-22 15:05:00,0.140s,PASSED
+"setText(findTestObject(""UI/Client/Claim Services/input_userPassword""), PASSWD)",Chrome 71.0.3578.98,,2019-01-22 15:05:00,2019-01-22 15:05:00,0.155s,PASSED
+"waitForElementClickable(findTestObject(""UI/Client/Claim Services/input_loginButton""), 5)",Chrome 71.0.3578.98,,2019-01-22 15:05:00,2019-01-22 15:05:00,0.030s,PASSED
+"click(findTestObject(""UI/Client/Claim Services/input_loginButton""))",Chrome 71.0.3578.98,,2019-01-22 15:05:00,2019-01-22 15:05:00,0.106s,PASSED
+waitForPageLoad(5),Chrome 71.0.3578.98,,2019-01-22 15:05:00,2019-01-22 15:05:00,0.007s,PASSED
+"waitForElementClickable(findTestObject(""UI/Client/Claim Services/span_ABMSClient""), 5)",Chrome 71.0.3578.98,,2019-01-22 15:05:00,2019-01-22 15:05:01,1.128s,PASSED
+"click(findTestObject(""UI/Client/Claim Services/span_ABMSClient""))",Chrome 71.0.3578.98,,2019-01-22 15:05:01,2019-01-22 15:05:02,0.344s,PASSED
+waitForPageLoad(5),Chrome 71.0.3578.98,,2019-01-22 15:05:02,2019-01-22 15:05:02,0.007s,PASSED
+"waitForElementClickable(findTestObject(""UI/Client/Claim Services/span_firstClaim""), 5)",Chrome 71.0.3578.98,,2019-01-22 15:05:02,2019-01-22 15:05:02,0.579s,PASSED
+"click(findTestObject(""UI/Client/Claim Services/span_firstClaim""))",Chrome 71.0.3578.98,,2019-01-22 15:05:02,2019-01-22 15:05:03,0.552s,PASSED
+waitForPageLoad(5),Chrome 71.0.3578.98,,2019-01-22 15:05:03,2019-01-22 15:05:03,0.007s,PASSED
+"waitForElementClickable(findTestObject(""Claim Services/a_filesTab""), 5)",Chrome 71.0.3578.98,,2019-01-22 15:05:03,2019-01-22 15:05:03,0.448s,FAILED
+,,,,,,
+Test Cases/UI/Client/Claim Services/Search_Successful,Chrome 71.0.3578.98,Search for a Claim entering valid/existing data to search and display a specific Claim.,2019-01-22 15:05:03,2019-01-22 15:05:24,20.384s,PASSED
+"UAT = ""https://uat.advancedpricing.com""",Chrome 71.0.3578.98,,2019-01-22 15:05:04,2019-01-22 15:05:04,0.000s,PASSED
+"USER = ""qaAuto""",Chrome 71.0.3578.98,,2019-01-22 15:05:04,2019-01-22 15:05:04,0.001s,PASSED
+"PASSWD = ""a9yk100dD""",Chrome 71.0.3578.98,,2019-01-22 15:05:04,2019-01-22 15:05:04,0.000s,PASSED
+"UPFILE = ""C:\uploadAMPS\UpFile.txt""",Chrome 71.0.3578.98,,2019-01-22 15:05:04,2019-01-22 15:05:04,0.000s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-22 15:05:04,2019-01-22 15:05:07,2.848s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-22 15:05:07,2019-01-22 15:05:08,1.153s,PASSED
+navigateToUrl(UAT),Chrome 71.0.3578.98,,2019-01-22 15:05:08,2019-01-22 15:05:09,1.523s,PASSED
+waitForPageLoad(5),Chrome 71.0.3578.98,,2019-01-22 15:05:09,2019-01-22 15:05:09,0.007s,PASSED
+"setText(findTestObject(""UI/Client/Claim Services/input_userCode""), USER)",Chrome 71.0.3578.98,,2019-01-22 15:05:09,2019-01-22 15:05:09,0.152s,PASSED
+"setText(findTestObject(""UI/Client/Claim Services/input_userPassword""), PASSWD)",Chrome 71.0.3578.98,,2019-01-22 15:05:09,2019-01-22 15:05:10,0.160s,PASSED
+"waitForElementClickable(findTestObject(""UI/Client/Claim Services/input_loginButton""), 5)",Chrome 71.0.3578.98,,2019-01-22 15:05:10,2019-01-22 15:05:10,0.030s,PASSED
+"click(findTestObject(""UI/Client/Claim Services/input_loginButton""))",Chrome 71.0.3578.98,,2019-01-22 15:05:10,2019-01-22 15:05:10,0.104s,PASSED
+waitForPageLoad(5),Chrome 71.0.3578.98,,2019-01-22 15:05:10,2019-01-22 15:05:10,0.008s,PASSED
+"waitForElementClickable(findTestObject(""UI/Client/Claim Services/span_ABMSClient""), 5)",Chrome 71.0.3578.98,,2019-01-22 15:05:10,2019-01-22 15:05:11,1.120s,PASSED
+"click(findTestObject(""UI/Client/Claim Services/span_ABMSClient""))",Chrome 71.0.3578.98,,2019-01-22 15:05:11,2019-01-22 15:05:11,0.337s,PASSED
+waitForPageLoad(5),Chrome 71.0.3578.98,,2019-01-22 15:05:11,2019-01-22 15:05:11,0.006s,PASSED
+"verifyElementPresent(findTestObject(""UI/Client/Claim Services/span_firstClaim""), 5)",Chrome 71.0.3578.98,,2019-01-22 15:05:11,2019-01-22 15:05:12,0.602s,PASSED
+"verifyElementPresent(findTestObject(""UI/Client/Claim Services/span_secondClaim""), 5)",Chrome 71.0.3578.98,,2019-01-22 15:05:12,2019-01-22 15:05:12,0.040s,PASSED
+"verifyElementPresent(findTestObject(""UI/Client/Claim Services/li_pageTwo""), 5)",Chrome 71.0.3578.98,,2019-01-22 15:05:12,2019-01-22 15:05:12,0.037s,PASSED
+"CLAIM = getText(findTestObject(""UI/Client/Claim Services/span_firstClaim""))",Chrome 71.0.3578.98,,2019-01-22 15:05:12,2019-01-22 15:05:12,0.017s,PASSED
+"waitForElementVisible(findTestObject(""UI/Client/Claim Services/input_ampsClaimID""), 5)",Chrome 71.0.3578.98,,2019-01-22 15:05:12,2019-01-22 15:05:12,0.034s,PASSED
+"setText(findTestObject(""UI/Client/Claim Services/input_ampsClaimID""), CLAIM)",Chrome 71.0.3578.98,,2019-01-22 15:05:12,2019-01-22 15:05:12,0.154s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-22 15:05:12,2019-01-22 15:05:14,2.002s,PASSED
+"waitForElementClickable(findTestObject(""UI/Client/Claim Services/button_filter""), 5)",Chrome 71.0.3578.98,,2019-01-22 15:05:14,2019-01-22 15:05:14,0.071s,PASSED
+"click(findTestObject(""UI/Client/Claim Services/button_filter""))",Chrome 71.0.3578.98,,2019-01-22 15:05:14,2019-01-22 15:05:14,0.113s,PASSED
+waitForPageLoad(5),Chrome 71.0.3578.98,,2019-01-22 15:05:14,2019-01-22 15:05:14,0.007s,PASSED
+"verifyElementPresent(findTestObject(""UI/Client/Claim Services/span_firstClaim""), 5)",Chrome 71.0.3578.98,,2019-01-22 15:05:14,2019-01-22 15:05:14,0.015s,PASSED
+"verifyElementNotPresent(findTestObject(""UI/Client/Claim Services/span_secondClaim""), 5)",Chrome 71.0.3578.98,,2019-01-22 15:05:14,2019-01-22 15:05:15,0.555s,PASSED
+"verifyElementNotPresent(findTestObject(""UI/Client/Claim Services/li_pageTwo""), 5)",Chrome 71.0.3578.98,,2019-01-22 15:05:15,2019-01-22 15:05:15,0.003s,PASSED
+"waitForElementVisible(findTestObject(""UI/Client/Claim Services/li_nextPage""), 5)",Chrome 71.0.3578.98,,2019-01-22 15:05:15,2019-01-22 15:05:15,0.043s,PASSED
+"verifyElementVisible(findTestObject(""UI/Client/Claim Services/li_nextPage""))",Chrome 71.0.3578.98,,2019-01-22 15:05:15,2019-01-22 15:05:15,0.023s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-22 15:05:15,2019-01-22 15:05:18,3.002s,PASSED
+"waitForElementClickable(findTestObject(""UI/Client/Claim Services/button_clear""), 5)",Chrome 71.0.3578.98,,2019-01-22 15:05:18,2019-01-22 15:05:18,0.048s,PASSED
+"click(findTestObject(""UI/Client/Claim Services/button_clear""))",Chrome 71.0.3578.98,,2019-01-22 15:05:18,2019-01-22 15:05:18,0.073s,PASSED
+waitForPageLoad(5),Chrome 71.0.3578.98,,2019-01-22 15:05:18,2019-01-22 15:05:18,0.005s,PASSED
+"verifyElementPresent(findTestObject(""UI/Client/Claim Services/span_firstClaim""), 5)",Chrome 71.0.3578.98,,2019-01-22 15:05:18,2019-01-22 15:05:18,0.012s,PASSED
+"verifyElementPresent(findTestObject(""UI/Client/Claim Services/span_secondClaim""), 5)",Chrome 71.0.3578.98,,2019-01-22 15:05:18,2019-01-22 15:05:20,1.593s,PASSED
+"verifyElementPresent(findTestObject(""UI/Client/Claim Services/li_pageTwo""), 5)",Chrome 71.0.3578.98,,2019-01-22 15:05:20,2019-01-22 15:05:20,0.008s,PASSED
+"waitForElementClickable(findTestObject(""UI/General/Log/span_logoutAsClient""), 5)",Chrome 71.0.3578.98,,2019-01-22 15:05:20,2019-01-22 15:05:20,0.071s,PASSED
+"click(findTestObject(""UI/General/Log/span_logoutAsClient""))",Chrome 71.0.3578.98,,2019-01-22 15:05:20,2019-01-22 15:05:20,0.168s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-22 15:05:20,2019-01-22 15:05:21,1.001s,PASSED
+"waitForElementClickable(findTestObject(""UI/General/Log/a_userAvatar""), 5)",Chrome 71.0.3578.98,,2019-01-22 15:05:21,2019-01-22 15:05:21,0.059s,PASSED
+"click(findTestObject(""UI/General/Log/a_userAvatar""))",Chrome 71.0.3578.98,,2019-01-22 15:05:21,2019-01-22 15:05:21,0.082s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-22 15:05:21,2019-01-22 15:05:22,1.002s,PASSED
+"waitForElementClickable(findTestObject(""UI/General/Log/a_signOutAMPS""), 5)",Chrome 71.0.3578.98,,2019-01-22 15:05:22,2019-01-22 15:05:22,0.050s,PASSED
+"click(findTestObject(""UI/General/Log/a_signOutAMPS""))",Chrome 71.0.3578.98,,2019-01-22 15:05:22,2019-01-22 15:05:22,0.126s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-22 15:05:22,2019-01-22 15:05:23,1.003s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-22 15:05:23,2019-01-22 15:05:24,0.646s,PASSED
+,,,,,,
+Test Cases/UI/Client/Claim Services/Search_Unsuccessful,Chrome 71.0.3578.98,"Search for a Claim using invalid/unexisting data.
+No specific Claim should be found.",2019-01-22 15:05:24,2019-01-22 15:05:45,20.949s,PASSED
+"UAT = ""https://uat.advancedpricing.com""",Chrome 71.0.3578.98,,2019-01-22 15:05:24,2019-01-22 15:05:24,0.000s,PASSED
+"USER = ""qaAuto""",Chrome 71.0.3578.98,,2019-01-22 15:05:24,2019-01-22 15:05:24,0.001s,PASSED
+"PASSWD = ""a9yk100dD""",Chrome 71.0.3578.98,,2019-01-22 15:05:24,2019-01-22 15:05:24,0.000s,PASSED
+"UPFILE = ""C:\uploadAMPS\UpFile.txt""",Chrome 71.0.3578.98,,2019-01-22 15:05:24,2019-01-22 15:05:24,0.000s,PASSED
+"INVALIDCLAIM = ""0000000""",Chrome 71.0.3578.98,,2019-01-22 15:05:24,2019-01-22 15:05:24,0.000s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-22 15:05:24,2019-01-22 15:05:26,2.117s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-22 15:05:26,2019-01-22 15:05:27,1.117s,PASSED
+navigateToUrl(UAT),Chrome 71.0.3578.98,,2019-01-22 15:05:27,2019-01-22 15:05:29,1.937s,PASSED
+waitForPageLoad(5),Chrome 71.0.3578.98,,2019-01-22 15:05:29,2019-01-22 15:05:29,0.006s,PASSED
+"setText(findTestObject(""UI/Client/Claim Services/input_userCode""), USER)",Chrome 71.0.3578.98,,2019-01-22 15:05:29,2019-01-22 15:05:29,0.138s,PASSED
+"setText(findTestObject(""UI/Client/Claim Services/input_userPassword""), PASSWD)",Chrome 71.0.3578.98,,2019-01-22 15:05:29,2019-01-22 15:05:29,0.155s,PASSED
+"waitForElementClickable(findTestObject(""UI/Client/Claim Services/input_loginButton""), 5)",Chrome 71.0.3578.98,,2019-01-22 15:05:29,2019-01-22 15:05:29,0.029s,PASSED
+"click(findTestObject(""UI/Client/Claim Services/input_loginButton""))",Chrome 71.0.3578.98,,2019-01-22 15:05:29,2019-01-22 15:05:30,0.115s,PASSED
+waitForPageLoad(5),Chrome 71.0.3578.98,,2019-01-22 15:05:30,2019-01-22 15:05:30,0.007s,PASSED
+"waitForElementClickable(findTestObject(""UI/Client/Claim Services/span_ABMSClient""), 5)",Chrome 71.0.3578.98,,2019-01-22 15:05:30,2019-01-22 15:05:31,1.124s,PASSED
+"click(findTestObject(""UI/Client/Claim Services/span_ABMSClient""))",Chrome 71.0.3578.98,,2019-01-22 15:05:31,2019-01-22 15:05:31,0.335s,PASSED
+waitForPageLoad(5),Chrome 71.0.3578.98,,2019-01-22 15:05:31,2019-01-22 15:05:31,0.008s,PASSED
+"verifyElementPresent(findTestObject(""UI/Client/Claim Services/span_firstClaim""), 5)",Chrome 71.0.3578.98,,2019-01-22 15:05:31,2019-01-22 15:05:32,0.567s,PASSED
+"verifyElementPresent(findTestObject(""UI/Client/Claim Services/span_secondClaim""), 5)",Chrome 71.0.3578.98,,2019-01-22 15:05:32,2019-01-22 15:05:32,0.024s,PASSED
+"verifyElementPresent(findTestObject(""UI/Client/Claim Services/li_pageTwo""), 5)",Chrome 71.0.3578.98,,2019-01-22 15:05:32,2019-01-22 15:05:32,0.032s,PASSED
+"waitForElementVisible(findTestObject(""UI/Client/Claim Services/input_ampsClaimID""), 5)",Chrome 71.0.3578.98,,2019-01-22 15:05:32,2019-01-22 15:05:32,0.039s,PASSED
+"setText(findTestObject(""UI/Client/Claim Services/input_ampsClaimID""), INVALIDCLAIM)",Chrome 71.0.3578.98,,2019-01-22 15:05:32,2019-01-22 15:05:32,0.158s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-22 15:05:32,2019-01-22 15:05:35,3.001s,PASSED
+"waitForElementClickable(findTestObject(""UI/Client/Claim Services/button_filter""), 5)",Chrome 71.0.3578.98,,2019-01-22 15:05:35,2019-01-22 15:05:35,0.063s,PASSED
+"click(findTestObject(""UI/Client/Claim Services/button_filter""))",Chrome 71.0.3578.98,,2019-01-22 15:05:35,2019-01-22 15:05:35,0.112s,PASSED
+waitForPageLoad(5),Chrome 71.0.3578.98,,2019-01-22 15:05:35,2019-01-22 15:05:35,0.006s,PASSED
+"verifyElementVisible(findTestObject(""UI/Client/Claim Services/div_noDataMessage""))",Chrome 71.0.3578.98,,2019-01-22 15:05:35,2019-01-22 15:05:36,0.587s,PASSED
+"verifyElementNotPresent(findTestObject(""UI/Client/Claim Services/span_firstClaim""), 5)",Chrome 71.0.3578.98,,2019-01-22 15:05:36,2019-01-22 15:05:36,0.044s,PASSED
+"verifyElementNotPresent(findTestObject(""UI/Client/Claim Services/span_secondClaim""), 5)",Chrome 71.0.3578.98,,2019-01-22 15:05:36,2019-01-22 15:05:36,0.030s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-22 15:05:36,2019-01-22 15:05:39,3.001s,PASSED
+"waitForElementClickable(findTestObject(""UI/Client/Claim Services/button_clear""), 5)",Chrome 71.0.3578.98,,2019-01-22 15:05:39,2019-01-22 15:05:39,0.065s,PASSED
+"click(findTestObject(""UI/Client/Claim Services/button_clear""))",Chrome 71.0.3578.98,,2019-01-22 15:05:39,2019-01-22 15:05:39,0.082s,PASSED
+waitForPageLoad(5),Chrome 71.0.3578.98,,2019-01-22 15:05:39,2019-01-22 15:05:39,0.007s,PASSED
+"verifyElementPresent(findTestObject(""UI/Client/Claim Services/span_firstClaim""), 5)",Chrome 71.0.3578.98,,2019-01-22 15:05:39,2019-01-22 15:05:40,1.595s,PASSED
+"verifyElementPresent(findTestObject(""UI/Client/Claim Services/span_secondClaim""), 5)",Chrome 71.0.3578.98,,2019-01-22 15:05:40,2019-01-22 15:05:41,0.006s,PASSED
+"verifyElementPresent(findTestObject(""UI/Client/Claim Services/li_pageTwo""), 5)",Chrome 71.0.3578.98,,2019-01-22 15:05:41,2019-01-22 15:05:41,0.028s,PASSED
+"waitForElementClickable(findTestObject(""UI/General/Log/span_logoutAsClient""), 5)",Chrome 71.0.3578.98,,2019-01-22 15:05:41,2019-01-22 15:05:41,0.053s,PASSED
+"click(findTestObject(""UI/General/Log/span_logoutAsClient""))",Chrome 71.0.3578.98,,2019-01-22 15:05:41,2019-01-22 15:05:41,0.176s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-22 15:05:41,2019-01-22 15:05:42,1.002s,PASSED
+"waitForElementClickable(findTestObject(""UI/General/Log/a_userAvatar""), 5)",Chrome 71.0.3578.98,,2019-01-22 15:05:42,2019-01-22 15:05:42,0.050s,PASSED
+"click(findTestObject(""UI/General/Log/a_userAvatar""))",Chrome 71.0.3578.98,,2019-01-22 15:05:42,2019-01-22 15:05:42,0.079s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-22 15:05:42,2019-01-22 15:05:43,1.002s,PASSED
+"waitForElementClickable(findTestObject(""UI/General/Log/a_signOutAMPS""), 5)",Chrome 71.0.3578.98,,2019-01-22 15:05:43,2019-01-22 15:05:43,0.069s,PASSED
+"click(findTestObject(""UI/General/Log/a_signOutAMPS""))",Chrome 71.0.3578.98,,2019-01-22 15:05:43,2019-01-22 15:05:43,0.109s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-22 15:05:43,2019-01-22 15:05:44,1.002s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-22 15:05:44,2019-01-22 15:05:45,0.662s,PASSED
+,,,,,,
+Test Cases/UI/Client/Claim Services/UploadFile_MedicalRecords,Chrome 71.0.3578.98,"Upload a file and select the ""Medical Records"" file name option.
+Uploaded file will be displayed as ""Medical Records"".",2019-01-22 15:05:45,2019-01-22 15:06:05,20.497s,PASSED
+"UAT = ""https://uat.advancedpricing.com""",Chrome 71.0.3578.98,,2019-01-22 15:05:45,2019-01-22 15:05:45,0.000s,PASSED
+"USER = ""qaAuto""",Chrome 71.0.3578.98,,2019-01-22 15:05:45,2019-01-22 15:05:45,0.000s,PASSED
+"PASSWD = ""a9yk100dD""",Chrome 71.0.3578.98,,2019-01-22 15:05:45,2019-01-22 15:05:45,0.000s,PASSED
+"UPFILE = ""C:\uploadAMPS\Upload-Demo.txt""",Chrome 71.0.3578.98,,2019-01-22 15:05:45,2019-01-22 15:05:45,0.000s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-22 15:05:45,2019-01-22 15:05:47,2.146s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-22 15:05:47,2019-01-22 15:05:48,1.162s,PASSED
+navigateToUrl(UAT),Chrome 71.0.3578.98,,2019-01-22 15:05:48,2019-01-22 15:05:50,1.532s,PASSED
+waitForPageLoad(5),Chrome 71.0.3578.98,,2019-01-22 15:05:50,2019-01-22 15:05:50,0.006s,PASSED
+"setText(findTestObject(""UI/Client/Claim Services/input_userCode""), USER)",Chrome 71.0.3578.98,,2019-01-22 15:05:50,2019-01-22 15:05:50,0.150s,PASSED
+"setText(findTestObject(""UI/Client/Claim Services/input_userPassword""), PASSWD)",Chrome 71.0.3578.98,,2019-01-22 15:05:50,2019-01-22 15:05:50,0.149s,PASSED
+"waitForElementClickable(findTestObject(""UI/Client/Claim Services/input_loginButton""), 5)",Chrome 71.0.3578.98,,2019-01-22 15:05:50,2019-01-22 15:05:50,0.032s,PASSED
+"click(findTestObject(""UI/Client/Claim Services/input_loginButton""))",Chrome 71.0.3578.98,,2019-01-22 15:05:50,2019-01-22 15:05:50,0.089s,PASSED
+waitForPageLoad(5),Chrome 71.0.3578.98,,2019-01-22 15:05:50,2019-01-22 15:05:50,0.007s,PASSED
+"waitForElementClickable(findTestObject(""UI/Client/Claim Services/span_ABMSClient""), 5)",Chrome 71.0.3578.98,,2019-01-22 15:05:50,2019-01-22 15:05:51,1.146s,PASSED
+"click(findTestObject(""UI/Client/Claim Services/span_ABMSClient""))",Chrome 71.0.3578.98,,2019-01-22 15:05:51,2019-01-22 15:05:52,0.338s,PASSED
+waitForPageLoad(5),Chrome 71.0.3578.98,,2019-01-22 15:05:52,2019-01-22 15:05:52,0.008s,PASSED
+"waitForElementClickable(findTestObject(""UI/Client/Claim Services/span_secondClaim""), 5)",Chrome 71.0.3578.98,,2019-01-22 15:05:52,2019-01-22 15:05:52,0.594s,PASSED
+"click(findTestObject(""UI/Client/Claim Services/span_secondClaim""))",Chrome 71.0.3578.98,,2019-01-22 15:05:52,2019-01-22 15:05:53,0.523s,PASSED
+waitForPageLoad(5),Chrome 71.0.3578.98,,2019-01-22 15:05:53,2019-01-22 15:05:53,0.004s,PASSED
+"waitForElementClickable(findTestObject(""UI/Client/Claim Services/a_FilesTab""), 5)",Chrome 71.0.3578.98,,2019-01-22 15:05:53,2019-01-22 15:05:53,0.030s,PASSED
+"click(findTestObject(""UI/Client/Claim Services/a_FilesTab""))",Chrome 71.0.3578.98,,2019-01-22 15:05:53,2019-01-22 15:05:53,0.159s,PASSED
+waitForPageLoad(5),Chrome 71.0.3578.98,,2019-01-22 15:05:53,2019-01-22 15:05:53,0.006s,PASSED
+"waitForElementPresent(findTestObject(""UI/Client/Claim Services/input_NewFile""), 5)",Chrome 71.0.3578.98,,2019-01-22 15:05:53,2019-01-22 15:05:53,0.029s,PASSED
+"uploadFile(findTestObject(""UI/Client/Claim Services/input_NewFile""), UPFILE)",Chrome 71.0.3578.98,,2019-01-22 15:05:53,2019-01-22 15:05:53,0.050s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-22 15:05:53,2019-01-22 15:05:56,3.000s,PASSED
+"waitForElementClickable(findTestObject(""UI/Client/Claim Services/selectFileNameDropDown""), 5)",Chrome 71.0.3578.98,,2019-01-22 15:05:56,2019-01-22 15:05:56,0.025s,PASSED
+"click(findTestObject(""UI/Client/Claim Services/selectFileNameDropDown""))",Chrome 71.0.3578.98,,2019-01-22 15:05:56,2019-01-22 15:05:56,0.079s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-22 15:05:56,2019-01-22 15:05:58,2.003s,PASSED
+"click(findTestObject(""UI/Client/Claim Services/option_providerSignOff""))",Chrome 71.0.3578.98,,2019-01-22 15:05:58,2019-01-22 15:05:58,0.099s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-22 15:05:58,2019-01-22 15:06:00,2.002s,PASSED
+"waitForElementClickable(findTestObject(""UI/Client/Claim Services/buttonSaveUpload""), 5)",Chrome 71.0.3578.98,,2019-01-22 15:06:00,2019-01-22 15:06:00,0.049s,PASSED
+"click(findTestObject(""UI/Client/Claim Services/buttonSaveUpload""))",Chrome 71.0.3578.98,,2019-01-22 15:06:00,2019-01-22 15:06:00,0.098s,PASSED
+waitForPageLoad(5),Chrome 71.0.3578.98,,2019-01-22 15:06:00,2019-01-22 15:06:00,0.008s,PASSED
+"verifyElementVisible(findTestObject(""UI/Client/Claim Services/strong_uploadedFileMessage""))",Chrome 71.0.3578.98,,2019-01-22 15:06:00,2019-01-22 15:06:01,0.593s,PASSED
+waitForPageLoad(5),Chrome 71.0.3578.98,,2019-01-22 15:06:01,2019-01-22 15:06:01,0.009s,PASSED
+"waitForElementClickable(findTestObject(""UI/General/Log/span_logoutAsClient""), 5)",Chrome 71.0.3578.98,,2019-01-22 15:06:01,2019-01-22 15:06:01,0.045s,PASSED
+"click(findTestObject(""UI/General/Log/span_logoutAsClient""))",Chrome 71.0.3578.98,,2019-01-22 15:06:01,2019-01-22 15:06:01,0.136s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-22 15:06:01,2019-01-22 15:06:02,1.003s,PASSED
+"waitForElementClickable(findTestObject(""UI/General/Log/a_userAvatar""), 5)",Chrome 71.0.3578.98,,2019-01-22 15:06:02,2019-01-22 15:06:02,0.052s,PASSED
+"click(findTestObject(""UI/General/Log/a_userAvatar""))",Chrome 71.0.3578.98,,2019-01-22 15:06:02,2019-01-22 15:06:02,0.129s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-22 15:06:02,2019-01-22 15:06:03,1.001s,PASSED
+"waitForElementClickable(findTestObject(""UI/General/Log/a_signOutAMPS""), 5)",Chrome 71.0.3578.98,,2019-01-22 15:06:03,2019-01-22 15:06:03,0.067s,PASSED
+"click(findTestObject(""UI/General/Log/a_signOutAMPS""))",Chrome 71.0.3578.98,,2019-01-22 15:06:03,2019-01-22 15:06:04,0.129s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-22 15:06:04,2019-01-22 15:06:05,1.002s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-22 15:06:05,2019-01-22 15:06:05,0.637s,PASSED
+,,,,,,
+Test Cases/UI/Client/Claim Services/UploadFile_Other,Chrome 71.0.3578.98,"Upload a file and select the ""Other"" file name option.
+Uploaded file will be displayed with the same file name.",2019-01-22 15:06:05,2019-01-22 15:06:26,20.735s,PASSED
+"UAT = ""https://uat.advancedpricing.com""",Chrome 71.0.3578.98,,2019-01-22 15:06:05,2019-01-22 15:06:05,0.000s,PASSED
+"USER = ""qaAuto""",Chrome 71.0.3578.98,,2019-01-22 15:06:05,2019-01-22 15:06:05,0.000s,PASSED
+"PASSWD = ""a9yk100dD""",Chrome 71.0.3578.98,,2019-01-22 15:06:05,2019-01-22 15:06:05,0.000s,PASSED
+"UPFILE = ""C:\uploadAMPS\Upload-Demo.txt""",Chrome 71.0.3578.98,,2019-01-22 15:06:05,2019-01-22 15:06:05,0.000s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-22 15:06:05,2019-01-22 15:06:08,2.159s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-22 15:06:08,2019-01-22 15:06:09,1.123s,PASSED
+navigateToUrl(UAT),Chrome 71.0.3578.98,,2019-01-22 15:06:09,2019-01-22 15:06:10,1.402s,PASSED
+waitForPageLoad(5),Chrome 71.0.3578.98,,2019-01-22 15:06:10,2019-01-22 15:06:10,0.005s,PASSED
+"setText(findTestObject(""UI/Client/Claim Services/input_userCode""), USER)",Chrome 71.0.3578.98,,2019-01-22 15:06:10,2019-01-22 15:06:10,0.145s,PASSED
+"setText(findTestObject(""UI/Client/Claim Services/input_userPassword""), PASSWD)",Chrome 71.0.3578.98,,2019-01-22 15:06:10,2019-01-22 15:06:10,0.155s,PASSED
+"waitForElementClickable(findTestObject(""UI/Client/Claim Services/input_loginButton""), 5)",Chrome 71.0.3578.98,,2019-01-22 15:06:10,2019-01-22 15:06:10,0.028s,PASSED
+"click(findTestObject(""UI/Client/Claim Services/input_loginButton""))",Chrome 71.0.3578.98,,2019-01-22 15:06:10,2019-01-22 15:06:11,0.103s,PASSED
+waitForPageLoad(5),Chrome 71.0.3578.98,,2019-01-22 15:06:11,2019-01-22 15:06:11,0.006s,PASSED
+"waitForElementClickable(findTestObject(""UI/Client/Claim Services/span_ABMSClient""), 5)",Chrome 71.0.3578.98,,2019-01-22 15:06:11,2019-01-22 15:06:11,0.651s,PASSED
+"click(findTestObject(""UI/Client/Claim Services/span_ABMSClient""))",Chrome 71.0.3578.98,,2019-01-22 15:06:11,2019-01-22 15:06:12,0.323s,PASSED
+waitForPageLoad(5),Chrome 71.0.3578.98,,2019-01-22 15:06:12,2019-01-22 15:06:12,0.005s,PASSED
+"waitForElementClickable(findTestObject(""UI/Client/Claim Services/span_firstClaim""), 5)",Chrome 71.0.3578.98,,2019-01-22 15:06:12,2019-01-22 15:06:12,0.543s,PASSED
+"click(findTestObject(""UI/Client/Claim Services/span_firstClaim""))",Chrome 71.0.3578.98,,2019-01-22 15:06:12,2019-01-22 15:06:13,0.494s,PASSED
+waitForPageLoad(5),Chrome 71.0.3578.98,,2019-01-22 15:06:13,2019-01-22 15:06:13,0.008s,PASSED
+"waitForElementClickable(findTestObject(""UI/Client/Claim Services/a_FilesTab""), 5)",Chrome 71.0.3578.98,,2019-01-22 15:06:13,2019-01-22 15:06:13,0.028s,PASSED
+"click(findTestObject(""UI/Client/Claim Services/a_FilesTab""))",Chrome 71.0.3578.98,,2019-01-22 15:06:13,2019-01-22 15:06:13,0.146s,PASSED
+waitForPageLoad(5),Chrome 71.0.3578.98,,2019-01-22 15:06:13,2019-01-22 15:06:13,0.006s,PASSED
+"uploadFile(findTestObject(""UI/Client/Claim Services/input_NewFile""), UPFILE)",Chrome 71.0.3578.98,,2019-01-22 15:06:13,2019-01-22 15:06:13,0.047s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-22 15:06:13,2019-01-22 15:06:16,3.000s,PASSED
+"waitForElementClickable(findTestObject(""UI/Client/Claim Services/selectFileNameDropDown""), 5)",Chrome 71.0.3578.98,,2019-01-22 15:06:16,2019-01-22 15:06:16,0.053s,PASSED
+"click(findTestObject(""UI/Client/Claim Services/selectFileNameDropDown""))",Chrome 71.0.3578.98,,2019-01-22 15:06:16,2019-01-22 15:06:16,0.103s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-22 15:06:16,2019-01-22 15:06:18,2.002s,PASSED
+"click(findTestObject(""UI/Client/Claim Services/option_otherFile""))",Chrome 71.0.3578.98,,2019-01-22 15:06:18,2019-01-22 15:06:18,0.107s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-22 15:06:18,2019-01-22 15:06:21,3.001s,PASSED
+"waitForElementClickable(findTestObject(""UI/Client/Claim Services/buttonSaveUpload""), 5)",Chrome 71.0.3578.98,,2019-01-22 15:06:21,2019-01-22 15:06:21,0.060s,PASSED
+"click(findTestObject(""UI/Client/Claim Services/buttonSaveUpload""))",Chrome 71.0.3578.98,,2019-01-22 15:06:21,2019-01-22 15:06:21,0.105s,PASSED
+waitForPageLoad(5),Chrome 71.0.3578.98,,2019-01-22 15:06:21,2019-01-22 15:06:21,0.007s,PASSED
+"verifyElementVisible(findTestObject(""UI/Client/Claim Services/strong_uploadedFileMessage""))",Chrome 71.0.3578.98,,2019-01-22 15:06:21,2019-01-22 15:06:22,0.550s,PASSED
+"waitForElementClickable(findTestObject(""UI/General/Log/span_logoutAsClient""), 5)",Chrome 71.0.3578.98,,2019-01-22 15:06:22,2019-01-22 15:06:22,0.024s,PASSED
+"click(findTestObject(""UI/General/Log/span_logoutAsClient""))",Chrome 71.0.3578.98,,2019-01-22 15:06:22,2019-01-22 15:06:22,0.154s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-22 15:06:22,2019-01-22 15:06:23,1.003s,PASSED
+"waitForElementClickable(findTestObject(""UI/General/Log/a_userAvatar""), 5)",Chrome 71.0.3578.98,,2019-01-22 15:06:23,2019-01-22 15:06:23,0.073s,PASSED
+"click(findTestObject(""UI/General/Log/a_userAvatar""))",Chrome 71.0.3578.98,,2019-01-22 15:06:23,2019-01-22 15:06:23,0.080s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-22 15:06:23,2019-01-22 15:06:24,1.001s,PASSED
+"waitForElementClickable(findTestObject(""UI/General/Log/a_signOutAMPS""), 5)",Chrome 71.0.3578.98,,2019-01-22 15:06:24,2019-01-22 15:06:24,0.052s,PASSED
+"click(findTestObject(""UI/General/Log/a_signOutAMPS""))",Chrome 71.0.3578.98,,2019-01-22 15:06:24,2019-01-22 15:06:24,0.116s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-22 15:06:24,2019-01-22 15:06:25,1.003s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-22 15:06:25,2019-01-22 15:06:26,0.655s,PASSED
