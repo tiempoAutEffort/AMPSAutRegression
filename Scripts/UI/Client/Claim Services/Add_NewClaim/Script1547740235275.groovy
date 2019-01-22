@@ -110,8 +110,8 @@ WebUI.verifyElementVisible(findTestObject('UI/Client/Claim Services/NewClaim/spa
 
 //Add files to the new Claim
 //Goto Files tab
-WebUI.waitForElementClickable(findTestObject('Claim Services/a_filesTab'), 5)
-WebUI.click(findTestObject('Claim Services/a_filesTab'))
+WebUI.waitForElementClickable(findTestObject('UI/Client/Claim Services/a_FilesTab'), 5)
+WebUI.click(findTestObject('UI/Client/Claim Services/a_FilesTab'))
 WebUI.waitForPageLoad(5)
 
 
