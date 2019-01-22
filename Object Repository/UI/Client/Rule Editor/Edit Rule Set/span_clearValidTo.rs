@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_clearValidTo</name>
+   <tag></tag>
+   <elementGuidId>c8af5ebd-eb87-4b1f-a4d5-d5ef7f0d9c48</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;content&quot;]/div/div/div/div[3]/div[2]/div/div/div/form/div/div/div/div/div[2]/div/div[3]/div/div[1]/span[1]/span</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;content&quot;]/div/div/div/div[3]/div[2]/div/div/div/form/div/div/div/div/div[2]/div/div[3]/div/div[1]/span[1]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;content&quot;]/div/div/div/div[3]/div[2]/div/div/div/form/div/div/div/div/div[2]/div/div[3]/div/div[1]/span[1]/span</value>
+   </webElementProperties>
+</WebElementEntity>

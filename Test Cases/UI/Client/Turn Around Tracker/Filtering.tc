@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Apply a filter and validate that the chart data changes according to the selected filter.</description>
+   <name>Filtering</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a14adc14-9370-49ca-8104-90da6173cee1</testCaseGuid>
+</TestCaseEntity>

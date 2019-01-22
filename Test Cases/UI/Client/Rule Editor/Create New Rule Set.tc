@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Create a new Rule Set with rules in it and create another new Rule Set without any rules.</description>
+   <name>Create New Rule Set</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ebb0ec2d-8014-4df5-aa8b-ea110c99899c</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Search for a Claim entering valid/existing data to search and display a specific Claim.</description>
+   <name>Search_Successful</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0899b78c-2614-4466-896d-b0f08f53114a</testCaseGuid>
+</TestCaseEntity>

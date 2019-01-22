@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_createNewRuleSet</name>
+   <tag></tag>
+   <elementGuidId>604ce05d-3747-4134-b0ad-04b6d62b728d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@id=&quot;content&quot;]//a[@href=&quot;/ruleEditor/ruleSet/New&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id=&quot;content&quot;]//a[@href=&quot;/ruleEditor/ruleSet/New&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@id=&quot;content&quot;]//a[@href=&quot;/ruleEditor/ruleSet/New&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

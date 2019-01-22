@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Search for a Claim using invalid/unexisting data.
+No specific Claim should be found.</description>
+   <name>Search_Unsuccessful</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a9341344-8a1a-4f68-ad91-6b306cab8b5d</testCaseGuid>
+</TestCaseEntity>

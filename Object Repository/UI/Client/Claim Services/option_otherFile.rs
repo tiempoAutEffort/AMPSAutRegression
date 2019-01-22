@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>option_otherFile</name>
+   <tag></tag>
+   <elementGuidId>dada7dec-1a5d-48e3-8d0f-3313336a905e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//select[@name='fileName']/option[9]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@name='fileName']/option[9]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//select[@name='fileName']/option[9]</value>
+   </webElementProperties>
+</WebElementEntity>

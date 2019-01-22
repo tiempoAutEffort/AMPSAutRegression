@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>option_actionType</name>
+   <tag></tag>
+   <elementGuidId>8c8057e2-cee8-409e-9423-fdd7851f9401</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class=&quot;Select-control&quot;]//div[@class=&quot;Select-input&quot;]/input</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@class=&quot;Select-control&quot;]//div[@class=&quot;Select-input&quot;]/input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@class=&quot;Select-control&quot;]//div[@class=&quot;Select-input&quot;]/input</value>
+   </webElementProperties>
+</WebElementEntity>

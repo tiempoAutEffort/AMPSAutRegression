@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Click on a specific Claim to display its contents.</description>
+   <name>Claim_Details</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b466bbfb-5f48-4cc0-ad04-bb6338cc28f1</testCaseGuid>
+</TestCaseEntity>
