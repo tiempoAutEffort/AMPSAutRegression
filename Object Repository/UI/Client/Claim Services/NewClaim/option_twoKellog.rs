@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>option_twoKellog</name>
+   <tag></tag>
+   <elementGuidId>5fef5523-64cc-4bcb-a173-80c89b8037ac</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//select[@name=&quot;clientGroupId&quot;]/option[2]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@name=&quot;clientGroupId&quot;]/option[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//select[@name=&quot;clientGroupId&quot;]/option[2]</value>
+   </webElementProperties>
+</WebElementEntity>

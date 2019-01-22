@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>option_medicalRecordsFile</name>
+   <tag></tag>
+   <elementGuidId>270f90a5-abf0-4f7e-8228-e3b8fe3e2f52</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//select[@name='fileName']/option[6]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@name='fileName']/option[6]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//select[@name='fileName']/option[6]</value>
+   </webElementProperties>
+</WebElementEntity>

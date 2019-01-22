@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Upload a file and select the &quot;Medical Records&quot; file name option.
+Uploaded file will be displayed as &quot;Medical Records&quot;.</description>
+   <name>UploadFile_MedicalRecords</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>10a00238-910b-47f6-8925-1328c099426c</testCaseGuid>
+</TestCaseEntity>

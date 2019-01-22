@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_receiveDate</name>
+   <tag></tag>
+   <elementGuidId>0dc4711b-c926-46c9-8c34-2d3f37e59ae5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;details&quot;]/div/div[2]/div[1]/div[3]/div/div[2]/span/input[1]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;details&quot;]/div/div[2]/div[1]/div[3]/div/div[2]/span/input[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;details&quot;]/div/div[2]/div[1]/div[3]/div/div[2]/span/input[1]</value>
+   </webElementProperties>
+</WebElementEntity>

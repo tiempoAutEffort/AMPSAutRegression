@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_ppoName</name>
+   <tag></tag>
+   <elementGuidId>2f65cf1d-63ac-43e6-b9e8-625c547b7ffd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;details&quot;]/div/div[2]/div[2]/div[2]/div/div[2]/input[@name=&quot;networkName&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;details&quot;]/div/div[2]/div[2]/div[2]/div/div[2]/input[@name=&quot;networkName&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;details&quot;]/div/div[2]/div[2]/div[2]/div/div[2]/input[@name=&quot;networkName&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

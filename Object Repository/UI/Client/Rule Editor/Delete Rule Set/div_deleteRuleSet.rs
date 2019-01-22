@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_deleteRuleSet</name>
+   <tag></tag>
+   <elementGuidId>9a0492ed-d490-493b-9f82-29cdcbe7dbe8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;content&quot;]//table/tbody/tr[1]/td[8]/div/div</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;content&quot;]//table/tbody/tr[1]/td[8]/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;content&quot;]//table/tbody/tr[1]/td[8]/div/div</value>
+   </webElementProperties>
+</WebElementEntity>

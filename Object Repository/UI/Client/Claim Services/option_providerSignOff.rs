@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>option_providerSignOff</name>
+   <tag></tag>
+   <elementGuidId>8a1aa260-c1f1-4a87-9879-8fddac2d8d5e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//select[@name='fileName']/option[8]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@name='fileName']/option[8]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//select[@name='fileName']/option[8]</value>
+   </webElementProperties>
+</WebElementEntity>
