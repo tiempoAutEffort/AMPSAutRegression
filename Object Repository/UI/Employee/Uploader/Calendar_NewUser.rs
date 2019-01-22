@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Calendar_NewUser</name>
+   <tag></tag>
+   <elementGuidId>d6eaa09f-9511-4d85-8426-cd9273986038</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;newUploadUser&quot;]/div[1]/div/div[3]/span/input[1]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;newUploadUser&quot;]/div[1]/div/div[3]/span/input[1]</value>
+   </webElementProperties>
+</WebElementEntity>
