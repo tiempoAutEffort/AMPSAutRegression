@@ -47,8 +47,8 @@ WebUI.click(findTestObject('UI/Client/Claim Services/span_firstClaim'))
 WebUI.waitForPageLoad(5)
 
 //Goto Files tab
-WebUI.waitForElementClickable(findTestObject('Claim Services/a_filesTab'), 5)
-WebUI.click(findTestObject('Claim Services/a_filesTab'))
+WebUI.waitForElementClickable(findTestObject('UI/Client/Claim Services/a_FilesTab'), 5)
+WebUI.click(findTestObject('UI/Client/Claim Services/a_FilesTab'))
 WebUI.waitForPageLoad(5)
 
 

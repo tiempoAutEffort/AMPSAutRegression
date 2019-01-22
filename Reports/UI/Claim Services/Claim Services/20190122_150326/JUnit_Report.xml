@@ -1,0 +1,1466 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Claim Services" time="178" tests="6" failures="1" errors="0">
+   <testsuite name="Claim Services" tests="6" failures="1" errors="0" time="178" timestamp="2019-01-22 15:03:28" hostname="rogelio medrano - TDG-MBL-MTY0325.tiempodev.local" id="Test Suites/UI/Claim Services/Claim Services">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\rogelio medrano\\git\\AMPSAutRegression\\Reports\\UI\\Claim Services\\Claim Services\\20190122_150326"/>
+         <property name="logFiles" value="C:\\Users\\rogelio medrano\\git\\AMPSAutRegression\\Reports\\UI\\Claim Services\\Claim Services\\20190122_150326\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\rogelio medrano\\git\\AMPSAutRegression\\Reports\\UI\\Claim Services\\Claim Services\\20190122_150326\\1548191103454.png"/>
+         <property name="hostName" value="rogelio medrano - TDG-MBL-MTY0325.tiempodev.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.0.102"/>
+         <property name="sessionId" value="a25024e8df560217d5054e023c7a4ff9"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/UI/Client/Claim Services/Add_NewClaim" classname="Test Cases/UI/Client/Claim Services/Add_NewClaim" status="PASSED">
+         <system-out><![CDATA[2019-01-22 15:03:28 - [TEST_CASE][PASSED] - Test Cases/UI/Client/Claim Services/Add_NewClaim: Test Cases/UI/Client/Claim Services/Add_NewClaim
+
+2019-01-22 15:03:29 - [TEST_STEP][PASSED] - UAT = "https://uat.advancedpricing.com": null
+
+2019-01-22 15:03:29 - [TEST_STEP][PASSED] - USER = "qaAuto": null
+
+2019-01-22 15:03:29 - [TEST_STEP][PASSED] - PASSWD = "a9yk100dD": null
+
+2019-01-22 15:03:29 - [TEST_STEP][PASSED] - CLAIMNUMBER = "22222": null
+
+2019-01-22 15:03:29 - [TEST_STEP][PASSED] - RXDATE = "01/18/2019": null
+
+2019-01-22 15:03:29 - [TEST_STEP][PASSED] - BILLCHRG = "182019": null
+
+2019-01-22 15:03:29 - [TEST_STEP][PASSED] - PPONAME = "None": null
+
+2019-01-22 15:03:29 - [TEST_STEP][PASSED] - UPFILE = "C:\uploadAMPS\MedRecords-Demo.png": null
+
+2019-01-22 15:03:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-22 15:03:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-22 15:03:29 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-22 15:03:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-22 15:03:32 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-22 15:03:33 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-22 15:03:33 - [TEST_STEP][PASSED] - navigateToUrl(UAT): Navigate to 'https://uat.advancedpricing.com' successfully
+
+2019-01-22 15:03:34 - [MESSAGE][PASSED] - Navigate to 'https://uat.advancedpricing.com' successfully
+
+2019-01-22 15:03:34 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-01-22 15:03:34 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-22 15:03:34 - [TEST_STEP][PASSED] - setText(findTestObject("UI/Client/Claim Services/input_userCode"), USER): Text 'qaAuto' is set on object 'Object Repository/UI/Client/Claim Services/input_userCode'
+
+2019-01-22 15:03:35 - [MESSAGE][PASSED] - Text 'qaAuto' is set on object 'Object Repository/UI/Client/Claim Services/input_userCode'
+
+2019-01-22 15:03:35 - [TEST_STEP][PASSED] - setText(findTestObject("UI/Client/Claim Services/input_userPassword"), PASSWD): Text 'a9yk100dD' is set on object 'Object Repository/UI/Client/Claim Services/input_userPassword'
+
+2019-01-22 15:03:35 - [MESSAGE][PASSED] - Text 'a9yk100dD' is set on object 'Object Repository/UI/Client/Claim Services/input_userPassword'
+
+2019-01-22 15:03:35 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI/Client/Claim Services/input_loginButton"), 5): Object 'Object Repository/UI/Client/Claim Services/input_loginButton' is clickable
+
+2019-01-22 15:03:35 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Claim Services/input_loginButton' is clickable
+
+2019-01-22 15:03:35 - [TEST_STEP][PASSED] - click(findTestObject("UI/Client/Claim Services/input_loginButton")): Object: 'Object Repository/UI/Client/Claim Services/input_loginButton' is clicked on
+
+2019-01-22 15:03:35 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Client/Claim Services/input_loginButton' is clicked on
+
+2019-01-22 15:03:35 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-01-22 15:03:35 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-22 15:03:35 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI/Client/Claim Services/span_ABMSClient"), 5): Object 'Object Repository/UI/Client/Claim Services/span_ABMSClient' is clickable
+
+2019-01-22 15:03:36 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Claim Services/span_ABMSClient' is clickable
+
+2019-01-22 15:03:36 - [TEST_STEP][PASSED] - click(findTestObject("UI/Client/Claim Services/span_ABMSClient")): Object: 'Object Repository/UI/Client/Claim Services/span_ABMSClient' is clicked on
+
+2019-01-22 15:03:36 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Client/Claim Services/span_ABMSClient' is clicked on
+
+2019-01-22 15:03:36 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-01-22 15:03:36 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-22 15:03:36 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI/Client/Claim Services/NewClaim/a_addClaim"), 5): Object 'Object Repository/UI/Client/Claim Services/NewClaim/a_addClaim' is clickable
+
+2019-01-22 15:03:36 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Claim Services/NewClaim/a_addClaim' is clickable
+
+2019-01-22 15:03:36 - [TEST_STEP][PASSED] - click(findTestObject("UI/Client/Claim Services/NewClaim/a_addClaim")): Object: 'Object Repository/UI/Client/Claim Services/NewClaim/a_addClaim' is clicked on
+
+2019-01-22 15:03:37 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Client/Claim Services/NewClaim/a_addClaim' is clicked on
+
+2019-01-22 15:03:37 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-01-22 15:03:37 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-22 15:03:37 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-22 15:03:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-22 15:03:40 - [TEST_STEP][PASSED] - focus(findTestObject("UI/Client/Claim Services/NewClaim/h4_termsConditions")): Object: 'Object Repository/UI/Client/Claim Services/NewClaim/h4_termsConditions' is focused
+
+2019-01-22 15:03:40 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Client/Claim Services/NewClaim/h4_termsConditions' is focused
+
+2019-01-22 15:03:40 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-22 15:03:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-22 15:03:43 - [TEST_STEP][PASSED] - click(findTestObject("UI/Client/Claim Services/NewClaim/button_Accept")): Object: 'Object Repository/UI/Client/Claim Services/NewClaim/button_Accept' is clicked on
+
+2019-01-22 15:03:43 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Client/Claim Services/NewClaim/button_Accept' is clicked on
+
+2019-01-22 15:03:43 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-22 15:03:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-22 15:03:45 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/Client/Claim Services/NewClaim/span_newClaimHeader"), 5): Object 'Object Repository/UI/Client/Claim Services/NewClaim/span_newClaimHeader' is visible
+
+2019-01-22 15:03:45 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Claim Services/NewClaim/span_newClaimHeader' is visible
+
+2019-01-22 15:03:45 - [TEST_STEP][PASSED] - newClaim = getText(findTestObject("UI/Client/Claim Services/NewClaim/span_newClaimHeader")): Text of object 'Object Repository/UI/Client/Claim Services/NewClaim/span_newClaimHeader' is: 'New'
+
+2019-01-22 15:03:45 - [MESSAGE][PASSED] - Text of object 'Object Repository/UI/Client/Claim Services/NewClaim/span_newClaimHeader' is: 'New'
+
+2019-01-22 15:03:45 - [TEST_STEP][PASSED] - verifyMatch(newClaim, "New", false): Actual text 'New' and expected text 'New' are matched 
+
+2019-01-22 15:03:45 - [MESSAGE][PASSED] - Actual text 'New' and expected text 'New' are matched 
+
+2019-01-22 15:03:45 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-22 15:03:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-22 15:03:48 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI/Client/Claim Services/NewClaim/select_clientGroupId"), 5): Object 'Object Repository/UI/Client/Claim Services/NewClaim/select_clientGroupId' is clickable
+
+2019-01-22 15:03:48 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Claim Services/NewClaim/select_clientGroupId' is clickable
+
+2019-01-22 15:03:48 - [TEST_STEP][PASSED] - click(findTestObject("UI/Client/Claim Services/NewClaim/select_clientGroupId")): Object: 'Object Repository/UI/Client/Claim Services/NewClaim/select_clientGroupId' is clicked on
+
+2019-01-22 15:03:49 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Client/Claim Services/NewClaim/select_clientGroupId' is clicked on
+
+2019-01-22 15:03:49 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-22 15:03:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-22 15:03:51 - [TEST_STEP][PASSED] - click(findTestObject("UI/Client/Claim Services/NewClaim/option_twoKellog")): Object: 'Object Repository/UI/Client/Claim Services/NewClaim/option_twoKellog' is clicked on
+
+2019-01-22 15:03:51 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Client/Claim Services/NewClaim/option_twoKellog' is clicked on
+
+2019-01-22 15:03:51 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-22 15:03:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-22 15:03:53 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/Client/Claim Services/NewClaim/input_claimNumber"), 5): Object 'Object Repository/UI/Client/Claim Services/NewClaim/input_claimNumber' is visible
+
+2019-01-22 15:03:53 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Claim Services/NewClaim/input_claimNumber' is visible
+
+2019-01-22 15:03:53 - [TEST_STEP][PASSED] - setText(findTestObject("UI/Client/Claim Services/NewClaim/input_claimNumber"), CLAIMNUMBER): Text '22222' is set on object 'Object Repository/UI/Client/Claim Services/NewClaim/input_claimNumber'
+
+2019-01-22 15:03:53 - [MESSAGE][PASSED] - Text '22222' is set on object 'Object Repository/UI/Client/Claim Services/NewClaim/input_claimNumber'
+
+2019-01-22 15:03:53 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-22 15:03:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-22 15:03:55 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/Client/Claim Services/NewClaim/input_receiveDate"), 5): Object 'Object Repository/UI/Client/Claim Services/NewClaim/input_receiveDate' is visible
+
+2019-01-22 15:03:55 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Claim Services/NewClaim/input_receiveDate' is visible
+
+2019-01-22 15:03:55 - [TEST_STEP][PASSED] - setText(findTestObject("UI/Client/Claim Services/NewClaim/input_receiveDate"), RXDATE): Text '01/18/2019' is set on object 'Object Repository/UI/Client/Claim Services/NewClaim/input_receiveDate'
+
+2019-01-22 15:03:55 - [MESSAGE][PASSED] - Text '01/18/2019' is set on object 'Object Repository/UI/Client/Claim Services/NewClaim/input_receiveDate'
+
+2019-01-22 15:03:55 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-22 15:03:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-22 15:03:57 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI/Client/Claim Services/NewClaim/radio_noneNetwork"), 5): Object 'Object Repository/UI/Client/Claim Services/NewClaim/radio_noneNetwork' is clickable
+
+2019-01-22 15:03:57 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Claim Services/NewClaim/radio_noneNetwork' is clickable
+
+2019-01-22 15:03:57 - [TEST_STEP][PASSED] - check(findTestObject("UI/Client/Claim Services/NewClaim/radio_noneNetwork")): Object 'Object Repository/UI/Client/Claim Services/NewClaim/radio_noneNetwork' is checked
+
+2019-01-22 15:03:57 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Claim Services/NewClaim/radio_noneNetwork' is checked
+
+2019-01-22 15:03:57 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-22 15:03:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-22 15:03:59 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/Client/Claim Services/NewClaim/input_billedCharges"), 5): Object 'Object Repository/UI/Client/Claim Services/NewClaim/input_billedCharges' is visible
+
+2019-01-22 15:04:00 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Claim Services/NewClaim/input_billedCharges' is visible
+
+2019-01-22 15:04:00 - [TEST_STEP][PASSED] - setText(findTestObject("UI/Client/Claim Services/NewClaim/input_billedCharges"), BILLCHRG): Text '182019' is set on object 'Object Repository/UI/Client/Claim Services/NewClaim/input_billedCharges'
+
+2019-01-22 15:04:00 - [MESSAGE][PASSED] - Text '182019' is set on object 'Object Repository/UI/Client/Claim Services/NewClaim/input_billedCharges'
+
+2019-01-22 15:04:00 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-22 15:04:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-22 15:04:02 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/Client/Claim Services/NewClaim/input_ppoName"), 5): Object 'Object Repository/UI/Client/Claim Services/NewClaim/input_ppoName' is visible
+
+2019-01-22 15:04:02 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Claim Services/NewClaim/input_ppoName' is visible
+
+2019-01-22 15:04:02 - [TEST_STEP][PASSED] - setText(findTestObject("UI/Client/Claim Services/NewClaim/input_ppoName"), PPONAME): Text 'None' is set on object 'Object Repository/UI/Client/Claim Services/NewClaim/input_ppoName'
+
+2019-01-22 15:04:02 - [MESSAGE][PASSED] - Text 'None' is set on object 'Object Repository/UI/Client/Claim Services/NewClaim/input_ppoName'
+
+2019-01-22 15:04:02 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-22 15:04:07 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-22 15:04:07 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI/Client/Claim Services/NewClaim/button_saveClaim"), 5): Object 'Object Repository/UI/Client/Claim Services/NewClaim/button_saveClaim' is clickable
+
+2019-01-22 15:04:07 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Claim Services/NewClaim/button_saveClaim' is clickable
+
+2019-01-22 15:04:07 - [TEST_STEP][PASSED] - check(findTestObject("UI/Client/Claim Services/NewClaim/button_saveClaim")): Object 'Object Repository/UI/Client/Claim Services/NewClaim/button_saveClaim' is checked
+
+2019-01-22 15:04:07 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Claim Services/NewClaim/button_saveClaim' is checked
+
+2019-01-22 15:04:07 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-22 15:04:12 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-22 15:04:12 - [TEST_STEP][PASSED] - focus(findTestObject("UI/Client/Claim Services/NewClaim/h4_alertClaim")): Object: 'Object Repository/UI/Client/Claim Services/NewClaim/h4_alertClaim' is focused
+
+2019-01-22 15:04:12 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Client/Claim Services/NewClaim/h4_alertClaim' is focused
+
+2019-01-22 15:04:12 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-22 15:04:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-22 15:04:15 - [TEST_STEP][PASSED] - click(findTestObject("UI/Client/Claim Services/NewClaim/button_closeAlertClaim")): Object: 'Object Repository/UI/Client/Claim Services/NewClaim/button_closeAlertClaim' is clicked on
+
+2019-01-22 15:04:15 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Client/Claim Services/NewClaim/button_closeAlertClaim' is clicked on
+
+2019-01-22 15:04:15 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-22 15:04:18 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-22 15:04:18 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/Client/Claim Services/NewClaim/span_attachFiles"), 5): Object 'Object Repository/UI/Client/Claim Services/NewClaim/span_attachFiles' is visible
+
+2019-01-22 15:04:19 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Claim Services/NewClaim/span_attachFiles' is visible
+
+2019-01-22 15:04:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Client/Claim Services/NewClaim/span_attachFiles")): Object 'Object Repository/UI/Client/Claim Services/NewClaim/span_attachFiles' is visible
+
+2019-01-22 15:04:19 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Claim Services/NewClaim/span_attachFiles' is visible
+
+2019-01-22 15:04:19 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI/Client/Claim Services/a_FilesTab"), 5): Object 'Object Repository/UI/Client/Claim Services/a_FilesTab' is clickable
+
+2019-01-22 15:04:19 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Claim Services/a_FilesTab' is clickable
+
+2019-01-22 15:04:19 - [TEST_STEP][PASSED] - click(findTestObject("UI/Client/Claim Services/a_FilesTab")): Object: 'Object Repository/UI/Client/Claim Services/a_FilesTab' is clicked on
+
+2019-01-22 15:04:19 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Client/Claim Services/a_FilesTab' is clicked on
+
+2019-01-22 15:04:19 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-01-22 15:04:19 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-22 15:04:19 - [TEST_STEP][PASSED] - uploadFile(findTestObject("UI/Client/Claim Services/input_NewFile"), UPFILE): File 'C:\uploadAMPS\MedRecords-Demo.png' sent to object: 'Object Repository/UI/Client/Claim Services/input_NewFile'
+
+2019-01-22 15:04:19 - [MESSAGE][PASSED] - File 'C:\uploadAMPS\MedRecords-Demo.png' sent to object: 'Object Repository/UI/Client/Claim Services/input_NewFile'
+
+2019-01-22 15:04:19 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-22 15:04:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-22 15:04:22 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI/Client/Claim Services/selectFileNameDropDown"), 5): Object 'Object Repository/UI/Client/Claim Services/selectFileNameDropDown' is clickable
+
+2019-01-22 15:04:22 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Claim Services/selectFileNameDropDown' is clickable
+
+2019-01-22 15:04:22 - [TEST_STEP][PASSED] - click(findTestObject("UI/Client/Claim Services/selectFileNameDropDown")): Object: 'Object Repository/UI/Client/Claim Services/selectFileNameDropDown' is clicked on
+
+2019-01-22 15:04:22 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Client/Claim Services/selectFileNameDropDown' is clicked on
+
+2019-01-22 15:04:22 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-22 15:04:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-22 15:04:24 - [TEST_STEP][PASSED] - click(findTestObject("UI/Client/Claim Services/option_otherFile")): Object: 'Object Repository/UI/Client/Claim Services/option_otherFile' is clicked on
+
+2019-01-22 15:04:24 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Client/Claim Services/option_otherFile' is clicked on
+
+2019-01-22 15:04:24 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-22 15:04:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-22 15:04:27 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI/Client/Claim Services/buttonSaveUpload"), 5): Object 'Object Repository/UI/Client/Claim Services/buttonSaveUpload' is clickable
+
+2019-01-22 15:04:27 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Claim Services/buttonSaveUpload' is clickable
+
+2019-01-22 15:04:27 - [TEST_STEP][PASSED] - click(findTestObject("UI/Client/Claim Services/buttonSaveUpload")): Object: 'Object Repository/UI/Client/Claim Services/buttonSaveUpload' is clicked on
+
+2019-01-22 15:04:27 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Client/Claim Services/buttonSaveUpload' is clicked on
+
+2019-01-22 15:04:27 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-01-22 15:04:27 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-22 15:04:27 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-22 15:04:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-22 15:04:30 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Client/Claim Services/strong_uploadedFileMessage")): Object 'Object Repository/UI/Client/Claim Services/strong_uploadedFileMessage' is visible
+
+2019-01-22 15:04:30 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Claim Services/strong_uploadedFileMessage' is visible
+
+2019-01-22 15:04:30 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-22 15:04:35 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-22 15:04:35 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI/General/Log/span_logoutAsClient"), 5): Object 'Object Repository/UI/General/Log/span_logoutAsClient' is clickable
+
+2019-01-22 15:04:35 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Log/span_logoutAsClient' is clickable
+
+2019-01-22 15:04:35 - [TEST_STEP][PASSED] - click(findTestObject("UI/General/Log/span_logoutAsClient")): Object: 'Object Repository/UI/General/Log/span_logoutAsClient' is clicked on
+
+2019-01-22 15:04:36 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/General/Log/span_logoutAsClient' is clicked on
+
+2019-01-22 15:04:36 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-22 15:04:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-22 15:04:37 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI/General/Log/a_userAvatar"), 5): Object 'Object Repository/UI/General/Log/a_userAvatar' is clickable
+
+2019-01-22 15:04:37 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Log/a_userAvatar' is clickable
+
+2019-01-22 15:04:37 - [TEST_STEP][PASSED] - click(findTestObject("UI/General/Log/a_userAvatar")): Object: 'Object Repository/UI/General/Log/a_userAvatar' is clicked on
+
+2019-01-22 15:04:37 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/General/Log/a_userAvatar' is clicked on
+
+2019-01-22 15:04:37 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-22 15:04:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-22 15:04:38 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI/General/Log/a_signOutAMPS"), 5): Object 'Object Repository/UI/General/Log/a_signOutAMPS' is clickable
+
+2019-01-22 15:04:38 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Log/a_signOutAMPS' is clickable
+
+2019-01-22 15:04:38 - [TEST_STEP][PASSED] - click(findTestObject("UI/General/Log/a_signOutAMPS")): Object: 'Object Repository/UI/General/Log/a_signOutAMPS' is clicked on
+
+2019-01-22 15:04:38 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/General/Log/a_signOutAMPS' is clicked on
+
+2019-01-22 15:04:38 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-22 15:04:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-22 15:04:39 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-22 15:04:40 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UI/Client/Claim Services/Claim_Details" classname="Test Cases/UI/Client/Claim Services/Claim_Details" status="PASSED">
+         <system-out><![CDATA[2019-01-22 15:04:40 - [TEST_CASE][PASSED] - Test Cases/UI/Client/Claim Services/Claim_Details: Test Cases/UI/Client/Claim Services/Claim_Details
+
+2019-01-22 15:04:40 - [TEST_STEP][PASSED] - UAT = "https://uat.advancedpricing.com": null
+
+2019-01-22 15:04:40 - [TEST_STEP][PASSED] - USER = "qaAuto": null
+
+2019-01-22 15:04:40 - [TEST_STEP][PASSED] - PASSWD = "a9yk100dD": null
+
+2019-01-22 15:04:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-22 15:04:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-22 15:04:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-22 15:04:42 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-22 15:04:43 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-22 15:04:43 - [TEST_STEP][PASSED] - navigateToUrl(UAT): Navigate to 'https://uat.advancedpricing.com' successfully
+
+2019-01-22 15:04:45 - [MESSAGE][PASSED] - Navigate to 'https://uat.advancedpricing.com' successfully
+
+2019-01-22 15:04:45 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-01-22 15:04:45 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-22 15:04:45 - [TEST_STEP][PASSED] - setText(findTestObject("UI/Client/Claim Services/input_userCode"), USER): Text 'qaAuto' is set on object 'Object Repository/UI/Client/Claim Services/input_userCode'
+
+2019-01-22 15:04:45 - [MESSAGE][PASSED] - Text 'qaAuto' is set on object 'Object Repository/UI/Client/Claim Services/input_userCode'
+
+2019-01-22 15:04:45 - [TEST_STEP][PASSED] - setText(findTestObject("UI/Client/Claim Services/input_userPassword"), PASSWD): Text 'a9yk100dD' is set on object 'Object Repository/UI/Client/Claim Services/input_userPassword'
+
+2019-01-22 15:04:45 - [MESSAGE][PASSED] - Text 'a9yk100dD' is set on object 'Object Repository/UI/Client/Claim Services/input_userPassword'
+
+2019-01-22 15:04:45 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI/Client/Claim Services/input_loginButton"), 5): Object 'Object Repository/UI/Client/Claim Services/input_loginButton' is clickable
+
+2019-01-22 15:04:45 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Claim Services/input_loginButton' is clickable
+
+2019-01-22 15:04:45 - [TEST_STEP][PASSED] - click(findTestObject("UI/Client/Claim Services/input_loginButton")): Object: 'Object Repository/UI/Client/Claim Services/input_loginButton' is clicked on
+
+2019-01-22 15:04:45 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Client/Claim Services/input_loginButton' is clicked on
+
+2019-01-22 15:04:45 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-01-22 15:04:45 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-22 15:04:45 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI/Client/Claim Services/span_ABMSClient"), 5): Object 'Object Repository/UI/Client/Claim Services/span_ABMSClient' is clickable
+
+2019-01-22 15:04:46 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Claim Services/span_ABMSClient' is clickable
+
+2019-01-22 15:04:46 - [TEST_STEP][PASSED] - click(findTestObject("UI/Client/Claim Services/span_ABMSClient")): Object: 'Object Repository/UI/Client/Claim Services/span_ABMSClient' is clicked on
+
+2019-01-22 15:04:47 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Client/Claim Services/span_ABMSClient' is clicked on
+
+2019-01-22 15:04:47 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-01-22 15:04:47 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-22 15:04:47 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI/Client/Claim Services/span_firstClaim"), 5): Object 'Object Repository/UI/Client/Claim Services/span_firstClaim' is clickable
+
+2019-01-22 15:04:47 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Claim Services/span_firstClaim' is clickable
+
+2019-01-22 15:04:47 - [TEST_STEP][PASSED] - click(findTestObject("UI/Client/Claim Services/span_firstClaim")): Object: 'Object Repository/UI/Client/Claim Services/span_firstClaim' is clicked on
+
+2019-01-22 15:04:48 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Client/Claim Services/span_firstClaim' is clicked on
+
+2019-01-22 15:04:48 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-01-22 15:04:48 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-22 15:04:48 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/Client/Claim Services/span_ClaimHeader"), 5): Object 'Object Repository/UI/Client/Claim Services/span_ClaimHeader' is visible
+
+2019-01-22 15:04:48 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Claim Services/span_ClaimHeader' is visible
+
+2019-01-22 15:04:48 - [TEST_STEP][PASSED] - claimHeader = getText(findTestObject("UI/Client/Claim Services/span_ClaimHeader")): Text of object 'Object Repository/UI/Client/Claim Services/span_ClaimHeader' is: 'Edit: 22222 (1084786) - Clerk - Received'
+
+2019-01-22 15:04:48 - [MESSAGE][PASSED] - Text of object 'Object Repository/UI/Client/Claim Services/span_ClaimHeader' is: 'Edit: 22222 (1084786) - Clerk - Received'
+
+2019-01-22 15:04:48 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-22 15:04:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-22 15:04:51 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI/General/Log/span_logoutAsClient"), 5): Object 'Object Repository/UI/General/Log/span_logoutAsClient' is clickable
+
+2019-01-22 15:04:51 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Log/span_logoutAsClient' is clickable
+
+2019-01-22 15:04:51 - [TEST_STEP][PASSED] - click(findTestObject("UI/General/Log/span_logoutAsClient")): Object: 'Object Repository/UI/General/Log/span_logoutAsClient' is clicked on
+
+2019-01-22 15:04:51 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/General/Log/span_logoutAsClient' is clicked on
+
+2019-01-22 15:04:51 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-22 15:04:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-22 15:04:52 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI/General/Log/a_userAvatar"), 5): Object 'Object Repository/UI/General/Log/a_userAvatar' is clickable
+
+2019-01-22 15:04:52 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Log/a_userAvatar' is clickable
+
+2019-01-22 15:04:52 - [TEST_STEP][PASSED] - click(findTestObject("UI/General/Log/a_userAvatar")): Object: 'Object Repository/UI/General/Log/a_userAvatar' is clicked on
+
+2019-01-22 15:04:52 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/General/Log/a_userAvatar' is clicked on
+
+2019-01-22 15:04:52 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-22 15:04:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-22 15:04:53 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI/General/Log/a_signOutAMPS"), 5): Object 'Object Repository/UI/General/Log/a_signOutAMPS' is clickable
+
+2019-01-22 15:04:53 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Log/a_signOutAMPS' is clickable
+
+2019-01-22 15:04:53 - [TEST_STEP][PASSED] - click(findTestObject("UI/General/Log/a_signOutAMPS")): Object: 'Object Repository/UI/General/Log/a_signOutAMPS' is clicked on
+
+2019-01-22 15:04:53 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/General/Log/a_signOutAMPS' is clicked on
+
+2019-01-22 15:04:53 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-22 15:04:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-22 15:04:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-22 15:04:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UI/Client/Claim Services/Download_successful" classname="Test Cases/UI/Client/Claim Services/Download_successful" status="FAILED">
+         <failure type="FAILED" message="Test Cases/UI/Client/Claim Services/Download_successful FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to wait for object to be clickable (Root cause: java.lang.IllegalArgumentException: Object is null)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementClickableKeyword.waitForElementClickable(WaitForElementClickableKeyword.groovy:108)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementClickableKeyword.execute(WaitForElementClickableKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementClickable(WebUiBuiltInKeywords.groovy:500)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$waitForElementClickable$4.call(Unknown Source)
+	at Download_successful.run(Download_successful:55)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548191006825.run(TempTestSuite1548191006825.groovy:36)
+"/>
+         <system-out><![CDATA[2019-01-22 15:04:55 - [TEST_CASE][FAILED] - Test Cases/UI/Client/Claim Services/Download_successful: Test Cases/UI/Client/Claim Services/Download_successful FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to wait for object to be clickable (Root cause: java.lang.IllegalArgumentException: Object is null)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementClickableKeyword.waitForElementClickable(WaitForElementClickableKeyword.groovy:108)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementClickableKeyword.execute(WaitForElementClickableKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementClickable(WebUiBuiltInKeywords.groovy:500)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$waitForElementClickable$4.call(Unknown Source)
+	at Download_successful.run(Download_successful:55)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548191006825.run(TempTestSuite1548191006825.groovy:36)
+
+
+2019-01-22 15:04:55 - [TEST_STEP][PASSED] - UAT = "https://uat.advancedpricing.com": null
+
+2019-01-22 15:04:55 - [TEST_STEP][PASSED] - USER = "qaAuto": null
+
+2019-01-22 15:04:55 - [TEST_STEP][PASSED] - PASSWD = "a9yk100dD": null
+
+2019-01-22 15:04:55 - [TEST_STEP][PASSED] - downloadPath = "C:\Users\rogelio medrano\Downloads": null
+
+2019-01-22 15:04:55 - [TEST_STEP][PASSED] - FILEDOWN = "MedRecords-Demo.png": null
+
+2019-01-22 15:04:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-22 15:04:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-22 15:04:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-22 15:04:57 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-22 15:04:58 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-22 15:04:58 - [TEST_STEP][PASSED] - navigateToUrl(UAT): Navigate to 'https://uat.advancedpricing.com' successfully
+
+2019-01-22 15:05:00 - [MESSAGE][PASSED] - Navigate to 'https://uat.advancedpricing.com' successfully
+
+2019-01-22 15:05:00 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-01-22 15:05:00 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-22 15:05:00 - [TEST_STEP][PASSED] - setText(findTestObject("UI/Client/Claim Services/input_userCode"), USER): Text 'qaAuto' is set on object 'Object Repository/UI/Client/Claim Services/input_userCode'
+
+2019-01-22 15:05:00 - [MESSAGE][PASSED] - Text 'qaAuto' is set on object 'Object Repository/UI/Client/Claim Services/input_userCode'
+
+2019-01-22 15:05:00 - [TEST_STEP][PASSED] - setText(findTestObject("UI/Client/Claim Services/input_userPassword"), PASSWD): Text 'a9yk100dD' is set on object 'Object Repository/UI/Client/Claim Services/input_userPassword'
+
+2019-01-22 15:05:00 - [MESSAGE][PASSED] - Text 'a9yk100dD' is set on object 'Object Repository/UI/Client/Claim Services/input_userPassword'
+
+2019-01-22 15:05:00 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI/Client/Claim Services/input_loginButton"), 5): Object 'Object Repository/UI/Client/Claim Services/input_loginButton' is clickable
+
+2019-01-22 15:05:00 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Claim Services/input_loginButton' is clickable
+
+2019-01-22 15:05:00 - [TEST_STEP][PASSED] - click(findTestObject("UI/Client/Claim Services/input_loginButton")): Object: 'Object Repository/UI/Client/Claim Services/input_loginButton' is clicked on
+
+2019-01-22 15:05:00 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Client/Claim Services/input_loginButton' is clicked on
+
+2019-01-22 15:05:00 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-01-22 15:05:00 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-22 15:05:00 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI/Client/Claim Services/span_ABMSClient"), 5): Object 'Object Repository/UI/Client/Claim Services/span_ABMSClient' is clickable
+
+2019-01-22 15:05:01 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Claim Services/span_ABMSClient' is clickable
+
+2019-01-22 15:05:01 - [TEST_STEP][PASSED] - click(findTestObject("UI/Client/Claim Services/span_ABMSClient")): Object: 'Object Repository/UI/Client/Claim Services/span_ABMSClient' is clicked on
+
+2019-01-22 15:05:02 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Client/Claim Services/span_ABMSClient' is clicked on
+
+2019-01-22 15:05:02 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-01-22 15:05:02 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-22 15:05:02 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI/Client/Claim Services/span_firstClaim"), 5): Object 'Object Repository/UI/Client/Claim Services/span_firstClaim' is clickable
+
+2019-01-22 15:05:02 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Claim Services/span_firstClaim' is clickable
+
+2019-01-22 15:05:02 - [TEST_STEP][PASSED] - click(findTestObject("UI/Client/Claim Services/span_firstClaim")): Object: 'Object Repository/UI/Client/Claim Services/span_firstClaim' is clicked on
+
+2019-01-22 15:05:03 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Client/Claim Services/span_firstClaim' is clicked on
+
+2019-01-22 15:05:03 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-01-22 15:05:03 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-22 15:05:03 - [TEST_STEP][FAILED] - waitForElementClickable(findTestObject("Claim Services/a_filesTab"), 5): waitForElementClickable(findTestObject("Claim Services/a_filesTab"), 5) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to wait for object to be clickable (Root cause: java.lang.IllegalArgumentException: Object is null)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementClickableKeyword.waitForElementClickable(WaitForElementClickableKeyword.groovy:108)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementClickableKeyword.execute(WaitForElementClickableKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementClickable(WebUiBuiltInKeywords.groovy:500)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$waitForElementClickable$4.call(Unknown Source)
+	at Download_successful.run(Download_successful:55)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548191006825.run(TempTestSuite1548191006825.groovy:36)
+
+
+2019-01-22 15:05:03 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Claim Services/a_filesTab' does not exist
+
+2019-01-22 15:05:03 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-01-22 15:05:03 - [MESSAGE][FAILED] - Unable to wait for object to be clickable (Root cause: java.lang.IllegalArgumentException: Object is null)
+[[ATTACHMENT|C:\\Users\\rogelio medrano\\git\\AMPSAutRegression\\Reports\\UI\\Claim Services\\Claim Services\\20190122_150326\\1548191103454.png]]
+
+2019-01-22 15:05:03 - [MESSAGE][FAILED] - waitForElementClickable(findTestObject("Claim Services/a_filesTab"), 5) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to wait for object to be clickable (Root cause: java.lang.IllegalArgumentException: Object is null)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementClickableKeyword.waitForElementClickable(WaitForElementClickableKeyword.groovy:108)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementClickableKeyword.execute(WaitForElementClickableKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementClickable(WebUiBuiltInKeywords.groovy:500)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$waitForElementClickable$4.call(Unknown Source)
+	at Download_successful.run(Download_successful:55)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548191006825.run(TempTestSuite1548191006825.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-01-22 15:04:55 - [TEST_CASE][FAILED] - Test Cases/UI/Client/Claim Services/Download_successful: Test Cases/UI/Client/Claim Services/Download_successful FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to wait for object to be clickable (Root cause: java.lang.IllegalArgumentException: Object is null)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementClickableKeyword.waitForElementClickable(WaitForElementClickableKeyword.groovy:108)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementClickableKeyword.execute(WaitForElementClickableKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementClickable(WebUiBuiltInKeywords.groovy:500)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$waitForElementClickable$4.call(Unknown Source)
+	at Download_successful.run(Download_successful:55)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548191006825.run(TempTestSuite1548191006825.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UI/Client/Claim Services/Search_Successful" classname="Test Cases/UI/Client/Claim Services/Search_Successful" status="PASSED">
+         <system-out><![CDATA[2019-01-22 15:05:03 - [TEST_CASE][PASSED] - Test Cases/UI/Client/Claim Services/Search_Successful: Test Cases/UI/Client/Claim Services/Search_Successful
+
+2019-01-22 15:05:04 - [TEST_STEP][PASSED] - UAT = "https://uat.advancedpricing.com": null
+
+2019-01-22 15:05:04 - [TEST_STEP][PASSED] - USER = "qaAuto": null
+
+2019-01-22 15:05:04 - [TEST_STEP][PASSED] - PASSWD = "a9yk100dD": null
+
+2019-01-22 15:05:04 - [TEST_STEP][PASSED] - UPFILE = "C:\uploadAMPS\UpFile.txt": null
+
+2019-01-22 15:05:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-22 15:05:04 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-01-22 15:05:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-22 15:05:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-22 15:05:07 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-22 15:05:08 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-22 15:05:08 - [TEST_STEP][PASSED] - navigateToUrl(UAT): Navigate to 'https://uat.advancedpricing.com' successfully
+
+2019-01-22 15:05:09 - [MESSAGE][PASSED] - Navigate to 'https://uat.advancedpricing.com' successfully
+
+2019-01-22 15:05:09 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-01-22 15:05:09 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-22 15:05:09 - [TEST_STEP][PASSED] - setText(findTestObject("UI/Client/Claim Services/input_userCode"), USER): Text 'qaAuto' is set on object 'Object Repository/UI/Client/Claim Services/input_userCode'
+
+2019-01-22 15:05:09 - [MESSAGE][PASSED] - Text 'qaAuto' is set on object 'Object Repository/UI/Client/Claim Services/input_userCode'
+
+2019-01-22 15:05:09 - [TEST_STEP][PASSED] - setText(findTestObject("UI/Client/Claim Services/input_userPassword"), PASSWD): Text 'a9yk100dD' is set on object 'Object Repository/UI/Client/Claim Services/input_userPassword'
+
+2019-01-22 15:05:10 - [MESSAGE][PASSED] - Text 'a9yk100dD' is set on object 'Object Repository/UI/Client/Claim Services/input_userPassword'
+
+2019-01-22 15:05:10 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI/Client/Claim Services/input_loginButton"), 5): Object 'Object Repository/UI/Client/Claim Services/input_loginButton' is clickable
+
+2019-01-22 15:05:10 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Claim Services/input_loginButton' is clickable
+
+2019-01-22 15:05:10 - [TEST_STEP][PASSED] - click(findTestObject("UI/Client/Claim Services/input_loginButton")): Object: 'Object Repository/UI/Client/Claim Services/input_loginButton' is clicked on
+
+2019-01-22 15:05:10 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Client/Claim Services/input_loginButton' is clicked on
+
+2019-01-22 15:05:10 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-01-22 15:05:10 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-22 15:05:10 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI/Client/Claim Services/span_ABMSClient"), 5): Object 'Object Repository/UI/Client/Claim Services/span_ABMSClient' is clickable
+
+2019-01-22 15:05:11 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Claim Services/span_ABMSClient' is clickable
+
+2019-01-22 15:05:11 - [TEST_STEP][PASSED] - click(findTestObject("UI/Client/Claim Services/span_ABMSClient")): Object: 'Object Repository/UI/Client/Claim Services/span_ABMSClient' is clicked on
+
+2019-01-22 15:05:11 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Client/Claim Services/span_ABMSClient' is clicked on
+
+2019-01-22 15:05:11 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-01-22 15:05:11 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-22 15:05:11 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Client/Claim Services/span_firstClaim"), 5): Object 'Object Repository/UI/Client/Claim Services/span_firstClaim' is present
+
+2019-01-22 15:05:12 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Claim Services/span_firstClaim' is present
+
+2019-01-22 15:05:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Client/Claim Services/span_secondClaim"), 5): Object 'Object Repository/UI/Client/Claim Services/span_secondClaim' is present
+
+2019-01-22 15:05:12 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Claim Services/span_secondClaim' is present
+
+2019-01-22 15:05:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Client/Claim Services/li_pageTwo"), 5): Object 'Object Repository/UI/Client/Claim Services/li_pageTwo' is present
+
+2019-01-22 15:05:12 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Claim Services/li_pageTwo' is present
+
+2019-01-22 15:05:12 - [TEST_STEP][PASSED] - CLAIM = getText(findTestObject("UI/Client/Claim Services/span_firstClaim")): Text of object 'Object Repository/UI/Client/Claim Services/span_firstClaim' is: '1084786'
+
+2019-01-22 15:05:12 - [MESSAGE][PASSED] - Text of object 'Object Repository/UI/Client/Claim Services/span_firstClaim' is: '1084786'
+
+2019-01-22 15:05:12 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/Client/Claim Services/input_ampsClaimID"), 5): Object 'Object Repository/UI/Client/Claim Services/input_ampsClaimID' is visible
+
+2019-01-22 15:05:12 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Claim Services/input_ampsClaimID' is visible
+
+2019-01-22 15:05:12 - [TEST_STEP][PASSED] - setText(findTestObject("UI/Client/Claim Services/input_ampsClaimID"), CLAIM): Text '1084786' is set on object 'Object Repository/UI/Client/Claim Services/input_ampsClaimID'
+
+2019-01-22 15:05:12 - [MESSAGE][PASSED] - Text '1084786' is set on object 'Object Repository/UI/Client/Claim Services/input_ampsClaimID'
+
+2019-01-22 15:05:12 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-22 15:05:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-22 15:05:14 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI/Client/Claim Services/button_filter"), 5): Object 'Object Repository/UI/Client/Claim Services/button_filter' is clickable
+
+2019-01-22 15:05:14 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Claim Services/button_filter' is clickable
+
+2019-01-22 15:05:14 - [TEST_STEP][PASSED] - click(findTestObject("UI/Client/Claim Services/button_filter")): Object: 'Object Repository/UI/Client/Claim Services/button_filter' is clicked on
+
+2019-01-22 15:05:14 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Client/Claim Services/button_filter' is clicked on
+
+2019-01-22 15:05:14 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-01-22 15:05:14 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-22 15:05:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Client/Claim Services/span_firstClaim"), 5): Object 'Object Repository/UI/Client/Claim Services/span_firstClaim' is present
+
+2019-01-22 15:05:14 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Claim Services/span_firstClaim' is present
+
+2019-01-22 15:05:14 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("UI/Client/Claim Services/span_secondClaim"), 5): Web element with id: 'Object Repository/UI/Client/Claim Services/span_secondClaim' located by 'By.xpath: //*[@id="content"]//table/tbody/tr[2]/td[1]/a/span' is not present after '5' second(s)
+
+2019-01-22 15:05:15 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/UI/Client/Claim Services/span_secondClaim' located by 'By.xpath: //*[@id="content"]//table/tbody/tr[2]/td[1]/a/span' is not present after '5' second(s)
+
+2019-01-22 15:05:15 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("UI/Client/Claim Services/li_pageTwo"), 5): Web element with id: 'Object Repository/UI/Client/Claim Services/li_pageTwo' located by 'By.xpath: //*[@class="pagination"]/li[3]/a[contains(text(), "2")]' is not present after '5' second(s)
+
+2019-01-22 15:05:15 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/UI/Client/Claim Services/li_pageTwo' located by 'By.xpath: //*[@class="pagination"]/li[3]/a[contains(text(), "2")]' is not present after '5' second(s)
+
+2019-01-22 15:05:15 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/Client/Claim Services/li_nextPage"), 5): Object 'Object Repository/UI/Client/Claim Services/li_nextPage' is visible
+
+2019-01-22 15:05:15 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Claim Services/li_nextPage' is visible
+
+2019-01-22 15:05:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Client/Claim Services/li_nextPage")): Object 'Object Repository/UI/Client/Claim Services/li_nextPage' is visible
+
+2019-01-22 15:05:15 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Claim Services/li_nextPage' is visible
+
+2019-01-22 15:05:15 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-22 15:05:18 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-22 15:05:18 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI/Client/Claim Services/button_clear"), 5): Object 'Object Repository/UI/Client/Claim Services/button_clear' is clickable
+
+2019-01-22 15:05:18 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Claim Services/button_clear' is clickable
+
+2019-01-22 15:05:18 - [TEST_STEP][PASSED] - click(findTestObject("UI/Client/Claim Services/button_clear")): Object: 'Object Repository/UI/Client/Claim Services/button_clear' is clicked on
+
+2019-01-22 15:05:18 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Client/Claim Services/button_clear' is clicked on
+
+2019-01-22 15:05:18 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-01-22 15:05:18 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-22 15:05:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Client/Claim Services/span_firstClaim"), 5): Object 'Object Repository/UI/Client/Claim Services/span_firstClaim' is present
+
+2019-01-22 15:05:18 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Claim Services/span_firstClaim' is present
+
+2019-01-22 15:05:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Client/Claim Services/span_secondClaim"), 5): Object 'Object Repository/UI/Client/Claim Services/span_secondClaim' is present
+
+2019-01-22 15:05:20 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Claim Services/span_secondClaim' is present
+
+2019-01-22 15:05:20 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Client/Claim Services/li_pageTwo"), 5): Object 'Object Repository/UI/Client/Claim Services/li_pageTwo' is present
+
+2019-01-22 15:05:20 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Claim Services/li_pageTwo' is present
+
+2019-01-22 15:05:20 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI/General/Log/span_logoutAsClient"), 5): Object 'Object Repository/UI/General/Log/span_logoutAsClient' is clickable
+
+2019-01-22 15:05:20 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Log/span_logoutAsClient' is clickable
+
+2019-01-22 15:05:20 - [TEST_STEP][PASSED] - click(findTestObject("UI/General/Log/span_logoutAsClient")): Object: 'Object Repository/UI/General/Log/span_logoutAsClient' is clicked on
+
+2019-01-22 15:05:20 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/General/Log/span_logoutAsClient' is clicked on
+
+2019-01-22 15:05:20 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-22 15:05:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-22 15:05:21 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI/General/Log/a_userAvatar"), 5): Object 'Object Repository/UI/General/Log/a_userAvatar' is clickable
+
+2019-01-22 15:05:21 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Log/a_userAvatar' is clickable
+
+2019-01-22 15:05:21 - [TEST_STEP][PASSED] - click(findTestObject("UI/General/Log/a_userAvatar")): Object: 'Object Repository/UI/General/Log/a_userAvatar' is clicked on
+
+2019-01-22 15:05:21 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/General/Log/a_userAvatar' is clicked on
+
+2019-01-22 15:05:21 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-22 15:05:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-22 15:05:22 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI/General/Log/a_signOutAMPS"), 5): Object 'Object Repository/UI/General/Log/a_signOutAMPS' is clickable
+
+2019-01-22 15:05:22 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Log/a_signOutAMPS' is clickable
+
+2019-01-22 15:05:22 - [TEST_STEP][PASSED] - click(findTestObject("UI/General/Log/a_signOutAMPS")): Object: 'Object Repository/UI/General/Log/a_signOutAMPS' is clicked on
+
+2019-01-22 15:05:22 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/General/Log/a_signOutAMPS' is clicked on
+
+2019-01-22 15:05:22 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-22 15:05:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-22 15:05:23 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-22 15:05:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UI/Client/Claim Services/Search_Unsuccessful" classname="Test Cases/UI/Client/Claim Services/Search_Unsuccessful" status="PASSED">
+         <system-out><![CDATA[2019-01-22 15:05:24 - [TEST_CASE][PASSED] - Test Cases/UI/Client/Claim Services/Search_Unsuccessful: Test Cases/UI/Client/Claim Services/Search_Unsuccessful
+
+2019-01-22 15:05:24 - [TEST_STEP][PASSED] - UAT = "https://uat.advancedpricing.com": null
+
+2019-01-22 15:05:24 - [TEST_STEP][PASSED] - USER = "qaAuto": null
+
+2019-01-22 15:05:24 - [TEST_STEP][PASSED] - PASSWD = "a9yk100dD": null
+
+2019-01-22 15:05:24 - [TEST_STEP][PASSED] - UPFILE = "C:\uploadAMPS\UpFile.txt": null
+
+2019-01-22 15:05:24 - [TEST_STEP][PASSED] - INVALIDCLAIM = "0000000": null
+
+2019-01-22 15:05:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-22 15:05:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-22 15:05:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-22 15:05:26 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-22 15:05:27 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-22 15:05:27 - [TEST_STEP][PASSED] - navigateToUrl(UAT): Navigate to 'https://uat.advancedpricing.com' successfully
+
+2019-01-22 15:05:29 - [MESSAGE][PASSED] - Navigate to 'https://uat.advancedpricing.com' successfully
+
+2019-01-22 15:05:29 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-01-22 15:05:29 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-22 15:05:29 - [TEST_STEP][PASSED] - setText(findTestObject("UI/Client/Claim Services/input_userCode"), USER): Text 'qaAuto' is set on object 'Object Repository/UI/Client/Claim Services/input_userCode'
+
+2019-01-22 15:05:29 - [MESSAGE][PASSED] - Text 'qaAuto' is set on object 'Object Repository/UI/Client/Claim Services/input_userCode'
+
+2019-01-22 15:05:29 - [TEST_STEP][PASSED] - setText(findTestObject("UI/Client/Claim Services/input_userPassword"), PASSWD): Text 'a9yk100dD' is set on object 'Object Repository/UI/Client/Claim Services/input_userPassword'
+
+2019-01-22 15:05:29 - [MESSAGE][PASSED] - Text 'a9yk100dD' is set on object 'Object Repository/UI/Client/Claim Services/input_userPassword'
+
+2019-01-22 15:05:29 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI/Client/Claim Services/input_loginButton"), 5): Object 'Object Repository/UI/Client/Claim Services/input_loginButton' is clickable
+
+2019-01-22 15:05:29 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Claim Services/input_loginButton' is clickable
+
+2019-01-22 15:05:29 - [TEST_STEP][PASSED] - click(findTestObject("UI/Client/Claim Services/input_loginButton")): Object: 'Object Repository/UI/Client/Claim Services/input_loginButton' is clicked on
+
+2019-01-22 15:05:30 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Client/Claim Services/input_loginButton' is clicked on
+
+2019-01-22 15:05:30 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-01-22 15:05:30 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-22 15:05:30 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI/Client/Claim Services/span_ABMSClient"), 5): Object 'Object Repository/UI/Client/Claim Services/span_ABMSClient' is clickable
+
+2019-01-22 15:05:31 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Claim Services/span_ABMSClient' is clickable
+
+2019-01-22 15:05:31 - [TEST_STEP][PASSED] - click(findTestObject("UI/Client/Claim Services/span_ABMSClient")): Object: 'Object Repository/UI/Client/Claim Services/span_ABMSClient' is clicked on
+
+2019-01-22 15:05:31 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Client/Claim Services/span_ABMSClient' is clicked on
+
+2019-01-22 15:05:31 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-01-22 15:05:31 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-22 15:05:31 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Client/Claim Services/span_firstClaim"), 5): Object 'Object Repository/UI/Client/Claim Services/span_firstClaim' is present
+
+2019-01-22 15:05:32 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Claim Services/span_firstClaim' is present
+
+2019-01-22 15:05:32 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Client/Claim Services/span_secondClaim"), 5): Object 'Object Repository/UI/Client/Claim Services/span_secondClaim' is present
+
+2019-01-22 15:05:32 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Claim Services/span_secondClaim' is present
+
+2019-01-22 15:05:32 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Client/Claim Services/li_pageTwo"), 5): Object 'Object Repository/UI/Client/Claim Services/li_pageTwo' is present
+
+2019-01-22 15:05:32 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Claim Services/li_pageTwo' is present
+
+2019-01-22 15:05:32 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/Client/Claim Services/input_ampsClaimID"), 5): Object 'Object Repository/UI/Client/Claim Services/input_ampsClaimID' is visible
+
+2019-01-22 15:05:32 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Claim Services/input_ampsClaimID' is visible
+
+2019-01-22 15:05:32 - [TEST_STEP][PASSED] - setText(findTestObject("UI/Client/Claim Services/input_ampsClaimID"), INVALIDCLAIM): Text '0000000' is set on object 'Object Repository/UI/Client/Claim Services/input_ampsClaimID'
+
+2019-01-22 15:05:32 - [MESSAGE][PASSED] - Text '0000000' is set on object 'Object Repository/UI/Client/Claim Services/input_ampsClaimID'
+
+2019-01-22 15:05:32 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-22 15:05:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-22 15:05:35 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI/Client/Claim Services/button_filter"), 5): Object 'Object Repository/UI/Client/Claim Services/button_filter' is clickable
+
+2019-01-22 15:05:35 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Claim Services/button_filter' is clickable
+
+2019-01-22 15:05:35 - [TEST_STEP][PASSED] - click(findTestObject("UI/Client/Claim Services/button_filter")): Object: 'Object Repository/UI/Client/Claim Services/button_filter' is clicked on
+
+2019-01-22 15:05:35 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Client/Claim Services/button_filter' is clicked on
+
+2019-01-22 15:05:35 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-01-22 15:05:35 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-22 15:05:35 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Client/Claim Services/div_noDataMessage")): Object 'Object Repository/UI/Client/Claim Services/div_noDataMessage' is visible
+
+2019-01-22 15:05:36 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Claim Services/div_noDataMessage' is visible
+
+2019-01-22 15:05:36 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("UI/Client/Claim Services/span_firstClaim"), 5): Web element with id: 'Object Repository/UI/Client/Claim Services/span_firstClaim' located by 'By.xpath: //*[@id="content"]//table/tbody/tr[1]/td[1]/a/span' is not present after '5' second(s)
+
+2019-01-22 15:05:36 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/UI/Client/Claim Services/span_firstClaim' located by 'By.xpath: //*[@id="content"]//table/tbody/tr[1]/td[1]/a/span' is not present after '5' second(s)
+
+2019-01-22 15:05:36 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("UI/Client/Claim Services/span_secondClaim"), 5): Web element with id: 'Object Repository/UI/Client/Claim Services/span_secondClaim' located by 'By.xpath: //*[@id="content"]//table/tbody/tr[2]/td[1]/a/span' is not present after '5' second(s)
+
+2019-01-22 15:05:36 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/UI/Client/Claim Services/span_secondClaim' located by 'By.xpath: //*[@id="content"]//table/tbody/tr[2]/td[1]/a/span' is not present after '5' second(s)
+
+2019-01-22 15:05:36 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-22 15:05:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-22 15:05:39 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI/Client/Claim Services/button_clear"), 5): Object 'Object Repository/UI/Client/Claim Services/button_clear' is clickable
+
+2019-01-22 15:05:39 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Claim Services/button_clear' is clickable
+
+2019-01-22 15:05:39 - [TEST_STEP][PASSED] - click(findTestObject("UI/Client/Claim Services/button_clear")): Object: 'Object Repository/UI/Client/Claim Services/button_clear' is clicked on
+
+2019-01-22 15:05:39 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Client/Claim Services/button_clear' is clicked on
+
+2019-01-22 15:05:39 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-01-22 15:05:39 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-22 15:05:39 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Client/Claim Services/span_firstClaim"), 5): Object 'Object Repository/UI/Client/Claim Services/span_firstClaim' is present
+
+2019-01-22 15:05:40 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Claim Services/span_firstClaim' is present
+
+2019-01-22 15:05:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Client/Claim Services/span_secondClaim"), 5): Object 'Object Repository/UI/Client/Claim Services/span_secondClaim' is present
+
+2019-01-22 15:05:41 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Claim Services/span_secondClaim' is present
+
+2019-01-22 15:05:41 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Client/Claim Services/li_pageTwo"), 5): Object 'Object Repository/UI/Client/Claim Services/li_pageTwo' is present
+
+2019-01-22 15:05:41 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Claim Services/li_pageTwo' is present
+
+2019-01-22 15:05:41 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI/General/Log/span_logoutAsClient"), 5): Object 'Object Repository/UI/General/Log/span_logoutAsClient' is clickable
+
+2019-01-22 15:05:41 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Log/span_logoutAsClient' is clickable
+
+2019-01-22 15:05:41 - [TEST_STEP][PASSED] - click(findTestObject("UI/General/Log/span_logoutAsClient")): Object: 'Object Repository/UI/General/Log/span_logoutAsClient' is clicked on
+
+2019-01-22 15:05:41 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/General/Log/span_logoutAsClient' is clicked on
+
+2019-01-22 15:05:41 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-22 15:05:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-22 15:05:42 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI/General/Log/a_userAvatar"), 5): Object 'Object Repository/UI/General/Log/a_userAvatar' is clickable
+
+2019-01-22 15:05:42 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Log/a_userAvatar' is clickable
+
+2019-01-22 15:05:42 - [TEST_STEP][PASSED] - click(findTestObject("UI/General/Log/a_userAvatar")): Object: 'Object Repository/UI/General/Log/a_userAvatar' is clicked on
+
+2019-01-22 15:05:42 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/General/Log/a_userAvatar' is clicked on
+
+2019-01-22 15:05:42 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-22 15:05:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-22 15:05:43 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI/General/Log/a_signOutAMPS"), 5): Object 'Object Repository/UI/General/Log/a_signOutAMPS' is clickable
+
+2019-01-22 15:05:43 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Log/a_signOutAMPS' is clickable
+
+2019-01-22 15:05:43 - [TEST_STEP][PASSED] - click(findTestObject("UI/General/Log/a_signOutAMPS")): Object: 'Object Repository/UI/General/Log/a_signOutAMPS' is clicked on
+
+2019-01-22 15:05:43 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/General/Log/a_signOutAMPS' is clicked on
+
+2019-01-22 15:05:43 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-22 15:05:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-22 15:05:44 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-22 15:05:45 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UI/Client/Claim Services/UploadFile_MedicalRecords" classname="Test Cases/UI/Client/Claim Services/UploadFile_MedicalRecords" status="PASSED">
+         <system-out><![CDATA[2019-01-22 15:05:45 - [TEST_CASE][PASSED] - Test Cases/UI/Client/Claim Services/UploadFile_MedicalRecords: Test Cases/UI/Client/Claim Services/UploadFile_MedicalRecords
+
+2019-01-22 15:05:45 - [TEST_STEP][PASSED] - UAT = "https://uat.advancedpricing.com": null
+
+2019-01-22 15:05:45 - [TEST_STEP][PASSED] - USER = "qaAuto": null
+
+2019-01-22 15:05:45 - [TEST_STEP][PASSED] - PASSWD = "a9yk100dD": null
+
+2019-01-22 15:05:45 - [TEST_STEP][PASSED] - UPFILE = "C:\uploadAMPS\Upload-Demo.txt": null
+
+2019-01-22 15:05:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-22 15:05:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-22 15:05:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-22 15:05:47 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-22 15:05:48 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-22 15:05:48 - [TEST_STEP][PASSED] - navigateToUrl(UAT): Navigate to 'https://uat.advancedpricing.com' successfully
+
+2019-01-22 15:05:50 - [MESSAGE][PASSED] - Navigate to 'https://uat.advancedpricing.com' successfully
+
+2019-01-22 15:05:50 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-01-22 15:05:50 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-22 15:05:50 - [TEST_STEP][PASSED] - setText(findTestObject("UI/Client/Claim Services/input_userCode"), USER): Text 'qaAuto' is set on object 'Object Repository/UI/Client/Claim Services/input_userCode'
+
+2019-01-22 15:05:50 - [MESSAGE][PASSED] - Text 'qaAuto' is set on object 'Object Repository/UI/Client/Claim Services/input_userCode'
+
+2019-01-22 15:05:50 - [TEST_STEP][PASSED] - setText(findTestObject("UI/Client/Claim Services/input_userPassword"), PASSWD): Text 'a9yk100dD' is set on object 'Object Repository/UI/Client/Claim Services/input_userPassword'
+
+2019-01-22 15:05:50 - [MESSAGE][PASSED] - Text 'a9yk100dD' is set on object 'Object Repository/UI/Client/Claim Services/input_userPassword'
+
+2019-01-22 15:05:50 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI/Client/Claim Services/input_loginButton"), 5): Object 'Object Repository/UI/Client/Claim Services/input_loginButton' is clickable
+
+2019-01-22 15:05:50 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Claim Services/input_loginButton' is clickable
+
+2019-01-22 15:05:50 - [TEST_STEP][PASSED] - click(findTestObject("UI/Client/Claim Services/input_loginButton")): Object: 'Object Repository/UI/Client/Claim Services/input_loginButton' is clicked on
+
+2019-01-22 15:05:50 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Client/Claim Services/input_loginButton' is clicked on
+
+2019-01-22 15:05:50 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-01-22 15:05:50 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-22 15:05:50 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI/Client/Claim Services/span_ABMSClient"), 5): Object 'Object Repository/UI/Client/Claim Services/span_ABMSClient' is clickable
+
+2019-01-22 15:05:51 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Claim Services/span_ABMSClient' is clickable
+
+2019-01-22 15:05:51 - [TEST_STEP][PASSED] - click(findTestObject("UI/Client/Claim Services/span_ABMSClient")): Object: 'Object Repository/UI/Client/Claim Services/span_ABMSClient' is clicked on
+
+2019-01-22 15:05:52 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Client/Claim Services/span_ABMSClient' is clicked on
+
+2019-01-22 15:05:52 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-01-22 15:05:52 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-22 15:05:52 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI/Client/Claim Services/span_secondClaim"), 5): Object 'Object Repository/UI/Client/Claim Services/span_secondClaim' is clickable
+
+2019-01-22 15:05:52 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Claim Services/span_secondClaim' is clickable
+
+2019-01-22 15:05:52 - [TEST_STEP][PASSED] - click(findTestObject("UI/Client/Claim Services/span_secondClaim")): Object: 'Object Repository/UI/Client/Claim Services/span_secondClaim' is clicked on
+
+2019-01-22 15:05:53 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Client/Claim Services/span_secondClaim' is clicked on
+
+2019-01-22 15:05:53 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-01-22 15:05:53 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-22 15:05:53 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI/Client/Claim Services/a_FilesTab"), 5): Object 'Object Repository/UI/Client/Claim Services/a_FilesTab' is clickable
+
+2019-01-22 15:05:53 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Claim Services/a_FilesTab' is clickable
+
+2019-01-22 15:05:53 - [TEST_STEP][PASSED] - click(findTestObject("UI/Client/Claim Services/a_FilesTab")): Object: 'Object Repository/UI/Client/Claim Services/a_FilesTab' is clicked on
+
+2019-01-22 15:05:53 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Client/Claim Services/a_FilesTab' is clicked on
+
+2019-01-22 15:05:53 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-01-22 15:05:53 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-22 15:05:53 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/Client/Claim Services/input_NewFile"), 5): Object 'Object Repository/UI/Client/Claim Services/input_NewFile' is present
+
+2019-01-22 15:05:53 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Claim Services/input_NewFile' is present
+
+2019-01-22 15:05:53 - [TEST_STEP][PASSED] - uploadFile(findTestObject("UI/Client/Claim Services/input_NewFile"), UPFILE): File 'C:\uploadAMPS\Upload-Demo.txt' sent to object: 'Object Repository/UI/Client/Claim Services/input_NewFile'
+
+2019-01-22 15:05:53 - [MESSAGE][PASSED] - File 'C:\uploadAMPS\Upload-Demo.txt' sent to object: 'Object Repository/UI/Client/Claim Services/input_NewFile'
+
+2019-01-22 15:05:53 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-22 15:05:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-22 15:05:56 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI/Client/Claim Services/selectFileNameDropDown"), 5): Object 'Object Repository/UI/Client/Claim Services/selectFileNameDropDown' is clickable
+
+2019-01-22 15:05:56 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Claim Services/selectFileNameDropDown' is clickable
+
+2019-01-22 15:05:56 - [TEST_STEP][PASSED] - click(findTestObject("UI/Client/Claim Services/selectFileNameDropDown")): Object: 'Object Repository/UI/Client/Claim Services/selectFileNameDropDown' is clicked on
+
+2019-01-22 15:05:56 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Client/Claim Services/selectFileNameDropDown' is clicked on
+
+2019-01-22 15:05:56 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-22 15:05:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-22 15:05:58 - [TEST_STEP][PASSED] - click(findTestObject("UI/Client/Claim Services/option_providerSignOff")): Object: 'Object Repository/UI/Client/Claim Services/option_providerSignOff' is clicked on
+
+2019-01-22 15:05:58 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Client/Claim Services/option_providerSignOff' is clicked on
+
+2019-01-22 15:05:58 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-22 15:06:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-22 15:06:00 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI/Client/Claim Services/buttonSaveUpload"), 5): Object 'Object Repository/UI/Client/Claim Services/buttonSaveUpload' is clickable
+
+2019-01-22 15:06:00 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Claim Services/buttonSaveUpload' is clickable
+
+2019-01-22 15:06:00 - [TEST_STEP][PASSED] - click(findTestObject("UI/Client/Claim Services/buttonSaveUpload")): Object: 'Object Repository/UI/Client/Claim Services/buttonSaveUpload' is clicked on
+
+2019-01-22 15:06:00 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Client/Claim Services/buttonSaveUpload' is clicked on
+
+2019-01-22 15:06:00 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-01-22 15:06:00 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-22 15:06:00 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Client/Claim Services/strong_uploadedFileMessage")): Object 'Object Repository/UI/Client/Claim Services/strong_uploadedFileMessage' is visible
+
+2019-01-22 15:06:01 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Claim Services/strong_uploadedFileMessage' is visible
+
+2019-01-22 15:06:01 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-01-22 15:06:01 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-22 15:06:01 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI/General/Log/span_logoutAsClient"), 5): Object 'Object Repository/UI/General/Log/span_logoutAsClient' is clickable
+
+2019-01-22 15:06:01 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Log/span_logoutAsClient' is clickable
+
+2019-01-22 15:06:01 - [TEST_STEP][PASSED] - click(findTestObject("UI/General/Log/span_logoutAsClient")): Object: 'Object Repository/UI/General/Log/span_logoutAsClient' is clicked on
+
+2019-01-22 15:06:01 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/General/Log/span_logoutAsClient' is clicked on
+
+2019-01-22 15:06:01 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-22 15:06:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-22 15:06:02 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI/General/Log/a_userAvatar"), 5): Object 'Object Repository/UI/General/Log/a_userAvatar' is clickable
+
+2019-01-22 15:06:02 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Log/a_userAvatar' is clickable
+
+2019-01-22 15:06:02 - [TEST_STEP][PASSED] - click(findTestObject("UI/General/Log/a_userAvatar")): Object: 'Object Repository/UI/General/Log/a_userAvatar' is clicked on
+
+2019-01-22 15:06:02 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/General/Log/a_userAvatar' is clicked on
+
+2019-01-22 15:06:02 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-22 15:06:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-22 15:06:03 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI/General/Log/a_signOutAMPS"), 5): Object 'Object Repository/UI/General/Log/a_signOutAMPS' is clickable
+
+2019-01-22 15:06:03 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Log/a_signOutAMPS' is clickable
+
+2019-01-22 15:06:03 - [TEST_STEP][PASSED] - click(findTestObject("UI/General/Log/a_signOutAMPS")): Object: 'Object Repository/UI/General/Log/a_signOutAMPS' is clicked on
+
+2019-01-22 15:06:04 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/General/Log/a_signOutAMPS' is clicked on
+
+2019-01-22 15:06:04 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-22 15:06:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-22 15:06:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-22 15:06:05 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UI/Client/Claim Services/UploadFile_Other" classname="Test Cases/UI/Client/Claim Services/UploadFile_Other" status="PASSED">
+         <system-out><![CDATA[2019-01-22 15:06:05 - [TEST_CASE][PASSED] - Test Cases/UI/Client/Claim Services/UploadFile_Other: Test Cases/UI/Client/Claim Services/UploadFile_Other
+
+2019-01-22 15:06:05 - [TEST_STEP][PASSED] - UAT = "https://uat.advancedpricing.com": null
+
+2019-01-22 15:06:05 - [TEST_STEP][PASSED] - USER = "qaAuto": null
+
+2019-01-22 15:06:05 - [TEST_STEP][PASSED] - PASSWD = "a9yk100dD": null
+
+2019-01-22 15:06:05 - [TEST_STEP][PASSED] - UPFILE = "C:\uploadAMPS\Upload-Demo.txt": null
+
+2019-01-22 15:06:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-22 15:06:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-22 15:06:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-22 15:06:08 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-22 15:06:09 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-22 15:06:09 - [TEST_STEP][PASSED] - navigateToUrl(UAT): Navigate to 'https://uat.advancedpricing.com' successfully
+
+2019-01-22 15:06:10 - [MESSAGE][PASSED] - Navigate to 'https://uat.advancedpricing.com' successfully
+
+2019-01-22 15:06:10 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-01-22 15:06:10 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-22 15:06:10 - [TEST_STEP][PASSED] - setText(findTestObject("UI/Client/Claim Services/input_userCode"), USER): Text 'qaAuto' is set on object 'Object Repository/UI/Client/Claim Services/input_userCode'
+
+2019-01-22 15:06:10 - [MESSAGE][PASSED] - Text 'qaAuto' is set on object 'Object Repository/UI/Client/Claim Services/input_userCode'
+
+2019-01-22 15:06:10 - [TEST_STEP][PASSED] - setText(findTestObject("UI/Client/Claim Services/input_userPassword"), PASSWD): Text 'a9yk100dD' is set on object 'Object Repository/UI/Client/Claim Services/input_userPassword'
+
+2019-01-22 15:06:10 - [MESSAGE][PASSED] - Text 'a9yk100dD' is set on object 'Object Repository/UI/Client/Claim Services/input_userPassword'
+
+2019-01-22 15:06:10 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI/Client/Claim Services/input_loginButton"), 5): Object 'Object Repository/UI/Client/Claim Services/input_loginButton' is clickable
+
+2019-01-22 15:06:10 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Claim Services/input_loginButton' is clickable
+
+2019-01-22 15:06:10 - [TEST_STEP][PASSED] - click(findTestObject("UI/Client/Claim Services/input_loginButton")): Object: 'Object Repository/UI/Client/Claim Services/input_loginButton' is clicked on
+
+2019-01-22 15:06:11 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Client/Claim Services/input_loginButton' is clicked on
+
+2019-01-22 15:06:11 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-01-22 15:06:11 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-22 15:06:11 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI/Client/Claim Services/span_ABMSClient"), 5): Object 'Object Repository/UI/Client/Claim Services/span_ABMSClient' is clickable
+
+2019-01-22 15:06:11 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Claim Services/span_ABMSClient' is clickable
+
+2019-01-22 15:06:11 - [TEST_STEP][PASSED] - click(findTestObject("UI/Client/Claim Services/span_ABMSClient")): Object: 'Object Repository/UI/Client/Claim Services/span_ABMSClient' is clicked on
+
+2019-01-22 15:06:12 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Client/Claim Services/span_ABMSClient' is clicked on
+
+2019-01-22 15:06:12 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-01-22 15:06:12 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-22 15:06:12 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI/Client/Claim Services/span_firstClaim"), 5): Object 'Object Repository/UI/Client/Claim Services/span_firstClaim' is clickable
+
+2019-01-22 15:06:12 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Claim Services/span_firstClaim' is clickable
+
+2019-01-22 15:06:12 - [TEST_STEP][PASSED] - click(findTestObject("UI/Client/Claim Services/span_firstClaim")): Object: 'Object Repository/UI/Client/Claim Services/span_firstClaim' is clicked on
+
+2019-01-22 15:06:13 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Client/Claim Services/span_firstClaim' is clicked on
+
+2019-01-22 15:06:13 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-01-22 15:06:13 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-22 15:06:13 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI/Client/Claim Services/a_FilesTab"), 5): Object 'Object Repository/UI/Client/Claim Services/a_FilesTab' is clickable
+
+2019-01-22 15:06:13 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Claim Services/a_FilesTab' is clickable
+
+2019-01-22 15:06:13 - [TEST_STEP][PASSED] - click(findTestObject("UI/Client/Claim Services/a_FilesTab")): Object: 'Object Repository/UI/Client/Claim Services/a_FilesTab' is clicked on
+
+2019-01-22 15:06:13 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Client/Claim Services/a_FilesTab' is clicked on
+
+2019-01-22 15:06:13 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-01-22 15:06:13 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-22 15:06:13 - [TEST_STEP][PASSED] - uploadFile(findTestObject("UI/Client/Claim Services/input_NewFile"), UPFILE): File 'C:\uploadAMPS\Upload-Demo.txt' sent to object: 'Object Repository/UI/Client/Claim Services/input_NewFile'
+
+2019-01-22 15:06:13 - [MESSAGE][PASSED] - File 'C:\uploadAMPS\Upload-Demo.txt' sent to object: 'Object Repository/UI/Client/Claim Services/input_NewFile'
+
+2019-01-22 15:06:13 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-22 15:06:16 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-22 15:06:16 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI/Client/Claim Services/selectFileNameDropDown"), 5): Object 'Object Repository/UI/Client/Claim Services/selectFileNameDropDown' is clickable
+
+2019-01-22 15:06:16 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Claim Services/selectFileNameDropDown' is clickable
+
+2019-01-22 15:06:16 - [TEST_STEP][PASSED] - click(findTestObject("UI/Client/Claim Services/selectFileNameDropDown")): Object: 'Object Repository/UI/Client/Claim Services/selectFileNameDropDown' is clicked on
+
+2019-01-22 15:06:16 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Client/Claim Services/selectFileNameDropDown' is clicked on
+
+2019-01-22 15:06:16 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-22 15:06:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-22 15:06:18 - [TEST_STEP][PASSED] - click(findTestObject("UI/Client/Claim Services/option_otherFile")): Object: 'Object Repository/UI/Client/Claim Services/option_otherFile' is clicked on
+
+2019-01-22 15:06:18 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Client/Claim Services/option_otherFile' is clicked on
+
+2019-01-22 15:06:18 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-22 15:06:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-22 15:06:21 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI/Client/Claim Services/buttonSaveUpload"), 5): Object 'Object Repository/UI/Client/Claim Services/buttonSaveUpload' is clickable
+
+2019-01-22 15:06:21 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Claim Services/buttonSaveUpload' is clickable
+
+2019-01-22 15:06:21 - [TEST_STEP][PASSED] - click(findTestObject("UI/Client/Claim Services/buttonSaveUpload")): Object: 'Object Repository/UI/Client/Claim Services/buttonSaveUpload' is clicked on
+
+2019-01-22 15:06:21 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Client/Claim Services/buttonSaveUpload' is clicked on
+
+2019-01-22 15:06:21 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-01-22 15:06:21 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-22 15:06:21 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Client/Claim Services/strong_uploadedFileMessage")): Object 'Object Repository/UI/Client/Claim Services/strong_uploadedFileMessage' is visible
+
+2019-01-22 15:06:22 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Claim Services/strong_uploadedFileMessage' is visible
+
+2019-01-22 15:06:22 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI/General/Log/span_logoutAsClient"), 5): Object 'Object Repository/UI/General/Log/span_logoutAsClient' is clickable
+
+2019-01-22 15:06:22 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Log/span_logoutAsClient' is clickable
+
+2019-01-22 15:06:22 - [TEST_STEP][PASSED] - click(findTestObject("UI/General/Log/span_logoutAsClient")): Object: 'Object Repository/UI/General/Log/span_logoutAsClient' is clicked on
+
+2019-01-22 15:06:22 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/General/Log/span_logoutAsClient' is clicked on
+
+2019-01-22 15:06:22 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-22 15:06:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-22 15:06:23 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI/General/Log/a_userAvatar"), 5): Object 'Object Repository/UI/General/Log/a_userAvatar' is clickable
+
+2019-01-22 15:06:23 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Log/a_userAvatar' is clickable
+
+2019-01-22 15:06:23 - [TEST_STEP][PASSED] - click(findTestObject("UI/General/Log/a_userAvatar")): Object: 'Object Repository/UI/General/Log/a_userAvatar' is clicked on
+
+2019-01-22 15:06:23 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/General/Log/a_userAvatar' is clicked on
+
+2019-01-22 15:06:23 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-22 15:06:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-22 15:06:24 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI/General/Log/a_signOutAMPS"), 5): Object 'Object Repository/UI/General/Log/a_signOutAMPS' is clickable
+
+2019-01-22 15:06:24 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Log/a_signOutAMPS' is clickable
+
+2019-01-22 15:06:24 - [TEST_STEP][PASSED] - click(findTestObject("UI/General/Log/a_signOutAMPS")): Object: 'Object Repository/UI/General/Log/a_signOutAMPS' is clicked on
+
+2019-01-22 15:06:24 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/General/Log/a_signOutAMPS' is clicked on
+
+2019-01-22 15:06:24 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-22 15:06:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-22 15:06:25 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-22 15:06:26 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-22 15:03:28 - [TEST_SUITE][FAILED] - Claim Services: Test Cases/UI/Client/Claim Services/Download_successful FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to wait for object to be clickable (Root cause: java.lang.IllegalArgumentException: Object is null)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementClickableKeyword.waitForElementClickable(WaitForElementClickableKeyword.groovy:108)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementClickableKeyword.execute(WaitForElementClickableKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementClickable(WebUiBuiltInKeywords.groovy:500)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$waitForElementClickable$4.call(Unknown Source)
+	at Download_successful.run(Download_successful:55)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548191006825.run(TempTestSuite1548191006825.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-01-22 15:03:28 - [TEST_SUITE][FAILED] - Claim Services: Test Cases/UI/Client/Claim Services/Download_successful FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to wait for object to be clickable (Root cause: java.lang.IllegalArgumentException: Object is null)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementClickableKeyword.waitForElementClickable(WaitForElementClickableKeyword.groovy:108)
+	at com.kms.katalon.core.webui.keyword.builtin.WaitForElementClickableKeyword.execute(WaitForElementClickableKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementClickable(WebUiBuiltInKeywords.groovy:500)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$waitForElementClickable$4.call(Unknown Source)
+	at Download_successful.run(Download_successful:55)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548191006825.run(TempTestSuite1548191006825.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>
