@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-01-18T13:19:24</date>
+  <millis>1547839164816</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/Performance Monitor</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">Performance Monitor</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/Performance Monitor</property>
+</record>
+<record>
+  <date>2019-01-18T13:19:24</date>
+  <millis>1547839164841</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = juan padilla - 172.20.13.11</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">juan padilla - 172.20.13.11</property>
+</record>
+<record>
+  <date>2019-01-18T13:19:24</date>
+  <millis>1547839164842</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Mac OS X 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Mac OS X 64bit</property>
+</record>
+<record>
+  <date>2019-01-18T13:19:24</date>
+  <millis>1547839164842</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 172.20.13.11</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">172.20.13.11</property>
+</record>
+<record>
+  <date>2019-01-18T13:19:24</date>
+  <millis>1547839164843</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 5.10.1.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">5.10.1.1</property>
+</record>
+<record>
+  <date>2019-01-18T13:19:25</date>
+  <millis>1547839165245</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/UI/Performance Monitor/Verify there is a change on the graphic</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/UI/Performance Monitor/Verify there is a change on the graphic</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/UI/Performance Monitor/Verify there is a change on the graphic</property>
+  <property name="source">\\Users\\juan padilla\\git\\AMPSAutRegression\\Test Cases\\UI\\Performance Monitor\\Verify there is a change on the graphic.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-01-18T13:19:25</date>
+  <millis>1547839165770</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : actualSavings = findTestObject(\&amp;quot;Object Repository/UI/Performance Monitor/Objects Performance Monitor/Page_AMPS Portal/div_979268824\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-01-18T13:19:25</date>
+  <millis>1547839165800</millis>
+  <sequence>9</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : actualSavings = findTestObject(\&amp;quot;Object Repository/UI/Performance Monitor/Objects Performance Monitor/Page_AMPS Portal/div_979268824\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-18T13:19:25</date>
+  <millis>1547839165801</millis>
+  <sequence>10</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : last3MonthsSavings = findTestObject(\&amp;quot;Object Repository/UI/Performance Monitor/Objects Performance Monitor/Page_AMPS Portal/div_67758396\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-01-18T13:19:25</date>
+  <millis>1547839165807</millis>
+  <sequence>12</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : last3MonthsSavings = findTestObject(\&amp;quot;Object Repository/UI/Performance Monitor/Objects Performance Monitor/Page_AMPS Portal/div_67758396\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-01-18T13:19:25</date>
+  <millis>1547839165808</millis>
+  <sequence>13</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : callTestCase(findTestCase(\&amp;quot;UI/General/AdminLogin\&amp;quot;), [:], STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">19</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2019-01-18T13:19:26</date>
+  <millis>1547839166067</millis>
+  <sequence>16</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/UI/General/AdminLogin</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="name">Test Cases/UI/General/AdminLogin</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/UI/General/AdminLogin</property>
+  <property name="source">\\Users\\juan padilla\\git\\AMPSAutRegression\\Test Cases\\UI\\General\\AdminLogin.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-01-18T13:19:26</date>
+  <millis>1547839166213</millis>
+  <sequence>18</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(\&amp;quot;\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+</log>

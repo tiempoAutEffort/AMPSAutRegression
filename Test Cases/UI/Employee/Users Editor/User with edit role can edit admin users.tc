@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>User with edit role can edit admin users</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cf6cec94-317c-440f-9c7b-ab8428db843e</testCaseGuid>
+</TestCaseEntity>

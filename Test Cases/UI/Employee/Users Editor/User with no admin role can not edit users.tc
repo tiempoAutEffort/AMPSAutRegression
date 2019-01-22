@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>User with no admin role can not edit users</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0af08b4a-21bc-4988-802b-7bf200a5e4af</testCaseGuid>
+</TestCaseEntity>

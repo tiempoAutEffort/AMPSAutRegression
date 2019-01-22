@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Performance Monitor,Chrome 71.0.3578.98,,2019-01-17 16:52:03,2019-01-17 16:52:25,22.317s,PASSED
+,,,,,,
+Test Cases/UI/Performance Monitor/General Display,Chrome 71.0.3578.98,,2019-01-17 16:52:04,2019-01-17 16:52:15,11.277s,PASSED
+"actualText = findTestObject(""Object Repository/UI/Performance Monitor/Objects Performance Monitor/Page_AMPS Portal/span_Performance Monitor"")",Chrome 71.0.3578.98,,2019-01-17 16:52:04,2019-01-17 16:52:04,0.026s,PASSED
+"callTestCase(findTestCase(""UI/General/AdminLogin""), [:], STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-17 16:52:04,2019-01-17 16:52:12,8.030s,PASSED
+"navigateToUrl(""https://uat.advancedpricing.com/login?next=%2F"")",Chrome 71.0.3578.98,,2019-01-17 16:52:12,2019-01-17 16:52:13,0.658s,PASSED
+"setText(findTestObject(""Object Repository/UI/Performance Monitor/Objects Performance Monitor/Page_AMPS Portal/input_AMPS Portal Sign In_code""), ""qaAuto"")",Chrome 71.0.3578.98,,2019-01-17 16:52:13,2019-01-17 16:52:13,0.192s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/UI/Performance Monitor/Objects Performance Monitor/Page_AMPS Portal/input_AMPS Portal Sign In_pass""), ""yjiIhAfFXTz0yohvbOLmCA=="")",Chrome 71.0.3578.98,,2019-01-17 16:52:13,2019-01-17 16:52:13,0.396s,PASSED
+"click(findTestObject(""Object Repository/UI/Performance Monitor/Objects Performance Monitor/Page_AMPS Portal/input_Forgot Password_btn btn-""))",Chrome 71.0.3578.98,,2019-01-17 16:52:13,2019-01-17 16:52:14,0.142s,PASSED
+"click(findTestObject(""Object Repository/UI/Performance Monitor/Objects Performance Monitor/Page_AMPS Portal/span_Performance Monitor""))",Chrome 71.0.3578.98,,2019-01-17 16:52:14,2019-01-17 16:52:15,1.017s,PASSED
+"verifyElementPresent(actualText, 0)",Chrome 71.0.3578.98,,2019-01-17 16:52:15,2019-01-17 16:52:15,0.036s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-17 16:52:15,2019-01-17 16:52:15,0.160s,PASSED
+,,,,,,
+Test Cases/UI/Performance Monitor/Verify there is a change on the graphic,Chrome 71.0.3578.98,,2019-01-17 16:52:15,2019-01-17 16:52:25,10.588s,PASSED
+"actualSavings = findTestObject(""Object Repository/UI/Performance Monitor/Objects Performance Monitor/Page_AMPS Portal/div_979268824"")",Chrome 71.0.3578.98,,2019-01-17 16:52:15,2019-01-17 16:52:15,0.004s,PASSED
+"last3MonthsSavings = findTestObject(""Object Repository/UI/Performance Monitor/Objects Performance Monitor/Page_AMPS Portal/div_67758396"")",Chrome 71.0.3578.98,,2019-01-17 16:52:15,2019-01-17 16:52:15,0.008s,PASSED
+"callTestCase(findTestCase(""UI/General/AdminLogin""), [:], STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-17 16:52:15,2019-01-17 16:52:22,6.871s,PASSED
+"click(findTestObject(""Object Repository/UI/Performance Monitor/Objects Performance Monitor/Page_AMPS Portal/span_Performance Monitor""))",Chrome 71.0.3578.98,,2019-01-17 16:52:22,2019-01-17 16:52:23,1.030s,PASSED
+"click(findTestObject(""Object Repository/UI/Performance Monitor/Objects Performance Monitor/Page_AMPS Portal/button_Last 3 Months""))",Chrome 71.0.3578.98,,2019-01-17 16:52:23,2019-01-17 16:52:25,1.806s,PASSED
+"verifyNotEqual(actualSavings, last3MonthsSavings)",Chrome 71.0.3578.98,,2019-01-17 16:52:25,2019-01-17 16:52:25,0.021s,PASSED
+"click(findTestObject(""Object Repository/UI/Performance Monitor/Objects Performance Monitor/Page_AMPS Portal/button_ITD""))",Chrome 71.0.3578.98,,2019-01-17 16:52:25,2019-01-17 16:52:25,0.508s,PASSED
+"verifyEqual(actualSavings, actualSavings)",Chrome 71.0.3578.98,,2019-01-17 16:52:25,2019-01-17 16:52:25,0.008s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-17 16:52:25,2019-01-17 16:52:25,0.101s,PASSED

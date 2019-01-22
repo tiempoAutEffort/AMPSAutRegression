@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>User with edit role can edit users</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c61924d0-9144-4b0d-8602-9f6bd2505cb4</testCaseGuid>
+</TestCaseEntity>
