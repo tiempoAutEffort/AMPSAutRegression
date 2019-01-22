@@ -6,12 +6,12 @@
    <elementGuidId>92dc8703-ce18-4a72-ae8d-6b2b31c34fc0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//a[@href = '#files' and @name = 'files' and (text() = 'Files' or . = 'Files')]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//a[@name='files']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@href = '#files' and @name = 'files' and (text() = 'Files' or . = 'Files')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
