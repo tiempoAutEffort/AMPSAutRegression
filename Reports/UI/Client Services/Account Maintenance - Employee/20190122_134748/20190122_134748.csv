@@ -1,0 +1,99 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Account Maintenance - Employee,Chrome 71.0.3578.98,,2019-01-22 13:48:42,2019-01-22 13:48:56,13.315s,PASSED
+,,,,,,
+Test Cases/UI/General/openBrowser,Chrome 71.0.3578.98,,2019-01-22 13:48:42,2019-01-22 13:48:49,6.707s,PASSED
+"openBrowser(""https://uat.advancedpricing.com/login"")",Chrome 71.0.3578.98,,2019-01-22 13:48:43,2019-01-22 13:48:48,4.977s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-22 13:48:48,2019-01-22 13:48:49,1.136s,PASSED
+"waitForElementPresent(findTestObject(""UI/Client/Client Services/ForgotPassword/a_ForgotPassword""), 5)",Chrome 71.0.3578.98,,2019-01-22 13:48:49,2019-01-22 13:48:49,0.052s,PASSED
+"waitForElementVisible(findTestObject(""UI/Client/Client Services/ForgotPassword/a_ForgotPassword""), 5)",Chrome 71.0.3578.98,,2019-01-22 13:48:49,2019-01-22 13:48:49,0.045s,PASSED
+"waitForElementPresent(findTestObject(""UI/General/Page_LoginPage/button_Login""), 5)",Chrome 71.0.3578.98,,2019-01-22 13:48:49,2019-01-22 13:48:49,0.019s,PASSED
+"waitForElementVisible(findTestObject(""UI/General/Page_LoginPage/button_Login""), 5)",Chrome 71.0.3578.98,,2019-01-22 13:48:49,2019-01-22 13:48:49,0.043s,PASSED
+"waitForElementPresent(findTestObject(""UI/General/Page_LoginPage/input_Password""), 5)",Chrome 71.0.3578.98,,2019-01-22 13:48:49,2019-01-22 13:48:49,0.018s,PASSED
+"waitForElementVisible(findTestObject(""UI/General/Page_LoginPage/input_Password""), 5)",Chrome 71.0.3578.98,,2019-01-22 13:48:49,2019-01-22 13:48:49,0.027s,PASSED
+"waitForElementPresent(findTestObject(""UI/General/Page_LoginPage/input_User""), 5)",Chrome 71.0.3578.98,,2019-01-22 13:48:49,2019-01-22 13:48:49,0.019s,PASSED
+"waitForElementVisible(findTestObject(""UI/General/Page_LoginPage/input_User""), 5)",Chrome 71.0.3578.98,,2019-01-22 13:48:49,2019-01-22 13:48:49,0.026s,PASSED
+,,,,,,
+Test Cases/UI/General/Employee Login,Chrome 71.0.3578.98,,2019-01-22 13:48:49,2019-01-22 13:48:51,1.359s,PASSED
+"setText(findTestObject(""UI/General/Page_LoginPage/input_User""), user)",Chrome 71.0.3578.98,,2019-01-22 13:48:49,2019-01-22 13:48:50,0.125s,PASSED
+"setText(findTestObject(""UI/General/Page_LoginPage/input_Password""), password)",Chrome 71.0.3578.98,,2019-01-22 13:48:50,2019-01-22 13:48:50,0.146s,PASSED
+"click(findTestObject(""UI/General/Page_LoginPage/button_Login""))",Chrome 71.0.3578.98,,2019-01-22 13:48:50,2019-01-22 13:48:50,0.100s,PASSED
+"waitForElementPresent(findTestObject(""UI/General/Page_Employee landing page/img_AMPSLogo""), 5)",Chrome 71.0.3578.98,,2019-01-22 13:48:50,2019-01-22 13:48:50,0.598s,PASSED
+"waitForElementVisible(findTestObject(""UI/General/Page_Employee landing page/img_AMPSLogo""), 5)",Chrome 71.0.3578.98,,2019-01-22 13:48:50,2019-01-22 13:48:50,0.029s,PASSED
+"waitForElementPresent(findTestObject(""UI/General/Page_Employee landing page/span_ClientsMenu""), 5)",Chrome 71.0.3578.98,,2019-01-22 13:48:50,2019-01-22 13:48:50,0.019s,PASSED
+"waitForElementVisible(findTestObject(""UI/General/Page_Employee landing page/span_ClientsMenu""), 5)",Chrome 71.0.3578.98,,2019-01-22 13:48:50,2019-01-22 13:48:50,0.043s,PASSED
+"waitForElementPresent(findTestObject(""UI/General/Page_Employee landing page/h1_ClientsTitle""), 5)",Chrome 71.0.3578.98,,2019-01-22 13:48:50,2019-01-22 13:48:51,0.056s,PASSED
+"waitForElementVisible(findTestObject(""UI/General/Page_Employee landing page/h1_ClientsTitle""), 5)",Chrome 71.0.3578.98,,2019-01-22 13:48:51,2019-01-22 13:48:51,0.029s,PASSED
+,,,,,,
+Test Cases/UI/Employee/Client Services/Account Maintenance/Account - Fields can be modified and saved,Chrome 71.0.3578.98,,2019-01-22 13:48:51,2019-01-22 13:48:53,2.330s,PASSED
+"click(findTestObject(""UI/Employee/Client Services/Account/a_SettingsMenu""))",Chrome 71.0.3578.98,,2019-01-22 13:48:51,2019-01-22 13:48:51,0.091s,PASSED
+"scrollToElement(findTestObject(""UI/Employee/Client Services/Account/a_SettingsMenu""), 5)",Chrome 71.0.3578.98,,2019-01-22 13:48:51,2019-01-22 13:48:51,0.033s,PASSED
+"click(findTestObject(""UI/Employee/Client Services/Account/span_AccountSubMenu""))",Chrome 71.0.3578.98,,2019-01-22 13:48:51,2019-01-22 13:48:51,0.284s,PASSED
+"waitForElementPresent(findTestObject(""UI/Employee/Client Services/Account/h1_Account Title""), 5)",Chrome 71.0.3578.98,,2019-01-22 13:48:51,2019-01-22 13:48:51,0.018s,PASSED
+"waitForElementVisible(findTestObject(""UI/Employee/Client Services/Account/h1_Account Title""), 5)",Chrome 71.0.3578.98,,2019-01-22 13:48:51,2019-01-22 13:48:51,0.028s,PASSED
+"scrollToElement(findTestObject(""UI/Employee/Client Services/Account/h1_Account Title""), 5)",Chrome 71.0.3578.98,,2019-01-22 13:48:51,2019-01-22 13:48:51,0.018s,PASSED
+"clearText(findTestObject(""UI/Employee/Client Services/Account/input_Account_First Name""))",Chrome 71.0.3578.98,,2019-01-22 13:48:51,2019-01-22 13:48:51,0.074s,PASSED
+"sendKeys(findTestObject(""UI/Employee/Client Services/Account/input_Account_First Name""), firstName)",Chrome 71.0.3578.98,,2019-01-22 13:48:51,2019-01-22 13:48:51,0.126s,PASSED
+"clearText(findTestObject(""UI/Employee/Client Services/Account/input_Account_Last Name""))",Chrome 71.0.3578.98,,2019-01-22 13:48:51,2019-01-22 13:48:51,0.065s,PASSED
+"sendKeys(findTestObject(""UI/Employee/Client Services/Account/input_Account_Last Name""), lastName)",Chrome 71.0.3578.98,,2019-01-22 13:48:51,2019-01-22 13:48:52,0.120s,PASSED
+"clearText(findTestObject(""UI/Employee/Client Services/Account/input_Account_Email Address""))",Chrome 71.0.3578.98,,2019-01-22 13:48:52,2019-01-22 13:48:52,0.068s,PASSED
+"sendKeys(findTestObject(""UI/Employee/Client Services/Account/input_Account_Email Address""), emailAddress)",Chrome 71.0.3578.98,,2019-01-22 13:48:52,2019-01-22 13:48:52,0.223s,PASSED
+"clearText(findTestObject(""UI/Employee/Client Services/Account/input_Account_Telephone""))",Chrome 71.0.3578.98,,2019-01-22 13:48:52,2019-01-22 13:48:52,0.066s,PASSED
+"sendKeys(findTestObject(""UI/Employee/Client Services/Account/input_Account_Telephone""), telephone)",Chrome 71.0.3578.98,,2019-01-22 13:48:52,2019-01-22 13:48:52,0.138s,PASSED
+"click(findTestObject(""UI/Employee/Client Services/Account/button_Account_Save Button""))",Chrome 71.0.3578.98,,2019-01-22 13:48:52,2019-01-22 13:48:52,0.107s,PASSED
+"waitForElementPresent(findTestObject(""UI/Employee/Client Services/Account/strong_Account_Profile Updated Message""), 5)",Chrome 71.0.3578.98,,2019-01-22 13:48:52,2019-01-22 13:48:53,0.568s,PASSED
+"waitForElementVisible(findTestObject(""UI/Employee/Client Services/Account/strong_Account_Profile Updated Message""), 5)",Chrome 71.0.3578.98,,2019-01-22 13:48:53,2019-01-22 13:48:53,0.042s,PASSED
+"actualUpdateMessage = getText(findTestObject(""UI/Employee/Client Services/Account/strong_Account_Profile Updated Message""))",Chrome 71.0.3578.98,,2019-01-22 13:48:53,2019-01-22 13:48:53,0.060s,PASSED
+"verifyEqual(actualUpdateMessage, expectedUpdateMessage)",Chrome 71.0.3578.98,,2019-01-22 13:48:53,2019-01-22 13:48:53,0.034s,PASSED
+,,,,,,
+Test Cases/UI/Employee/Client Services/Account Maintenance/Account - Fields and buttons validation,Chrome 71.0.3578.98,,2019-01-22 13:48:53,2019-01-22 13:48:54,1.011s,PASSED
+"click(findTestObject(""UI/Employee/Client Services/Account/a_SettingsMenu""))",Chrome 71.0.3578.98,,2019-01-22 13:48:53,2019-01-22 13:48:53,0.067s,PASSED
+"scrollToElement(findTestObject(""UI/Employee/Client Services/Account/a_SettingsMenu""), 5)",Chrome 71.0.3578.98,,2019-01-22 13:48:53,2019-01-22 13:48:53,0.022s,PASSED
+"click(findTestObject(""UI/Client/Client Services/Account/span_AccountSubMenu""))",Chrome 71.0.3578.98,,2019-01-22 13:48:53,2019-01-22 13:48:53,0.056s,PASSED
+"waitForElementPresent(findTestObject(""UI/Employee/Client Services/Account/h1_Account Title""), 5)",Chrome 71.0.3578.98,,2019-01-22 13:48:53,2019-01-22 13:48:53,0.015s,PASSED
+"waitForElementVisible(findTestObject(""UI/Employee/Client Services/Account/h1_Account Title""), 5)",Chrome 71.0.3578.98,,2019-01-22 13:48:53,2019-01-22 13:48:53,0.026s,PASSED
+"scrollToElement(findTestObject(""UI/Employee/Client Services/Account/h1_Account Title""), 5, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:48:53,2019-01-22 13:48:53,0.022s,PASSED
+"verifyElementVisible(findTestObject(""UI/Employee/Client Services/Account/b_Account_Identification""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:48:53,2019-01-22 13:48:53,0.044s,PASSED
+"verifyElementVisible(findTestObject(""UI/Employee/Client Services/Account/label_Account_User Name""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:48:53,2019-01-22 13:48:53,0.035s,PASSED
+"verifyElementVisible(findTestObject(""UI/Employee/Client Services/Account/input_Account_User Name""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:48:53,2019-01-22 13:48:53,0.027s,PASSED
+"verifyElementVisible(findTestObject(""UI/Employee/Client Services/Account/label_Account_First Name""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:48:53,2019-01-22 13:48:53,0.032s,PASSED
+"verifyElementVisible(findTestObject(""UI/Employee/Client Services/Account/input_Account_First Name""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:48:53,2019-01-22 13:48:53,0.024s,PASSED
+"verifyElementVisible(findTestObject(""UI/Employee/Client Services/Account/label_Account_Last Name""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:48:53,2019-01-22 13:48:53,0.031s,PASSED
+"verifyElementVisible(findTestObject(""UI/Employee/Client Services/Account/input_Account_Last Name""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:48:53,2019-01-22 13:48:53,0.026s,PASSED
+"verifyElementVisible(findTestObject(""UI/Employee/Client Services/Account/label_Account_Email Address""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:48:53,2019-01-22 13:48:53,0.030s,PASSED
+"verifyElementVisible(findTestObject(""UI/Employee/Client Services/Account/input_Account_Email Address""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:48:53,2019-01-22 13:48:54,0.026s,PASSED
+"verifyElementVisible(findTestObject(""UI/Employee/Client Services/Account/label_Account_Telephone""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:48:54,2019-01-22 13:48:54,0.031s,PASSED
+"verifyElementVisible(findTestObject(""UI/Employee/Client Services/Account/input_Account_Telephone""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:48:54,2019-01-22 13:48:54,0.025s,PASSED
+"verifyElementVisible(findTestObject(""UI/Employee/Client Services/Account/b_Account_Password Change""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:48:54,2019-01-22 13:48:54,0.032s,PASSED
+"verifyElementVisible(findTestObject(""UI/Employee/Client Services/Account/label_Account_Current Password""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:48:54,2019-01-22 13:48:54,0.030s,PASSED
+"verifyElementVisible(findTestObject(""UI/Employee/Client Services/Account/input_Account_Current Password""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:48:54,2019-01-22 13:48:54,0.029s,PASSED
+"verifyElementVisible(findTestObject(""UI/Employee/Client Services/Account/label_Account_New Password""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:48:54,2019-01-22 13:48:54,0.028s,PASSED
+"verifyElementVisible(findTestObject(""UI/Employee/Client Services/Account/input_Account_New Password""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:48:54,2019-01-22 13:48:54,0.031s,PASSED
+"verifyElementVisible(findTestObject(""UI/Employee/Client Services/Account/label_Account_Confirm Password""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:48:54,2019-01-22 13:48:54,0.030s,PASSED
+"verifyElementVisible(findTestObject(""UI/Employee/Client Services/Account/input_Account_Confirm Password""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:48:54,2019-01-22 13:48:54,0.031s,PASSED
+"verifyElementVisible(findTestObject(""UI/Employee/Client Services/Account/b_Account_Multifactor Authentication""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:48:54,2019-01-22 13:48:54,0.030s,PASSED
+"verifyElementVisible(findTestObject(""UI/Employee/Client Services/Account/a_Account_Setup Button""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:48:54,2019-01-22 13:48:54,0.031s,PASSED
+"verifyElementVisible(findTestObject(""UI/Employee/Client Services/Account/b_Account_info Message""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:48:54,2019-01-22 13:48:54,0.029s,PASSED
+"verifyElementVisible(findTestObject(""UI/Employee/Client Services/Account/button_Account_Save Button""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:48:54,2019-01-22 13:48:54,0.026s,PASSED
+,,,,,,
+Test Cases/UI/Employee/Client Services/Account Maintenance/Account - Change password,Chrome 71.0.3578.98,,2019-01-22 13:48:54,2019-01-22 13:48:55,1.119s,PASSED
+"click(findTestObject(""UI/Employee/Client Services/Account/a_SettingsMenu""))",Chrome 71.0.3578.98,,2019-01-22 13:48:54,2019-01-22 13:48:54,0.054s,PASSED
+"scrollToElement(findTestObject(""UI/Employee/Client Services/Account/a_SettingsMenu""), 5)",Chrome 71.0.3578.98,,2019-01-22 13:48:54,2019-01-22 13:48:54,0.024s,PASSED
+"click(findTestObject(""UI/Employee/Client Services/Account/span_AccountSubMenu""))",Chrome 71.0.3578.98,,2019-01-22 13:48:54,2019-01-22 13:48:54,0.059s,PASSED
+"waitForElementPresent(findTestObject(""UI/Employee/Client Services/Account/h1_Account Title""), 5)",Chrome 71.0.3578.98,,2019-01-22 13:48:54,2019-01-22 13:48:54,0.013s,PASSED
+"waitForElementVisible(findTestObject(""UI/Employee/Client Services/Account/h1_Account Title""), 5)",Chrome 71.0.3578.98,,2019-01-22 13:48:54,2019-01-22 13:48:54,0.021s,PASSED
+"scrollToElement(findTestObject(""UI/Employee/Client Services/Account/h1_Account Title""), 5)",Chrome 71.0.3578.98,,2019-01-22 13:48:54,2019-01-22 13:48:54,0.019s,PASSED
+"sendKeys(findTestObject(""UI/Employee/Client Services/Account/input_Account_Current Password""), currentPassword)",Chrome 71.0.3578.98,,2019-01-22 13:48:54,2019-01-22 13:48:54,0.129s,PASSED
+"sendKeys(findTestObject(""UI/Employee/Client Services/Account/input_Account_New Password""), newPassword)",Chrome 71.0.3578.98,,2019-01-22 13:48:54,2019-01-22 13:48:55,0.145s,PASSED
+"sendKeys(findTestObject(""UI/Employee/Client Services/Account/input_Account_Confirm Password""), newPassword)",Chrome 71.0.3578.98,,2019-01-22 13:48:55,2019-01-22 13:48:55,0.134s,PASSED
+"click(findTestObject(""UI/Employee/Client Services/Account/button_Account_Save Button""))",Chrome 71.0.3578.98,,2019-01-22 13:48:55,2019-01-22 13:48:55,0.002s,NOT_RUN
+"waitForElementPresent(findTestObject(""UI/Employee/Client Services/Account/strong_Account_Profile Updated Message""), 5)",Chrome 71.0.3578.98,,2019-01-22 13:48:55,2019-01-22 13:48:55,0.000s,NOT_RUN
+"waitForElementVisible(findTestObject(""UI/Employee/Client Services/Account/strong_Account_Profile Updated Message""), 5)",Chrome 71.0.3578.98,,2019-01-22 13:48:55,2019-01-22 13:48:55,0.001s,NOT_RUN
+"actualUpdateMessage = getText(findTestObject(""UI/Employee/Client Services/Account/strong_Account_Profile Updated Message""))",Chrome 71.0.3578.98,,2019-01-22 13:48:55,2019-01-22 13:48:55,0.000s,NOT_RUN
+"verifyEqual(actualUpdateMessage, expectedUpdateMessage)",Chrome 71.0.3578.98,,2019-01-22 13:48:55,2019-01-22 13:48:55,0.001s,NOT_RUN
+"scrollToElement(findTestObject(""UI/Employee/Client Services/Account/h1_Account Title""), 5)",Chrome 71.0.3578.98,,2019-01-22 13:48:55,2019-01-22 13:48:55,0.019s,PASSED
+"sendKeys(findTestObject(""UI/Employee/Client Services/Account/input_Account_Current Password""), newPassword)",Chrome 71.0.3578.98,,2019-01-22 13:48:55,2019-01-22 13:48:55,0.106s,PASSED
+"sendKeys(findTestObject(""UI/Employee/Client Services/Account/input_Account_New Password""), currentPassword)",Chrome 71.0.3578.98,,2019-01-22 13:48:55,2019-01-22 13:48:55,0.118s,PASSED
+"sendKeys(findTestObject(""UI/Employee/Client Services/Account/input_Account_Confirm Password""), currentPassword)",Chrome 71.0.3578.98,,2019-01-22 13:48:55,2019-01-22 13:48:55,0.122s,PASSED
+"click(findTestObject(""UI/Employee/Client Services/Account/button_Account_Save Button""))",Chrome 71.0.3578.98,,2019-01-22 13:48:55,2019-01-22 13:48:55,0.001s,NOT_RUN
+"waitForElementPresent(findTestObject(""UI/Employee/Client Services/Account/strong_Account_Profile Updated Message""), 5)",Chrome 71.0.3578.98,,2019-01-22 13:48:55,2019-01-22 13:48:55,0.001s,NOT_RUN
+"waitForElementVisible(findTestObject(""UI/Employee/Client Services/Account/strong_Account_Profile Updated Message""), 5)",Chrome 71.0.3578.98,,2019-01-22 13:48:55,2019-01-22 13:48:55,0.000s,NOT_RUN

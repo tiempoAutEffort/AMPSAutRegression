@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Forgot Password" time="8" tests="4" failures="0" errors="0">
+   <testsuite name="Forgot Password" tests="4" failures="0" errors="0" time="8" timestamp="2019-01-22 18:03:14" hostname="david avalos - TDG-MBL-MTY0359.tiempodev.local" id="Test Suites/UI/Client Services/Forgot Password">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\David Avalos\\git\\AMPSAutRegression\\Reports\\UI\\Client Services\\Forgot Password\\20190122_180245"/>
+         <property name="logFiles" value="C:\\Users\\David Avalos\\git\\AMPSAutRegression\\Reports\\UI\\Client Services\\Forgot Password\\20190122_180245\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="david avalos - TDG-MBL-MTY0359.tiempodev.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.1.97"/>
+         <property name="sessionId" value="30ec39f2990ceeacb007ed2587b93b8c"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/UI/General/openBrowser" classname="Test Cases/UI/General/openBrowser" status="PASSED">
+         <system-out><![CDATA[2019-01-22 18:03:15 - [TEST_CASE][PASSED] - Test Cases/UI/General/openBrowser: Test Cases/UI/General/openBrowser
+
+2019-01-22 18:03:15 - [TEST_STEP][PASSED] - openBrowser("https://uat.advancedpricing.com/login"): Browser is opened with url: 'https://uat.advancedpricing.com/login'
+
+2019-01-22 18:03:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-22 18:03:15 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-22 18:03:20 - [MESSAGE][PASSED] - Browser is opened with url: 'https://uat.advancedpricing.com/login'
+
+2019-01-22 18:03:20 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-22 18:03:21 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-22 18:03:21 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/Client/Client Services/ForgotPassword/a_ForgotPassword"), 5): Object 'Object Repository/UI/Client/Client Services/ForgotPassword/a_ForgotPassword' is present
+
+2019-01-22 18:03:21 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Client Services/ForgotPassword/a_ForgotPassword' is present
+
+2019-01-22 18:03:21 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/Client/Client Services/ForgotPassword/a_ForgotPassword"), 5): Object 'Object Repository/UI/Client/Client Services/ForgotPassword/a_ForgotPassword' is visible
+
+2019-01-22 18:03:21 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Client Services/ForgotPassword/a_ForgotPassword' is visible
+
+2019-01-22 18:03:21 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/General/Page_LoginPage/button_Login"), 5): Object 'Object Repository/UI/General/Page_LoginPage/button_Login' is present
+
+2019-01-22 18:03:21 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_LoginPage/button_Login' is present
+
+2019-01-22 18:03:21 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/General/Page_LoginPage/button_Login"), 5): Object 'Object Repository/UI/General/Page_LoginPage/button_Login' is visible
+
+2019-01-22 18:03:21 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_LoginPage/button_Login' is visible
+
+2019-01-22 18:03:21 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/General/Page_LoginPage/input_Password"), 5): Object 'Object Repository/UI/General/Page_LoginPage/input_Password' is present
+
+2019-01-22 18:03:21 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_LoginPage/input_Password' is present
+
+2019-01-22 18:03:21 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/General/Page_LoginPage/input_Password"), 5): Object 'Object Repository/UI/General/Page_LoginPage/input_Password' is visible
+
+2019-01-22 18:03:21 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_LoginPage/input_Password' is visible
+
+2019-01-22 18:03:21 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/General/Page_LoginPage/input_User"), 5): Object 'Object Repository/UI/General/Page_LoginPage/input_User' is present
+
+2019-01-22 18:03:21 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_LoginPage/input_User' is present
+
+2019-01-22 18:03:21 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/General/Page_LoginPage/input_User"), 5): Object 'Object Repository/UI/General/Page_LoginPage/input_User' is visible
+
+2019-01-22 18:03:21 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_LoginPage/input_User' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UI/Employee/Client Services/Forgot Password/Forgot password - page fields validation" classname="Test Cases/UI/Employee/Client Services/Forgot Password/Forgot password - page fields validation" status="PASSED">
+         <system-out><![CDATA[2019-01-22 18:03:21 - [TEST_CASE][PASSED] - Test Cases/UI/Employee/Client Services/Forgot Password/Forgot password - page fields validation: Test Cases/UI/Employee/Client Services/Forgot Password/Forgot password - page fields validation
+
+2019-01-22 18:03:21 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Client Services/ForgotPassword/a_ForgotPassword")): Object: 'Object Repository/UI/Employee/Client Services/ForgotPassword/a_ForgotPassword' is clicked on
+
+2019-01-22 18:03:22 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Client Services/ForgotPassword/a_ForgotPassword' is clicked on
+
+2019-01-22 18:03:22 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/Employee/Client Services/ForgotPassword/div_Forgot Password Title"), 5): Object 'Object Repository/UI/Employee/Client Services/ForgotPassword/div_Forgot Password Title' is present
+
+2019-01-22 18:03:22 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Client Services/ForgotPassword/div_Forgot Password Title' is present
+
+2019-01-22 18:03:22 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/Employee/Client Services/ForgotPassword/div_Forgot Password Title"), 5): Object 'Object Repository/UI/Employee/Client Services/ForgotPassword/div_Forgot Password Title' is visible
+
+2019-01-22 18:03:22 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Client Services/ForgotPassword/div_Forgot Password Title' is visible
+
+2019-01-22 18:03:22 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/Employee/Client Services/ForgotPassword/input_ForgotPassword_Code TextBox"), 5): Object 'Object Repository/UI/Employee/Client Services/ForgotPassword/input_ForgotPassword_Code TextBox' is present
+
+2019-01-22 18:03:22 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Client Services/ForgotPassword/input_ForgotPassword_Code TextBox' is present
+
+2019-01-22 18:03:22 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/Employee/Client Services/ForgotPassword/input_ForgotPassword_Code TextBox"), 5): Object 'Object Repository/UI/Employee/Client Services/ForgotPassword/input_ForgotPassword_Code TextBox' is visible
+
+2019-01-22 18:03:22 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Client Services/ForgotPassword/input_ForgotPassword_Code TextBox' is visible
+
+2019-01-22 18:03:22 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/Employee/Client Services/ForgotPassword/input_ForgotPassword_Submit Button"), 5): Object 'Object Repository/UI/Employee/Client Services/ForgotPassword/input_ForgotPassword_Submit Button' is present
+
+2019-01-22 18:03:22 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Client Services/ForgotPassword/input_ForgotPassword_Submit Button' is present
+
+2019-01-22 18:03:22 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/Employee/Client Services/ForgotPassword/input_ForgotPassword_Submit Button"), 5): Object 'Object Repository/UI/Employee/Client Services/ForgotPassword/input_ForgotPassword_Submit Button' is visible
+
+2019-01-22 18:03:22 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Client Services/ForgotPassword/input_ForgotPassword_Submit Button' is visible
+
+2019-01-22 18:03:22 - [TEST_STEP][PASSED] - actualTitle = getText(findTestObject("UI/Employee/Client Services/ForgotPassword/div_Forgot Password Title")): Text of object 'Object Repository/UI/Employee/Client Services/ForgotPassword/div_Forgot Password Title' is: 'Forgot Password'
+
+2019-01-22 18:03:22 - [MESSAGE][PASSED] - Text of object 'Object Repository/UI/Employee/Client Services/ForgotPassword/div_Forgot Password Title' is: 'Forgot Password'
+
+2019-01-22 18:03:22 - [TEST_STEP][PASSED] - verifyEqual(actualTitle, expectedTitle): Actual object 'Forgot Password' and expected object 'Forgot Password' are equal
+
+2019-01-22 18:03:22 - [MESSAGE][PASSED] - Actual object 'Forgot Password' and expected object 'Forgot Password' are equal]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UI/Employee/Client Services/Forgot Password/Forgot password - No code and click submit" classname="Test Cases/UI/Employee/Client Services/Forgot Password/Forgot password - No code and click submit" status="PASSED">
+         <system-out><![CDATA[2019-01-22 18:03:22 - [TEST_CASE][PASSED] - Test Cases/UI/Employee/Client Services/Forgot Password/Forgot password - No code and click submit: Test Cases/UI/Employee/Client Services/Forgot Password/Forgot password - No code and click submit
+
+2019-01-22 18:03:22 - [TEST_STEP][NOT_RUN] - click(findTestObject("UI/Employee/Client Services/ForgotPassword/a_ForgotPassword")): NOT_RUN: click(findTestObject("UI/Employee/Client Services/ForgotPassword/a_ForgotPassword"))
+
+2019-01-22 18:03:22 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("UI/Employee/Client Services/ForgotPassword/a_ForgotPassword"))
+
+2019-01-22 18:03:22 - [TEST_STEP][NOT_RUN] - waitForElementPresent(findTestObject("UI/Employee/Client Services/ForgotPassword/div_Forgot Password Title"), 5): NOT_RUN: waitForElementPresent(findTestObject("UI/Employee/Client Services/ForgotPassword/div_Forgot Password Title"), 5)
+
+2019-01-22 18:03:22 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementPresent(findTestObject("UI/Employee/Client Services/ForgotPassword/div_Forgot Password Title"), 5)
+
+2019-01-22 18:03:22 - [TEST_STEP][NOT_RUN] - waitForElementVisible(findTestObject("UI/Employee/Client Services/ForgotPassword/div_Forgot Password Title"), 5): NOT_RUN: waitForElementVisible(findTestObject("UI/Employee/Client Services/ForgotPassword/div_Forgot Password Title"), 5)
+
+2019-01-22 18:03:22 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementVisible(findTestObject("UI/Employee/Client Services/ForgotPassword/div_Forgot Password Title"), 5)
+
+2019-01-22 18:03:22 - [TEST_STEP][NOT_RUN] - waitForElementPresent(findTestObject("UI/Employee/Client Services/ForgotPassword/input_ForgotPassword_Code TextBox"), 5): NOT_RUN: waitForElementPresent(findTestObject("UI/Employee/Client Services/ForgotPassword/input_ForgotPassword_Code TextBox"), 5)
+
+2019-01-22 18:03:22 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementPresent(findTestObject("UI/Employee/Client Services/ForgotPassword/input_ForgotPassword_Code TextBox"), 5)
+
+2019-01-22 18:03:22 - [TEST_STEP][NOT_RUN] - waitForElementVisible(findTestObject("UI/Employee/Client Services/ForgotPassword/input_ForgotPassword_Code TextBox"), 5): NOT_RUN: waitForElementVisible(findTestObject("UI/Employee/Client Services/ForgotPassword/input_ForgotPassword_Code TextBox"), 5)
+
+2019-01-22 18:03:22 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementVisible(findTestObject("UI/Employee/Client Services/ForgotPassword/input_ForgotPassword_Code TextBox"), 5)
+
+2019-01-22 18:03:22 - [TEST_STEP][NOT_RUN] - waitForElementPresent(findTestObject("UI/Employee/Client Services/ForgotPassword/input_ForgotPassword_Submit Button"), 5): NOT_RUN: waitForElementPresent(findTestObject("UI/Employee/Client Services/ForgotPassword/input_ForgotPassword_Submit Button"), 5)
+
+2019-01-22 18:03:22 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementPresent(findTestObject("UI/Employee/Client Services/ForgotPassword/input_ForgotPassword_Submit Button"), 5)
+
+2019-01-22 18:03:22 - [TEST_STEP][NOT_RUN] - waitForElementVisible(findTestObject("UI/Employee/Client Services/ForgotPassword/input_ForgotPassword_Submit Button"), 5): NOT_RUN: waitForElementVisible(findTestObject("UI/Employee/Client Services/ForgotPassword/input_ForgotPassword_Submit Button"), 5)
+
+2019-01-22 18:03:22 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementVisible(findTestObject("UI/Employee/Client Services/ForgotPassword/input_ForgotPassword_Submit Button"), 5)
+
+2019-01-22 18:03:22 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Client Services/ForgotPassword/input_ForgotPassword_Submit Button")): Object: 'Object Repository/UI/Employee/Client Services/ForgotPassword/input_ForgotPassword_Submit Button' is clicked on
+
+2019-01-22 18:03:22 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Client Services/ForgotPassword/input_ForgotPassword_Submit Button' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UI/Employee/Client Services/Forgot Password/Forgot password - Incorrect code and clicks submit" classname="Test Cases/UI/Employee/Client Services/Forgot Password/Forgot password - Incorrect code and clicks submit" status="PASSED">
+         <system-out><![CDATA[2019-01-22 18:03:22 - [TEST_CASE][PASSED] - Test Cases/UI/Employee/Client Services/Forgot Password/Forgot password - Incorrect code and clicks submit: Test Cases/UI/Employee/Client Services/Forgot Password/Forgot password - Incorrect code and clicks submit
+
+2019-01-22 18:03:22 - [TEST_STEP][NOT_RUN] - click(findTestObject("UI/Employee/Client Services/ForgotPassword/a_ForgotPassword")): NOT_RUN: click(findTestObject("UI/Employee/Client Services/ForgotPassword/a_ForgotPassword"))
+
+2019-01-22 18:03:22 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("UI/Employee/Client Services/ForgotPassword/a_ForgotPassword"))
+
+2019-01-22 18:03:22 - [TEST_STEP][NOT_RUN] - waitForElementPresent(findTestObject("UI/Employee/Client Services/ForgotPassword/div_Forgot Password Title"), 5): NOT_RUN: waitForElementPresent(findTestObject("UI/Employee/Client Services/ForgotPassword/div_Forgot Password Title"), 5)
+
+2019-01-22 18:03:22 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementPresent(findTestObject("UI/Employee/Client Services/ForgotPassword/div_Forgot Password Title"), 5)
+
+2019-01-22 18:03:22 - [TEST_STEP][NOT_RUN] - waitForElementVisible(findTestObject("UI/Employee/Client Services/ForgotPassword/div_Forgot Password Title"), 5): NOT_RUN: waitForElementVisible(findTestObject("UI/Employee/Client Services/ForgotPassword/div_Forgot Password Title"), 5)
+
+2019-01-22 18:03:22 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementVisible(findTestObject("UI/Employee/Client Services/ForgotPassword/div_Forgot Password Title"), 5)
+
+2019-01-22 18:03:22 - [TEST_STEP][NOT_RUN] - waitForElementPresent(findTestObject("UI/Employee/Client Services/ForgotPassword/input_ForgotPassword_Code TextBox"), 5): NOT_RUN: waitForElementPresent(findTestObject("UI/Employee/Client Services/ForgotPassword/input_ForgotPassword_Code TextBox"), 5)
+
+2019-01-22 18:03:22 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementPresent(findTestObject("UI/Employee/Client Services/ForgotPassword/input_ForgotPassword_Code TextBox"), 5)
+
+2019-01-22 18:03:22 - [TEST_STEP][NOT_RUN] - waitForElementVisible(findTestObject("UI/Employee/Client Services/ForgotPassword/input_ForgotPassword_Code TextBox"), 5): NOT_RUN: waitForElementVisible(findTestObject("UI/Employee/Client Services/ForgotPassword/input_ForgotPassword_Code TextBox"), 5)
+
+2019-01-22 18:03:22 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementVisible(findTestObject("UI/Employee/Client Services/ForgotPassword/input_ForgotPassword_Code TextBox"), 5)
+
+2019-01-22 18:03:22 - [TEST_STEP][NOT_RUN] - waitForElementPresent(findTestObject("UI/Employee/Client Services/ForgotPassword/input_ForgotPassword_Submit Button"), 5): NOT_RUN: waitForElementPresent(findTestObject("UI/Employee/Client Services/ForgotPassword/input_ForgotPassword_Submit Button"), 5)
+
+2019-01-22 18:03:22 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementPresent(findTestObject("UI/Employee/Client Services/ForgotPassword/input_ForgotPassword_Submit Button"), 5)
+
+2019-01-22 18:03:22 - [TEST_STEP][NOT_RUN] - waitForElementVisible(findTestObject("UI/Employee/Client Services/ForgotPassword/input_ForgotPassword_Submit Button"), 5): NOT_RUN: waitForElementVisible(findTestObject("UI/Employee/Client Services/ForgotPassword/input_ForgotPassword_Submit Button"), 5)
+
+2019-01-22 18:03:22 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementVisible(findTestObject("UI/Employee/Client Services/ForgotPassword/input_ForgotPassword_Submit Button"), 5)
+
+2019-01-22 18:03:22 - [TEST_STEP][PASSED] - sendKeys(findTestObject("UI/Employee/Client Services/ForgotPassword/input_ForgotPassword_Code TextBox"), "test"): Keys 'test' sent to object: 'Object Repository/UI/Employee/Client Services/ForgotPassword/input_ForgotPassword_Code TextBox'
+
+2019-01-22 18:03:22 - [MESSAGE][PASSED] - Keys 'test' sent to object: 'Object Repository/UI/Employee/Client Services/ForgotPassword/input_ForgotPassword_Code TextBox'
+
+2019-01-22 18:03:22 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Client Services/ForgotPassword/input_ForgotPassword_Submit Button")): Object: 'Object Repository/UI/Employee/Client Services/ForgotPassword/input_ForgotPassword_Submit Button' is clicked on
+
+2019-01-22 18:03:22 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Client Services/ForgotPassword/input_ForgotPassword_Submit Button' is clicked on
+
+2019-01-22 18:03:22 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/Employee/Client Services/ForgotPassword/div_Forgot Password Title"), 5): Object 'Object Repository/UI/Employee/Client Services/ForgotPassword/div_Forgot Password Title' is present
+
+2019-01-22 18:03:22 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Client Services/ForgotPassword/div_Forgot Password Title' is present
+
+2019-01-22 18:03:22 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/Employee/Client Services/ForgotPassword/div_Forgot Password Title"), 5): Object 'Object Repository/UI/Employee/Client Services/ForgotPassword/div_Forgot Password Title' is visible
+
+2019-01-22 18:03:22 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Client Services/ForgotPassword/div_Forgot Password Title' is visible
+
+2019-01-22 18:03:22 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Client Services/ForgotPassword/input_ForgotPassword_Code TextBox"), 5): Object 'Object Repository/UI/Employee/Client Services/ForgotPassword/input_ForgotPassword_Code TextBox' is present
+
+2019-01-22 18:03:22 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Client Services/ForgotPassword/input_ForgotPassword_Code TextBox' is present
+
+2019-01-22 18:03:22 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Client Services/ForgotPassword/input_ForgotPassword_Submit Button"), 5): Object 'Object Repository/UI/Employee/Client Services/ForgotPassword/input_ForgotPassword_Submit Button' is present
+
+2019-01-22 18:03:22 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Client Services/ForgotPassword/input_ForgotPassword_Submit Button' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-22 18:03:14 - [TEST_SUITE][PASSED] - Forgot Password: Test Cases/UI/Employee/Client Services/Forgot Password/Forgot password - Incorrect code and clicks submit]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

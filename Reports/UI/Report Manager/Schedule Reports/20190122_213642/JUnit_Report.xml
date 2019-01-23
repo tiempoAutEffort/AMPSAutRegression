@@ -1,0 +1,1261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Schedule Reports" time="116" tests="8" failures="0" errors="0">
+   <testsuite name="Schedule Reports" tests="8" failures="0" errors="0" time="116" timestamp="2019-01-22 21:36:46" hostname="david avalos - TDG-MBL-MTY0359.tiempodev.local" id="Test Suites/UI/Report Manager/Schedule Reports">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\David Avalos\\git\\AMPSAutRegression\\Reports\\UI\\Report Manager\\Schedule Reports\\20190122_213642"/>
+         <property name="logFiles" value="C:\\Users\\David Avalos\\git\\AMPSAutRegression\\Reports\\UI\\Report Manager\\Schedule Reports\\20190122_213642\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="david avalos - TDG-MBL-MTY0359.tiempodev.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.1.97"/>
+         <property name="sessionId" value="1edd9ac8f3218b00d5279afdbc12559c"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/UI/General/openBrowser" classname="Test Cases/UI/General/openBrowser" status="PASSED">
+         <system-out><![CDATA[2019-01-22 21:36:46 - [TEST_CASE][PASSED] - Test Cases/UI/General/openBrowser: Test Cases/UI/General/openBrowser
+
+2019-01-22 21:36:46 - [TEST_STEP][PASSED] - openBrowser("https://uat.advancedpricing.com/login"): Browser is opened with url: 'https://uat.advancedpricing.com/login'
+
+2019-01-22 21:36:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-22 21:36:46 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-22 21:36:51 - [MESSAGE][PASSED] - Browser is opened with url: 'https://uat.advancedpricing.com/login'
+
+2019-01-22 21:36:51 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-22 21:36:52 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-22 21:36:52 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/Client/Client Services/ForgotPassword/a_ForgotPassword"), 5): Object 'Object Repository/UI/Client/Client Services/ForgotPassword/a_ForgotPassword' is present
+
+2019-01-22 21:36:52 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Client Services/ForgotPassword/a_ForgotPassword' is present
+
+2019-01-22 21:36:52 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/Client/Client Services/ForgotPassword/a_ForgotPassword"), 5): Object 'Object Repository/UI/Client/Client Services/ForgotPassword/a_ForgotPassword' is visible
+
+2019-01-22 21:36:52 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Client Services/ForgotPassword/a_ForgotPassword' is visible
+
+2019-01-22 21:36:52 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/General/Page_LoginPage/button_Login"), 5): Object 'Object Repository/UI/General/Page_LoginPage/button_Login' is present
+
+2019-01-22 21:36:52 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_LoginPage/button_Login' is present
+
+2019-01-22 21:36:52 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/General/Page_LoginPage/button_Login"), 5): Object 'Object Repository/UI/General/Page_LoginPage/button_Login' is visible
+
+2019-01-22 21:36:52 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_LoginPage/button_Login' is visible
+
+2019-01-22 21:36:52 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/General/Page_LoginPage/input_Password"), 5): Object 'Object Repository/UI/General/Page_LoginPage/input_Password' is present
+
+2019-01-22 21:36:52 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_LoginPage/input_Password' is present
+
+2019-01-22 21:36:52 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/General/Page_LoginPage/input_Password"), 5): Object 'Object Repository/UI/General/Page_LoginPage/input_Password' is visible
+
+2019-01-22 21:36:52 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_LoginPage/input_Password' is visible
+
+2019-01-22 21:36:52 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/General/Page_LoginPage/input_User"), 5): Object 'Object Repository/UI/General/Page_LoginPage/input_User' is present
+
+2019-01-22 21:36:52 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_LoginPage/input_User' is present
+
+2019-01-22 21:36:52 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/General/Page_LoginPage/input_User"), 5): Object 'Object Repository/UI/General/Page_LoginPage/input_User' is visible
+
+2019-01-22 21:36:52 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_LoginPage/input_User' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UI/General/Employee Login" classname="Test Cases/UI/General/Employee Login" status="PASSED">
+         <system-out><![CDATA[2019-01-22 21:36:52 - [TEST_CASE][PASSED] - Test Cases/UI/General/Employee Login: Test Cases/UI/General/Employee Login
+
+2019-01-22 21:36:52 - [TEST_STEP][PASSED] - setText(findTestObject("UI/General/Page_LoginPage/input_User"), user): Text 'qaAuto' is set on object 'Object Repository/UI/General/Page_LoginPage/input_User'
+
+2019-01-22 21:36:52 - [MESSAGE][PASSED] - Text 'qaAuto' is set on object 'Object Repository/UI/General/Page_LoginPage/input_User'
+
+2019-01-22 21:36:52 - [TEST_STEP][PASSED] - setText(findTestObject("UI/General/Page_LoginPage/input_Password"), password): Text 'a9yk100dD' is set on object 'Object Repository/UI/General/Page_LoginPage/input_Password'
+
+2019-01-22 21:36:52 - [MESSAGE][PASSED] - Text 'a9yk100dD' is set on object 'Object Repository/UI/General/Page_LoginPage/input_Password'
+
+2019-01-22 21:36:52 - [TEST_STEP][PASSED] - click(findTestObject("UI/General/Page_LoginPage/button_Login")): Object: 'Object Repository/UI/General/Page_LoginPage/button_Login' is clicked on
+
+2019-01-22 21:36:53 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/General/Page_LoginPage/button_Login' is clicked on
+
+2019-01-22 21:36:53 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/General/Page_Employee landing page/img_AMPSLogo"), 5): Object 'Object Repository/UI/General/Page_Employee landing page/img_AMPSLogo' is present
+
+2019-01-22 21:36:55 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_Employee landing page/img_AMPSLogo' is present
+
+2019-01-22 21:36:55 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/General/Page_Employee landing page/img_AMPSLogo"), 5): Object 'Object Repository/UI/General/Page_Employee landing page/img_AMPSLogo' is visible
+
+2019-01-22 21:36:55 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_Employee landing page/img_AMPSLogo' is visible
+
+2019-01-22 21:36:55 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/General/Page_Employee landing page/span_ClientsMenu"), 5): Object 'Object Repository/UI/General/Page_Employee landing page/span_ClientsMenu' is present
+
+2019-01-22 21:36:55 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_Employee landing page/span_ClientsMenu' is present
+
+2019-01-22 21:36:55 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/General/Page_Employee landing page/span_ClientsMenu"), 5): Object 'Object Repository/UI/General/Page_Employee landing page/span_ClientsMenu' is visible
+
+2019-01-22 21:36:55 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_Employee landing page/span_ClientsMenu' is visible
+
+2019-01-22 21:36:55 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/General/Page_Employee landing page/h1_ClientsTitle"), 5): Object 'Object Repository/UI/General/Page_Employee landing page/h1_ClientsTitle' is present
+
+2019-01-22 21:36:55 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_Employee landing page/h1_ClientsTitle' is present
+
+2019-01-22 21:36:55 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/General/Page_Employee landing page/h1_ClientsTitle"), 5): Object 'Object Repository/UI/General/Page_Employee landing page/h1_ClientsTitle' is visible
+
+2019-01-22 21:36:55 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_Employee landing page/h1_ClientsTitle' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UI/Employee/Report Manager/Schedule Reports/Schedule Reports - Validate fields presence" classname="Test Cases/UI/Employee/Report Manager/Schedule Reports/Schedule Reports - Validate fields presence" status="PASSED">
+         <system-out><![CDATA[2019-01-22 21:36:55 - [TEST_CASE][PASSED] - Test Cases/UI/Employee/Report Manager/Schedule Reports/Schedule Reports - Validate fields presence: Test Cases/UI/Employee/Report Manager/Schedule Reports/Schedule Reports - Validate fields presence
+
+2019-01-22 21:36:55 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Report Manager/span_Report Management Menu")): Object: 'Object Repository/UI/Employee/Report Manager/span_Report Management Menu' is clicked on
+
+2019-01-22 21:36:55 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Report Manager/span_Report Management Menu' is clicked on
+
+2019-01-22 21:36:55 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/Employee/Report Manager/span_Scheduled Reports Sub Menu"), 5): Object 'Object Repository/UI/Employee/Report Manager/span_Scheduled Reports Sub Menu' is visible
+
+2019-01-22 21:36:56 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/span_Scheduled Reports Sub Menu' is visible
+
+2019-01-22 21:36:56 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Report Manager/span_Scheduled Reports Sub Menu")): Object: 'Object Repository/UI/Employee/Report Manager/span_Scheduled Reports Sub Menu' is clicked on
+
+2019-01-22 21:36:56 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Report Manager/span_Scheduled Reports Sub Menu' is clicked on
+
+2019-01-22 21:36:56 - [TEST_STEP][PASSED] - waitForElementNotPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/div_Loading Spinner"), 10): Web element with id: 'Object Repository/UI/Employee/Report Manager/Schedule Reports/div_Loading Spinner' located by 'By.xpath: //div[(text() = 'Loading...' or . = 'Loading...')]' is not present after '10' second(s)
+
+2019-01-22 21:37:00 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/UI/Employee/Report Manager/Schedule Reports/div_Loading Spinner' located by 'By.xpath: //div[(text() = 'Loading...' or . = 'Loading...')]' is not present after '10' second(s)
+
+2019-01-22 21:37:00 - [TEST_STEP][PASSED] - waitForElementNotVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/div_Loading Spinner"), 10): Web element with id: 'Object Repository/UI/Employee/Report Manager/Schedule Reports/div_Loading Spinner' located by 'By.xpath: //div[(text() = 'Loading...' or . = 'Loading...')]' not found
+
+2019-01-22 21:37:11 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[(text() = 'Loading...' or . = 'Loading...')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-01-22 21:37:11 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/UI/Employee/Report Manager/Schedule Reports/div_Loading Spinner' located by 'By.xpath: //div[(text() = 'Loading...' or . = 'Loading...')]' not found
+
+2019-01-22 21:37:11 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/h1_Scheduled Reports_Title"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/h1_Scheduled Reports_Title' is present
+
+2019-01-22 21:37:11 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/h1_Scheduled Reports_Title' is present
+
+2019-01-22 21:37:11 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/h1_Scheduled Reports_Title"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/h1_Scheduled Reports_Title' is visible
+
+2019-01-22 21:37:11 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/h1_Scheduled Reports_Title' is visible
+
+2019-01-22 21:37:11 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Employee/Report Manager/Schedule Reports/h1_Scheduled Reports_Title"), "Scheduled Reports", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/h1_Scheduled Reports_Title' are matched.
+
+2019-01-22 21:37:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/h1_Scheduled Reports_Title' are matched.
+
+2019-01-22 21:37:11 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/a_New Schedule button"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/a_New Schedule button' is present
+
+2019-01-22 21:37:11 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/a_New Schedule button' is present
+
+2019-01-22 21:37:11 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/a_New Schedule button"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/a_New Schedule button' is visible
+
+2019-01-22 21:37:11 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/a_New Schedule button' is visible
+
+2019-01-22 21:37:11 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Employee/Report Manager/Schedule Reports/a_New Schedule button"), "NEW SCHEDULE", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/a_New Schedule button' are matched.
+
+2019-01-22 21:37:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/a_New Schedule button' are matched.
+
+2019-01-22 21:37:11 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/input_Search textbox"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/input_Search textbox' is present
+
+2019-01-22 21:37:11 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/input_Search textbox' is present
+
+2019-01-22 21:37:11 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/input_Search textbox"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/input_Search textbox' is visible
+
+2019-01-22 21:37:11 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/input_Search textbox' is visible
+
+2019-01-22 21:37:11 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/a_Filters tab"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/a_Filters tab' is present
+
+2019-01-22 21:37:11 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/a_Filters tab' is present
+
+2019-01-22 21:37:11 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/a_Filters tab"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/a_Filters tab' is visible
+
+2019-01-22 21:37:11 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/a_Filters tab' is visible
+
+2019-01-22 21:37:11 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Employee/Report Manager/Schedule Reports/a_Filters tab"), "Filters", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/a_Filters tab' are matched.
+
+2019-01-22 21:37:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/a_Filters tab' are matched.
+
+2019-01-22 21:37:11 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/label_Client"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Client' is present
+
+2019-01-22 21:37:11 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Client' is present
+
+2019-01-22 21:37:11 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/label_Client"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Client' is visible
+
+2019-01-22 21:37:11 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Client' is visible
+
+2019-01-22 21:37:11 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Employee/Report Manager/Schedule Reports/label_Client"), "Client", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Client' are matched.
+
+2019-01-22 21:37:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Client' are matched.
+
+2019-01-22 21:37:11 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/input_Client textbox"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/input_Client textbox' is present
+
+2019-01-22 21:37:11 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/input_Client textbox' is present
+
+2019-01-22 21:37:11 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/input_Client textbox"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/input_Client textbox' is visible
+
+2019-01-22 21:37:11 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/input_Client textbox' is visible
+
+2019-01-22 21:37:11 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/label_Client Name"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Client Name' is present
+
+2019-01-22 21:37:11 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Client Name' is present
+
+2019-01-22 21:37:11 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/label_Client Name"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Client Name' is visible
+
+2019-01-22 21:37:11 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Client Name' is visible
+
+2019-01-22 21:37:11 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Employee/Report Manager/Schedule Reports/label_Client Name"), "Client Name", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Client Name' are matched.
+
+2019-01-22 21:37:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Client Name' are matched.
+
+2019-01-22 21:37:11 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/input_Client Name_textbox"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/input_Client Name_textbox' is present
+
+2019-01-22 21:37:11 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/input_Client Name_textbox' is present
+
+2019-01-22 21:37:11 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/input_Client Name_textbox"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/input_Client Name_textbox' is visible
+
+2019-01-22 21:37:11 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/input_Client Name_textbox' is visible
+
+2019-01-22 21:37:11 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/label_Group Name"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Group Name' is present
+
+2019-01-22 21:37:11 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Group Name' is present
+
+2019-01-22 21:37:11 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/label_Group Name"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Group Name' is visible
+
+2019-01-22 21:37:11 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Group Name' is visible
+
+2019-01-22 21:37:11 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Employee/Report Manager/Schedule Reports/label_Group Name"), "Group Name", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Group Name' are matched.
+
+2019-01-22 21:37:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Group Name' are matched.
+
+2019-01-22 21:37:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/input_Group Name_textbox"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/input_Group Name_textbox' is present
+
+2019-01-22 21:37:12 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/input_Group Name_textbox' is present
+
+2019-01-22 21:37:12 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/input_Group Name_textbox"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/input_Group Name_textbox' is visible
+
+2019-01-22 21:37:12 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/input_Group Name_textbox' is visible
+
+2019-01-22 21:37:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/label_Report Name"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Report Name' is present
+
+2019-01-22 21:37:12 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Report Name' is present
+
+2019-01-22 21:37:12 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/label_Report Name"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Report Name' is visible
+
+2019-01-22 21:37:12 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Report Name' is visible
+
+2019-01-22 21:37:12 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Employee/Report Manager/Schedule Reports/label_Report Name"), "Report Name", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Report Name' are matched.
+
+2019-01-22 21:37:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Report Name' are matched.
+
+2019-01-22 21:37:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/input_Report Name_textbox"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/input_Report Name_textbox' is present
+
+2019-01-22 21:37:12 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/input_Report Name_textbox' is present
+
+2019-01-22 21:37:12 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/input_Report Name_textbox"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/input_Report Name_textbox' is visible
+
+2019-01-22 21:37:12 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/input_Report Name_textbox' is visible
+
+2019-01-22 21:37:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/label_Active"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Active' is present
+
+2019-01-22 21:37:12 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Active' is present
+
+2019-01-22 21:37:12 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/label_Active"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Active' is visible
+
+2019-01-22 21:37:12 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Active' is visible
+
+2019-01-22 21:37:12 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Employee/Report Manager/Schedule Reports/label_Active"), "Active", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Active' are matched.
+
+2019-01-22 21:37:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Active' are matched.
+
+2019-01-22 21:37:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/span_Active dropdown"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/span_Active dropdown' is present
+
+2019-01-22 21:37:12 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/span_Active dropdown' is present
+
+2019-01-22 21:37:12 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/span_Active dropdown"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/span_Active dropdown' is visible
+
+2019-01-22 21:37:12 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/span_Active dropdown' is visible
+
+2019-01-22 21:37:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/label_Run Status"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Run Status' is present
+
+2019-01-22 21:37:12 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Run Status' is present
+
+2019-01-22 21:37:12 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/label_Run Status"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Run Status' is visible
+
+2019-01-22 21:37:12 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Run Status' is visible
+
+2019-01-22 21:37:12 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Employee/Report Manager/Schedule Reports/label_Run Status"), "Run Status", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Run Status' are matched.
+
+2019-01-22 21:37:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Run Status' are matched.
+
+2019-01-22 21:37:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/span_Run Status dropdown"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/span_Run Status dropdown' is present
+
+2019-01-22 21:37:12 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/span_Run Status dropdown' is present
+
+2019-01-22 21:37:12 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/span_Run Status dropdown"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/span_Run Status dropdown' is visible
+
+2019-01-22 21:37:12 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/span_Run Status dropdown' is visible
+
+2019-01-22 21:37:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/button_Filter"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/button_Filter' is present
+
+2019-01-22 21:37:12 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/button_Filter' is present
+
+2019-01-22 21:37:12 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/button_Filter"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/button_Filter' is visible
+
+2019-01-22 21:37:12 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/button_Filter' is visible
+
+2019-01-22 21:37:12 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Employee/Report Manager/Schedule Reports/button_Filter"), "Filter", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/button_Filter' are matched.
+
+2019-01-22 21:37:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/button_Filter' are matched.
+
+2019-01-22 21:37:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/a_Columns tab"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/a_Columns tab' is present
+
+2019-01-22 21:37:12 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/a_Columns tab' is present
+
+2019-01-22 21:37:12 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/a_Columns tab"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/a_Columns tab' is visible
+
+2019-01-22 21:37:12 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/a_Columns tab' is visible
+
+2019-01-22 21:37:12 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Employee/Report Manager/Schedule Reports/a_Columns tab"), "Columns", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/a_Columns tab' are matched.
+
+2019-01-22 21:37:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/a_Columns tab' are matched.
+
+2019-01-22 21:37:12 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Report Manager/Schedule Reports/a_Columns tab"), CONTINUE_ON_FAILURE): Object: 'Object Repository/UI/Employee/Report Manager/Schedule Reports/a_Columns tab' is clicked on
+
+2019-01-22 21:37:12 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Report Manager/Schedule Reports/a_Columns tab' is clicked on
+
+2019-01-22 21:37:12 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/label_Columns_Actions"), 5, STOP_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Columns_Actions' is present
+
+2019-01-22 21:37:12 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Columns_Actions' is present
+
+2019-01-22 21:37:12 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/label_Columns_Actions"), 5): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Columns_Actions' is visible
+
+2019-01-22 21:37:13 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Columns_Actions' is visible
+
+2019-01-22 21:37:13 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Employee/Report Manager/Schedule Reports/label_Columns_Actions"), "Actions", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Columns_Actions' are matched.
+
+2019-01-22 21:37:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Columns_Actions' are matched.
+
+2019-01-22 21:37:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/label_Columns_Client"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Columns_Client' is present
+
+2019-01-22 21:37:13 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Columns_Client' is present
+
+2019-01-22 21:37:13 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/label_Columns_Client"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Columns_Client' is visible
+
+2019-01-22 21:37:13 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Columns_Client' is visible
+
+2019-01-22 21:37:13 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Employee/Report Manager/Schedule Reports/label_Columns_Client"), "Client", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Columns_Client' are matched.
+
+2019-01-22 21:37:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Columns_Client' are matched.
+
+2019-01-22 21:37:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/label_Columns_Client Name"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Columns_Client Name' is present
+
+2019-01-22 21:37:13 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Columns_Client Name' is present
+
+2019-01-22 21:37:13 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/label_Columns_Client Name"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Columns_Client Name' is visible
+
+2019-01-22 21:37:13 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Columns_Client Name' is visible
+
+2019-01-22 21:37:13 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Employee/Report Manager/Schedule Reports/label_Columns_Client Name"), "Client Name", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Columns_Client Name' are matched.
+
+2019-01-22 21:37:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Columns_Client Name' are matched.
+
+2019-01-22 21:37:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/label_Columns_Group Name"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Columns_Group Name' is present
+
+2019-01-22 21:37:13 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Columns_Group Name' is present
+
+2019-01-22 21:37:13 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/label_Columns_Group Name"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Columns_Group Name' is visible
+
+2019-01-22 21:37:13 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Columns_Group Name' is visible
+
+2019-01-22 21:37:13 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Employee/Report Manager/Schedule Reports/label_Columns_Group Name"), "Group Name", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Columns_Group Name' are matched.
+
+2019-01-22 21:37:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Columns_Group Name' are matched.
+
+2019-01-22 21:37:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/label_Columns_Report Name"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Columns_Report Name' is present
+
+2019-01-22 21:37:13 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Columns_Report Name' is present
+
+2019-01-22 21:37:13 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/label_Columns_Report Name"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Columns_Report Name' is visible
+
+2019-01-22 21:37:13 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Columns_Report Name' is visible
+
+2019-01-22 21:37:13 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Employee/Report Manager/Schedule Reports/label_Columns_Report Name"), "Report Name", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Columns_Report Name' are matched.
+
+2019-01-22 21:37:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Columns_Report Name' are matched.
+
+2019-01-22 21:37:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/label_Columns_Frequency"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Columns_Frequency' is present
+
+2019-01-22 21:37:13 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Columns_Frequency' is present
+
+2019-01-22 21:37:13 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/label_Columns_Frequency"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Columns_Frequency' is visible
+
+2019-01-22 21:37:13 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Columns_Frequency' is visible
+
+2019-01-22 21:37:13 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Employee/Report Manager/Schedule Reports/label_Columns_Frequency"), "Frequency", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Columns_Frequency' are matched.
+
+2019-01-22 21:37:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Columns_Frequency' are matched.
+
+2019-01-22 21:37:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/label_Columns_Active"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Columns_Active' is present
+
+2019-01-22 21:37:13 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Columns_Active' is present
+
+2019-01-22 21:37:13 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/label_Columns_Active"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Columns_Active' is visible
+
+2019-01-22 21:37:13 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Columns_Active' is visible
+
+2019-01-22 21:37:13 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Employee/Report Manager/Schedule Reports/label_Columns_Active"), "Active", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Columns_Active' are matched.
+
+2019-01-22 21:37:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Columns_Active' are matched.
+
+2019-01-22 21:37:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/label_Columns_Add to File Area"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Columns_Add to File Area' is present
+
+2019-01-22 21:37:13 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Columns_Add to File Area' is present
+
+2019-01-22 21:37:13 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/label_Columns_Add to File Area"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Columns_Add to File Area' is visible
+
+2019-01-22 21:37:14 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Columns_Add to File Area' is visible
+
+2019-01-22 21:37:14 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Employee/Report Manager/Schedule Reports/label_Columns_Add to File Area"), "Add to File Area", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Columns_Add to File Area' are matched.
+
+2019-01-22 21:37:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Columns_Add to File Area' are matched.
+
+2019-01-22 21:37:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/label_Columns_File Only"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Columns_File Only' is present
+
+2019-01-22 21:37:14 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Columns_File Only' is present
+
+2019-01-22 21:37:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/label_Columns_File Only"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Columns_File Only' is visible
+
+2019-01-22 21:37:14 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Columns_File Only' is visible
+
+2019-01-22 21:37:14 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Employee/Report Manager/Schedule Reports/label_Columns_File Only"), "File Only", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Columns_File Only' are matched.
+
+2019-01-22 21:37:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Columns_File Only' are matched.
+
+2019-01-22 21:37:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/label_Columns_Email and File"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Columns_Email and File' is present
+
+2019-01-22 21:37:14 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Columns_Email and File' is present
+
+2019-01-22 21:37:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/label_Columns_Email and File"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Columns_Email and File' is visible
+
+2019-01-22 21:37:14 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Columns_Email and File' is visible
+
+2019-01-22 21:37:14 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Employee/Report Manager/Schedule Reports/label_Columns_Email and File"), "Email and File", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Columns_Email and File' are matched.
+
+2019-01-22 21:37:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Columns_Email and File' are matched.
+
+2019-01-22 21:37:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/label_Columns_Overrides"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Columns_Overrides' is present
+
+2019-01-22 21:37:14 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Columns_Overrides' is present
+
+2019-01-22 21:37:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/label_Columns_Overrides"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Columns_Overrides' is visible
+
+2019-01-22 21:37:14 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Columns_Overrides' is visible
+
+2019-01-22 21:37:14 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Employee/Report Manager/Schedule Reports/label_Columns_Overrides"), "Overrides", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Columns_Overrides' are matched.
+
+2019-01-22 21:37:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Columns_Overrides' are matched.
+
+2019-01-22 21:37:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/label_Columns_Last Run Status"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Columns_Last Run Status' is present
+
+2019-01-22 21:37:14 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Columns_Last Run Status' is present
+
+2019-01-22 21:37:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/label_Columns_Last Run Status"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Columns_Last Run Status' is visible
+
+2019-01-22 21:37:14 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Columns_Last Run Status' is visible
+
+2019-01-22 21:37:14 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Employee/Report Manager/Schedule Reports/label_Columns_Last Run Status"), "Last Run Status", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Columns_Last Run Status' are matched.
+
+2019-01-22 21:37:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Columns_Last Run Status' are matched.
+
+2019-01-22 21:37:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/label_Columns_Last Run Date"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Columns_Last Run Date' is present
+
+2019-01-22 21:37:14 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Columns_Last Run Date' is present
+
+2019-01-22 21:37:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/label_Columns_Last Run Date"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Columns_Last Run Date' is visible
+
+2019-01-22 21:37:14 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Columns_Last Run Date' is visible
+
+2019-01-22 21:37:14 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Employee/Report Manager/Schedule Reports/label_Columns_Last Run Date"), "Last Run Date", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Columns_Last Run Date' are matched.
+
+2019-01-22 21:37:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Columns_Last Run Date' are matched.
+
+2019-01-22 21:37:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_Actions"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_Actions' is present
+
+2019-01-22 21:37:14 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_Actions' is present
+
+2019-01-22 21:37:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_Actions"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_Actions' is visible
+
+2019-01-22 21:37:14 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_Actions' is visible
+
+2019-01-22 21:37:14 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_Actions"), "Actions", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_Actions' are matched.
+
+2019-01-22 21:37:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_Actions' are matched.
+
+2019-01-22 21:37:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_Client"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_Client' is present
+
+2019-01-22 21:37:14 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_Client' is present
+
+2019-01-22 21:37:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_Client"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_Client' is visible
+
+2019-01-22 21:37:14 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_Client' is visible
+
+2019-01-22 21:37:14 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_Client"), "Client", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_Client' are matched.
+
+2019-01-22 21:37:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_Client' are matched.
+
+2019-01-22 21:37:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_Client Name"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_Client Name' is present
+
+2019-01-22 21:37:14 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_Client Name' is present
+
+2019-01-22 21:37:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_Client Name"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_Client Name' is visible
+
+2019-01-22 21:37:14 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_Client Name' is visible
+
+2019-01-22 21:37:14 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_Client Name"), "Client Name", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_Client Name' are matched.
+
+2019-01-22 21:37:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_Client Name' are matched.
+
+2019-01-22 21:37:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_Group Name"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_Group Name' is present
+
+2019-01-22 21:37:14 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_Group Name' is present
+
+2019-01-22 21:37:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_Group Name"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_Group Name' is visible
+
+2019-01-22 21:37:14 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_Group Name' is visible
+
+2019-01-22 21:37:14 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_Group Name"), "Group Name", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_Group Name' are matched.
+
+2019-01-22 21:37:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_Group Name' are matched.
+
+2019-01-22 21:37:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_Report Name"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_Report Name' is present
+
+2019-01-22 21:37:15 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_Report Name' is present
+
+2019-01-22 21:37:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_Report Name"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_Report Name' is visible
+
+2019-01-22 21:37:15 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_Report Name' is visible
+
+2019-01-22 21:37:15 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_Report Name"), "Report Name", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_Report Name' are matched.
+
+2019-01-22 21:37:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_Report Name' are matched.
+
+2019-01-22 21:37:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_Frequency"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_Frequency' is present
+
+2019-01-22 21:37:15 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_Frequency' is present
+
+2019-01-22 21:37:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_Frequency"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_Frequency' is visible
+
+2019-01-22 21:37:15 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_Frequency' is visible
+
+2019-01-22 21:37:15 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_Frequency"), "Frequency", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_Frequency' are matched.
+
+2019-01-22 21:37:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_Frequency' are matched.
+
+2019-01-22 21:37:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_Active"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_Active' is present
+
+2019-01-22 21:37:15 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_Active' is present
+
+2019-01-22 21:37:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_Active"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_Active' is visible
+
+2019-01-22 21:37:15 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_Active' is visible
+
+2019-01-22 21:37:15 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_Active"), "Active", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_Active' are matched.
+
+2019-01-22 21:37:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_Active' are matched.
+
+2019-01-22 21:37:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_Add to File Area"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_Add to File Area' is present
+
+2019-01-22 21:37:15 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_Add to File Area' is present
+
+2019-01-22 21:37:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_Add to File Area"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_Add to File Area' is visible
+
+2019-01-22 21:37:15 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_Add to File Area' is visible
+
+2019-01-22 21:37:15 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_Add to File Area"), "Add to File Area", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_Add to File Area' are matched.
+
+2019-01-22 21:37:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_Add to File Area' are matched.
+
+2019-01-22 21:37:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_File Only"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_File Only' is present
+
+2019-01-22 21:37:15 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_File Only' is present
+
+2019-01-22 21:37:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_File Only"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_File Only' is visible
+
+2019-01-22 21:37:15 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_File Only' is visible
+
+2019-01-22 21:37:15 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_File Only"), "File Only", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_File Only' are matched.
+
+2019-01-22 21:37:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_File Only' are matched.
+
+2019-01-22 21:37:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_Email and File"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_Email and File' is present
+
+2019-01-22 21:37:15 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_Email and File' is present
+
+2019-01-22 21:37:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_Email and File"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_Email and File' is visible
+
+2019-01-22 21:37:15 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_Email and File' is visible
+
+2019-01-22 21:37:15 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_Email and File"), "Email and File", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_Email and File' are matched.
+
+2019-01-22 21:37:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_Email and File' are matched.
+
+2019-01-22 21:37:15 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("UI/Employee/Report Manager/Schedule Reports/button_Schedules Reports per page"), 3): Scroll to object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/button_Schedules Reports per page' successfully
+
+2019-01-22 21:37:15 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/button_Schedules Reports per page' successfully
+
+2019-01-22 21:37:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/button_Schedules Reports per page"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/button_Schedules Reports per page' is present
+
+2019-01-22 21:37:15 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/button_Schedules Reports per page' is present
+
+2019-01-22 21:37:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/button_Schedules Reports per page"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/button_Schedules Reports per page' is visible
+
+2019-01-22 21:37:15 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/button_Schedules Reports per page' is visible
+
+2019-01-22 21:37:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/div_Pagination"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/div_Pagination' is present
+
+2019-01-22 21:37:15 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/div_Pagination' is present
+
+2019-01-22 21:37:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/div_Pagination"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/div_Pagination' is visible
+
+2019-01-22 21:37:15 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/div_Pagination' is visible
+
+2019-01-22 21:37:15 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("UI/Employee/Report Manager/Schedule Reports/a_New Schedule button"), 3): Scroll to object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/a_New Schedule button' successfully
+
+2019-01-22 21:37:15 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/a_New Schedule button' successfully
+
+2019-01-22 21:37:15 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Report Manager/Schedule Reports/a_New Schedule button")): Object: 'Object Repository/UI/Employee/Report Manager/Schedule Reports/a_New Schedule button' is clicked on
+
+2019-01-22 21:37:16 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Report Manager/Schedule Reports/a_New Schedule button' is clicked on
+
+2019-01-22 21:37:16 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/h2_New Scheduled Report_Title"), 5): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/h2_New Scheduled Report_Title' is present
+
+2019-01-22 21:37:16 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/h2_New Scheduled Report_Title' is present
+
+2019-01-22 21:37:16 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/h2_New Scheduled Report_Title"), 5): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/h2_New Scheduled Report_Title' is visible
+
+2019-01-22 21:37:16 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/h2_New Scheduled Report_Title' is visible
+
+2019-01-22 21:37:16 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/h2_New Scheduled Report_Title"), "New Scheduled Report", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/h2_New Scheduled Report_Title' are matched.
+
+2019-01-22 21:37:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/h2_New Scheduled Report_Title' are matched.
+
+2019-01-22 21:37:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/a_Common Data tab"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/a_Common Data tab' is present
+
+2019-01-22 21:37:16 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/a_Common Data tab' is present
+
+2019-01-22 21:37:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/a_Common Data tab"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/a_Common Data tab' is visible
+
+2019-01-22 21:37:16 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/a_Common Data tab' is visible
+
+2019-01-22 21:37:16 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/a_Common Data tab"), "Common Data", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/a_Common Data tab' are matched.
+
+2019-01-22 21:37:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/a_Common Data tab' are matched.
+
+2019-01-22 21:37:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Internal Report"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Internal Report' is present
+
+2019-01-22 21:37:16 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Internal Report' is present
+
+2019-01-22 21:37:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Internal Report"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Internal Report' is visible
+
+2019-01-22 21:37:16 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Internal Report' is visible
+
+2019-01-22 21:37:16 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Internal Report"), "Internal Report", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Internal Report' are matched.
+
+2019-01-22 21:37:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Internal Report' are matched.
+
+2019-01-22 21:37:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/span_Internal Report_switch"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/span_Internal Report_switch' is present
+
+2019-01-22 21:37:16 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/span_Internal Report_switch' is present
+
+2019-01-22 21:37:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/span_Internal Report_switch"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/span_Internal Report_switch' is visible
+
+2019-01-22 21:37:16 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/span_Internal Report_switch' is visible
+
+2019-01-22 21:37:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Active"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Active' is present
+
+2019-01-22 21:37:16 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Active' is present
+
+2019-01-22 21:37:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Active"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Active' is visible
+
+2019-01-22 21:37:16 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Active' is visible
+
+2019-01-22 21:37:16 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Active"), "Active", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Active' are matched.
+
+2019-01-22 21:37:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Active' are matched.
+
+2019-01-22 21:37:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/span_Active_switch"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/span_Active_switch' is present
+
+2019-01-22 21:37:16 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/span_Active_switch' is present
+
+2019-01-22 21:37:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/span_Active_switch"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/span_Active_switch' is visible
+
+2019-01-22 21:37:16 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/span_Active_switch' is visible
+
+2019-01-22 21:37:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Add to File Area"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Add to File Area' is present
+
+2019-01-22 21:37:16 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Add to File Area' is present
+
+2019-01-22 21:37:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Add to File Area"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Add to File Area' is visible
+
+2019-01-22 21:37:16 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Add to File Area' is visible
+
+2019-01-22 21:37:16 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Add to File Area"), "Add to File Area", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Add to File Area' are matched.
+
+2019-01-22 21:37:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Add to File Area' are matched.
+
+2019-01-22 21:37:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/span_Add to File Area_switch"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/span_Add to File Area_switch' is present
+
+2019-01-22 21:37:16 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/span_Add to File Area_switch' is present
+
+2019-01-22 21:37:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/span_Add to File Area_switch"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/span_Add to File Area_switch' is visible
+
+2019-01-22 21:37:16 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/span_Add to File Area_switch' is visible
+
+2019-01-22 21:37:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Report Type"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Report Type' is present
+
+2019-01-22 21:37:16 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Report Type' is present
+
+2019-01-22 21:37:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Report Type"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Report Type' is visible
+
+2019-01-22 21:37:16 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Report Type' is visible
+
+2019-01-22 21:37:16 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Report Type"), "Report Type", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Report Type' are matched.
+
+2019-01-22 21:37:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Report Type' are matched.
+
+2019-01-22 21:37:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/div_Report Type dropdown"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/div_Report Type dropdown' is present
+
+2019-01-22 21:37:16 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/div_Report Type dropdown' is present
+
+2019-01-22 21:37:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/div_Report Type dropdown"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/div_Report Type dropdown' is visible
+
+2019-01-22 21:37:16 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/div_Report Type dropdown' is visible
+
+2019-01-22 21:37:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Client"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Client' is present
+
+2019-01-22 21:37:16 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Client' is present
+
+2019-01-22 21:37:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Client"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Client' is visible
+
+2019-01-22 21:37:16 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Client' is visible
+
+2019-01-22 21:37:16 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Client"), "Client", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Client' are matched.
+
+2019-01-22 21:37:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Client' are matched.
+
+2019-01-22 21:37:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/div_Client dropdown"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/div_Client dropdown' is present
+
+2019-01-22 21:37:16 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/div_Client dropdown' is present
+
+2019-01-22 21:37:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/div_Client dropdown"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/div_Client dropdown' is visible
+
+2019-01-22 21:37:16 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/div_Client dropdown' is visible
+
+2019-01-22 21:37:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Group"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Group' is present
+
+2019-01-22 21:37:16 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Group' is present
+
+2019-01-22 21:37:16 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Group"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Group' is visible
+
+2019-01-22 21:37:16 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Group' is visible
+
+2019-01-22 21:37:16 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Group"), "Group", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Group' are matched.
+
+2019-01-22 21:37:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Group' are matched.
+
+2019-01-22 21:37:17 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/div_Group dropdown"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/div_Group dropdown' is present
+
+2019-01-22 21:37:17 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/div_Group dropdown' is present
+
+2019-01-22 21:37:17 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/div_Group dropdown"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/div_Group dropdown' is visible
+
+2019-01-22 21:37:17 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/div_Group dropdown' is visible
+
+2019-01-22 21:37:17 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Available Recipients"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Available Recipients' is present
+
+2019-01-22 21:37:17 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Available Recipients' is present
+
+2019-01-22 21:37:17 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Available Recipients"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Available Recipients' is visible
+
+2019-01-22 21:37:17 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Available Recipients' is visible
+
+2019-01-22 21:37:17 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Available Recipients"), "Available Recipients (0)", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Available Recipients' are matched.
+
+2019-01-22 21:37:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Available Recipients' are matched.
+
+2019-01-22 21:37:17 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/div_Recipients input"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/div_Recipients input' is present
+
+2019-01-22 21:37:17 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/div_Recipients input' is present
+
+2019-01-22 21:37:17 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/div_Recipients input"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/div_Recipients input' is visible
+
+2019-01-22 21:37:17 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/div_Recipients input' is visible
+
+2019-01-22 21:37:17 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/a_Custom Data tab"), CONTINUE_ON_FAILURE): Object: 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/a_Custom Data tab' is clicked on
+
+2019-01-22 21:37:17 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/a_Custom Data tab' is clicked on
+
+2019-01-22 21:37:17 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-22 21:37:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-22 21:37:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Custom Success Template"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Custom Success Template' is present
+
+2019-01-22 21:37:18 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Custom Success Template' is present
+
+2019-01-22 21:37:18 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Custom Success Template"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Custom Success Template' is visible
+
+2019-01-22 21:37:18 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Custom Success Template' is visible
+
+2019-01-22 21:37:18 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Custom Success Template"), "Custom Success Template", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Custom Success Template' are matched.
+
+2019-01-22 21:37:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Custom Success Template' are matched.
+
+2019-01-22 21:37:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/div_Custom Success Template dropdown"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/div_Custom Success Template dropdown' is present
+
+2019-01-22 21:37:18 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/div_Custom Success Template dropdown' is present
+
+2019-01-22 21:37:18 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/div_Custom Success Template dropdown"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/div_Custom Success Template dropdown' is visible
+
+2019-01-22 21:37:18 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/div_Custom Success Template dropdown' is visible
+
+2019-01-22 21:37:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Custom Schedule Dates"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Custom Schedule Dates' is present
+
+2019-01-22 21:37:18 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Custom Schedule Dates' is present
+
+2019-01-22 21:37:18 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Custom Schedule Dates"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Custom Schedule Dates' is visible
+
+2019-01-22 21:37:18 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Custom Schedule Dates' is visible
+
+2019-01-22 21:37:18 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Custom Schedule Dates"), "Custom Schedule Dates", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Custom Schedule Dates' are matched.
+
+2019-01-22 21:37:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Custom Schedule Dates' are matched.
+
+2019-01-22 21:37:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/div_Custome Schedule date dropdown"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/div_Custome Schedule date dropdown' is present
+
+2019-01-22 21:37:18 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/div_Custome Schedule date dropdown' is present
+
+2019-01-22 21:37:18 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/div_Custome Schedule date dropdown"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/div_Custome Schedule date dropdown' is visible
+
+2019-01-22 21:37:18 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/div_Custome Schedule date dropdown' is visible
+
+2019-01-22 21:37:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Custom Range"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Custom Range' is present
+
+2019-01-22 21:37:18 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Custom Range' is present
+
+2019-01-22 21:37:18 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Custom Range"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Custom Range' is visible
+
+2019-01-22 21:37:18 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Custom Range' is visible
+
+2019-01-22 21:37:18 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Custom Range"), "Custom Range", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Custom Range' are matched.
+
+2019-01-22 21:37:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Custom Range' are matched.
+
+2019-01-22 21:37:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/div_Custom range dropdown"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/div_Custom range dropdown' is present
+
+2019-01-22 21:37:19 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/div_Custom range dropdown' is present
+
+2019-01-22 21:37:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/div_Custom range dropdown"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/div_Custom range dropdown' is visible
+
+2019-01-22 21:37:19 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/div_Custom range dropdown' is visible
+
+2019-01-22 21:37:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Filters"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Filters' is present
+
+2019-01-22 21:37:19 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Filters' is present
+
+2019-01-22 21:37:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Filters"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Filters' is visible
+
+2019-01-22 21:37:19 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Filters' is visible
+
+2019-01-22 21:37:19 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Filters"), "Filters", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Filters' are matched.
+
+2019-01-22 21:37:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/label_Filters' are matched.
+
+2019-01-22 21:37:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/textarea_Filter textbox"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/textarea_Filter textbox' is present
+
+2019-01-22 21:37:19 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/textarea_Filter textbox' is present
+
+2019-01-22 21:37:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/textarea_Filter textbox"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/textarea_Filter textbox' is visible
+
+2019-01-22 21:37:19 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/textarea_Filter textbox' is visible
+
+2019-01-22 21:37:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/div_Upload Report Template"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/div_Upload Report Template' is present
+
+2019-01-22 21:37:19 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/div_Upload Report Template' is present
+
+2019-01-22 21:37:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/div_Upload Report Template"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/div_Upload Report Template' is visible
+
+2019-01-22 21:37:19 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/div_Upload Report Template' is visible
+
+2019-01-22 21:37:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/input_Choose file button"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/input_Choose file button' is present
+
+2019-01-22 21:37:19 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/input_Choose file button' is present
+
+2019-01-22 21:37:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/input_Choose file button"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/input_Choose file button' is visible
+
+2019-01-22 21:37:19 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/input_Choose file button' is visible
+
+2019-01-22 21:37:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/button_Cancel"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/button_Cancel' is present
+
+2019-01-22 21:37:19 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/button_Cancel' is present
+
+2019-01-22 21:37:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/button_Cancel"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/button_Cancel' is visible
+
+2019-01-22 21:37:19 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/button_Cancel' is visible
+
+2019-01-22 21:37:19 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/button_Save"), 3): Scroll to object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/button_Save' successfully
+
+2019-01-22 21:37:19 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/button_Save' successfully
+
+2019-01-22 21:37:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/button_Save"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/button_Save' is present
+
+2019-01-22 21:37:19 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/button_Save' is present
+
+2019-01-22 21:37:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/button_Save"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/button_Save' is visible
+
+2019-01-22 21:37:19 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/button_Save' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UI/Employee/Report Manager/Schedule Reports/Schedule Reports - New schedule and search" classname="Test Cases/UI/Employee/Report Manager/Schedule Reports/Schedule Reports - New schedule and search" status="PASSED">
+         <system-out><![CDATA[2019-01-22 21:37:19 - [TEST_CASE][PASSED] - Test Cases/UI/Employee/Report Manager/Schedule Reports/Schedule Reports - New schedule and search: Test Cases/UI/Employee/Report Manager/Schedule Reports/Schedule Reports - New schedule and search
+
+2019-01-22 21:37:19 - [TEST_STEP][NOT_RUN] - click(findTestObject("UI/Employee/Report Manager/span_Report Management Menu")): NOT_RUN: click(findTestObject("UI/Employee/Report Manager/span_Report Management Menu"))
+
+2019-01-22 21:37:19 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("UI/Employee/Report Manager/span_Report Management Menu"))
+
+2019-01-22 21:37:19 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/Employee/Report Manager/span_Scheduled Reports Sub Menu"), 5): Object 'Object Repository/UI/Employee/Report Manager/span_Scheduled Reports Sub Menu' is visible
+
+2019-01-22 21:37:19 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/span_Scheduled Reports Sub Menu' is visible
+
+2019-01-22 21:37:19 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Report Manager/span_Scheduled Reports Sub Menu")): Object: 'Object Repository/UI/Employee/Report Manager/span_Scheduled Reports Sub Menu' is clicked on
+
+2019-01-22 21:37:19 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Report Manager/span_Scheduled Reports Sub Menu' is clicked on
+
+2019-01-22 21:37:19 - [TEST_STEP][PASSED] - waitForElementNotPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/div_Loading Spinner"), 10): Web element with id: 'Object Repository/UI/Employee/Report Manager/Schedule Reports/div_Loading Spinner' located by 'By.xpath: //div[(text() = 'Loading...' or . = 'Loading...')]' is not present after '10' second(s)
+
+2019-01-22 21:37:24 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/UI/Employee/Report Manager/Schedule Reports/div_Loading Spinner' located by 'By.xpath: //div[(text() = 'Loading...' or . = 'Loading...')]' is not present after '10' second(s)
+
+2019-01-22 21:37:24 - [TEST_STEP][PASSED] - waitForElementNotVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/div_Loading Spinner"), 10): Web element with id: 'Object Repository/UI/Employee/Report Manager/Schedule Reports/div_Loading Spinner' located by 'By.xpath: //div[(text() = 'Loading...' or . = 'Loading...')]' not found
+
+2019-01-22 21:37:34 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[(text() = 'Loading...' or . = 'Loading...')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-01-22 21:37:34 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/UI/Employee/Report Manager/Schedule Reports/div_Loading Spinner' located by 'By.xpath: //div[(text() = 'Loading...' or . = 'Loading...')]' not found
+
+2019-01-22 21:37:34 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("UI/Employee/Report Manager/Schedule Reports/a_New Schedule button"), 3): Scroll to object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/a_New Schedule button' successfully
+
+2019-01-22 21:37:34 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/a_New Schedule button' successfully
+
+2019-01-22 21:37:34 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Report Manager/Schedule Reports/a_New Schedule button")): Object: 'Object Repository/UI/Employee/Report Manager/Schedule Reports/a_New Schedule button' is clicked on
+
+2019-01-22 21:37:35 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Report Manager/Schedule Reports/a_New Schedule button' is clicked on
+
+2019-01-22 21:37:35 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/h2_New Scheduled Report_Title"), 5): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/h2_New Scheduled Report_Title' is present
+
+2019-01-22 21:37:35 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/h2_New Scheduled Report_Title' is present
+
+2019-01-22 21:37:35 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/h2_New Scheduled Report_Title"), 5): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/h2_New Scheduled Report_Title' is visible
+
+2019-01-22 21:37:35 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/h2_New Scheduled Report_Title' is visible
+
+2019-01-22 21:37:35 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/div_Report Type dropdown arrow"), 5): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/div_Report Type dropdown arrow' is present
+
+2019-01-22 21:37:35 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/div_Report Type dropdown arrow' is present
+
+2019-01-22 21:37:35 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/div_Report Type dropdown arrow"), 5): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/div_Report Type dropdown arrow' is visible
+
+2019-01-22 21:37:35 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/div_Report Type dropdown arrow' is visible
+
+2019-01-22 21:37:35 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-22 21:37:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-22 21:37:37 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/div_Report Type dropdown arrow")): Object: 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/div_Report Type dropdown arrow' is clicked on
+
+2019-01-22 21:37:37 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/div_Report Type dropdown arrow' is clicked on
+
+2019-01-22 21:37:37 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-22 21:37:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-22 21:37:38 - [TEST_STEP][PASSED] - sendKeys(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/div_Report Type dropdown input"), reportTypeName): Keys 'qaAutoEdit' sent to object: 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/div_Report Type dropdown input'
+
+2019-01-22 21:37:38 - [MESSAGE][PASSED] - Keys 'qaAutoEdit' sent to object: 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/div_Report Type dropdown input'
+
+2019-01-22 21:37:38 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/div_Report Type dropdown outter select")): Object: 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/div_Report Type dropdown outter select' is clicked on
+
+2019-01-22 21:37:38 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/div_Report Type dropdown outter select' is clicked on
+
+2019-01-22 21:37:38 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/button_Save"), 3): Scroll to object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/button_Save' successfully
+
+2019-01-22 21:37:38 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/button_Save' successfully
+
+2019-01-22 21:37:38 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/button_Save")): Object: 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/button_Save' is clicked on
+
+2019-01-22 21:37:38 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/button_Save' is clicked on
+
+2019-01-22 21:37:38 - [TEST_STEP][PASSED] - waitForElementNotPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/div_Loading Spinner"), 10): Web element with id: 'Object Repository/UI/Employee/Report Manager/Schedule Reports/div_Loading Spinner' located by 'By.xpath: //div[(text() = 'Loading...' or . = 'Loading...')]' is not present after '10' second(s)
+
+2019-01-22 21:37:38 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/UI/Employee/Report Manager/Schedule Reports/div_Loading Spinner' located by 'By.xpath: //div[(text() = 'Loading...' or . = 'Loading...')]' is not present after '10' second(s)
+
+2019-01-22 21:37:38 - [TEST_STEP][PASSED] - waitForElementNotVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/div_Loading Spinner"), 10): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/div_Loading Spinner' is visible after 10 second(s)
+
+2019-01-22 21:37:49 - [MESSAGE][WARNING] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/div_Loading Spinner' is visible after 10 second(s)
+
+2019-01-22 21:37:49 - [TEST_STEP][PASSED] - clearText(findTestObject("UI/Employee/Report Manager/Schedule Reports/input_Search textbox")): Text of object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/input_Search textbox' is cleared
+
+2019-01-22 21:37:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/input_Search textbox' is cleared
+
+2019-01-22 21:37:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject("UI/Employee/Report Manager/Schedule Reports/input_Search textbox"), reportTypeName): Keys 'qaAutoEdit' sent to object: 'Object Repository/UI/Employee/Report Manager/Schedule Reports/input_Search textbox'
+
+2019-01-22 21:37:50 - [MESSAGE][PASSED] - Keys 'qaAutoEdit' sent to object: 'Object Repository/UI/Employee/Report Manager/Schedule Reports/input_Search textbox'
+
+2019-01-22 21:37:50 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Employee/Report Manager/Schedule Reports/table_First Row_Report Name"), reportTypeName): Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/table_First Row_Report Name' are matched.
+
+2019-01-22 21:37:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/table_First Row_Report Name' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UI/Employee/Report Manager/Schedule Reports/Schedule Reports - Edit Schedule Report" classname="Test Cases/UI/Employee/Report Manager/Schedule Reports/Schedule Reports - Edit Schedule Report" status="PASSED">
+         <system-out><![CDATA[2019-01-22 21:37:50 - [TEST_CASE][PASSED] - Test Cases/UI/Employee/Report Manager/Schedule Reports/Schedule Reports - Edit Schedule Report: Test Cases/UI/Employee/Report Manager/Schedule Reports/Schedule Reports - Edit Schedule Report
+
+2019-01-22 21:37:50 - [TEST_STEP][NOT_RUN] - click(findTestObject("UI/Employee/Report Manager/span_Report Management Menu")): NOT_RUN: click(findTestObject("UI/Employee/Report Manager/span_Report Management Menu"))
+
+2019-01-22 21:37:50 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("UI/Employee/Report Manager/span_Report Management Menu"))
+
+2019-01-22 21:37:50 - [TEST_STEP][NOT_RUN] - waitForElementVisible(findTestObject("UI/Employee/Report Manager/span_Scheduled Reports Sub Menu"), 5): NOT_RUN: waitForElementVisible(findTestObject("UI/Employee/Report Manager/span_Scheduled Reports Sub Menu"), 5)
+
+2019-01-22 21:37:50 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementVisible(findTestObject("UI/Employee/Report Manager/span_Scheduled Reports Sub Menu"), 5)
+
+2019-01-22 21:37:50 - [TEST_STEP][NOT_RUN] - click(findTestObject("UI/Employee/Report Manager/span_Scheduled Reports Sub Menu")): NOT_RUN: click(findTestObject("UI/Employee/Report Manager/span_Scheduled Reports Sub Menu"))
+
+2019-01-22 21:37:50 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("UI/Employee/Report Manager/span_Scheduled Reports Sub Menu"))
+
+2019-01-22 21:37:50 - [TEST_STEP][NOT_RUN] - waitForElementNotPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/div_Loading Spinner"), 10): NOT_RUN: waitForElementNotPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/div_Loading Spinner"), 10)
+
+2019-01-22 21:37:50 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementNotPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/div_Loading Spinner"), 10)
+
+2019-01-22 21:37:50 - [TEST_STEP][NOT_RUN] - waitForElementNotVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/div_Loading Spinner"), 10): NOT_RUN: waitForElementNotVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/div_Loading Spinner"), 10)
+
+2019-01-22 21:37:50 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementNotVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/div_Loading Spinner"), 10)
+
+2019-01-22 21:37:50 - [TEST_STEP][PASSED] - clearText(findTestObject("UI/Employee/Report Manager/Schedule Reports/input_Search textbox")): Text of object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/input_Search textbox' is cleared
+
+2019-01-22 21:37:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/input_Search textbox' is cleared
+
+2019-01-22 21:37:50 - [TEST_STEP][PASSED] - sendKeys(findTestObject("UI/Employee/Report Manager/Schedule Reports/input_Search textbox"), reportTypeName): Keys 'qaAutoEdit' sent to object: 'Object Repository/UI/Employee/Report Manager/Schedule Reports/input_Search textbox'
+
+2019-01-22 21:37:50 - [MESSAGE][PASSED] - Keys 'qaAutoEdit' sent to object: 'Object Repository/UI/Employee/Report Manager/Schedule Reports/input_Search textbox'
+
+2019-01-22 21:37:50 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Report Manager/Schedule Reports/table_First Row_Edit Button")): Object: 'Object Repository/UI/Employee/Report Manager/Schedule Reports/table_First Row_Edit Button' is clicked on
+
+2019-01-22 21:37:50 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Report Manager/Schedule Reports/table_First Row_Edit Button' is clicked on
+
+2019-01-22 21:37:50 - [TEST_STEP][PASSED] - waitForElementAttributeValue(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/div_Report Type dropdown content"), "text", reportTypeName, 0): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/div_Report Type dropdown content' does not have attribute 'text' with value 'qaAutoEdit'
+
+2019-01-22 21:37:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-01-22 21:38:24 - [MESSAGE][WARNING] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/div_Report Type dropdown content' does not have attribute 'text' with value 'qaAutoEdit'
+
+2019-01-22 21:38:24 - [TEST_STEP][NOT_RUN] - waitForElementPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/h2_New Scheduled Report_Title"), 5): NOT_RUN: waitForElementPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/h2_New Scheduled Report_Title"), 5)
+
+2019-01-22 21:38:24 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/h2_New Scheduled Report_Title"), 5)
+
+2019-01-22 21:38:24 - [TEST_STEP][NOT_RUN] - waitForElementVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/h2_New Scheduled Report_Title"), 5): NOT_RUN: waitForElementVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/h2_New Scheduled Report_Title"), 5)
+
+2019-01-22 21:38:24 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/h2_New Scheduled Report_Title"), 5)
+
+2019-01-22 21:38:24 - [TEST_STEP][NOT_RUN] - waitForElementPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/div_Report Type dropdown arrow"), 5): NOT_RUN: waitForElementPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/div_Report Type dropdown arrow"), 5)
+
+2019-01-22 21:38:24 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/div_Report Type dropdown arrow"), 5)
+
+2019-01-22 21:38:24 - [TEST_STEP][NOT_RUN] - waitForElementVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/div_Report Type dropdown arrow"), 5): NOT_RUN: waitForElementVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/div_Report Type dropdown arrow"), 5)
+
+2019-01-22 21:38:24 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/div_Report Type dropdown arrow"), 5)
+
+2019-01-22 21:38:24 - [TEST_STEP][NOT_RUN] - delay(5): NOT_RUN: delay(5)
+
+2019-01-22 21:38:24 - [MESSAGE][NOT_RUN] - NOT_RUN: delay(5)
+
+2019-01-22 21:38:24 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/span_Active_switch")): Object: 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/span_Active_switch' is clicked on
+
+2019-01-22 21:38:24 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/span_Active_switch' is clicked on
+
+2019-01-22 21:38:24 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/span_Add to File Area_switch")): Object: 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/span_Add to File Area_switch' is clicked on
+
+2019-01-22 21:38:24 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/span_Add to File Area_switch' is clicked on
+
+2019-01-22 21:38:24 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/button_Save"), 3): Scroll to object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/button_Save' successfully
+
+2019-01-22 21:38:24 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/button_Save' successfully
+
+2019-01-22 21:38:24 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/button_Save")): Object: 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/button_Save' is clicked on
+
+2019-01-22 21:38:24 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Report Manager/Schedule Reports/Create and edit Schedule report/button_Save' is clicked on
+
+2019-01-22 21:38:24 - [TEST_STEP][PASSED] - waitForElementNotPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/div_Loading Spinner"), 10): Web element with id: 'Object Repository/UI/Employee/Report Manager/Schedule Reports/div_Loading Spinner' located by 'By.xpath: //div[(text() = 'Loading...' or . = 'Loading...')]' is not present after '10' second(s)
+
+2019-01-22 21:38:24 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/UI/Employee/Report Manager/Schedule Reports/div_Loading Spinner' located by 'By.xpath: //div[(text() = 'Loading...' or . = 'Loading...')]' is not present after '10' second(s)
+
+2019-01-22 21:38:24 - [TEST_STEP][PASSED] - waitForElementNotVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/div_Loading Spinner"), 10): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/div_Loading Spinner' is visible after 10 second(s)
+
+2019-01-22 21:38:36 - [MESSAGE][WARNING] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/div_Loading Spinner' is visible after 10 second(s)
+
+2019-01-22 21:38:36 - [TEST_STEP][PASSED] - clearText(findTestObject("UI/Employee/Report Manager/Schedule Reports/input_Search textbox")): Text of object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/input_Search textbox' is cleared
+
+2019-01-22 21:38:36 - [MESSAGE][PASSED] - Text of object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/input_Search textbox' is cleared
+
+2019-01-22 21:38:36 - [TEST_STEP][PASSED] - sendKeys(findTestObject("UI/Employee/Report Manager/Schedule Reports/input_Search textbox"), reportTypeName): Keys 'qaAutoEdit' sent to object: 'Object Repository/UI/Employee/Report Manager/Schedule Reports/input_Search textbox'
+
+2019-01-22 21:38:36 - [MESSAGE][PASSED] - Keys 'qaAutoEdit' sent to object: 'Object Repository/UI/Employee/Report Manager/Schedule Reports/input_Search textbox'
+
+2019-01-22 21:38:36 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Employee/Report Manager/Schedule Reports/table_First Row_Report Name"), reportTypeName): Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/table_First Row_Report Name' are matched.
+
+2019-01-22 21:38:36 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/table_First Row_Report Name' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UI/Employee/Report Manager/Schedule Reports/Schedule Reports - Filter by Report Name" classname="Test Cases/UI/Employee/Report Manager/Schedule Reports/Schedule Reports - Filter by Report Name" status="PASSED">
+         <system-out><![CDATA[2019-01-22 21:38:36 - [TEST_CASE][PASSED] - Test Cases/UI/Employee/Report Manager/Schedule Reports/Schedule Reports - Filter by Report Name: Test Cases/UI/Employee/Report Manager/Schedule Reports/Schedule Reports - Filter by Report Name
+
+2019-01-22 21:38:36 - [TEST_STEP][NOT_RUN] - click(findTestObject("UI/Employee/Report Manager/span_Report Management Menu")): NOT_RUN: click(findTestObject("UI/Employee/Report Manager/span_Report Management Menu"))
+
+2019-01-22 21:38:36 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("UI/Employee/Report Manager/span_Report Management Menu"))
+
+2019-01-22 21:38:36 - [TEST_STEP][NOT_RUN] - waitForElementVisible(findTestObject("UI/Employee/Report Manager/span_Scheduled Reports Sub Menu"), 5): NOT_RUN: waitForElementVisible(findTestObject("UI/Employee/Report Manager/span_Scheduled Reports Sub Menu"), 5)
+
+2019-01-22 21:38:36 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementVisible(findTestObject("UI/Employee/Report Manager/span_Scheduled Reports Sub Menu"), 5)
+
+2019-01-22 21:38:36 - [TEST_STEP][NOT_RUN] - click(findTestObject("UI/Employee/Report Manager/span_Scheduled Reports Sub Menu")): NOT_RUN: click(findTestObject("UI/Employee/Report Manager/span_Scheduled Reports Sub Menu"))
+
+2019-01-22 21:38:36 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("UI/Employee/Report Manager/span_Scheduled Reports Sub Menu"))
+
+2019-01-22 21:38:36 - [TEST_STEP][NOT_RUN] - waitForElementNotPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/div_Loading Spinner"), 10): NOT_RUN: waitForElementNotPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/div_Loading Spinner"), 10)
+
+2019-01-22 21:38:36 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementNotPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/div_Loading Spinner"), 10)
+
+2019-01-22 21:38:36 - [TEST_STEP][NOT_RUN] - waitForElementNotVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/div_Loading Spinner"), 10): NOT_RUN: waitForElementNotVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/div_Loading Spinner"), 10)
+
+2019-01-22 21:38:36 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementNotVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/div_Loading Spinner"), 10)
+
+2019-01-22 21:38:36 - [TEST_STEP][PASSED] - sendKeys(findTestObject("UI/Employee/Report Manager/Schedule Reports/input_Report Name_textbox"), reportTypeName): Keys 'qaAutoEdit' sent to object: 'Object Repository/UI/Employee/Report Manager/Schedule Reports/input_Report Name_textbox'
+
+2019-01-22 21:38:36 - [MESSAGE][PASSED] - Keys 'qaAutoEdit' sent to object: 'Object Repository/UI/Employee/Report Manager/Schedule Reports/input_Report Name_textbox'
+
+2019-01-22 21:38:36 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Report Manager/Schedule Reports/button_Filter")): Object: 'Object Repository/UI/Employee/Report Manager/Schedule Reports/button_Filter' is clicked on
+
+2019-01-22 21:38:36 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Report Manager/Schedule Reports/button_Filter' is clicked on
+
+2019-01-22 21:38:36 - [TEST_STEP][PASSED] - clearText(findTestObject("UI/Employee/Report Manager/Schedule Reports/input_Search textbox")): Text of object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/input_Search textbox' is cleared
+
+2019-01-22 21:38:36 - [MESSAGE][PASSED] - Text of object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/input_Search textbox' is cleared
+
+2019-01-22 21:38:36 - [TEST_STEP][PASSED] - sendKeys(findTestObject("UI/Employee/Report Manager/Schedule Reports/input_Search textbox"), reportTypeName): Keys 'qaAutoEdit' sent to object: 'Object Repository/UI/Employee/Report Manager/Schedule Reports/input_Search textbox'
+
+2019-01-22 21:38:37 - [MESSAGE][PASSED] - Keys 'qaAutoEdit' sent to object: 'Object Repository/UI/Employee/Report Manager/Schedule Reports/input_Search textbox'
+
+2019-01-22 21:38:37 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Employee/Report Manager/Schedule Reports/table_First Row_Report Name"), reportTypeName): Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/table_First Row_Report Name' are matched.
+
+2019-01-22 21:38:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/table_First Row_Report Name' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UI/Employee/Report Manager/Schedule Reports/Schedule Reports - Filter by Column" classname="Test Cases/UI/Employee/Report Manager/Schedule Reports/Schedule Reports - Filter by Column" status="PASSED">
+         <system-out><![CDATA[2019-01-22 21:38:37 - [TEST_CASE][PASSED] - Test Cases/UI/Employee/Report Manager/Schedule Reports/Schedule Reports - Filter by Column: Test Cases/UI/Employee/Report Manager/Schedule Reports/Schedule Reports - Filter by Column
+
+2019-01-22 21:38:37 - [TEST_STEP][NOT_RUN] - click(findTestObject("UI/Employee/Report Manager/span_Report Management Menu")): NOT_RUN: click(findTestObject("UI/Employee/Report Manager/span_Report Management Menu"))
+
+2019-01-22 21:38:37 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("UI/Employee/Report Manager/span_Report Management Menu"))
+
+2019-01-22 21:38:37 - [TEST_STEP][NOT_RUN] - waitForElementVisible(findTestObject("UI/Employee/Report Manager/span_Scheduled Reports Sub Menu"), 5): NOT_RUN: waitForElementVisible(findTestObject("UI/Employee/Report Manager/span_Scheduled Reports Sub Menu"), 5)
+
+2019-01-22 21:38:37 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementVisible(findTestObject("UI/Employee/Report Manager/span_Scheduled Reports Sub Menu"), 5)
+
+2019-01-22 21:38:37 - [TEST_STEP][NOT_RUN] - click(findTestObject("UI/Employee/Report Manager/span_Scheduled Reports Sub Menu")): NOT_RUN: click(findTestObject("UI/Employee/Report Manager/span_Scheduled Reports Sub Menu"))
+
+2019-01-22 21:38:37 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("UI/Employee/Report Manager/span_Scheduled Reports Sub Menu"))
+
+2019-01-22 21:38:37 - [TEST_STEP][NOT_RUN] - waitForElementNotPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/div_Loading Spinner"), 10): NOT_RUN: waitForElementNotPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/div_Loading Spinner"), 10)
+
+2019-01-22 21:38:37 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementNotPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/div_Loading Spinner"), 10)
+
+2019-01-22 21:38:37 - [TEST_STEP][NOT_RUN] - waitForElementNotVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/div_Loading Spinner"), 10): NOT_RUN: waitForElementNotVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/div_Loading Spinner"), 10)
+
+2019-01-22 21:38:37 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementNotVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/div_Loading Spinner"), 10)
+
+2019-01-22 21:38:37 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Report Manager/Schedule Reports/a_Columns tab")): Object: 'Object Repository/UI/Employee/Report Manager/Schedule Reports/a_Columns tab' is clicked on
+
+2019-01-22 21:38:37 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Report Manager/Schedule Reports/a_Columns tab' is clicked on
+
+2019-01-22 21:38:37 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/label_Columns_Actions"), 5): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Columns_Actions' is present
+
+2019-01-22 21:38:37 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Columns_Actions' is present
+
+2019-01-22 21:38:37 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/label_Columns_Actions"), 5): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Columns_Actions' is visible
+
+2019-01-22 21:38:37 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Columns_Actions' is visible
+
+2019-01-22 21:38:37 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Report Manager/Schedule Reports/label_Columns_Actions")): Object: 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Columns_Actions' is clicked on
+
+2019-01-22 21:38:37 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Columns_Actions' is clicked on
+
+2019-01-22 21:38:37 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_Actions")): Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_Actions' is NOT visible
+
+2019-01-22 21:38:37 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/th_Schedule Reports Table_Header_Actions' is NOT visible
+
+2019-01-22 21:38:37 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Report Manager/Schedule Reports/label_Columns_Actions")): Object: 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Columns_Actions' is clicked on
+
+2019-01-22 21:38:37 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Report Manager/Schedule Reports/label_Columns_Actions' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UI/Employee/Report Manager/Schedule Reports/Schedule Reports - Delete Report" classname="Test Cases/UI/Employee/Report Manager/Schedule Reports/Schedule Reports - Delete Report" status="PASSED">
+         <system-out><![CDATA[2019-01-22 21:38:37 - [TEST_CASE][PASSED] - Test Cases/UI/Employee/Report Manager/Schedule Reports/Schedule Reports - Delete Report: Test Cases/UI/Employee/Report Manager/Schedule Reports/Schedule Reports - Delete Report
+
+2019-01-22 21:38:37 - [TEST_STEP][NOT_RUN] - click(findTestObject("UI/Employee/Report Manager/span_Report Management Menu")): NOT_RUN: click(findTestObject("UI/Employee/Report Manager/span_Report Management Menu"))
+
+2019-01-22 21:38:37 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("UI/Employee/Report Manager/span_Report Management Menu"))
+
+2019-01-22 21:38:37 - [TEST_STEP][NOT_RUN] - waitForElementVisible(findTestObject("UI/Employee/Report Manager/span_Scheduled Reports Sub Menu"), 5): NOT_RUN: waitForElementVisible(findTestObject("UI/Employee/Report Manager/span_Scheduled Reports Sub Menu"), 5)
+
+2019-01-22 21:38:37 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementVisible(findTestObject("UI/Employee/Report Manager/span_Scheduled Reports Sub Menu"), 5)
+
+2019-01-22 21:38:37 - [TEST_STEP][NOT_RUN] - click(findTestObject("UI/Employee/Report Manager/span_Scheduled Reports Sub Menu")): NOT_RUN: click(findTestObject("UI/Employee/Report Manager/span_Scheduled Reports Sub Menu"))
+
+2019-01-22 21:38:37 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("UI/Employee/Report Manager/span_Scheduled Reports Sub Menu"))
+
+2019-01-22 21:38:37 - [TEST_STEP][NOT_RUN] - waitForElementNotPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/div_Loading Spinner"), 10): NOT_RUN: waitForElementNotPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/div_Loading Spinner"), 10)
+
+2019-01-22 21:38:37 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementNotPresent(findTestObject("UI/Employee/Report Manager/Schedule Reports/div_Loading Spinner"), 10)
+
+2019-01-22 21:38:37 - [TEST_STEP][NOT_RUN] - waitForElementNotVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/div_Loading Spinner"), 10): NOT_RUN: waitForElementNotVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/div_Loading Spinner"), 10)
+
+2019-01-22 21:38:37 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementNotVisible(findTestObject("UI/Employee/Report Manager/Schedule Reports/div_Loading Spinner"), 10)
+
+2019-01-22 21:38:37 - [TEST_STEP][PASSED] - clearText(findTestObject("UI/Employee/Report Manager/Schedule Reports/input_Search textbox")): Text of object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/input_Search textbox' is cleared
+
+2019-01-22 21:38:37 - [MESSAGE][PASSED] - Text of object 'Object Repository/UI/Employee/Report Manager/Schedule Reports/input_Search textbox' is cleared
+
+2019-01-22 21:38:37 - [TEST_STEP][PASSED] - sendKeys(findTestObject("UI/Employee/Report Manager/Schedule Reports/input_Search textbox"), reportTypeName): Keys 'qaAutoEdit' sent to object: 'Object Repository/UI/Employee/Report Manager/Schedule Reports/input_Search textbox'
+
+2019-01-22 21:38:37 - [MESSAGE][PASSED] - Keys 'qaAutoEdit' sent to object: 'Object Repository/UI/Employee/Report Manager/Schedule Reports/input_Search textbox'
+
+2019-01-22 21:38:37 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Report Manager/Schedule Reports/table_First Row_Delete Button")): Object: 'Object Repository/UI/Employee/Report Manager/Schedule Reports/table_First Row_Delete Button' is clicked on
+
+2019-01-22 21:38:37 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Report Manager/Schedule Reports/table_First Row_Delete Button' is clicked on
+
+2019-01-22 21:38:37 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-22 21:38:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-22 21:38:39 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Report Manager/Schedule Reports/button_Delete Warning_Yes Button")): Object: 'Object Repository/UI/Employee/Report Manager/Schedule Reports/button_Delete Warning_Yes Button' is clicked on
+
+2019-01-22 21:38:40 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Report Manager/Schedule Reports/button_Delete Warning_Yes Button' is clicked on
+
+2019-01-22 21:38:40 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-22 21:38:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-22 21:38:42 - [TEST_STEP][NOT_RUN] - click(findTestObject("UI/Employee/Report Manager/Schedule Reports/button_Delete Warning_Yes Button")): NOT_RUN: click(findTestObject("UI/Employee/Report Manager/Schedule Reports/button_Delete Warning_Yes Button"))
+
+2019-01-22 21:38:42 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("UI/Employee/Report Manager/Schedule Reports/button_Delete Warning_Yes Button"))]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-22 21:36:46 - [TEST_SUITE][PASSED] - Schedule Reports: Test Cases/UI/Employee/Report Manager/Schedule Reports/Schedule Reports - Delete Report]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

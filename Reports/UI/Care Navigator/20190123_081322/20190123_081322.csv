@@ -1,0 +1,94 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Care Navigator,Chrome 71.0.3578.98,,2019-01-23 08:13:25,2019-01-23 08:13:59,33.170s,PASSED
+,,,,,,
+Test Cases/UI/Employee/Care Navigator/Care Navigator Test Cases,Chrome 71.0.3578.98,,2019-01-23 08:13:26,2019-01-23 08:13:58,32.948s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-23 08:13:26,2019-01-23 08:13:29,3.380s,PASSED
+"navigateToUrl(""https://uat.advancedpricing.com/"")",Chrome 71.0.3578.98,,2019-01-23 08:13:29,2019-01-23 08:13:31,1.669s,PASSED
+"setText(findTestObject(""UI/Employee/Files/input_AMPS Portal Sign In_code""), ""qaAuto"")",Chrome 71.0.3578.98,,2019-01-23 08:13:31,2019-01-23 08:13:31,0.171s,PASSED
+"setEncryptedText(findTestObject(""UI/Employee/Files/input_AMPS Portal Sign In_pass""), ""yjiIhAfFXTz0yohvbOLmCA=="")",Chrome 71.0.3578.98,,2019-01-23 08:13:31,2019-01-23 08:13:31,0.186s,PASSED
+"click(findTestObject(""UI/Employee/Files/input_Forgot Password_btn btn-""))",Chrome 71.0.3578.98,,2019-01-23 08:13:31,2019-01-23 08:13:31,0.092s,PASSED
+"click(findTestObject(""UI/Employee/Care Navigator/span_Care Navigator""))",Chrome 71.0.3578.98,,2019-01-23 08:13:31,2019-01-23 08:13:32,0.819s,PASSED
+"click(findTestObject(""UI/Employee/Care Navigator/Arrow to Write (1)""))",Chrome 71.0.3578.98,,2019-01-23 08:13:32,2019-01-23 08:13:33,0.679s,PASSED
+"setText(findTestObject(""UI/Employee/Care Navigator/input_Results_form-control inp""), ""The Benefit Group"")",Chrome 71.0.3578.98,,2019-01-23 08:13:33,2019-01-23 08:13:34,0.843s,PASSED
+"click(findTestObject(""UI/Employee/Care Navigator/Arrow to Write""))",Chrome 71.0.3578.98,,2019-01-23 08:13:34,2019-01-23 08:13:34,0.081s,PASSED
+"setText(findTestObject(""UI/Employee/Care Navigator/input""), ""Review"")",Chrome 71.0.3578.98,,2019-01-23 08:13:34,2019-01-23 08:13:34,0.138s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-23 08:13:34,2019-01-23 08:13:35,1.017s,PASSED
+"sendKeys(findTestObject(""UI/Employee/Care Navigator/input""), Keys.chord(ENTER))",Chrome 71.0.3578.98,,2019-01-23 08:13:35,2019-01-23 08:13:35,0.073s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-23 08:13:35,2019-01-23 08:13:36,1.002s,PASSED
+"click(findTestObject(""UI/Employee/Care Navigator/td_1 In Review""))",Chrome 71.0.3578.98,,2019-01-23 08:13:36,2019-01-23 08:13:36,0.162s,PASSED
+"click(findTestObject(""UI/Employee/Care Navigator/td_1 In Review""))",Chrome 71.0.3578.98,,2019-01-23 08:13:36,2019-01-23 08:13:36,0.059s,PASSED
+"click(findTestObject(""UI/Employee/Care Navigator/td_1 In Review""))",Chrome 71.0.3578.98,,2019-01-23 08:13:36,2019-01-23 08:13:36,0.047s,PASSED
+"click(findTestObject(""UI/Employee/Care Navigator/td_1 In Review""))",Chrome 71.0.3578.98,,2019-01-23 08:13:36,2019-01-23 08:13:36,0.036s,PASSED
+"click(findTestObject(""UI/Employee/Care Navigator/Arrow to Write""))",Chrome 71.0.3578.98,,2019-01-23 08:13:36,2019-01-23 08:13:37,0.070s,PASSED
+"setText(findTestObject(""UI/Employee/Care Navigator/input""), ""Local"")",Chrome 71.0.3578.98,,2019-01-23 08:13:37,2019-01-23 08:13:37,0.134s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-23 08:13:37,2019-01-23 08:13:38,1.000s,PASSED
+"sendKeys(findTestObject(""UI/Employee/Care Navigator/input""), Keys.chord(ENTER))",Chrome 71.0.3578.98,,2019-01-23 08:13:38,2019-01-23 08:13:38,0.031s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-23 08:13:38,2019-01-23 08:13:39,1.002s,PASSED
+"click(findTestObject(""UI/Employee/Care Navigator/td_2. Locating Facility""))",Chrome 71.0.3578.98,,2019-01-23 08:13:39,2019-01-23 08:13:39,0.086s,PASSED
+"click(findTestObject(""UI/Employee/Care Navigator/td_2. Locating Facility""))",Chrome 71.0.3578.98,,2019-01-23 08:13:39,2019-01-23 08:13:39,0.057s,PASSED
+"click(findTestObject(""UI/Employee/Care Navigator/td_2. Locating Facility""))",Chrome 71.0.3578.98,,2019-01-23 08:13:39,2019-01-23 08:13:39,0.051s,PASSED
+"click(findTestObject(""UI/Employee/Care Navigator/Arrow to Write""))",Chrome 71.0.3578.98,,2019-01-23 08:13:39,2019-01-23 08:13:39,0.063s,PASSED
+"setText(findTestObject(""UI/Employee/Care Navigator/input""), ""Schedule"")",Chrome 71.0.3578.98,,2019-01-23 08:13:39,2019-01-23 08:13:39,0.116s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-23 08:13:39,2019-01-23 08:13:40,1.002s,PASSED
+"sendKeys(findTestObject(""UI/Employee/Care Navigator/input""), Keys.chord(ENTER))",Chrome 71.0.3578.98,,2019-01-23 08:13:40,2019-01-23 08:13:40,0.051s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-23 08:13:40,2019-01-23 08:13:41,1.002s,PASSED
+"click(findTestObject(""UI/Employee/Care Navigator/td_4. Scheduled""))",Chrome 71.0.3578.98,,2019-01-23 08:13:41,2019-01-23 08:13:41,0.113s,PASSED
+"click(findTestObject(""UI/Employee/Care Navigator/td_4. Scheduled""))",Chrome 71.0.3578.98,,2019-01-23 08:13:41,2019-01-23 08:13:41,0.057s,PASSED
+"click(findTestObject(""UI/Employee/Care Navigator/td_4. Scheduled""))",Chrome 71.0.3578.98,,2019-01-23 08:13:41,2019-01-23 08:13:41,0.061s,PASSED
+"click(findTestObject(""UI/Employee/Care Navigator/td_4. Scheduled""))",Chrome 71.0.3578.98,,2019-01-23 08:13:41,2019-01-23 08:13:41,0.049s,PASSED
+"click(findTestObject(""UI/Employee/Care Navigator/td_4. Scheduled""))",Chrome 71.0.3578.98,,2019-01-23 08:13:41,2019-01-23 08:13:41,0.048s,PASSED
+"click(findTestObject(""UI/Employee/Care Navigator/Arrow to Write""))",Chrome 71.0.3578.98,,2019-01-23 08:13:41,2019-01-23 08:13:42,0.083s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-23 08:13:42,2019-01-23 08:13:44,2.003s,PASSED
+"setText(findTestObject(""UI/Employee/Care Navigator/input_Results_form-control inp_13""), ""The Benefit Group"")",Chrome 71.0.3578.98,,2019-01-23 08:13:44,2019-01-23 08:13:44,0.289s,PASSED
+driver = getWebDriver(),Chrome 71.0.3578.98,,2019-01-23 08:13:44,2019-01-23 08:13:44,0.009s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-23 08:13:44,2019-01-23 08:13:45,1.001s,PASSED
+"stage = xpath(""//*[@id=""DataTable6""]/tbody/tr[1]/td[2]"")).getText()",Chrome 71.0.3578.98,,2019-01-23 08:13:45,2019-01-23 08:13:45,0.078s,PASSED
+"CurrentStatus = xpath(""//*[@id=""DataTable6""]/tbody/tr[1]/td[3]"")).getText()",Chrome 71.0.3578.98,,2019-01-23 08:13:45,2019-01-23 08:13:45,0.043s,PASSED
+"Followup = xpath(""//*[@id=""DataTable6""]/tbody/tr[1]/td[4]"")).getText()",Chrome 71.0.3578.98,,2019-01-23 08:13:45,2019-01-23 08:13:45,0.030s,PASSED
+"Patient = xpath(""//*[@id=""DataTable6""]/tbody/tr[1]/td[5]"")).getText()",Chrome 71.0.3578.98,,2019-01-23 08:13:45,2019-01-23 08:13:45,0.030s,PASSED
+"Client = xpath(""//*[@id=""DataTable6""]/tbody/tr[1]/td[6]"")).getText()",Chrome 71.0.3578.98,,2019-01-23 08:13:45,2019-01-23 08:13:45,0.053s,PASSED
+"Group = xpath(""//*[@id=""DataTable6""]/tbody/tr[1]/td[7]"")).getText()",Chrome 71.0.3578.98,,2019-01-23 08:13:45,2019-01-23 08:13:45,0.031s,PASSED
+"click(findTestObject(""UI/Employee/Care Navigator/a_1477""))",Chrome 71.0.3578.98,,2019-01-23 08:13:45,2019-01-23 08:13:45,0.145s,PASSED
+"click(findTestObject(""UI/Employee/Care Navigator/a_Connex Events""))",Chrome 71.0.3578.98,,2019-01-23 08:13:45,2019-01-23 08:13:45,0.070s,PASSED
+"Patient2 = xpath(""//*[@id=""content""]/div/div/div/div[3]/div/div[1]/div[1]/h1"")).getText()",Chrome 71.0.3578.98,,2019-01-23 08:13:45,2019-01-23 08:13:45,0.027s,PASSED
+"Client2 = xpath(""//*[@id=""patientProfileTab""]/div/div[1]/p/strong"")).getText()",Chrome 71.0.3578.98,,2019-01-23 08:13:45,2019-01-23 08:13:45,0.030s,PASSED
+"Group2 = xpath(""//*[@id=""patientProfileTab""]/div/div[2]/p/strong"")).getText()",Chrome 71.0.3578.98,,2019-01-23 08:13:45,2019-01-23 08:13:45,0.112s,PASSED
+Client2.contains(Client),Chrome 71.0.3578.98,,2019-01-23 08:13:45,2019-01-23 08:13:45,0.001s,PASSED
+Patient2.contains(Patient),Chrome 71.0.3578.98,,2019-01-23 08:13:45,2019-01-23 08:13:45,0.000s,PASSED
+Group2.contains(Group),Chrome 71.0.3578.98,,2019-01-23 08:13:45,2019-01-23 08:13:45,0.000s,PASSED
+"click(findTestObject(""UI/Employee/Care Navigator/label_Client""))",Chrome 71.0.3578.98,,2019-01-23 08:13:45,2019-01-23 08:13:46,0.093s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-23 08:13:46,2019-01-23 08:13:47,1.001s,PASSED
+"click(findTestObject(""UI/Employee/Care Navigator/strong_The Benefit Group""))",Chrome 71.0.3578.98,,2019-01-23 08:13:47,2019-01-23 08:13:47,0.093s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-23 08:13:47,2019-01-23 08:13:48,1.001s,PASSED
+"click(findTestObject(""UI/Employee/Care Navigator/label_Phone""))",Chrome 71.0.3578.98,,2019-01-23 08:13:48,2019-01-23 08:13:48,0.144s,PASSED
+"click(findTestObject(""UI/Employee/Care Navigator/strong_(582) 555-4747""))",Chrome 71.0.3578.98,,2019-01-23 08:13:48,2019-01-23 08:13:48,0.088s,PASSED
+"click(findTestObject(""UI/Employee/Care Navigator/label_Client Group""))",Chrome 71.0.3578.98,,2019-01-23 08:13:48,2019-01-23 08:13:48,0.054s,PASSED
+"click(findTestObject(""UI/Employee/Care Navigator/strong_PeopleServices Inc. (RB""))",Chrome 71.0.3578.98,,2019-01-23 08:13:48,2019-01-23 08:13:48,0.101s,PASSED
+"click(findTestObject(""UI/Employee/Care Navigator/label_Email""))",Chrome 71.0.3578.98,,2019-01-23 08:13:48,2019-01-23 08:13:48,0.058s,PASSED
+"click(findTestObject(""UI/Employee/Care Navigator/a_nothingnobody.com""))",Chrome 71.0.3578.98,,2019-01-23 08:13:48,2019-01-23 08:13:48,0.066s,PASSED
+"click(findTestObject(""UI/Employee/Care Navigator/label_Date of Birth""))",Chrome 71.0.3578.98,,2019-01-23 08:13:48,2019-01-23 08:13:48,0.072s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-23 08:13:48,2019-01-23 08:13:49,1.003s,PASSED
+"click(findTestObject(""UI/Employee/Care Navigator/strong_10091946""))",Chrome 71.0.3578.98,,2019-01-23 08:13:49,2019-01-23 08:13:49,0.138s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-23 08:13:49,2019-01-23 08:13:50,1.001s,PASSED
+"click(findTestObject(""UI/Employee/Care Navigator/i_Showing 0 to 0 of 0 entries_""))",Chrome 71.0.3578.98,,2019-01-23 08:13:50,2019-01-23 08:13:51,0.128s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-23 08:13:51,2019-01-23 08:13:52,1.003s,PASSED
+"click(findTestObject(""UI/Employee/Care Navigator/a_Other""))",Chrome 71.0.3578.98,,2019-01-23 08:13:52,2019-01-23 08:13:52,0.234s,PASSED
+"click(findTestObject(""UI/Employee/Care Navigator/label_Note""))",Chrome 71.0.3578.98,,2019-01-23 08:13:52,2019-01-23 08:13:52,0.081s,PASSED
+"click(findTestObject(""UI/Employee/Care Navigator/label_Current Status""))",Chrome 71.0.3578.98,,2019-01-23 08:13:52,2019-01-23 08:13:52,0.066s,PASSED
+"click(findTestObject(""UI/Employee/Care Navigator/label_Follow-up""))",Chrome 71.0.3578.98,,2019-01-23 08:13:52,2019-01-23 08:13:52,0.060s,PASSED
+"setText(findTestObject(""UI/Employee/Care Navigator/textarea_Test automation""), ""Test automation"")",Chrome 71.0.3578.98,,2019-01-23 08:13:52,2019-01-23 08:13:52,0.211s,PASSED
+"selectOptionByValue(findTestObject(""UI/Employee/Care Navigator/select_1 In Review2. Locating""), ""10"", true)",Chrome 71.0.3578.98,,2019-01-23 08:13:52,2019-01-23 08:13:52,0.186s,PASSED
+"selectOptionByValue(findTestObject(""UI/Employee/Care Navigator/select_Gathering InformationVe""), ""7"", true)",Chrome 71.0.3578.98,,2019-01-23 08:13:52,2019-01-23 08:13:53,0.235s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-23 08:13:53,2019-01-23 08:13:55,2.003s,PASSED
+"click(findTestObject(""UI/Employee/Care Navigator/div_Follow-upJanuary 2019SunMo""))",Chrome 71.0.3578.98,,2019-01-23 08:13:55,2019-01-23 08:13:55,0.139s,PASSED
+"setText(findTestObject(""UI/Employee/Care Navigator/Calendar""), ""12/12/2020"")",Chrome 71.0.3578.98,,2019-01-23 08:13:55,2019-01-23 08:13:55,0.162s,PASSED
+"setText(findTestObject(""UI/Employee/Care Navigator/input_Follow-up_form-control f""), ""12/12/2020"")",Chrome 71.0.3578.98,,2019-01-23 08:13:55,2019-01-23 08:13:55,0.178s,PASSED
+"click(findTestObject(""UI/Employee/Care Navigator/div_Stage1 In Review2. Locatin""))",Chrome 71.0.3578.98,,2019-01-23 08:13:55,2019-01-23 08:13:55,0.100s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-23 08:13:55,2019-01-23 08:13:56,1.002s,PASSED
+"click(findTestObject(""UI/Employee/Care Navigator/button_Save""))",Chrome 71.0.3578.98,,2019-01-23 08:13:56,2019-01-23 08:13:56,0.140s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-23 08:13:56,2019-01-23 08:13:57,1.003s,PASSED
+"setText(findTestObject(""UI/Employee/Care Navigator/input_Transfer Provider Call_f""), ""other"")",Chrome 71.0.3578.98,,2019-01-23 08:13:57,2019-01-23 08:13:58,0.301s,PASSED
+"sendKeys(findTestObject(""UI/Employee/Care Navigator/input_Transfer Provider Call_f""), Keys.chord(ENTER))",Chrome 71.0.3578.98,,2019-01-23 08:13:58,2019-01-23 08:13:58,0.042s,PASSED
+"click(findTestObject(""UI/Employee/Care Navigator/td_Other""))",Chrome 71.0.3578.98,,2019-01-23 08:13:58,2019-01-23 08:13:58,0.098s,PASSED
+"click(findTestObject(""UI/Employee/Care Navigator/span_2. Locating Facility""))",Chrome 71.0.3578.98,,2019-01-23 08:13:58,2019-01-23 08:13:58,0.081s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-23 08:13:58,2019-01-23 08:13:58,0.651s,PASSED

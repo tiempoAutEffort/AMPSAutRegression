@@ -1,0 +1,70 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Performance Monitor,Chrome 71.0.3578.98,,2019-01-23 11:00:53,2019-01-23 11:01:34,41.287s,PASSED
+,,,,,,
+Test Cases/UI/General/openBrowser,Chrome 71.0.3578.98,,2019-01-23 11:00:53,2019-01-23 11:01:04,11.053s,PASSED
+"openBrowser(""https://uat.advancedpricing.com/login"")",Chrome 71.0.3578.98,,2019-01-23 11:00:53,2019-01-23 11:01:02,9.402s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-23 11:01:02,2019-01-23 11:01:04,1.161s,PASSED
+"waitForElementPresent(findTestObject(""UI/Client/Client Services/ForgotPassword/a_ForgotPassword""), 5)",Chrome 71.0.3578.98,,2019-01-23 11:01:04,2019-01-23 11:01:04,0.079s,PASSED
+"waitForElementVisible(findTestObject(""UI/Client/Client Services/ForgotPassword/a_ForgotPassword""), 5)",Chrome 71.0.3578.98,,2019-01-23 11:01:04,2019-01-23 11:01:04,0.041s,PASSED
+"waitForElementPresent(findTestObject(""UI/General/Page_LoginPage/button_Login""), 5)",Chrome 71.0.3578.98,,2019-01-23 11:01:04,2019-01-23 11:01:04,0.018s,PASSED
+"waitForElementVisible(findTestObject(""UI/General/Page_LoginPage/button_Login""), 5)",Chrome 71.0.3578.98,,2019-01-23 11:01:04,2019-01-23 11:01:04,0.029s,PASSED
+"waitForElementPresent(findTestObject(""UI/General/Page_LoginPage/input_Password""), 5)",Chrome 71.0.3578.98,,2019-01-23 11:01:04,2019-01-23 11:01:04,0.018s,PASSED
+"waitForElementVisible(findTestObject(""UI/General/Page_LoginPage/input_Password""), 5)",Chrome 71.0.3578.98,,2019-01-23 11:01:04,2019-01-23 11:01:04,0.028s,PASSED
+"waitForElementPresent(findTestObject(""UI/General/Page_LoginPage/input_User""), 5)",Chrome 71.0.3578.98,,2019-01-23 11:01:04,2019-01-23 11:01:04,0.023s,PASSED
+"waitForElementVisible(findTestObject(""UI/General/Page_LoginPage/input_User""), 5)",Chrome 71.0.3578.98,,2019-01-23 11:01:04,2019-01-23 11:01:04,0.028s,PASSED
+,,,,,,
+Test Cases/UI/General/Employee Login,Chrome 71.0.3578.98,,2019-01-23 11:01:04,2019-01-23 11:01:05,1.388s,PASSED
+"setText(findTestObject(""UI/General/Page_LoginPage/input_User""), user)",Chrome 71.0.3578.98,,2019-01-23 11:01:04,2019-01-23 11:01:04,0.183s,PASSED
+"setText(findTestObject(""UI/General/Page_LoginPage/input_Password""), password)",Chrome 71.0.3578.98,,2019-01-23 11:01:04,2019-01-23 11:01:04,0.178s,PASSED
+"click(findTestObject(""UI/General/Page_LoginPage/button_Login""))",Chrome 71.0.3578.98,,2019-01-23 11:01:04,2019-01-23 11:01:04,0.085s,PASSED
+"waitForElementPresent(findTestObject(""UI/General/Page_Employee landing page/img_AMPSLogo""), 5)",Chrome 71.0.3578.98,,2019-01-23 11:01:04,2019-01-23 11:01:05,0.616s,PASSED
+"waitForElementVisible(findTestObject(""UI/General/Page_Employee landing page/img_AMPSLogo""), 5)",Chrome 71.0.3578.98,,2019-01-23 11:01:05,2019-01-23 11:01:05,0.026s,PASSED
+"waitForElementPresent(findTestObject(""UI/General/Page_Employee landing page/span_ClientsMenu""), 5)",Chrome 71.0.3578.98,,2019-01-23 11:01:05,2019-01-23 11:01:05,0.020s,PASSED
+"waitForElementVisible(findTestObject(""UI/General/Page_Employee landing page/span_ClientsMenu""), 5)",Chrome 71.0.3578.98,,2019-01-23 11:01:05,2019-01-23 11:01:05,0.027s,PASSED
+"waitForElementPresent(findTestObject(""UI/General/Page_Employee landing page/h1_ClientsTitle""), 5)",Chrome 71.0.3578.98,,2019-01-23 11:01:05,2019-01-23 11:01:05,0.031s,PASSED
+"waitForElementVisible(findTestObject(""UI/General/Page_Employee landing page/h1_ClientsTitle""), 5)",Chrome 71.0.3578.98,,2019-01-23 11:01:05,2019-01-23 11:01:05,0.040s,PASSED
+,,,,,,
+Test Cases/UI/Employee/Performance Monitor/Verify there is a change on the graphic,Chrome 71.0.3578.98,,2019-01-23 11:01:05,2019-01-23 11:01:22,16.458s,PASSED
+"actualSavings = findTestObject(""UI/Employee/Performance Monitor/Objects Performance Monitor/Page_AMPS Portal/div_979268824"")",Chrome 71.0.3578.98,,2019-01-23 11:01:05,2019-01-23 11:01:05,0.003s,PASSED
+"last3MonthsSavings = findTestObject(""UI/Employee/Performance Monitor/Objects Performance Monitor/Page_AMPS Portal/div_67758396"")",Chrome 71.0.3578.98,,2019-01-23 11:01:05,2019-01-23 11:01:05,0.002s,PASSED
+"callTestCase(findTestCase(""UI/General/AdminLogin""), [:], STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-23 11:01:05,2019-01-23 11:01:05,0.001s,NOT_RUN
+"click(findTestObject(""UI/Employee/Performance Monitor/Objects Performance Monitor/Page_AMPS Portal/span_Performance Monitor""))",Chrome 71.0.3578.98,,2019-01-23 11:01:05,2019-01-23 11:01:05,0.110s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-23 11:01:05,2019-01-23 11:01:10,5.018s,PASSED
+"click(findTestObject(""UI/Employee/Performance Monitor/Objects Performance Monitor/Page_AMPS Portal/button_Last 3 Months""))",Chrome 71.0.3578.98,,2019-01-23 11:01:10,2019-01-23 11:01:11,0.208s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-23 11:01:11,2019-01-23 11:01:16,5.001s,PASSED
+"verifyNotEqual(actualSavings, last3MonthsSavings)",Chrome 71.0.3578.98,,2019-01-23 11:01:16,2019-01-23 11:01:16,0.022s,PASSED
+"click(findTestObject(""UI/Employee/Performance Monitor/Objects Performance Monitor/Page_AMPS Portal/button_ITD""))",Chrome 71.0.3578.98,,2019-01-23 11:01:16,2019-01-23 11:01:16,0.268s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-23 11:01:16,2019-01-23 11:01:21,5.002s,PASSED
+"verifyEqual(actualSavings, actualSavings)",Chrome 71.0.3578.98,,2019-01-23 11:01:21,2019-01-23 11:01:21,0.016s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-23 11:01:21,2019-01-23 11:01:22,0.660s,PASSED
+,,,,,,
+Test Cases/UI/General/openBrowser,Chrome 71.0.3578.98,,2019-01-23 11:01:22,2019-01-23 11:01:27,5.015s,PASSED
+"openBrowser(""https://uat.advancedpricing.com/login"")",Chrome 71.0.3578.98,,2019-01-23 11:01:22,2019-01-23 11:01:25,3.698s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-23 11:01:25,2019-01-23 11:01:26,1.122s,PASSED
+"waitForElementPresent(findTestObject(""UI/Client/Client Services/ForgotPassword/a_ForgotPassword""), 5)",Chrome 71.0.3578.98,,2019-01-23 11:01:26,2019-01-23 11:01:26,0.018s,PASSED
+"waitForElementVisible(findTestObject(""UI/Client/Client Services/ForgotPassword/a_ForgotPassword""), 5)",Chrome 71.0.3578.98,,2019-01-23 11:01:26,2019-01-23 11:01:27,0.027s,PASSED
+"waitForElementPresent(findTestObject(""UI/General/Page_LoginPage/button_Login""), 5)",Chrome 71.0.3578.98,,2019-01-23 11:01:27,2019-01-23 11:01:27,0.017s,PASSED
+"waitForElementVisible(findTestObject(""UI/General/Page_LoginPage/button_Login""), 5)",Chrome 71.0.3578.98,,2019-01-23 11:01:27,2019-01-23 11:01:27,0.028s,PASSED
+"waitForElementPresent(findTestObject(""UI/General/Page_LoginPage/input_Password""), 5)",Chrome 71.0.3578.98,,2019-01-23 11:01:27,2019-01-23 11:01:27,0.018s,PASSED
+"waitForElementVisible(findTestObject(""UI/General/Page_LoginPage/input_Password""), 5)",Chrome 71.0.3578.98,,2019-01-23 11:01:27,2019-01-23 11:01:27,0.026s,PASSED
+"waitForElementPresent(findTestObject(""UI/General/Page_LoginPage/input_User""), 5)",Chrome 71.0.3578.98,,2019-01-23 11:01:27,2019-01-23 11:01:27,0.017s,PASSED
+"waitForElementVisible(findTestObject(""UI/General/Page_LoginPage/input_User""), 5)",Chrome 71.0.3578.98,,2019-01-23 11:01:27,2019-01-23 11:01:27,0.027s,PASSED
+,,,,,,
+Test Cases/UI/General/Employee Login,Chrome 71.0.3578.98,,2019-01-23 11:01:27,2019-01-23 11:01:28,1.213s,PASSED
+"setText(findTestObject(""UI/General/Page_LoginPage/input_User""), user)",Chrome 71.0.3578.98,,2019-01-23 11:01:27,2019-01-23 11:01:27,0.154s,PASSED
+"setText(findTestObject(""UI/General/Page_LoginPage/input_Password""), password)",Chrome 71.0.3578.98,,2019-01-23 11:01:27,2019-01-23 11:01:27,0.175s,PASSED
+"click(findTestObject(""UI/General/Page_LoginPage/button_Login""))",Chrome 71.0.3578.98,,2019-01-23 11:01:27,2019-01-23 11:01:27,0.085s,PASSED
+"waitForElementPresent(findTestObject(""UI/General/Page_Employee landing page/img_AMPSLogo""), 5)",Chrome 71.0.3578.98,,2019-01-23 11:01:27,2019-01-23 11:01:28,0.608s,PASSED
+"waitForElementVisible(findTestObject(""UI/General/Page_Employee landing page/img_AMPSLogo""), 5)",Chrome 71.0.3578.98,,2019-01-23 11:01:28,2019-01-23 11:01:28,0.083s,PASSED
+"waitForElementPresent(findTestObject(""UI/General/Page_Employee landing page/span_ClientsMenu""), 5)",Chrome 71.0.3578.98,,2019-01-23 11:01:28,2019-01-23 11:01:28,0.020s,PASSED
+"waitForElementVisible(findTestObject(""UI/General/Page_Employee landing page/span_ClientsMenu""), 5)",Chrome 71.0.3578.98,,2019-01-23 11:01:28,2019-01-23 11:01:28,0.023s,PASSED
+"waitForElementPresent(findTestObject(""UI/General/Page_Employee landing page/h1_ClientsTitle""), 5)",Chrome 71.0.3578.98,,2019-01-23 11:01:28,2019-01-23 11:01:28,0.021s,PASSED
+"waitForElementVisible(findTestObject(""UI/General/Page_Employee landing page/h1_ClientsTitle""), 5)",Chrome 71.0.3578.98,,2019-01-23 11:01:28,2019-01-23 11:01:28,0.025s,PASSED
+,,,,,,
+Test Cases/UI/Employee/Performance Monitor/General Display,Chrome 71.0.3578.98,,2019-01-23 11:01:28,2019-01-23 11:01:34,5.938s,PASSED
+"actualText = findTestObject(""UI/Employee/Performance Monitor/Objects Performance Monitor/Page_AMPS Portal/span_Performance Monitor"")",Chrome 71.0.3578.98,,2019-01-23 11:01:28,2019-01-23 11:01:28,0.000s,PASSED
+"callTestCase(findTestCase(""UI/General/AdminLogin""), [:], STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-23 11:01:28,2019-01-23 11:01:28,0.000s,NOT_RUN
+"click(findTestObject(""UI/Employee/Performance Monitor/Objects Performance Monitor/Page_AMPS Portal/span_Performance Monitor""))",Chrome 71.0.3578.98,,2019-01-23 11:01:28,2019-01-23 11:01:28,0.120s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-23 11:01:28,2019-01-23 11:01:33,5.003s,PASSED
+"verifyElementPresent(actualText, 0)",Chrome 71.0.3578.98,,2019-01-23 11:01:33,2019-01-23 11:01:33,0.049s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-23 11:01:33,2019-01-23 11:01:34,0.649s,PASSED

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login - Employee" time="15" tests="3" failures="0" errors="0">
+   <testsuite name="Login - Employee" tests="3" failures="0" errors="0" time="15" timestamp="2019-01-23 11:25:03" hostname="david avalos - TDG-MBL-MTY0359.tiempodev.local" id="Test Suites/UI/Client Services/Login - Employee">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\David Avalos\\git\\AMPSAutRegression\\Reports\\UI\\Client Services\\Login - Employee\\20190123_112500"/>
+         <property name="logFiles" value="C:\\Users\\David Avalos\\git\\AMPSAutRegression\\Reports\\UI\\Client Services\\Login - Employee\\20190123_112500\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="david avalos - TDG-MBL-MTY0359.tiempodev.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.1.97"/>
+         <property name="sessionId" value="cc03a456a6cbe5638fb362d732cb4436"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/UI/Employee/Client Services/Login/Login - Successful Employee" classname="Test Cases/UI/Employee/Client Services/Login/Login - Successful Employee" status="PASSED">
+         <system-out><![CDATA[2019-01-23 11:25:03 - [TEST_CASE][PASSED] - Test Cases/UI/Employee/Client Services/Login/Login - Successful Employee: Test Cases/UI/Employee/Client Services/Login/Login - Successful Employee
+
+2019-01-23 11:25:04 - [TEST_STEP][PASSED] - openBrowser("https://uat.advancedpricing.com/login"): Browser is opened with url: 'https://uat.advancedpricing.com/login'
+
+2019-01-23 11:25:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-23 11:25:04 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-23 11:25:08 - [MESSAGE][PASSED] - Browser is opened with url: 'https://uat.advancedpricing.com/login'
+
+2019-01-23 11:25:08 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-23 11:25:09 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-23 11:25:09 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/Employee/Client Services/ForgotPassword/a_ForgotPassword"), 5): Object 'Object Repository/UI/Employee/Client Services/ForgotPassword/a_ForgotPassword' is present
+
+2019-01-23 11:25:09 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Client Services/ForgotPassword/a_ForgotPassword' is present
+
+2019-01-23 11:25:09 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/Employee/Client Services/ForgotPassword/a_ForgotPassword"), 5): Object 'Object Repository/UI/Employee/Client Services/ForgotPassword/a_ForgotPassword' is visible
+
+2019-01-23 11:25:10 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Client Services/ForgotPassword/a_ForgotPassword' is visible
+
+2019-01-23 11:25:10 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/General/Page_LoginPage/button_Login"), 5): Object 'Object Repository/UI/General/Page_LoginPage/button_Login' is present
+
+2019-01-23 11:25:10 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_LoginPage/button_Login' is present
+
+2019-01-23 11:25:10 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/General/Page_LoginPage/button_Login"), 5): Object 'Object Repository/UI/General/Page_LoginPage/button_Login' is visible
+
+2019-01-23 11:25:10 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_LoginPage/button_Login' is visible
+
+2019-01-23 11:25:10 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/Employee/Client Services/Login/input_Password"), 5): Object 'Object Repository/UI/Employee/Client Services/Login/input_Password' is present
+
+2019-01-23 11:25:10 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Client Services/Login/input_Password' is present
+
+2019-01-23 11:25:10 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/Employee/Client Services/Login/input_Password"), 5): Object 'Object Repository/UI/Employee/Client Services/Login/input_Password' is visible
+
+2019-01-23 11:25:10 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Client Services/Login/input_Password' is visible
+
+2019-01-23 11:25:10 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/Employee/Client Services/Login/input_User"), 5): Object 'Object Repository/UI/Employee/Client Services/Login/input_User' is present
+
+2019-01-23 11:25:10 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Client Services/Login/input_User' is present
+
+2019-01-23 11:25:10 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/Employee/Client Services/Login/input_User"), 5): Object 'Object Repository/UI/Employee/Client Services/Login/input_User' is visible
+
+2019-01-23 11:25:10 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Client Services/Login/input_User' is visible
+
+2019-01-23 11:25:10 - [TEST_STEP][PASSED] - setText(findTestObject("UI/Employee/Client Services/Login/input_User"), user): Text 'qaAuto' is set on object 'Object Repository/UI/Employee/Client Services/Login/input_User'
+
+2019-01-23 11:25:10 - [MESSAGE][PASSED] - Text 'qaAuto' is set on object 'Object Repository/UI/Employee/Client Services/Login/input_User'
+
+2019-01-23 11:25:10 - [TEST_STEP][PASSED] - setText(findTestObject("UI/Employee/Client Services/Login/input_Password"), password): Text 'a9yk100dD' is set on object 'Object Repository/UI/Employee/Client Services/Login/input_Password'
+
+2019-01-23 11:25:10 - [MESSAGE][PASSED] - Text 'a9yk100dD' is set on object 'Object Repository/UI/Employee/Client Services/Login/input_Password'
+
+2019-01-23 11:25:10 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Client Services/Login/button_Login")): Object: 'Object Repository/UI/Employee/Client Services/Login/button_Login' is clicked on
+
+2019-01-23 11:25:10 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Client Services/Login/button_Login' is clicked on
+
+2019-01-23 11:25:10 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/General/Page_Employee landing page/img_AMPSLogo"), 5): Object 'Object Repository/UI/General/Page_Employee landing page/img_AMPSLogo' is present
+
+2019-01-23 11:25:11 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_Employee landing page/img_AMPSLogo' is present
+
+2019-01-23 11:25:11 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/General/Page_Employee landing page/img_AMPSLogo"), 5): Object 'Object Repository/UI/General/Page_Employee landing page/img_AMPSLogo' is visible
+
+2019-01-23 11:25:11 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_Employee landing page/img_AMPSLogo' is visible
+
+2019-01-23 11:25:11 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/General/Page_Employee landing page/span_ClientsMenu"), 5): Object 'Object Repository/UI/General/Page_Employee landing page/span_ClientsMenu' is present
+
+2019-01-23 11:25:11 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_Employee landing page/span_ClientsMenu' is present
+
+2019-01-23 11:25:11 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/General/Page_Employee landing page/span_ClientsMenu"), 5): Object 'Object Repository/UI/General/Page_Employee landing page/span_ClientsMenu' is visible
+
+2019-01-23 11:25:11 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_Employee landing page/span_ClientsMenu' is visible
+
+2019-01-23 11:25:11 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/General/Page_Employee landing page/h1_ClientsTitle"), 5): Object 'Object Repository/UI/General/Page_Employee landing page/h1_ClientsTitle' is present
+
+2019-01-23 11:25:11 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_Employee landing page/h1_ClientsTitle' is present
+
+2019-01-23 11:25:11 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/General/Page_Employee landing page/h1_ClientsTitle"), 5): Object 'Object Repository/UI/General/Page_Employee landing page/h1_ClientsTitle' is visible
+
+2019-01-23 11:25:11 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_Employee landing page/h1_ClientsTitle' is visible
+
+2019-01-23 11:25:11 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-23 11:25:11 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UI/General/openBrowser" classname="Test Cases/UI/General/openBrowser" status="PASSED">
+         <system-out><![CDATA[2019-01-23 11:25:11 - [TEST_CASE][PASSED] - Test Cases/UI/General/openBrowser: Test Cases/UI/General/openBrowser
+
+2019-01-23 11:25:12 - [TEST_STEP][PASSED] - openBrowser("https://uat.advancedpricing.com/login"): Browser is opened with url: 'https://uat.advancedpricing.com/login'
+
+2019-01-23 11:25:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-23 11:25:15 - [MESSAGE][PASSED] - Browser is opened with url: 'https://uat.advancedpricing.com/login'
+
+2019-01-23 11:25:15 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-23 11:25:16 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-23 11:25:16 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/Client/Client Services/ForgotPassword/a_ForgotPassword"), 5): Object 'Object Repository/UI/Client/Client Services/ForgotPassword/a_ForgotPassword' is present
+
+2019-01-23 11:25:16 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Client Services/ForgotPassword/a_ForgotPassword' is present
+
+2019-01-23 11:25:16 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/Client/Client Services/ForgotPassword/a_ForgotPassword"), 5): Object 'Object Repository/UI/Client/Client Services/ForgotPassword/a_ForgotPassword' is visible
+
+2019-01-23 11:25:16 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Client Services/ForgotPassword/a_ForgotPassword' is visible
+
+2019-01-23 11:25:16 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/General/Page_LoginPage/button_Login"), 5): Object 'Object Repository/UI/General/Page_LoginPage/button_Login' is present
+
+2019-01-23 11:25:16 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_LoginPage/button_Login' is present
+
+2019-01-23 11:25:16 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/General/Page_LoginPage/button_Login"), 5): Object 'Object Repository/UI/General/Page_LoginPage/button_Login' is visible
+
+2019-01-23 11:25:16 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_LoginPage/button_Login' is visible
+
+2019-01-23 11:25:16 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/General/Page_LoginPage/input_Password"), 5): Object 'Object Repository/UI/General/Page_LoginPage/input_Password' is present
+
+2019-01-23 11:25:16 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_LoginPage/input_Password' is present
+
+2019-01-23 11:25:16 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/General/Page_LoginPage/input_Password"), 5): Object 'Object Repository/UI/General/Page_LoginPage/input_Password' is visible
+
+2019-01-23 11:25:17 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_LoginPage/input_Password' is visible
+
+2019-01-23 11:25:17 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/General/Page_LoginPage/input_User"), 5): Object 'Object Repository/UI/General/Page_LoginPage/input_User' is present
+
+2019-01-23 11:25:17 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_LoginPage/input_User' is present
+
+2019-01-23 11:25:17 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/General/Page_LoginPage/input_User"), 5): Object 'Object Repository/UI/General/Page_LoginPage/input_User' is visible
+
+2019-01-23 11:25:17 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_LoginPage/input_User' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UI/Employee/Client Services/Login/Login - Incorrect credentials" classname="Test Cases/UI/Employee/Client Services/Login/Login - Incorrect credentials" status="PASSED">
+         <system-out><![CDATA[2019-01-23 11:25:17 - [TEST_CASE][PASSED] - Test Cases/UI/Employee/Client Services/Login/Login - Incorrect credentials: Test Cases/UI/Employee/Client Services/Login/Login - Incorrect credentials
+
+2019-01-23 11:25:17 - [TEST_STEP][PASSED] - setText(findTestObject("UI/Employee/Client Services/Login/input_User"), invalidUser): Text 'test' is set on object 'Object Repository/UI/Employee/Client Services/Login/input_User'
+
+2019-01-23 11:25:17 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/UI/Employee/Client Services/Login/input_User'
+
+2019-01-23 11:25:17 - [TEST_STEP][PASSED] - setText(findTestObject("UI/Employee/Client Services/Login/input_Password"), invalidPassword): Text 'test' is set on object 'Object Repository/UI/Employee/Client Services/Login/input_Password'
+
+2019-01-23 11:25:17 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/UI/Employee/Client Services/Login/input_Password'
+
+2019-01-23 11:25:17 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Client Services/Login/button_Login")): Object: 'Object Repository/UI/Employee/Client Services/Login/button_Login' is clicked on
+
+2019-01-23 11:25:17 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Client Services/Login/button_Login' is clicked on
+
+2019-01-23 11:25:17 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/Employee/Client Services/Login/div_AuthenticationFailedMessage"), 5): Object 'Object Repository/UI/Employee/Client Services/Login/div_AuthenticationFailedMessage' is present
+
+2019-01-23 11:25:18 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Client Services/Login/div_AuthenticationFailedMessage' is present
+
+2019-01-23 11:25:18 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/Employee/Client Services/Login/div_AuthenticationFailedMessage"), 5): Object 'Object Repository/UI/Employee/Client Services/Login/div_AuthenticationFailedMessage' is visible
+
+2019-01-23 11:25:18 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Client Services/Login/div_AuthenticationFailedMessage' is visible
+
+2019-01-23 11:25:18 - [TEST_STEP][PASSED] - actualFailMessage = getText(findTestObject("UI/Employee/Client Services/Login/div_AuthenticationFailedMessage")): Text of object 'Object Repository/UI/Employee/Client Services/Login/div_AuthenticationFailedMessage' is: 'Authentication Failed. Please try again.'
+
+2019-01-23 11:25:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/UI/Employee/Client Services/Login/div_AuthenticationFailedMessage' is: 'Authentication Failed. Please try again.'
+
+2019-01-23 11:25:18 - [TEST_STEP][PASSED] - verifyEqual(actualFailMessage, expectedFailMessage): Actual object 'Authentication Failed. Please try again.' and expected object 'Authentication Failed. Please try again.' are equal
+
+2019-01-23 11:25:18 - [MESSAGE][PASSED] - Actual object 'Authentication Failed. Please try again.' and expected object 'Authentication Failed. Please try again.' are equal]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-23 11:25:03 - [TEST_SUITE][PASSED] - Login - Employee: Test Cases/UI/Employee/Client Services/Login/Login - Incorrect credentials]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

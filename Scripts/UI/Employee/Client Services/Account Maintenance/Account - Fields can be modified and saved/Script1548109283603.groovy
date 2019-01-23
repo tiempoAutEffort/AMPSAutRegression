@@ -13,17 +13,17 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('UI/Employee/Client Services/Account/a_SettingsMenu'))
+not_run: WebUI.click(findTestObject('UI/Employee/Client Services/Account/a_SettingsMenu'))
 
-WebUI.scrollToElement(findTestObject('UI/Employee/Client Services/Account/a_SettingsMenu'), 5)
+not_run: WebUI.scrollToElement(findTestObject('UI/Employee/Client Services/Account/a_SettingsMenu'), 5)
 
-WebUI.click(findTestObject('UI/Employee/Client Services/Account/span_AccountSubMenu'))
+not_run: WebUI.click(findTestObject('UI/Employee/Client Services/Account/span_AccountSubMenu'))
 
-WebUI.waitForElementPresent(findTestObject('UI/Employee/Client Services/Account/h1_Account Title'), 5)
+not_run: WebUI.waitForElementPresent(findTestObject('UI/Employee/Client Services/Account/h1_Account Title'), 5)
 
-WebUI.waitForElementVisible(findTestObject('UI/Employee/Client Services/Account/h1_Account Title'), 5)
+not_run: WebUI.waitForElementVisible(findTestObject('UI/Employee/Client Services/Account/h1_Account Title'), 5)
 
-WebUI.scrollToElement(findTestObject('UI/Employee/Client Services/Account/h1_Account Title'), 5)
+not_run: WebUI.scrollToElement(findTestObject('UI/Employee/Client Services/Account/h1_Account Title'), 5)
 
 WebUI.clearText(findTestObject('UI/Employee/Client Services/Account/input_Account_First Name'))
 

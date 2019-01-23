@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Client Selector" time="21" tests="5" failures="0" errors="0">
+   <testsuite name="Client Selector" tests="5" failures="0" errors="0" time="21" timestamp="2019-01-23 10:57:26" hostname="david avalos - TDG-MBL-MTY0359.tiempodev.local" id="Test Suites/UI/Client Selector">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\David Avalos\\git\\AMPSAutRegression\\Reports\\UI\\Client Selector\\20190123_105312"/>
+         <property name="logFiles" value="C:\\Users\\David Avalos\\git\\AMPSAutRegression\\Reports\\UI\\Client Selector\\20190123_105312\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="david avalos - TDG-MBL-MTY0359.tiempodev.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.1.97"/>
+         <property name="sessionId" value="92280e44d32d62b6e59bbcf500b10f2f"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/UI/General/openBrowser" classname="Test Cases/UI/General/openBrowser" status="PASSED">
+         <system-out><![CDATA[2019-01-23 10:57:26 - [TEST_CASE][PASSED] - Test Cases/UI/General/openBrowser: Test Cases/UI/General/openBrowser
+
+2019-01-23 10:57:27 - [TEST_STEP][PASSED] - openBrowser("https://uat.advancedpricing.com/login"): Browser is opened with url: 'https://uat.advancedpricing.com/login'
+
+2019-01-23 10:57:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-23 10:57:27 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-23 10:57:32 - [MESSAGE][PASSED] - Browser is opened with url: 'https://uat.advancedpricing.com/login'
+
+2019-01-23 10:57:32 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-23 10:57:33 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-23 10:57:33 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/Client/Client Services/ForgotPassword/a_ForgotPassword"), 5): Object 'Object Repository/UI/Client/Client Services/ForgotPassword/a_ForgotPassword' is present
+
+2019-01-23 10:57:33 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Client Services/ForgotPassword/a_ForgotPassword' is present
+
+2019-01-23 10:57:33 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/Client/Client Services/ForgotPassword/a_ForgotPassword"), 5): Object 'Object Repository/UI/Client/Client Services/ForgotPassword/a_ForgotPassword' is visible
+
+2019-01-23 10:57:33 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Client Services/ForgotPassword/a_ForgotPassword' is visible
+
+2019-01-23 10:57:33 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/General/Page_LoginPage/button_Login"), 5): Object 'Object Repository/UI/General/Page_LoginPage/button_Login' is present
+
+2019-01-23 10:57:33 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_LoginPage/button_Login' is present
+
+2019-01-23 10:57:33 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/General/Page_LoginPage/button_Login"), 5): Object 'Object Repository/UI/General/Page_LoginPage/button_Login' is visible
+
+2019-01-23 10:57:33 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_LoginPage/button_Login' is visible
+
+2019-01-23 10:57:33 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/General/Page_LoginPage/input_Password"), 5): Object 'Object Repository/UI/General/Page_LoginPage/input_Password' is present
+
+2019-01-23 10:57:33 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_LoginPage/input_Password' is present
+
+2019-01-23 10:57:33 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/General/Page_LoginPage/input_Password"), 5): Object 'Object Repository/UI/General/Page_LoginPage/input_Password' is visible
+
+2019-01-23 10:57:33 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_LoginPage/input_Password' is visible
+
+2019-01-23 10:57:33 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/General/Page_LoginPage/input_User"), 5): Object 'Object Repository/UI/General/Page_LoginPage/input_User' is present
+
+2019-01-23 10:57:33 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_LoginPage/input_User' is present
+
+2019-01-23 10:57:33 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/General/Page_LoginPage/input_User"), 5): Object 'Object Repository/UI/General/Page_LoginPage/input_User' is visible
+
+2019-01-23 10:57:33 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_LoginPage/input_User' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UI/General/Employee Login" classname="Test Cases/UI/General/Employee Login" status="PASSED">
+         <system-out><![CDATA[2019-01-23 10:57:33 - [TEST_CASE][PASSED] - Test Cases/UI/General/Employee Login: Test Cases/UI/General/Employee Login
+
+2019-01-23 10:57:34 - [TEST_STEP][PASSED] - setText(findTestObject("UI/General/Page_LoginPage/input_User"), user): Text 'qaAuto' is set on object 'Object Repository/UI/General/Page_LoginPage/input_User'
+
+2019-01-23 10:57:34 - [MESSAGE][PASSED] - Text 'qaAuto' is set on object 'Object Repository/UI/General/Page_LoginPage/input_User'
+
+2019-01-23 10:57:34 - [TEST_STEP][PASSED] - setText(findTestObject("UI/General/Page_LoginPage/input_Password"), password): Text 'a9yk100dD' is set on object 'Object Repository/UI/General/Page_LoginPage/input_Password'
+
+2019-01-23 10:57:34 - [MESSAGE][PASSED] - Text 'a9yk100dD' is set on object 'Object Repository/UI/General/Page_LoginPage/input_Password'
+
+2019-01-23 10:57:34 - [TEST_STEP][PASSED] - click(findTestObject("UI/General/Page_LoginPage/button_Login")): Object: 'Object Repository/UI/General/Page_LoginPage/button_Login' is clicked on
+
+2019-01-23 10:57:34 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/General/Page_LoginPage/button_Login' is clicked on
+
+2019-01-23 10:57:34 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/General/Page_Employee landing page/img_AMPSLogo"), 5): Object 'Object Repository/UI/General/Page_Employee landing page/img_AMPSLogo' is present
+
+2019-01-23 10:57:35 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_Employee landing page/img_AMPSLogo' is present
+
+2019-01-23 10:57:35 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/General/Page_Employee landing page/img_AMPSLogo"), 5): Object 'Object Repository/UI/General/Page_Employee landing page/img_AMPSLogo' is visible
+
+2019-01-23 10:57:35 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_Employee landing page/img_AMPSLogo' is visible
+
+2019-01-23 10:57:35 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/General/Page_Employee landing page/span_ClientsMenu"), 5): Object 'Object Repository/UI/General/Page_Employee landing page/span_ClientsMenu' is present
+
+2019-01-23 10:57:35 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_Employee landing page/span_ClientsMenu' is present
+
+2019-01-23 10:57:35 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/General/Page_Employee landing page/span_ClientsMenu"), 5): Object 'Object Repository/UI/General/Page_Employee landing page/span_ClientsMenu' is visible
+
+2019-01-23 10:57:35 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_Employee landing page/span_ClientsMenu' is visible
+
+2019-01-23 10:57:35 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/General/Page_Employee landing page/h1_ClientsTitle"), 5): Object 'Object Repository/UI/General/Page_Employee landing page/h1_ClientsTitle' is present
+
+2019-01-23 10:57:35 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_Employee landing page/h1_ClientsTitle' is present
+
+2019-01-23 10:57:35 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/General/Page_Employee landing page/h1_ClientsTitle"), 5): Object 'Object Repository/UI/General/Page_Employee landing page/h1_ClientsTitle' is visible
+
+2019-01-23 10:57:35 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_Employee landing page/h1_ClientsTitle' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UI/Employee/Client Selector/Client selector - Filter works correctly" classname="Test Cases/UI/Employee/Client Selector/Client selector - Filter works correctly" status="PASSED">
+         <system-out><![CDATA[2019-01-23 10:57:35 - [TEST_CASE][PASSED] - Test Cases/UI/Employee/Client Selector/Client selector - Filter works correctly: Test Cases/UI/Employee/Client Selector/Client selector - Filter works correctly
+
+2019-01-23 10:57:35 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Client Selector/span_ClientsMenu"), CONTINUE_ON_FAILURE): Object: 'Object Repository/UI/Employee/Client Selector/span_ClientsMenu' is clicked on
+
+2019-01-23 10:57:35 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Client Selector/span_ClientsMenu' is clicked on
+
+2019-01-23 10:57:35 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/Employee/Client Selector/h1_ClientsTitle"), 5): Object 'Object Repository/UI/Employee/Client Selector/h1_ClientsTitle' is present
+
+2019-01-23 10:57:35 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Client Selector/h1_ClientsTitle' is present
+
+2019-01-23 10:57:35 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/Employee/Client Selector/h1_ClientsTitle"), 5): Object 'Object Repository/UI/Employee/Client Selector/h1_ClientsTitle' is visible
+
+2019-01-23 10:57:35 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Client Selector/h1_ClientsTitle' is visible
+
+2019-01-23 10:57:35 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/Employee/Client Selector/label_Is Active"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Client Selector/label_Is Active' is present
+
+2019-01-23 10:57:35 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Client Selector/label_Is Active' is present
+
+2019-01-23 10:57:35 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/Employee/Client Selector/label_Is Active"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Client Selector/label_Is Active' is visible
+
+2019-01-23 10:57:35 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Client Selector/label_Is Active' is visible
+
+2019-01-23 10:57:35 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/Employee/Client Selector/div_Is Active dropdown"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Client Selector/div_Is Active dropdown' is present
+
+2019-01-23 10:57:35 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Client Selector/div_Is Active dropdown' is present
+
+2019-01-23 10:57:35 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/Employee/Client Selector/div_Is Active dropdown"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Client Selector/div_Is Active dropdown' is visible
+
+2019-01-23 10:57:35 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Client Selector/div_Is Active dropdown' is visible
+
+2019-01-23 10:57:35 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/Employee/Client Selector/button_Filter"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Client Selector/button_Filter' is present
+
+2019-01-23 10:57:35 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Client Selector/button_Filter' is present
+
+2019-01-23 10:57:35 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/Employee/Client Selector/button_Filter"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Client Selector/button_Filter' is visible
+
+2019-01-23 10:57:35 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Client Selector/button_Filter' is visible
+
+2019-01-23 10:57:35 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-23 10:57:40 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-23 10:57:40 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Employee/Client Selector/div_Is Active dropdown"), "All Clients"): Actual text and expected text of test object 'Object Repository/UI/Employee/Client Selector/div_Is Active dropdown' are matched.
+
+2019-01-23 10:57:40 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Employee/Client Selector/div_Is Active dropdown' are matched.
+
+2019-01-23 10:57:40 - [TEST_STEP][NOT_RUN] - click(findTestObject("UI/Employee/Client Selector/div_Is Active dropdown")): NOT_RUN: click(findTestObject("UI/Employee/Client Selector/div_Is Active dropdown"))
+
+2019-01-23 10:57:40 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("UI/Employee/Client Selector/div_Is Active dropdown"))
+
+2019-01-23 10:57:40 - [TEST_STEP][NOT_RUN] - click(findTestObject("UI/Employee/Client Selector/div_Filter dropdown_Inactive Clients Only_option"), STOP_ON_FAILURE): NOT_RUN: click(findTestObject("UI/Employee/Client Selector/div_Filter dropdown_Inactive Clients Only_option"), STOP_ON_FAILURE)
+
+2019-01-23 10:57:40 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("UI/Employee/Client Selector/div_Filter dropdown_Inactive Clients Only_option"), STOP_ON_FAILURE)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UI/Employee/Client Selector/Client selector - Search and select an active client" classname="Test Cases/UI/Employee/Client Selector/Client selector - Search and select an active client" status="PASSED">
+         <system-out><![CDATA[2019-01-23 10:57:40 - [TEST_CASE][PASSED] - Test Cases/UI/Employee/Client Selector/Client selector - Search and select an active client: Test Cases/UI/Employee/Client Selector/Client selector - Search and select an active client
+
+2019-01-23 10:57:40 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Client Selector/span_ClientsMenu")): Object: 'Object Repository/UI/Employee/Client Selector/span_ClientsMenu' is clicked on
+
+2019-01-23 10:57:40 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Client Selector/span_ClientsMenu' is clicked on
+
+2019-01-23 10:57:40 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/Employee/Client Selector/h1_ClientsTitle"), 5): Object 'Object Repository/UI/Employee/Client Selector/h1_ClientsTitle' is present
+
+2019-01-23 10:57:40 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Client Selector/h1_ClientsTitle' is present
+
+2019-01-23 10:57:40 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/Employee/Client Selector/h1_ClientsTitle"), 5): Object 'Object Repository/UI/Employee/Client Selector/h1_ClientsTitle' is visible
+
+2019-01-23 10:57:41 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Client Selector/h1_ClientsTitle' is visible
+
+2019-01-23 10:57:41 - [TEST_STEP][PASSED] - sendKeys(findTestObject("UI/Employee/Client Selector/input_Serach textbox"), clientAbbr): Keys 'AUX' sent to object: 'Object Repository/UI/Employee/Client Selector/input_Serach textbox'
+
+2019-01-23 10:57:41 - [MESSAGE][PASSED] - Keys 'AUX' sent to object: 'Object Repository/UI/Employee/Client Selector/input_Serach textbox'
+
+2019-01-23 10:57:41 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Client Selector/span_Searched Client Abbr"), STOP_ON_FAILURE): Object: 'Object Repository/UI/Employee/Client Selector/span_Searched Client Abbr' is clicked on
+
+2019-01-23 10:57:41 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Client Selector/span_Searched Client Abbr' is clicked on
+
+2019-01-23 10:57:41 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-23 10:57:46 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-23 10:57:46 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/Employee/Client Selector/h1_Claim List Title"), 5): Object 'Object Repository/UI/Employee/Client Selector/h1_Claim List Title' is present
+
+2019-01-23 10:57:46 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Client Selector/h1_Claim List Title' is present
+
+2019-01-23 10:57:46 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/Employee/Client Selector/h1_Claim List Title"), 5): Object 'Object Repository/UI/Employee/Client Selector/h1_Claim List Title' is visible
+
+2019-01-23 10:57:46 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Client Selector/h1_Claim List Title' is visible
+
+2019-01-23 10:57:46 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/Employee/Client Selector/span_Claim List_Header with clients Abbr"), 5): Object 'Object Repository/UI/Employee/Client Selector/span_Claim List_Header with clients Abbr' is present
+
+2019-01-23 10:57:46 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Client Selector/span_Claim List_Header with clients Abbr' is present
+
+2019-01-23 10:57:46 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/Employee/Client Selector/span_Claim List_Header with clients Abbr"), 5): Object 'Object Repository/UI/Employee/Client Selector/span_Claim List_Header with clients Abbr' is visible
+
+2019-01-23 10:57:46 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Client Selector/span_Claim List_Header with clients Abbr' is visible
+
+2019-01-23 10:57:46 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/Employee/Client Selector/span_Logout button"), 5): Object 'Object Repository/UI/Employee/Client Selector/span_Logout button' is present
+
+2019-01-23 10:57:46 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Client Selector/span_Logout button' is present
+
+2019-01-23 10:57:46 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/Employee/Client Selector/span_Logout button"), 5): Object 'Object Repository/UI/Employee/Client Selector/span_Logout button' is visible
+
+2019-01-23 10:57:46 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Client Selector/span_Logout button' is visible
+
+2019-01-23 10:57:46 - [TEST_STEP][PASSED] - claimListHeaderText = getText(findTestObject("UI/Employee/Client Selector/span_Claim List_Header with clients Abbr"), STOP_ON_FAILURE): Text of object 'Object Repository/UI/Employee/Client Selector/span_Claim List_Header with clients Abbr' is: 'AUX (1) in 0.165 seconds'
+
+2019-01-23 10:57:46 - [MESSAGE][PASSED] - Text of object 'Object Repository/UI/Employee/Client Selector/span_Claim List_Header with clients Abbr' is: 'AUX (1) in 0.165 seconds'
+
+2019-01-23 10:57:46 - [TEST_STEP][PASSED] - logoutButtonText = getText(findTestObject("UI/Employee/Client Selector/span_Logout button"), STOP_ON_FAILURE): Text of object 'Object Repository/UI/Employee/Client Selector/span_Logout button' is: 'Logout (AUX)'
+
+2019-01-23 10:57:46 - [MESSAGE][PASSED] - Text of object 'Object Repository/UI/Employee/Client Selector/span_Logout button' is: 'Logout (AUX)'
+
+2019-01-23 10:57:46 - [TEST_STEP][PASSED] - verifyEqual(claimListHeaderText.contains(clientAbbr), true): Actual object 'true' and expected object 'true' are equal
+
+2019-01-23 10:57:46 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2019-01-23 10:57:46 - [TEST_STEP][PASSED] - verifyEqual(logoutButtonText.contains(clientAbbr), true): Actual object 'true' and expected object 'true' are equal
+
+2019-01-23 10:57:46 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+2019-01-23 10:57:46 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Client Selector/span_Logout button"), STOP_ON_FAILURE): Object: 'Object Repository/UI/Employee/Client Selector/span_Logout button' is clicked on
+
+2019-01-23 10:57:46 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Client Selector/span_Logout button' is clicked on
+
+2019-01-23 10:57:46 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/Employee/Client Selector/h1_ClientsTitle"), 5): Object 'Object Repository/UI/Employee/Client Selector/h1_ClientsTitle' is present
+
+2019-01-23 10:57:46 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Client Selector/h1_ClientsTitle' is present
+
+2019-01-23 10:57:46 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/Employee/Client Selector/h1_ClientsTitle"), 5): Object 'Object Repository/UI/Employee/Client Selector/h1_ClientsTitle' is visible
+
+2019-01-23 10:57:46 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Client Selector/h1_ClientsTitle' is visible
+
+2019-01-23 10:57:46 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/Employee/Client Selector/input_Serach textbox"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Client Selector/input_Serach textbox' is present
+
+2019-01-23 10:57:46 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Client Selector/input_Serach textbox' is present
+
+2019-01-23 10:57:46 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/Employee/Client Selector/input_Serach textbox"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Client Selector/input_Serach textbox' is visible
+
+2019-01-23 10:57:46 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Client Selector/input_Serach textbox' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UI/Employee/Client Selector/Client selector - Verify presence of elements" classname="Test Cases/UI/Employee/Client Selector/Client selector - Verify presence of elements" status="PASSED">
+         <system-out><![CDATA[2019-01-23 10:57:46 - [TEST_CASE][PASSED] - Test Cases/UI/Employee/Client Selector/Client selector - Verify presence of elements: Test Cases/UI/Employee/Client Selector/Client selector - Verify presence of elements
+
+2019-01-23 10:57:47 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Client Selector/span_ClientsMenu"), CONTINUE_ON_FAILURE): Object: 'Object Repository/UI/Employee/Client Selector/span_ClientsMenu' is clicked on
+
+2019-01-23 10:57:47 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Client Selector/span_ClientsMenu' is clicked on
+
+2019-01-23 10:57:47 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/Employee/Client Selector/h1_ClientsTitle"), 5): Object 'Object Repository/UI/Employee/Client Selector/h1_ClientsTitle' is present
+
+2019-01-23 10:57:47 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Client Selector/h1_ClientsTitle' is present
+
+2019-01-23 10:57:47 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/Employee/Client Selector/h1_ClientsTitle"), 5): Object 'Object Repository/UI/Employee/Client Selector/h1_ClientsTitle' is visible
+
+2019-01-23 10:57:47 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Client Selector/h1_ClientsTitle' is visible
+
+2019-01-23 10:57:47 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/Employee/Client Selector/label_Is Active"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Client Selector/label_Is Active' is present
+
+2019-01-23 10:57:47 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Client Selector/label_Is Active' is present
+
+2019-01-23 10:57:47 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/Employee/Client Selector/label_Is Active"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Client Selector/label_Is Active' is visible
+
+2019-01-23 10:57:47 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Client Selector/label_Is Active' is visible
+
+2019-01-23 10:57:47 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/Employee/Client Selector/div_Is Active dropdown"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Client Selector/div_Is Active dropdown' is present
+
+2019-01-23 10:57:47 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Client Selector/div_Is Active dropdown' is present
+
+2019-01-23 10:57:47 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/Employee/Client Selector/div_Is Active dropdown"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Client Selector/div_Is Active dropdown' is visible
+
+2019-01-23 10:57:47 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Client Selector/div_Is Active dropdown' is visible
+
+2019-01-23 10:57:47 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/Employee/Client Selector/button_Filter"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Client Selector/button_Filter' is present
+
+2019-01-23 10:57:47 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Client Selector/button_Filter' is present
+
+2019-01-23 10:57:47 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/Employee/Client Selector/button_Filter"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Client Selector/button_Filter' is visible
+
+2019-01-23 10:57:47 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Client Selector/button_Filter' is visible
+
+2019-01-23 10:57:47 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/Employee/Client Selector/input_Serach textbox"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Client Selector/input_Serach textbox' is present
+
+2019-01-23 10:57:47 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Client Selector/input_Serach textbox' is present
+
+2019-01-23 10:57:47 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/Employee/Client Selector/input_Serach textbox"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Client Selector/input_Serach textbox' is visible
+
+2019-01-23 10:57:47 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Client Selector/input_Serach textbox' is visible
+
+2019-01-23 10:57:47 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/Employee/Client Selector/th_Client List Header_Abbr"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Client Selector/th_Client List Header_Abbr' is present
+
+2019-01-23 10:57:47 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Client Selector/th_Client List Header_Abbr' is present
+
+2019-01-23 10:57:47 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/Employee/Client Selector/th_Client List Header_Abbr"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Client Selector/th_Client List Header_Abbr' is visible
+
+2019-01-23 10:57:47 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Client Selector/th_Client List Header_Abbr' is visible
+
+2019-01-23 10:57:47 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/Employee/Client Selector/th_Client List Header_Client"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Client Selector/th_Client List Header_Client' is present
+
+2019-01-23 10:57:47 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Client Selector/th_Client List Header_Client' is present
+
+2019-01-23 10:57:47 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/Employee/Client Selector/th_Client List Header_Client"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Client Selector/th_Client List Header_Client' is visible
+
+2019-01-23 10:57:47 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Client Selector/th_Client List Header_Client' is visible
+
+2019-01-23 10:57:47 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/Employee/Client Selector/th_Client List Header_Is Active"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Client Selector/th_Client List Header_Is Active' is present
+
+2019-01-23 10:57:47 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Client Selector/th_Client List Header_Is Active' is present
+
+2019-01-23 10:57:47 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/Employee/Client Selector/th_Client List Header_Is Active"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Client Selector/th_Client List Header_Is Active' is visible
+
+2019-01-23 10:57:47 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Client Selector/th_Client List Header_Is Active' is visible
+
+2019-01-23 10:57:47 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/Employee/Client Selector/button_Clients per page"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Client Selector/button_Clients per page' is present
+
+2019-01-23 10:57:47 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Client Selector/button_Clients per page' is present
+
+2019-01-23 10:57:47 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/Employee/Client Selector/button_Clients per page"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Client Selector/button_Clients per page' is visible
+
+2019-01-23 10:57:47 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Client Selector/button_Clients per page' is visible
+
+2019-01-23 10:57:47 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/Employee/Client Selector/ul_Pagination"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Client Selector/ul_Pagination' is present
+
+2019-01-23 10:57:47 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Client Selector/ul_Pagination' is present
+
+2019-01-23 10:57:47 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/Employee/Client Selector/ul_Pagination"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Client Selector/ul_Pagination' is visible
+
+2019-01-23 10:57:47 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Client Selector/ul_Pagination' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-23 10:57:26 - [TEST_SUITE][PASSED] - Client Selector: Test Cases/UI/Employee/Client Selector/Client selector - Verify presence of elements]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

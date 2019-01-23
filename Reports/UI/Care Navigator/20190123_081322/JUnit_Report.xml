@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Care Navigator" time="33" tests="1" failures="0" errors="0">
+   <testsuite name="Care Navigator" tests="1" failures="0" errors="0" time="33" timestamp="2019-01-23 08:13:25" hostname="david avalos - TDG-MBL-MTY0359.tiempodev.local" id="Test Suites/UI/Care Navigator">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\David Avalos\\git\\AMPSAutRegression\\Reports\\UI\\Care Navigator\\20190123_081322"/>
+         <property name="logFiles" value="C:\\Users\\David Avalos\\git\\AMPSAutRegression\\Reports\\UI\\Care Navigator\\20190123_081322\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="david avalos - TDG-MBL-MTY0359.tiempodev.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.1.97"/>
+         <property name="sessionId" value="3721390a5e899b4ca1a887c07d01a373"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/UI/Employee/Care Navigator/Care Navigator Test Cases" classname="Test Cases/UI/Employee/Care Navigator/Care Navigator Test Cases" status="PASSED">
+         <system-out><![CDATA[2019-01-23 08:13:26 - [TEST_CASE][PASSED] - Test Cases/UI/Employee/Care Navigator/Care Navigator Test Cases: Test Cases/UI/Employee/Care Navigator/Care Navigator Test Cases
+
+2019-01-23 08:13:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-23 08:13:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-23 08:13:26 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-23 08:13:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-23 08:13:29 - [TEST_STEP][PASSED] - navigateToUrl("https://uat.advancedpricing.com/"): Navigate to 'https://uat.advancedpricing.com/' successfully
+
+2019-01-23 08:13:31 - [MESSAGE][PASSED] - Navigate to 'https://uat.advancedpricing.com/' successfully
+
+2019-01-23 08:13:31 - [TEST_STEP][PASSED] - setText(findTestObject("UI/Employee/Files/input_AMPS Portal Sign In_code"), "qaAuto"): Text 'qaAuto' is set on object 'Object Repository/UI/Employee/Files/input_AMPS Portal Sign In_code'
+
+2019-01-23 08:13:31 - [MESSAGE][PASSED] - Text 'qaAuto' is set on object 'Object Repository/UI/Employee/Files/input_AMPS Portal Sign In_code'
+
+2019-01-23 08:13:31 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("UI/Employee/Files/input_AMPS Portal Sign In_pass"), "yjiIhAfFXTz0yohvbOLmCA=="): Text ****** has been set on object 'Object Repository/UI/Employee/Files/input_AMPS Portal Sign In_pass'
+
+2019-01-23 08:13:31 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/UI/Employee/Files/input_AMPS Portal Sign In_pass'
+
+2019-01-23 08:13:31 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Files/input_Forgot Password_btn btn-")): Object: 'Object Repository/UI/Employee/Files/input_Forgot Password_btn btn-' is clicked on
+
+2019-01-23 08:13:31 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Files/input_Forgot Password_btn btn-' is clicked on
+
+2019-01-23 08:13:31 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Care Navigator/span_Care Navigator")): Object: 'Object Repository/UI/Employee/Care Navigator/span_Care Navigator' is clicked on
+
+2019-01-23 08:13:32 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Care Navigator/span_Care Navigator' is clicked on
+
+2019-01-23 08:13:32 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Care Navigator/Arrow to Write (1)")): Object: 'Object Repository/UI/Employee/Care Navigator/Arrow to Write (1)' is clicked on
+
+2019-01-23 08:13:33 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Care Navigator/Arrow to Write (1)' is clicked on
+
+2019-01-23 08:13:33 - [TEST_STEP][PASSED] - setText(findTestObject("UI/Employee/Care Navigator/input_Results_form-control inp"), "The Benefit Group"): Text 'The Benefit Group' is set on object 'Object Repository/UI/Employee/Care Navigator/input_Results_form-control inp'
+
+2019-01-23 08:13:34 - [MESSAGE][PASSED] - Text 'The Benefit Group' is set on object 'Object Repository/UI/Employee/Care Navigator/input_Results_form-control inp'
+
+2019-01-23 08:13:34 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Care Navigator/Arrow to Write")): Object: 'Object Repository/UI/Employee/Care Navigator/Arrow to Write' is clicked on
+
+2019-01-23 08:13:34 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Care Navigator/Arrow to Write' is clicked on
+
+2019-01-23 08:13:34 - [TEST_STEP][PASSED] - setText(findTestObject("UI/Employee/Care Navigator/input"), "Review"): Text 'Review' is set on object 'Object Repository/UI/Employee/Care Navigator/input'
+
+2019-01-23 08:13:34 - [MESSAGE][PASSED] - Text 'Review' is set on object 'Object Repository/UI/Employee/Care Navigator/input'
+
+2019-01-23 08:13:34 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-23 08:13:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-23 08:13:35 - [TEST_STEP][PASSED] - sendKeys(findTestObject("UI/Employee/Care Navigator/input"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/UI/Employee/Care Navigator/input'
+
+2019-01-23 08:13:35 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/UI/Employee/Care Navigator/input'
+
+2019-01-23 08:13:35 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-23 08:13:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-23 08:13:36 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Care Navigator/td_1 In Review")): Object: 'Object Repository/UI/Employee/Care Navigator/td_1 In Review' is clicked on
+
+2019-01-23 08:13:36 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Care Navigator/td_1 In Review' is clicked on
+
+2019-01-23 08:13:36 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Care Navigator/td_1 In Review")): Object: 'Object Repository/UI/Employee/Care Navigator/td_1 In Review' is clicked on
+
+2019-01-23 08:13:36 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Care Navigator/td_1 In Review' is clicked on
+
+2019-01-23 08:13:36 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Care Navigator/td_1 In Review")): Object: 'Object Repository/UI/Employee/Care Navigator/td_1 In Review' is clicked on
+
+2019-01-23 08:13:36 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Care Navigator/td_1 In Review' is clicked on
+
+2019-01-23 08:13:36 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Care Navigator/td_1 In Review")): Object: 'Object Repository/UI/Employee/Care Navigator/td_1 In Review' is clicked on
+
+2019-01-23 08:13:36 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Care Navigator/td_1 In Review' is clicked on
+
+2019-01-23 08:13:36 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Care Navigator/Arrow to Write")): Object: 'Object Repository/UI/Employee/Care Navigator/Arrow to Write' is clicked on
+
+2019-01-23 08:13:37 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Care Navigator/Arrow to Write' is clicked on
+
+2019-01-23 08:13:37 - [TEST_STEP][PASSED] - setText(findTestObject("UI/Employee/Care Navigator/input"), "Local"): Text 'Local' is set on object 'Object Repository/UI/Employee/Care Navigator/input'
+
+2019-01-23 08:13:37 - [MESSAGE][PASSED] - Text 'Local' is set on object 'Object Repository/UI/Employee/Care Navigator/input'
+
+2019-01-23 08:13:37 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-23 08:13:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-23 08:13:38 - [TEST_STEP][PASSED] - sendKeys(findTestObject("UI/Employee/Care Navigator/input"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/UI/Employee/Care Navigator/input'
+
+2019-01-23 08:13:38 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/UI/Employee/Care Navigator/input'
+
+2019-01-23 08:13:38 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-23 08:13:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-23 08:13:39 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Care Navigator/td_2. Locating Facility")): Object: 'Object Repository/UI/Employee/Care Navigator/td_2. Locating Facility' is clicked on
+
+2019-01-23 08:13:39 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Care Navigator/td_2. Locating Facility' is clicked on
+
+2019-01-23 08:13:39 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Care Navigator/td_2. Locating Facility")): Object: 'Object Repository/UI/Employee/Care Navigator/td_2. Locating Facility' is clicked on
+
+2019-01-23 08:13:39 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Care Navigator/td_2. Locating Facility' is clicked on
+
+2019-01-23 08:13:39 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Care Navigator/td_2. Locating Facility")): Object: 'Object Repository/UI/Employee/Care Navigator/td_2. Locating Facility' is clicked on
+
+2019-01-23 08:13:39 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Care Navigator/td_2. Locating Facility' is clicked on
+
+2019-01-23 08:13:39 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Care Navigator/Arrow to Write")): Object: 'Object Repository/UI/Employee/Care Navigator/Arrow to Write' is clicked on
+
+2019-01-23 08:13:39 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Care Navigator/Arrow to Write' is clicked on
+
+2019-01-23 08:13:39 - [TEST_STEP][PASSED] - setText(findTestObject("UI/Employee/Care Navigator/input"), "Schedule"): Text 'Schedule' is set on object 'Object Repository/UI/Employee/Care Navigator/input'
+
+2019-01-23 08:13:39 - [MESSAGE][PASSED] - Text 'Schedule' is set on object 'Object Repository/UI/Employee/Care Navigator/input'
+
+2019-01-23 08:13:39 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-23 08:13:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-23 08:13:40 - [TEST_STEP][PASSED] - sendKeys(findTestObject("UI/Employee/Care Navigator/input"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/UI/Employee/Care Navigator/input'
+
+2019-01-23 08:13:40 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/UI/Employee/Care Navigator/input'
+
+2019-01-23 08:13:40 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-23 08:13:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-23 08:13:41 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Care Navigator/td_4. Scheduled")): Object: 'Object Repository/UI/Employee/Care Navigator/td_4. Scheduled' is clicked on
+
+2019-01-23 08:13:41 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Care Navigator/td_4. Scheduled' is clicked on
+
+2019-01-23 08:13:41 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Care Navigator/td_4. Scheduled")): Object: 'Object Repository/UI/Employee/Care Navigator/td_4. Scheduled' is clicked on
+
+2019-01-23 08:13:41 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Care Navigator/td_4. Scheduled' is clicked on
+
+2019-01-23 08:13:41 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Care Navigator/td_4. Scheduled")): Object: 'Object Repository/UI/Employee/Care Navigator/td_4. Scheduled' is clicked on
+
+2019-01-23 08:13:41 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Care Navigator/td_4. Scheduled' is clicked on
+
+2019-01-23 08:13:41 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Care Navigator/td_4. Scheduled")): Object: 'Object Repository/UI/Employee/Care Navigator/td_4. Scheduled' is clicked on
+
+2019-01-23 08:13:41 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Care Navigator/td_4. Scheduled' is clicked on
+
+2019-01-23 08:13:41 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Care Navigator/td_4. Scheduled")): Object: 'Object Repository/UI/Employee/Care Navigator/td_4. Scheduled' is clicked on
+
+2019-01-23 08:13:41 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Care Navigator/td_4. Scheduled' is clicked on
+
+2019-01-23 08:13:41 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Care Navigator/Arrow to Write")): Object: 'Object Repository/UI/Employee/Care Navigator/Arrow to Write' is clicked on
+
+2019-01-23 08:13:42 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Care Navigator/Arrow to Write' is clicked on
+
+2019-01-23 08:13:42 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-23 08:13:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-23 08:13:44 - [TEST_STEP][PASSED] - setText(findTestObject("UI/Employee/Care Navigator/input_Results_form-control inp_13"), "The Benefit Group"): Text 'The Benefit Group' is set on object 'Object Repository/UI/Employee/Care Navigator/input_Results_form-control inp_13'
+
+2019-01-23 08:13:44 - [MESSAGE][PASSED] - Text 'The Benefit Group' is set on object 'Object Repository/UI/Employee/Care Navigator/input_Results_form-control inp_13'
+
+2019-01-23 08:13:44 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-01-23 08:13:44 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-23 08:13:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-23 08:13:45 - [TEST_STEP][PASSED] - stage = xpath("//*[@id="DataTable6"]/tbody/tr[1]/td[2]")).getText(): null
+
+2019-01-23 08:13:45 - [TEST_STEP][PASSED] - CurrentStatus = xpath("//*[@id="DataTable6"]/tbody/tr[1]/td[3]")).getText(): null
+
+2019-01-23 08:13:45 - [TEST_STEP][PASSED] - Followup = xpath("//*[@id="DataTable6"]/tbody/tr[1]/td[4]")).getText(): null
+
+2019-01-23 08:13:45 - [TEST_STEP][PASSED] - Patient = xpath("//*[@id="DataTable6"]/tbody/tr[1]/td[5]")).getText(): null
+
+2019-01-23 08:13:45 - [TEST_STEP][PASSED] - Client = xpath("//*[@id="DataTable6"]/tbody/tr[1]/td[6]")).getText(): null
+
+2019-01-23 08:13:45 - [TEST_STEP][PASSED] - Group = xpath("//*[@id="DataTable6"]/tbody/tr[1]/td[7]")).getText(): null
+
+2019-01-23 08:13:45 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Care Navigator/a_1477")): Object: 'Object Repository/UI/Employee/Care Navigator/a_1477' is clicked on
+
+2019-01-23 08:13:45 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Care Navigator/a_1477' is clicked on
+
+2019-01-23 08:13:45 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Care Navigator/a_Connex Events")): Object: 'Object Repository/UI/Employee/Care Navigator/a_Connex Events' is clicked on
+
+2019-01-23 08:13:45 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Care Navigator/a_Connex Events' is clicked on
+
+2019-01-23 08:13:45 - [TEST_STEP][PASSED] - Patient2 = xpath("//*[@id="content"]/div/div/div/div[3]/div/div[1]/div[1]/h1")).getText(): null
+
+2019-01-23 08:13:45 - [TEST_STEP][PASSED] - Client2 = xpath("//*[@id="patientProfileTab"]/div/div[1]/p/strong")).getText(): null
+
+2019-01-23 08:13:45 - [TEST_STEP][PASSED] - Group2 = xpath("//*[@id="patientProfileTab"]/div/div[2]/p/strong")).getText(): null
+
+2019-01-23 08:13:45 - [TEST_STEP][PASSED] - Client2.contains(Client): null
+
+2019-01-23 08:13:45 - [TEST_STEP][PASSED] - Patient2.contains(Patient): null
+
+2019-01-23 08:13:45 - [TEST_STEP][PASSED] - Group2.contains(Group): null
+
+2019-01-23 08:13:45 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Care Navigator/label_Client")): Object: 'Object Repository/UI/Employee/Care Navigator/label_Client' is clicked on
+
+2019-01-23 08:13:46 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Care Navigator/label_Client' is clicked on
+
+2019-01-23 08:13:46 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-23 08:13:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-23 08:13:47 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Care Navigator/strong_The Benefit Group")): Object: 'Object Repository/UI/Employee/Care Navigator/strong_The Benefit Group' is clicked on
+
+2019-01-23 08:13:47 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Care Navigator/strong_The Benefit Group' is clicked on
+
+2019-01-23 08:13:47 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-23 08:13:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-23 08:13:48 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Care Navigator/label_Phone")): Object: 'Object Repository/UI/Employee/Care Navigator/label_Phone' is clicked on
+
+2019-01-23 08:13:48 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Care Navigator/label_Phone' is clicked on
+
+2019-01-23 08:13:48 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Care Navigator/strong_(582) 555-4747")): Object: 'Object Repository/UI/Employee/Care Navigator/strong_(582) 555-4747' is clicked on
+
+2019-01-23 08:13:48 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Care Navigator/strong_(582) 555-4747' is clicked on
+
+2019-01-23 08:13:48 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Care Navigator/label_Client Group")): Object: 'Object Repository/UI/Employee/Care Navigator/label_Client Group' is clicked on
+
+2019-01-23 08:13:48 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Care Navigator/label_Client Group' is clicked on
+
+2019-01-23 08:13:48 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Care Navigator/strong_PeopleServices Inc. (RB")): Object: 'Object Repository/UI/Employee/Care Navigator/strong_PeopleServices Inc. (RB' is clicked on
+
+2019-01-23 08:13:48 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Care Navigator/strong_PeopleServices Inc. (RB' is clicked on
+
+2019-01-23 08:13:48 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Care Navigator/label_Email")): Object: 'Object Repository/UI/Employee/Care Navigator/label_Email' is clicked on
+
+2019-01-23 08:13:48 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Care Navigator/label_Email' is clicked on
+
+2019-01-23 08:13:48 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Care Navigator/a_nothingnobody.com")): Object: 'Object Repository/UI/Employee/Care Navigator/a_nothingnobody.com' is clicked on
+
+2019-01-23 08:13:48 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Care Navigator/a_nothingnobody.com' is clicked on
+
+2019-01-23 08:13:48 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Care Navigator/label_Date of Birth")): Object: 'Object Repository/UI/Employee/Care Navigator/label_Date of Birth' is clicked on
+
+2019-01-23 08:13:48 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Care Navigator/label_Date of Birth' is clicked on
+
+2019-01-23 08:13:48 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-23 08:13:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-23 08:13:49 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Care Navigator/strong_10091946")): Object: 'Object Repository/UI/Employee/Care Navigator/strong_10091946' is clicked on
+
+2019-01-23 08:13:49 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Care Navigator/strong_10091946' is clicked on
+
+2019-01-23 08:13:49 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-23 08:13:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-23 08:13:50 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Care Navigator/i_Showing 0 to 0 of 0 entries_")): Object: 'Object Repository/UI/Employee/Care Navigator/i_Showing 0 to 0 of 0 entries_' is clicked on
+
+2019-01-23 08:13:51 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Care Navigator/i_Showing 0 to 0 of 0 entries_' is clicked on
+
+2019-01-23 08:13:51 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-23 08:13:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-23 08:13:52 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Care Navigator/a_Other")): Object: 'Object Repository/UI/Employee/Care Navigator/a_Other' is clicked on
+
+2019-01-23 08:13:52 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Care Navigator/a_Other' is clicked on
+
+2019-01-23 08:13:52 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Care Navigator/label_Note")): Object: 'Object Repository/UI/Employee/Care Navigator/label_Note' is clicked on
+
+2019-01-23 08:13:52 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Care Navigator/label_Note' is clicked on
+
+2019-01-23 08:13:52 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Care Navigator/label_Current Status")): Object: 'Object Repository/UI/Employee/Care Navigator/label_Current Status' is clicked on
+
+2019-01-23 08:13:52 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Care Navigator/label_Current Status' is clicked on
+
+2019-01-23 08:13:52 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Care Navigator/label_Follow-up")): Object: 'Object Repository/UI/Employee/Care Navigator/label_Follow-up' is clicked on
+
+2019-01-23 08:13:52 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Care Navigator/label_Follow-up' is clicked on
+
+2019-01-23 08:13:52 - [TEST_STEP][PASSED] - setText(findTestObject("UI/Employee/Care Navigator/textarea_Test automation"), "Test automation"): Text 'Test automation' is set on object 'Object Repository/UI/Employee/Care Navigator/textarea_Test automation'
+
+2019-01-23 08:13:52 - [MESSAGE][PASSED] - Text 'Test automation' is set on object 'Object Repository/UI/Employee/Care Navigator/textarea_Test automation'
+
+2019-01-23 08:13:52 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("UI/Employee/Care Navigator/select_1 In Review2. Locating"), "10", true): All options with value '10' are selected in object 'Object Repository/UI/Employee/Care Navigator/select_1 In Review2. Locating'  using regular expression
+
+2019-01-23 08:13:52 - [MESSAGE][PASSED] - All options with value '10' are selected in object 'Object Repository/UI/Employee/Care Navigator/select_1 In Review2. Locating'  using regular expression
+
+2019-01-23 08:13:52 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("UI/Employee/Care Navigator/select_Gathering InformationVe"), "7", true): All options with value '7' are selected in object 'Object Repository/UI/Employee/Care Navigator/select_Gathering InformationVe'  using regular expression
+
+2019-01-23 08:13:53 - [MESSAGE][PASSED] - All options with value '7' are selected in object 'Object Repository/UI/Employee/Care Navigator/select_Gathering InformationVe'  using regular expression
+
+2019-01-23 08:13:53 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-23 08:13:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-23 08:13:55 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Care Navigator/div_Follow-upJanuary 2019SunMo")): Object: 'Object Repository/UI/Employee/Care Navigator/div_Follow-upJanuary 2019SunMo' is clicked on
+
+2019-01-23 08:13:55 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Care Navigator/div_Follow-upJanuary 2019SunMo' is clicked on
+
+2019-01-23 08:13:55 - [TEST_STEP][PASSED] - setText(findTestObject("UI/Employee/Care Navigator/Calendar"), "12/12/2020"): Text '12/12/2020' is set on object 'Object Repository/UI/Employee/Care Navigator/Calendar'
+
+2019-01-23 08:13:55 - [MESSAGE][PASSED] - Text '12/12/2020' is set on object 'Object Repository/UI/Employee/Care Navigator/Calendar'
+
+2019-01-23 08:13:55 - [TEST_STEP][PASSED] - setText(findTestObject("UI/Employee/Care Navigator/input_Follow-up_form-control f"), "12/12/2020"): Text '12/12/2020' is set on object 'Object Repository/UI/Employee/Care Navigator/input_Follow-up_form-control f'
+
+2019-01-23 08:13:55 - [MESSAGE][PASSED] - Text '12/12/2020' is set on object 'Object Repository/UI/Employee/Care Navigator/input_Follow-up_form-control f'
+
+2019-01-23 08:13:55 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Care Navigator/div_Stage1 In Review2. Locatin")): Object: 'Object Repository/UI/Employee/Care Navigator/div_Stage1 In Review2. Locatin' is clicked on
+
+2019-01-23 08:13:55 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Care Navigator/div_Stage1 In Review2. Locatin' is clicked on
+
+2019-01-23 08:13:55 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-23 08:13:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-23 08:13:56 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Care Navigator/button_Save")): Object: 'Object Repository/UI/Employee/Care Navigator/button_Save' is clicked on
+
+2019-01-23 08:13:56 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Care Navigator/button_Save' is clicked on
+
+2019-01-23 08:13:56 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-23 08:13:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-23 08:13:57 - [TEST_STEP][PASSED] - setText(findTestObject("UI/Employee/Care Navigator/input_Transfer Provider Call_f"), "other"): Text 'other' is set on object 'Object Repository/UI/Employee/Care Navigator/input_Transfer Provider Call_f'
+
+2019-01-23 08:13:58 - [MESSAGE][PASSED] - Text 'other' is set on object 'Object Repository/UI/Employee/Care Navigator/input_Transfer Provider Call_f'
+
+2019-01-23 08:13:58 - [TEST_STEP][PASSED] - sendKeys(findTestObject("UI/Employee/Care Navigator/input_Transfer Provider Call_f"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/UI/Employee/Care Navigator/input_Transfer Provider Call_f'
+
+2019-01-23 08:13:58 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/UI/Employee/Care Navigator/input_Transfer Provider Call_f'
+
+2019-01-23 08:13:58 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Care Navigator/td_Other")): Object: 'Object Repository/UI/Employee/Care Navigator/td_Other' is clicked on
+
+2019-01-23 08:13:58 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Care Navigator/td_Other' is clicked on
+
+2019-01-23 08:13:58 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Care Navigator/span_2. Locating Facility")): Object: 'Object Repository/UI/Employee/Care Navigator/span_2. Locating Facility' is clicked on
+
+2019-01-23 08:13:58 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Care Navigator/span_2. Locating Facility' is clicked on
+
+2019-01-23 08:13:58 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-23 08:13:58 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-23 08:13:25 - [TEST_SUITE][PASSED] - Care Navigator: Test Cases/UI/Employee/Care Navigator/Care Navigator Test Cases]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

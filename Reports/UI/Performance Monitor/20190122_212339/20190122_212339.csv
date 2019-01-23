@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Performance Monitor,Chrome 71.0.3578.98,,2019-01-22 21:23:42,2019-01-22 21:23:52,9.790s,ERROR
+,,,,,,
+Test Cases/UI/Employee/Performance Monitor/General Display,Chrome 71.0.3578.98,,2019-01-22 21:23:42,2019-01-22 21:23:47,4.762s,ERROR
+"actualText = findTestObject(""UI/Employee/Performance Monitor/Objects Performance Monitor/Page_AMPS Portal/span_Performance Monitor"")",Chrome 71.0.3578.98,,2019-01-22 21:23:43,2019-01-22 21:23:43,0.017s,PASSED
+"callTestCase(findTestCase(""UI/General/AdminLogin""), [:], STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 21:23:43,2019-01-22 21:23:47,4.519s,ERROR
+,,,,,,
+Test Cases/UI/Employee/Performance Monitor/Verify there is a change on the graphic,Chrome 71.0.3578.98,,2019-01-22 21:23:47,2019-01-22 21:23:51,4.209s,ERROR
+"actualSavings = findTestObject(""UI/Employee/Performance Monitor/Objects Performance Monitor/Page_AMPS Portal/div_979268824"")",Chrome 71.0.3578.98,,2019-01-22 21:23:47,2019-01-22 21:23:47,0.000s,PASSED
+"last3MonthsSavings = findTestObject(""UI/Employee/Performance Monitor/Objects Performance Monitor/Page_AMPS Portal/div_67758396"")",Chrome 71.0.3578.98,,2019-01-22 21:23:47,2019-01-22 21:23:47,0.000s,PASSED
+"callTestCase(findTestCase(""UI/General/AdminLogin""), [:], STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 21:23:47,2019-01-22 21:23:51,4.052s,ERROR

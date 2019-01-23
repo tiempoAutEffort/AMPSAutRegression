@@ -1,0 +1,78 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Turn Around Tracker,Chrome 71.0.3578.98,,2019-01-23 08:31:54,2019-01-23 08:32:30,35.243s,PASSED
+,,,,,,
+Test Cases/UI/Client/Turn Around Tracker/Filtering,Chrome 71.0.3578.98,Apply a filter and validate that the chart data changes according to the selected filter.,2019-01-23 08:31:54,2019-01-23 08:32:17,22.098s,PASSED
+"UAT = ""https://uat.advancedpricing.com""",Chrome 71.0.3578.98,,2019-01-23 08:31:55,2019-01-23 08:31:55,0.002s,PASSED
+"USER = ""qaAuto""",Chrome 71.0.3578.98,,2019-01-23 08:31:55,2019-01-23 08:31:55,0.001s,PASSED
+"PASSWD = ""a9yk100dD""",Chrome 71.0.3578.98,,2019-01-23 08:31:55,2019-01-23 08:31:55,0.001s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-23 08:31:55,2019-01-23 08:31:58,3.126s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-23 08:31:58,2019-01-23 08:31:59,1.161s,PASSED
+navigateToUrl(UAT),Chrome 71.0.3578.98,,2019-01-23 08:31:59,2019-01-23 08:32:01,1.563s,PASSED
+waitForPageLoad(5),Chrome 71.0.3578.98,,2019-01-23 08:32:01,2019-01-23 08:32:01,0.048s,PASSED
+"setText(findTestObject(""UI/Client/Claim Services/input_userCode""), USER)",Chrome 71.0.3578.98,,2019-01-23 08:32:01,2019-01-23 08:32:01,0.160s,PASSED
+"setText(findTestObject(""UI/Client/Claim Services/input_userPassword""), PASSWD)",Chrome 71.0.3578.98,,2019-01-23 08:32:01,2019-01-23 08:32:01,0.141s,PASSED
+"waitForElementClickable(findTestObject(""UI/Client/Claim Services/input_loginButton""), 5)",Chrome 71.0.3578.98,,2019-01-23 08:32:01,2019-01-23 08:32:01,0.048s,PASSED
+"click(findTestObject(""UI/Client/Claim Services/input_loginButton""))",Chrome 71.0.3578.98,,2019-01-23 08:32:01,2019-01-23 08:32:01,0.099s,PASSED
+waitForPageLoad(5),Chrome 71.0.3578.98,,2019-01-23 08:32:01,2019-01-23 08:32:01,0.008s,PASSED
+"waitForElementClickable(findTestObject(""UI/Client/Claim Services/span_ABMSClient""), 5)",Chrome 71.0.3578.98,,2019-01-23 08:32:01,2019-01-23 08:32:02,1.175s,PASSED
+"click(findTestObject(""UI/Client/Claim Services/span_ABMSClient""))",Chrome 71.0.3578.98,,2019-01-23 08:32:02,2019-01-23 08:32:03,0.373s,PASSED
+waitForPageLoad(5),Chrome 71.0.3578.98,,2019-01-23 08:32:03,2019-01-23 08:32:03,0.006s,PASSED
+"waitForElementClickable(findTestObject(""UI/Client/Turn Around Tracker/a_turnAroundTracker""), 5)",Chrome 71.0.3578.98,,2019-01-23 08:32:03,2019-01-23 08:32:03,0.030s,PASSED
+"click(findTestObject(""UI/Client/Turn Around Tracker/a_turnAroundTracker""))",Chrome 71.0.3578.98,,2019-01-23 08:32:03,2019-01-23 08:32:03,0.164s,PASSED
+waitForPageLoad(5),Chrome 71.0.3578.98,,2019-01-23 08:32:03,2019-01-23 08:32:03,0.010s,PASSED
+"waitForElementVisible(findTestObject(""UI/Client/Turn Around Tracker/h1_turnAroundTrackerHeader""), 5)",Chrome 71.0.3578.98,,2019-01-23 08:32:03,2019-01-23 08:32:03,0.040s,PASSED
+"pageHeader = getText(findTestObject(""UI/Client/Turn Around Tracker/h1_turnAroundTrackerHeader""))",Chrome 71.0.3578.98,,2019-01-23 08:32:03,2019-01-23 08:32:03,0.037s,PASSED
+"verifyMatch(pageHeader, ""Turn Around Tracker"", false)",Chrome 71.0.3578.98,,2019-01-23 08:32:03,2019-01-23 08:32:03,0.013s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-23 08:32:03,2019-01-23 08:32:06,3.001s,PASSED
+"waitForElementPresent(findTestObject(""UI/Client/Turn Around Tracker/div_tatChart""), 5)",Chrome 71.0.3578.98,,2019-01-23 08:32:06,2019-01-23 08:32:06,0.027s,PASSED
+"verifyElementVisible(findTestObject(""UI/Client/Turn Around Tracker/div_tatChart""))",Chrome 71.0.3578.98,,2019-01-23 08:32:06,2019-01-23 08:32:06,0.034s,PASSED
+"waitForElementClickable(findTestObject(""UI/Client/Turn Around Tracker/select_groupFilter""), 5)",Chrome 71.0.3578.98,,2019-01-23 08:32:06,2019-01-23 08:32:06,0.029s,PASSED
+"click(findTestObject(""UI/Client/Turn Around Tracker/select_groupFilter""))",Chrome 71.0.3578.98,,2019-01-23 08:32:06,2019-01-23 08:32:06,0.095s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-23 08:32:06,2019-01-23 08:32:08,2.003s,PASSED
+"click(findTestObject(""UI/Client/Turn Around Tracker/option_sevenKeystone""))",Chrome 71.0.3578.98,,2019-01-23 08:32:08,2019-01-23 08:32:08,0.110s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-23 08:32:08,2019-01-23 08:32:10,2.001s,PASSED
+"waitForElementPresent(findTestObject(""UI/Client/Turn Around Tracker/div_tatChart""), 5)",Chrome 71.0.3578.98,,2019-01-23 08:32:10,2019-01-23 08:32:10,0.035s,PASSED
+"verifyElementVisible(findTestObject(""UI/Client/Turn Around Tracker/div_tatChart""))",Chrome 71.0.3578.98,,2019-01-23 08:32:10,2019-01-23 08:32:10,0.033s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-23 08:32:10,2019-01-23 08:32:13,3.003s,PASSED
+"waitForElementClickable(findTestObject(""UI/General/Log/span_logoutAsClient""), 5)",Chrome 71.0.3578.98,,2019-01-23 08:32:13,2019-01-23 08:32:13,0.050s,PASSED
+"click(findTestObject(""UI/General/Log/span_logoutAsClient""))",Chrome 71.0.3578.98,,2019-01-23 08:32:13,2019-01-23 08:32:14,0.150s,PASSED
+"waitForElementClickable(findTestObject(""UI/General/Log/a_userAvatar""), 5)",Chrome 71.0.3578.98,,2019-01-23 08:32:14,2019-01-23 08:32:14,0.030s,PASSED
+"click(findTestObject(""UI/General/Log/a_userAvatar""))",Chrome 71.0.3578.98,,2019-01-23 08:32:14,2019-01-23 08:32:14,0.069s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-23 08:32:14,2019-01-23 08:32:15,1.002s,PASSED
+"waitForElementClickable(findTestObject(""UI/General/Log/a_signOutAMPS""), 5)",Chrome 71.0.3578.98,,2019-01-23 08:32:15,2019-01-23 08:32:15,0.081s,PASSED
+"click(findTestObject(""UI/General/Log/a_signOutAMPS""))",Chrome 71.0.3578.98,,2019-01-23 08:32:15,2019-01-23 08:32:15,0.173s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-23 08:32:15,2019-01-23 08:32:16,1.002s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-23 08:32:16,2019-01-23 08:32:17,0.668s,PASSED
+,,,,,,
+Test Cases/UI/Client/Turn Around Tracker/General_Display,Chrome 71.0.3578.98,Display Turn Around Tracker chart for a Client.,2019-01-23 08:32:17,2019-01-23 08:32:30,12.892s,PASSED
+"UAT = ""https://uat.advancedpricing.com""",Chrome 71.0.3578.98,,2019-01-23 08:32:17,2019-01-23 08:32:17,0.000s,PASSED
+"USER = ""qaAuto""",Chrome 71.0.3578.98,,2019-01-23 08:32:17,2019-01-23 08:32:17,0.000s,PASSED
+"PASSWD = ""a9yk100dD""",Chrome 71.0.3578.98,,2019-01-23 08:32:17,2019-01-23 08:32:17,0.000s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-23 08:32:17,2019-01-23 08:32:19,2.150s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-23 08:32:19,2019-01-23 08:32:20,1.123s,PASSED
+navigateToUrl(UAT),Chrome 71.0.3578.98,,2019-01-23 08:32:20,2019-01-23 08:32:22,1.586s,PASSED
+waitForPageLoad(5),Chrome 71.0.3578.98,,2019-01-23 08:32:22,2019-01-23 08:32:22,0.006s,PASSED
+"setText(findTestObject(""UI/Client/Claim Services/input_userCode""), USER)",Chrome 71.0.3578.98,,2019-01-23 08:32:22,2019-01-23 08:32:22,0.128s,PASSED
+"setText(findTestObject(""UI/Client/Claim Services/input_userPassword""), PASSWD)",Chrome 71.0.3578.98,,2019-01-23 08:32:22,2019-01-23 08:32:22,0.135s,PASSED
+"waitForElementClickable(findTestObject(""UI/Client/Claim Services/input_loginButton""), 5)",Chrome 71.0.3578.98,,2019-01-23 08:32:22,2019-01-23 08:32:22,0.025s,PASSED
+"click(findTestObject(""UI/Client/Claim Services/input_loginButton""))",Chrome 71.0.3578.98,,2019-01-23 08:32:22,2019-01-23 08:32:22,0.108s,PASSED
+waitForPageLoad(5),Chrome 71.0.3578.98,,2019-01-23 08:32:22,2019-01-23 08:32:22,0.005s,PASSED
+"waitForElementClickable(findTestObject(""UI/Client/Claim Services/span_ABMSClient""), 5)",Chrome 71.0.3578.98,,2019-01-23 08:32:22,2019-01-23 08:32:23,0.670s,PASSED
+"click(findTestObject(""UI/Client/Claim Services/span_ABMSClient""))",Chrome 71.0.3578.98,,2019-01-23 08:32:23,2019-01-23 08:32:23,0.299s,PASSED
+waitForPageLoad(5),Chrome 71.0.3578.98,,2019-01-23 08:32:23,2019-01-23 08:32:23,0.006s,PASSED
+"waitForElementClickable(findTestObject(""UI/Client/Turn Around Tracker/a_turnAroundTracker""), 5)",Chrome 71.0.3578.98,,2019-01-23 08:32:23,2019-01-23 08:32:23,0.027s,PASSED
+"click(findTestObject(""UI/Client/Turn Around Tracker/a_turnAroundTracker""))",Chrome 71.0.3578.98,,2019-01-23 08:32:23,2019-01-23 08:32:23,0.185s,PASSED
+waitForPageLoad(5),Chrome 71.0.3578.98,,2019-01-23 08:32:23,2019-01-23 08:32:23,0.007s,PASSED
+"waitForElementVisible(findTestObject(""UI/Client/Turn Around Tracker/h1_turnAroundTrackerHeader""), 5)",Chrome 71.0.3578.98,,2019-01-23 08:32:23,2019-01-23 08:32:23,0.029s,PASSED
+"pageHeader = getText(findTestObject(""UI/Client/Turn Around Tracker/h1_turnAroundTrackerHeader""))",Chrome 71.0.3578.98,,2019-01-23 08:32:23,2019-01-23 08:32:23,0.026s,PASSED
+"verifyMatch(pageHeader, ""Turn Around Tracker"", false)",Chrome 71.0.3578.98,,2019-01-23 08:32:23,2019-01-23 08:32:23,0.001s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-23 08:32:23,2019-01-23 08:32:26,3.001s,PASSED
+"waitForElementClickable(findTestObject(""UI/General/Log/span_logoutAsClient""), 5)",Chrome 71.0.3578.98,,2019-01-23 08:32:26,2019-01-23 08:32:26,0.072s,PASSED
+"click(findTestObject(""UI/General/Log/span_logoutAsClient""))",Chrome 71.0.3578.98,,2019-01-23 08:32:26,2019-01-23 08:32:27,0.170s,PASSED
+"waitForElementClickable(findTestObject(""UI/General/Log/a_userAvatar""), 5)",Chrome 71.0.3578.98,,2019-01-23 08:32:27,2019-01-23 08:32:27,0.031s,PASSED
+"click(findTestObject(""UI/General/Log/a_userAvatar""))",Chrome 71.0.3578.98,,2019-01-23 08:32:27,2019-01-23 08:32:27,0.063s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-23 08:32:27,2019-01-23 08:32:28,1.002s,PASSED
+"waitForElementClickable(findTestObject(""UI/General/Log/a_signOutAMPS""), 5)",Chrome 71.0.3578.98,,2019-01-23 08:32:28,2019-01-23 08:32:28,0.078s,PASSED
+"click(findTestObject(""UI/General/Log/a_signOutAMPS""))",Chrome 71.0.3578.98,,2019-01-23 08:32:28,2019-01-23 08:32:28,0.129s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-23 08:32:28,2019-01-23 08:32:29,1.001s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-23 08:32:29,2019-01-23 08:32:30,0.667s,PASSED
