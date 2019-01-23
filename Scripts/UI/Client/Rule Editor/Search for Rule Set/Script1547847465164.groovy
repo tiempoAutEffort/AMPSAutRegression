@@ -82,20 +82,21 @@ WebUI.delay(3)
 
 //**** Search using invalid data - No search results displayed
 WebUI.setText(findTestObject('UI/Client/Rule Editor/Search Rule Set/input_searchRuleSet'), INVALIDNAME)
-WebUI.delay(3)
+WebUI.delay(2)
 WebUI.verifyElementPresent(findTestObject('UI/Client/Rule Editor/Search Rule Set/div_noSearchResults'), 5)
 WebUI.setText(findTestObject('UI/Client/Rule Editor/Search Rule Set/input_searchRuleSet'), CLEAR)
-WebUI.delay(3)
+WebUI.waitForElementPresent(findTestObject('UI/Client/Rule Editor/Search Rule Set/input_searchRuleSet'), 7)
 
 
 WebUI.setText(findTestObject('UI/Client/Rule Editor/Search Rule Set/input_searchRuleSet'), INVALIDNAME2)
-WebUI.delay(3)
+WebUI.delay(2)
 WebUI.verifyElementPresent(findTestObject('UI/Client/Rule Editor/Search Rule Set/div_noSearchResults'), 5)
 WebUI.setText(findTestObject('UI/Client/Rule Editor/Search Rule Set/input_searchRuleSet'), CLEAR)
-WebUI.delay(3)
+
 
 
 //Logout
+WebUI.waitForElementPresent(findTestObject('UI/General/Log/a_userAvatar'), 2)
 WebUI.waitForElementClickable(findTestObject('UI/General/Log/a_userAvatar'), 5)
 WebUI.click(findTestObject('UI/General/Log/a_userAvatar'))
 WebUI.delay(1)

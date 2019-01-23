@@ -61,9 +61,7 @@ WebUI.delay(2)
 	WebUI.click(findTestObject('UI/Employee/Uploader/th_FileName'))
 	WebUI.click(findTestObject('UI/Employee/Uploader/td_There is no data to display'))
 	WebUI.click(findTestObject('UI/Employee/Uploader/span_Date_dropdown'))
-	
 	WebUI.click(findTestObject('UI/Employee/Uploader/th_Size'))
-
 	WebUI.click(findTestObject('UI/Employee/Uploader/button_Close'))
 	
 //searching for user con with files ///////////////////////////////////////////////////////////////////
