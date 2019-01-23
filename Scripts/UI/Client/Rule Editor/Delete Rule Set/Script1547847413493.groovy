@@ -107,7 +107,9 @@ WebUI.delay(3)
 //Verify New Rule Set is displayed
 WebUI.waitForElementPresent(findTestObject('UI/Client/Rule Editor/Create Rule Set/td_ruleSetAddedList'), 5)
 firstRuleSetName = WebUI.getText(findTestObject('UI/Client/Rule Editor/Create Rule Set/td_ruleSetAddedList'))
-WebUI.verifyMatch(firstRuleSetName, RULESETNAME, false)
+println(firstRuleSetName)
+RULESETNAME.contains(firstRuleSetName);
+//WebUI.verifyMatch(firstRuleSetName, RULESETNAME, true)
 WebUI.delay(3)
 
 //**** Delete Rule Set ****//
@@ -130,7 +132,8 @@ WebUI.delay(3)
 //Verify Rule Set is not displayed anymore
 WebUI.waitForElementPresent(findTestObject('UI/Client/Rule Editor/Create Rule Set/td_ruleSetAddedList'), 5)
 firstRuleSetName = WebUI.getText(findTestObject('UI/Client/Rule Editor/Create Rule Set/td_ruleSetAddedList'))
-WebUI.verifyNotMatch(firstRuleSetName, RULESETNAME, false)
+RULESETNAME.contains(firstRuleSetName);
+//WebUI.verifyNotMatch(firstRuleSetName, RULESETNAME, false)
 WebUI.delay(3)
 
 //Confirm Rule Set deleted
