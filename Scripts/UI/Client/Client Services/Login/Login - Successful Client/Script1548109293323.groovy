@@ -13,6 +13,26 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.openBrowser('https://uat.advancedpricing.com/login')
+
+WebUI.maximizeWindow()
+
+WebUI.waitForElementPresent(findTestObject('UI/Employee/Client Services/ForgotPassword/a_ForgotPassword'), 5)
+
+WebUI.waitForElementVisible(findTestObject('UI/Employee/Client Services/ForgotPassword/a_ForgotPassword'), 5)
+
+WebUI.waitForElementPresent(findTestObject('UI/General/Page_LoginPage/button_Login'), 5)
+
+WebUI.waitForElementVisible(findTestObject('UI/General/Page_LoginPage/button_Login'), 5)
+
+WebUI.waitForElementPresent(findTestObject('UI/Employee/Client Services/Login/input_Password'), 5)
+
+WebUI.waitForElementVisible(findTestObject('UI/Employee/Client Services/Login/input_Password'), 5)
+
+WebUI.waitForElementPresent(findTestObject('UI/Employee/Client Services/Login/input_User'), 5)
+
+WebUI.waitForElementVisible(findTestObject('UI/Employee/Client Services/Login/input_User'), 5)
+
 WebUI.setText(findTestObject('UI/General/Page_LoginPage/input_User'), user)
 
 WebUI.setText(findTestObject('UI/General/Page_LoginPage/input_Password'), password)
@@ -23,11 +43,13 @@ WebUI.waitForElementPresent(findTestObject('UI/General/Page_Employee landing pag
 
 WebUI.waitForElementVisible(findTestObject('UI/General/Page_Employee landing page/img_AMPSLogo'), 5)
 
-WebUI.waitForElementPresent(findTestObject('UI/General/Page_Client landing page/h1_Claim List Title'), 5)
+WebUI.verifyElementPresent(findTestObject('UI/General/Page_Client landing page/h1_Claim List Title'), 5)
 
-WebUI.waitForElementVisible(findTestObject('UI/General/Page_Client landing page/h1_Claim List Title'), 5)
+WebUI.verifyElementVisible(findTestObject('UI/General/Page_Client landing page/h1_Claim List Title'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementPresent(findTestObject('UI/General/Page_Client landing page/span_Claims Menu'), 5)
+WebUI.verifyElementPresent(findTestObject('UI/General/Page_Client landing page/span_Claims Menu'), 5)
 
-WebUI.waitForElementVisible(findTestObject('UI/General/Page_Client landing page/span_Claims Menu'), 5)
+WebUI.verifyElementVisible(findTestObject('UI/General/Page_Client landing page/span_Claims Menu'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.closeBrowser()
 

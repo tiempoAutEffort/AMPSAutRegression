@@ -1,0 +1,137 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+user editor,Chrome 71.0.3578.98,,2019-01-22 21:48:21,2019-01-22 21:51:53,3m - 31.969s,FAILED
+,,,,,,
+Test Cases/UI/Employee/Users Editor/Create not an AMPS user normal customer,Chrome 71.0.3578.98,,2019-01-22 21:48:21,2019-01-22 21:49:01,39.674s,PASSED
+"callTestCase(findTestCase(""UI/General/AdminLogin""), [:], STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 21:48:22,2019-01-22 21:48:28,6.547s,PASSED
+"click(findTestObject(""UI/Employee/user detail/Create new User/Page_AMPS Portal/span_Users""))",Chrome 71.0.3578.98,,2019-01-22 21:48:28,2019-01-22 21:48:29,0.867s,PASSED
+"verifyElementClickable(findTestObject(""UI/Employee/user detail/Create new User/Page_AMPS Portal/a_Create New User""))",Chrome 71.0.3578.98,,2019-01-22 21:48:29,2019-01-22 21:48:29,0.072s,PASSED
+"click(findTestObject(""UI/Employee/user detail/Create new User/Page_AMPS Portal/a_Create New User""))",Chrome 71.0.3578.98,,2019-01-22 21:48:29,2019-01-22 21:48:30,0.372s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-22 21:48:30,2019-01-22 21:48:35,5.007s,PASSED
+"click(findTestObject(""UI/Employee/user detail/Create new User/Page_AMPS Portal/span_customer_Select-arrow""))",Chrome 71.0.3578.98,,2019-01-22 21:48:35,2019-01-22 21:48:35,0.278s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-22 21:48:35,2019-01-22 21:48:37,2.003s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(ARROW_DOWN))",Chrome 71.0.3578.98,,2019-01-22 21:48:37,2019-01-22 21:48:37,0.109s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-22 21:48:37,2019-01-22 21:48:39,2.005s,PASSED
+"sendKeys(findTestObject(null), Keys.chord(ENTER))",Chrome 71.0.3578.98,,2019-01-22 21:48:39,2019-01-22 21:48:39,0.077s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-22 21:48:39,2019-01-22 21:48:42,3.001s,PASSED
+"click(findTestObject(""UI/Employee/user detail/Create new User/Page_AMPS Portal/span_Select..._Select-arrow""))",Chrome 71.0.3578.98,,2019-01-22 21:48:42,2019-01-22 21:48:42,0.142s,PASSED
+"sendKeys(findTestObject(""UI/Employee/user detail/Create new User/Page_AMPS Portal/INPUT_dropdown_Role""), ""ameriben"")",Chrome 71.0.3578.98,,2019-01-22 21:48:42,2019-01-22 21:48:42,0.187s,PASSED
+"click(findTestObject(""UI/Employee/user detail/Create new User/Page_AMPS Portal/Selector_Role_Always_Option1""))",Chrome 71.0.3578.98,,2019-01-22 21:48:42,2019-01-22 21:48:43,0.092s,PASSED
+delay(4),Chrome 71.0.3578.98,,2019-01-22 21:48:43,2019-01-22 21:48:47,4.003s,PASSED
+"setText(findTestObject(""UI/Employee/user detail/Create new User/Page_AMPS Portal/input_User Code_code""), ""TestAmer"")",Chrome 71.0.3578.98,,2019-01-22 21:48:47,2019-01-22 21:48:47,0.281s,PASSED
+"setText(findTestObject(""UI/Employee/user detail/Create new User/Page_AMPS Portal/input_Email_email""), ""Mike@ameriben.com"")",Chrome 71.0.3578.98,,2019-01-22 21:48:47,2019-01-22 21:48:47,0.396s,PASSED
+"setText(findTestObject(""UI/Employee/user detail/Create new User/Page_AMPS Portal/input_First Name_firstName""), ""Mike"")",Chrome 71.0.3578.98,,2019-01-22 21:48:47,2019-01-22 21:48:47,0.166s,PASSED
+"setText(findTestObject(""UI/Employee/user detail/Create new User/Page_AMPS Portal/input_Last Name_lastName""), ""Woazosky"")",Chrome 71.0.3578.98,,2019-01-22 21:48:47,2019-01-22 21:48:48,0.250s,PASSED
+"click(findTestObject(""UI/Employee/user detail/Create new User/Page_AMPS Portal/a_Access""))",Chrome 71.0.3578.98,,2019-01-22 21:48:48,2019-01-22 21:48:48,0.085s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-22 21:48:48,2019-01-22 21:48:53,5.002s,PASSED
+"click(findTestObject(""UI/Employee/user detail/Create new User/Page_AMPS Portal/span_All Groups""))",Chrome 71.0.3578.98,,2019-01-22 21:48:53,2019-01-22 21:48:53,0.103s,PASSED
+"click(findTestObject(""UI/Employee/user detail/Create new User/Page_AMPS Portal/a_""))",Chrome 71.0.3578.98,,2019-01-22 21:48:53,2019-01-22 21:48:53,0.074s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-22 21:48:53,2019-01-22 21:48:58,5.001s,PASSED
+"click(findTestObject(""UI/Employee/user detail/Create new User/Page_AMPS Portal/a_Permissions""))",Chrome 71.0.3578.98,,2019-01-22 21:48:58,2019-01-22 21:48:58,0.070s,PASSED
+"setText(findTestObject(""UI/Employee/user detail/Create new User/Page_AMPS Portal/input_All Groups_form-control""), ""user"")",Chrome 71.0.3578.98,,2019-01-22 21:48:58,2019-01-22 21:48:58,0.415s,PASSED
+"click(findTestObject(""UI/Employee/user detail/Create new User/Page_AMPS Portal/input_Description_permissions5""))",Chrome 71.0.3578.98,,2019-01-22 21:48:58,2019-01-22 21:48:58,0.096s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-22 21:48:58,2019-01-22 21:49:00,2.002s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-22 21:49:00,2019-01-22 21:49:01,0.672s,PASSED
+,,,,,,
+Test Cases/UI/Employee/Users Editor/User with no admin role can not edit users,Chrome 71.0.3578.98,,2019-01-22 21:49:01,2019-01-22 21:49:07,5.877s,FAILED
+"callTestCase(findTestCase(""UI/General/No Admin Login""), [:], STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 21:49:01,2019-01-22 21:49:07,5.726s,FAILED
+,,,,,,
+Test Cases/UI/Employee/Users Editor/User with edit role can edit users,Chrome 71.0.3578.98,,2019-01-22 21:49:07,2019-01-22 21:49:40,33.177s,PASSED
+"callTestCase(findTestCase(""UI/General/AdminLogin""), [:], STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 21:49:07,2019-01-22 21:49:13,5.841s,PASSED
+"click(findTestObject(""UI/Employee/user detail/modify user/Page_AMPS Portal/Page_AMPS Portal/span_Users""))",Chrome 71.0.3578.98,,2019-01-22 21:49:13,2019-01-22 21:49:14,0.923s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-22 21:49:14,2019-01-22 21:49:19,5.001s,PASSED
+"setText(findTestObject(""UI/Employee/user detail/modify user/Page_AMPS Portal/Page_AMPS Portal/input_User Code_code""), ""testPurpose"")",Chrome 71.0.3578.98,,2019-01-22 21:49:19,2019-01-22 21:49:19,0.343s,PASSED
+"click(findTestObject(""UI/Employee/user detail/modify user/Page_AMPS Portal/Page_AMPS Portal/button_Filter""))",Chrome 71.0.3578.98,,2019-01-22 21:49:19,2019-01-22 21:49:19,0.108s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-22 21:49:19,2019-01-22 21:49:24,5.002s,PASSED
+"click(findTestObject(""UI/Employee/user detail/modify user/Page_AMPS Portal/Page_AMPS Portal/i_Status_fa fa-pencil""))",Chrome 71.0.3578.98,,2019-01-22 21:49:24,2019-01-22 21:49:25,0.328s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-22 21:49:25,2019-01-22 21:49:30,5.002s,PASSED
+"click(findTestObject(""UI/Employee/user detail/modify user/Page_AMPS Portal/Page_AMPS Portal/a_Access""))",Chrome 71.0.3578.98,,2019-01-22 21:49:30,2019-01-22 21:49:30,0.309s,PASSED
+"click(findTestObject(""UI/Employee/user detail/modify user/Page_AMPS Portal/Page_AMPS Portal/span_All Groups""))",Chrome 71.0.3578.98,,2019-01-22 21:49:30,2019-01-22 21:49:30,0.065s,PASSED
+"click(findTestObject(""UI/Employee/user detail/modify user/Page_AMPS Portal/Page_AMPS Portal/a_""))",Chrome 71.0.3578.98,,2019-01-22 21:49:30,2019-01-22 21:49:30,0.105s,PASSED
+"click(findTestObject(""UI/Employee/user detail/modify user/Page_AMPS Portal/Page_AMPS Portal/a_Basics""))",Chrome 71.0.3578.98,,2019-01-22 21:49:30,2019-01-22 21:49:30,0.087s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-22 21:49:30,2019-01-22 21:49:35,5.002s,PASSED
+"setText(findTestObject(""UI/Employee/user detail/modify user/Page_AMPS Portal/Page_AMPS Portal/input_Mobile_mobile""), ""909-564-2554"")",Chrome 71.0.3578.98,,2019-01-22 21:49:35,2019-01-22 21:49:36,0.292s,PASSED
+"click(findTestObject(""UI/Employee/user detail/modify user/Page_AMPS Portal/Page_AMPS Portal/button_Save""))",Chrome 71.0.3578.98,,2019-01-22 21:49:36,2019-01-22 21:49:36,0.106s,PASSED
+"click(findTestObject(""UI/Employee/user detail/modify user/Page_AMPS Portal/Page_AMPS Portal/h2_User Updated""))",Chrome 71.0.3578.98,,2019-01-22 21:49:36,2019-01-22 21:49:39,3.407s,PASSED
+"verifyTextPresent(""User Updated"", false)",Chrome 71.0.3578.98,,2019-01-22 21:49:39,2019-01-22 21:49:39,0.374s,PASSED
+"click(findTestObject(""UI/Employee/user detail/modify user/Page_AMPS Portal/Page_AMPS Portal/button_OK""))",Chrome 71.0.3578.98,,2019-01-22 21:49:39,2019-01-22 21:49:40,0.102s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-22 21:49:40,2019-01-22 21:49:40,0.638s,PASSED
+,,,,,,
+Test Cases/UI/Employee/Users Editor/User with edit role can edit admin users,Chrome 71.0.3578.98,,2019-01-22 21:49:40,2019-01-22 21:50:13,32.645s,PASSED
+"callTestCase(findTestCase(""UI/General/AdminLogin""), [:], STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 21:49:40,2019-01-22 21:49:46,5.422s,PASSED
+"click(findTestObject(""UI/Employee/user detail/modify user/Page_AMPS Portal/Page_AMPS Portal/span_Users""))",Chrome 71.0.3578.98,,2019-01-22 21:49:46,2019-01-22 21:49:47,0.882s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-22 21:49:47,2019-01-22 21:49:52,5.000s,PASSED
+"setText(findTestObject(""UI/Employee/user detail/modify user/Page_AMPS Portal/Page_AMPS Portal/input_User Code_code""), ""purposeTest"")",Chrome 71.0.3578.98,,2019-01-22 21:49:52,2019-01-22 21:49:52,0.308s,PASSED
+"click(findTestObject(""UI/Employee/user detail/modify user/Page_AMPS Portal/Page_AMPS Portal/button_Filter""))",Chrome 71.0.3578.98,,2019-01-22 21:49:52,2019-01-22 21:49:52,0.110s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-22 21:49:52,2019-01-22 21:49:57,5.003s,PASSED
+"click(findTestObject(""UI/Employee/user detail/modify user/Page_AMPS Portal/Page_AMPS Portal/i_Status_fa fa-pencil""))",Chrome 71.0.3578.98,,2019-01-22 21:49:57,2019-01-22 21:49:57,0.312s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-22 21:49:57,2019-01-22 21:50:02,5.003s,PASSED
+"click(findTestObject(""UI/Employee/user detail/modify user/Page_AMPS Portal/Page_AMPS Portal/a_Access""))",Chrome 71.0.3578.98,,2019-01-22 21:50:02,2019-01-22 21:50:03,0.286s,PASSED
+"click(findTestObject(""UI/Employee/user detail/modify user/Page_AMPS Portal/Page_AMPS Portal/span_All Groups""))",Chrome 71.0.3578.98,,2019-01-22 21:50:03,2019-01-22 21:50:03,0.062s,PASSED
+"click(findTestObject(""UI/Employee/user detail/modify user/Page_AMPS Portal/Page_AMPS Portal/a_""))",Chrome 71.0.3578.98,,2019-01-22 21:50:03,2019-01-22 21:50:03,0.067s,PASSED
+"click(findTestObject(""UI/Employee/user detail/modify user/Page_AMPS Portal/Page_AMPS Portal/a_Basics""))",Chrome 71.0.3578.98,,2019-01-22 21:50:03,2019-01-22 21:50:03,0.076s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-22 21:50:03,2019-01-22 21:50:08,5.002s,PASSED
+"setText(findTestObject(""UI/Employee/user detail/modify user/Page_AMPS Portal/Page_AMPS Portal/input_Mobile_mobile""), ""909-564-2554"")",Chrome 71.0.3578.98,,2019-01-22 21:50:08,2019-01-22 21:50:08,0.310s,PASSED
+"click(findTestObject(""UI/Employee/user detail/modify user/Page_AMPS Portal/Page_AMPS Portal/button_Save""))",Chrome 71.0.3578.98,,2019-01-22 21:50:08,2019-01-22 21:50:08,0.103s,PASSED
+"click(findTestObject(""UI/Employee/user detail/modify user/Page_AMPS Portal/Page_AMPS Portal/h2_User Updated""))",Chrome 71.0.3578.98,,2019-01-22 21:50:08,2019-01-22 21:50:12,3.447s,PASSED
+"verifyTextPresent(""User Updated"", false)",Chrome 71.0.3578.98,,2019-01-22 21:50:12,2019-01-22 21:50:12,0.361s,PASSED
+"click(findTestObject(""UI/Employee/user detail/modify user/Page_AMPS Portal/Page_AMPS Portal/button_OK""))",Chrome 71.0.3578.98,,2019-01-22 21:50:12,2019-01-22 21:50:12,0.097s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-22 21:50:12,2019-01-22 21:50:13,0.632s,PASSED
+,,,,,,
+Test Cases/UI/Employee/Users Editor/Create an AMPS user,Chrome 71.0.3578.98,,2019-01-22 21:50:13,2019-01-22 21:50:40,26.757s,PASSED
+"callTestCase(findTestCase(""UI/General/AdminLogin""), [:], STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 21:50:13,2019-01-22 21:50:19,5.548s,PASSED
+"click(findTestObject(""UI/Employee/user detail/Create new User/Page_AMPS Portal/span_Users""))",Chrome 71.0.3578.98,,2019-01-22 21:50:19,2019-01-22 21:50:19,0.896s,PASSED
+"verifyElementClickable(findTestObject(""UI/Employee/user detail/Create new User/Page_AMPS Portal/a_Create New User""))",Chrome 71.0.3578.98,,2019-01-22 21:50:19,2019-01-22 21:50:20,0.070s,PASSED
+"click(findTestObject(""UI/Employee/user detail/Create new User/Page_AMPS Portal/a_Create New User""))",Chrome 71.0.3578.98,,2019-01-22 21:50:20,2019-01-22 21:50:20,0.342s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-22 21:50:20,2019-01-22 21:50:25,5.001s,PASSED
+"click(findTestObject(""UI/Employee/user detail/Create new User/Page_AMPS Portal/span_customer_Select-arrow""))",Chrome 71.0.3578.98,,2019-01-22 21:50:25,2019-01-22 21:50:25,0.232s,PASSED
+"click(findTestObject(""UI/Employee/user detail/Create new User/Page_AMPS Portal/Selector_account_Type_option3""))",Chrome 71.0.3578.98,,2019-01-22 21:50:25,2019-01-22 21:50:25,0.247s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-22 21:50:25,2019-01-22 21:50:28,3.001s,PASSED
+"click(findTestObject(""UI/Employee/user detail/Create new User/Page_AMPS Portal/span_Select..._Select-arrow""))",Chrome 71.0.3578.98,,2019-01-22 21:50:28,2019-01-22 21:50:28,0.141s,PASSED
+"sendKeys(findTestObject(""UI/Employee/user detail/Create new User/Page_AMPS Portal/INPUT_dropdown_Role""), ""admin"")",Chrome 71.0.3578.98,,2019-01-22 21:50:28,2019-01-22 21:50:29,0.101s,PASSED
+"click(findTestObject(""UI/Employee/user detail/Create new User/Page_AMPS Portal/Selector_Role_Always_Option1""))",Chrome 71.0.3578.98,,2019-01-22 21:50:29,2019-01-22 21:50:29,0.288s,PASSED
+"click(findTestObject(""UI/Employee/user detail/Create new User/Page_AMPS Portal/div_Select...""))",Chrome 71.0.3578.98,,2019-01-22 21:50:29,2019-01-22 21:50:29,0.066s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-22 21:50:29,2019-01-22 21:50:31,2.002s,PASSED
+"setText(findTestObject(""UI/Employee/user detail/Create new User/Page_AMPS Portal/input_User Code_code""), ""TestAdmin"")",Chrome 71.0.3578.98,,2019-01-22 21:50:31,2019-01-22 21:50:31,0.338s,PASSED
+"setText(findTestObject(""UI/Employee/user detail/Create new User/Page_AMPS Portal/input_Email_email""), ""Howartz@amps.com"")",Chrome 71.0.3578.98,,2019-01-22 21:50:31,2019-01-22 21:50:32,0.386s,PASSED
+"setText(findTestObject(""UI/Employee/user detail/Create new User/Page_AMPS Portal/input_First Name_firstName""), ""Stephen"")",Chrome 71.0.3578.98,,2019-01-22 21:50:32,2019-01-22 21:50:32,0.206s,PASSED
+"setText(findTestObject(""UI/Employee/user detail/Create new User/Page_AMPS Portal/input_Last Name_lastName""), ""Howart"")",Chrome 71.0.3578.98,,2019-01-22 21:50:32,2019-01-22 21:50:32,0.196s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-22 21:50:32,2019-01-22 21:50:34,2.000s,PASSED
+"click(findTestObject(""UI/Employee/user detail/Create new User/Page_AMPS Portal/a_Access""))",Chrome 71.0.3578.98,,2019-01-22 21:50:34,2019-01-22 21:50:34,0.134s,PASSED
+"click(findTestObject(""UI/Employee/user detail/Create new User/Page_AMPS Portal/span_All Groups""))",Chrome 71.0.3578.98,,2019-01-22 21:50:34,2019-01-22 21:50:34,0.060s,PASSED
+"click(findTestObject(""UI/Employee/user detail/Create new User/Page_AMPS Portal/a_""))",Chrome 71.0.3578.98,,2019-01-22 21:50:34,2019-01-22 21:50:34,0.076s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-22 21:50:34,2019-01-22 21:50:36,2.002s,PASSED
+"click(findTestObject(""UI/Employee/user detail/Create new User/Page_AMPS Portal/a_Permissions""))",Chrome 71.0.3578.98,,2019-01-22 21:50:36,2019-01-22 21:50:36,0.151s,PASSED
+"setText(findTestObject(""UI/Employee/user detail/Create new User/Page_AMPS Portal/input_All Groups_form-control""), ""user"")",Chrome 71.0.3578.98,,2019-01-22 21:50:36,2019-01-22 21:50:37,0.366s,PASSED
+"click(findTestObject(""UI/Employee/user detail/Create new User/Page_AMPS Portal/input_Description_permissions5""))",Chrome 71.0.3578.98,,2019-01-22 21:50:37,2019-01-22 21:50:37,0.078s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-22 21:50:37,2019-01-22 21:50:39,2.002s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-22 21:50:39,2019-01-22 21:50:40,0.682s,PASSED
+,,,,,,
+Test Cases/UI/Employee/Users Editor/user can disable another user,Chrome 71.0.3578.98,,2019-01-22 21:50:40,2019-01-22 21:50:52,11.962s,FAILED
+"callTestCase(findTestCase(""UI/General/AdminLogin""), [:], STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 21:50:40,2019-01-22 21:50:45,5.553s,PASSED
+"click(findTestObject(""UI/Employee/user detail/modify user/Page_AMPS Portal/Page_AMPS Portal/span_Users""))",Chrome 71.0.3578.98,,2019-01-22 21:50:45,2019-01-22 21:50:46,0.914s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-22 21:50:46,2019-01-22 21:50:51,5.002s,PASSED
+"setText(findTestObject(""Page_AMPS Portal/input_User Code_code""), ""noEditUser"")",Chrome 71.0.3578.98,,2019-01-22 21:50:51,2019-01-22 21:50:52,0.359s,FAILED
+,,,,,,
+Test Cases/UI/Employee/Users Editor/user can make active another user,Chrome 71.0.3578.98,,2019-01-22 21:50:52,2019-01-22 21:51:04,12.344s,FAILED
+"callTestCase(findTestCase(""UI/General/AdminLogin""), [:], STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 21:50:52,2019-01-22 21:50:58,5.963s,PASSED
+"click(findTestObject(""UI/Employee/user detail/modify user/Page_AMPS Portal/Page_AMPS Portal/span_Users""))",Chrome 71.0.3578.98,,2019-01-22 21:50:58,2019-01-22 21:50:59,0.879s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-22 21:50:59,2019-01-22 21:51:04,5.002s,PASSED
+"setText(findTestObject(""Page_AMPS Portal/input_User Code_code""), ""noEditUser"")",Chrome 71.0.3578.98,,2019-01-22 21:51:04,2019-01-22 21:51:04,0.368s,FAILED
+,,,,,,
+Test Cases/UI/Employee/Users Editor/User can send a Welcome Email,Chrome 71.0.3578.98,,2019-01-22 21:51:04,2019-01-22 21:51:53,48.649s,FAILED
+"callTestCase(findTestCase(""UI/General/AdminLogin""), [:], STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 21:51:04,2019-01-22 21:51:26,21.472s,PASSED
+"click(findTestObject(""UI/Employee/user detail/modify user/Page_AMPS Portal/Page_AMPS Portal/span_Users""))",Chrome 71.0.3578.98,,2019-01-22 21:51:26,2019-01-22 21:51:27,1.321s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-22 21:51:27,2019-01-22 21:51:32,5.001s,PASSED
+"setText(findTestObject(""UI/Employee/user detail/modify user/Page_AMPS Portal/Page_AMPS Portal/input_User Code_code""), ""purposeTest"")",Chrome 71.0.3578.98,,2019-01-22 21:51:32,2019-01-22 21:51:32,0.445s,PASSED
+"click(findTestObject(""UI/Employee/user detail/modify user/Page_AMPS Portal/Page_AMPS Portal/button_Filter""))",Chrome 71.0.3578.98,,2019-01-22 21:51:32,2019-01-22 21:51:32,0.111s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-22 21:51:32,2019-01-22 21:51:37,5.001s,PASSED
+"click(findTestObject(""UI/Employee/user detail/modify user/Page_AMPS Portal/Page_AMPS Portal/i_Status_fa fa-pencil""))",Chrome 71.0.3578.98,,2019-01-22 21:51:37,2019-01-22 21:51:38,0.344s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-22 21:51:38,2019-01-22 21:51:43,5.002s,PASSED
+"click(findTestObject(""UI/Employee/user detail/modify user/Page_AMPS Portal/Page_AMPS Portal/a_Access""))",Chrome 71.0.3578.98,,2019-01-22 21:51:43,2019-01-22 21:51:43,0.286s,PASSED
+"click(findTestObject(""UI/Employee/user detail/modify user/Page_AMPS Portal/Page_AMPS Portal/span_All Groups""))",Chrome 71.0.3578.98,,2019-01-22 21:51:43,2019-01-22 21:51:43,0.060s,PASSED
+"click(findTestObject(""UI/Employee/user detail/modify user/Page_AMPS Portal/Page_AMPS Portal/a_""))",Chrome 71.0.3578.98,,2019-01-22 21:51:43,2019-01-22 21:51:43,0.074s,PASSED
+"click(findTestObject(""UI/Employee/user detail/modify user/Page_AMPS Portal/Page_AMPS Portal/a_Basics""))",Chrome 71.0.3578.98,,2019-01-22 21:51:43,2019-01-22 21:51:43,0.065s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-22 21:51:43,2019-01-22 21:51:48,5.002s,PASSED
+"setText(findTestObject(""UI/Employee/user detail/modify user/Page_AMPS Portal/Page_AMPS Portal/input_Mobile_mobile""), ""909-564-2554"")",Chrome 71.0.3578.98,,2019-01-22 21:51:48,2019-01-22 21:51:49,0.369s,PASSED
+"click(findTestObject(""UI/Employee/user detail/modify user/Page_AMPS Portal/Page_AMPS Portal/button_Resend Email""))",Chrome 71.0.3578.98,,2019-01-22 21:51:49,2019-01-22 21:51:49,0.077s,PASSED
+"verifyElementPresent(findTestObject(""UI/Employee/user detail/modify user/Page_AMPS Portal/Page_AMPS Portal/h2_eMail Sent""), 3)",Chrome 71.0.3578.98,,2019-01-22 21:51:49,2019-01-22 21:51:53,3.893s,FAILED

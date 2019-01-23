@@ -1,0 +1,63 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Files,Chrome 71.0.3578.98,,2019-01-23 11:45:34,2019-01-23 11:46:09,35.455s,FAILED
+,,,,,,
+Test Cases/UI/Employee/Files/Upload file,Chrome 71.0.3578.98,,2019-01-23 11:45:34,2019-01-23 11:45:46,11.830s,FAILED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-23 11:45:34,2019-01-23 11:45:37,3.042s,PASSED
+"navigateToUrl(""https://uat.advancedpricing.com/"")",Chrome 71.0.3578.98,,2019-01-23 11:45:37,2019-01-23 11:45:40,2.289s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-23 11:45:40,2019-01-23 11:45:41,1.160s,PASSED
+"setText(findTestObject(""UI/Employee/Files/input_AMPS Portal Sign In_code""), ""qaAuto"")",Chrome 71.0.3578.98,,2019-01-23 11:45:41,2019-01-23 11:45:41,0.187s,PASSED
+"setEncryptedText(findTestObject(""UI/Employee/Files/input_AMPS Portal Sign In_pass""), ""yjiIhAfFXTz0yohvbOLmCA=="")",Chrome 71.0.3578.98,,2019-01-23 11:45:41,2019-01-23 11:45:41,0.195s,PASSED
+"click(findTestObject(""UI/Employee/Files/input_Forgot Password_btn btn-""))",Chrome 71.0.3578.98,,2019-01-23 11:45:41,2019-01-23 11:45:41,0.095s,PASSED
+"click(findTestObject(""UI/Employee/Files/a_Files""))",Chrome 71.0.3578.98,,2019-01-23 11:45:41,2019-01-23 11:45:42,0.907s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-23 11:45:42,2019-01-23 11:45:45,3.021s,PASSED
+today = new java.util.Date(),Chrome 71.0.3578.98,,2019-01-23 11:45:45,2019-01-23 11:45:45,0.011s,PASSED
+"attribute = getText(findTestObject(""UI/Employee/Files/h1_DateHeader""))",Chrome 71.0.3578.98,,2019-01-23 11:45:45,2019-01-23 11:45:45,0.092s,PASSED
+println(attribute),Chrome 71.0.3578.98,,2019-01-23 11:45:45,2019-01-23 11:45:45,0.005s,PASSED
+"attribute.contains(today.format(""EEEE"") + "", "" + today.format(""MMMM"") + "" "" + today.format(""dd""))",Chrome 71.0.3578.98,,2019-01-23 11:45:45,2019-01-23 11:45:45,0.005s,PASSED
+"attribute.contains(today.format(""yyyy""))",Chrome 71.0.3578.98,,2019-01-23 11:45:45,2019-01-23 11:45:45,0.001s,PASSED
+"uploadFile(findTestObject(""UI/Employee/Files/Element_1547578954950""), ""/Users/David Avalos/Downloads/eb61f4ad-6215-4f42-9c70-9ac4439222d1.jpeg"")",Chrome 71.0.3578.98,,2019-01-23 11:45:45,2019-01-23 11:45:46,0.425s,FAILED
+,,,,,,
+Test Cases/UI/Employee/Files/Uploader,Chrome 71.0.3578.98,,2019-01-23 11:45:46,2019-01-23 11:46:09,23.397s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-23 11:45:46,2019-01-23 11:45:49,2.894s,PASSED
+"navigateToUrl(""https://uat.advancedpricing.com/login?next=%2F"")",Chrome 71.0.3578.98,,2019-01-23 11:45:49,2019-01-23 11:45:50,1.425s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-23 11:45:50,2019-01-23 11:45:51,1.123s,PASSED
+"setText(findTestObject(""UI/Employee/Files/input_AMPS Portal Sign In_code""), ""qaAuto"")",Chrome 71.0.3578.98,,2019-01-23 11:45:51,2019-01-23 11:45:52,0.130s,PASSED
+"setEncryptedText(findTestObject(""UI/Employee/Files/input_AMPS Portal Sign In_pass""), ""yjiIhAfFXTz0yohvbOLmCA=="")",Chrome 71.0.3578.98,,2019-01-23 11:45:52,2019-01-23 11:45:52,0.134s,PASSED
+"click(findTestObject(""UI/Employee/Files/input_Forgot Password_btn btn-""))",Chrome 71.0.3578.98,,2019-01-23 11:45:52,2019-01-23 11:45:52,0.088s,PASSED
+"click(findTestObject(""UI/Employee/Uploader/a_Uploader""))",Chrome 71.0.3578.98,,2019-01-23 11:45:52,2019-01-23 11:45:53,0.780s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-23 11:45:53,2019-01-23 11:45:55,2.003s,PASSED
+today = new java.util.Date(),Chrome 71.0.3578.98,,2019-01-23 11:45:55,2019-01-23 11:45:55,0.002s,PASSED
+"click(findTestObject(""UI/Employee/Uploader/button_Add New User""))",Chrome 71.0.3578.98,,2019-01-23 11:45:55,2019-01-23 11:45:55,0.229s,PASSED
+"setText(findTestObject(""UI/Employee/Uploader/Calendar_NewUser""), ""12/12/2020"")",Chrome 71.0.3578.98,,2019-01-23 11:45:55,2019-01-23 11:45:55,0.189s,PASSED
+"setText(findTestObject(""UI/Employee/Uploader/input_Name_name""), ""TESTh"")",Chrome 71.0.3578.98,,2019-01-23 11:45:55,2019-01-23 11:45:55,0.137s,PASSED
+"sendKeys(null, Keys.chord(TAB))",Chrome 71.0.3578.98,,2019-01-23 11:45:55,2019-01-23 11:45:55,0.058s,PASSED
+"click(findTestObject(""UI/Employee/Uploader/input_Name_name""))",Chrome 71.0.3578.98,,2019-01-23 11:45:55,2019-01-23 11:45:55,0.071s,PASSED
+"setText(findTestObject(""UI/Employee/Uploader/input_Email_email""), ""test@test.com"")",Chrome 71.0.3578.98,,2019-01-23 11:45:55,2019-01-23 11:45:55,0.198s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-23 11:45:55,2019-01-23 11:45:57,2.003s,PASSED
+"setText(findTestObject(""UI/Employee/Uploader/input_Email_email""), ""test@test.com"")",Chrome 71.0.3578.98,,2019-01-23 11:45:57,2019-01-23 11:45:58,0.230s,PASSED
+"click(findTestObject(""UI/Employee/Uploader/button_Save (1)""))",Chrome 71.0.3578.98,,2019-01-23 11:45:58,2019-01-23 11:45:58,0.100s,PASSED
+delay(4),Chrome 71.0.3578.98,,2019-01-23 11:45:58,2019-01-23 11:46:02,4.001s,PASSED
+"doubleClick(findTestObject(""UI/Employee/Uploader/strong_User created.""))",Chrome 71.0.3578.98,,2019-01-23 11:46:02,2019-01-23 11:46:02,0.132s,PASSED
+"click(findTestObject(""UI/Employee/Uploader/button_Close""))",Chrome 71.0.3578.98,,2019-01-23 11:46:02,2019-01-23 11:46:02,0.132s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-23 11:46:02,2019-01-23 11:46:03,1.003s,PASSED
+"click(findTestObject(""UI/Employee/Uploader/i_Expires_fa fa-check aria-hid""))",Chrome 71.0.3578.98,,2019-01-23 11:46:03,2019-01-23 11:46:03,0.141s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-23 11:46:03,2019-01-23 11:46:04,1.002s,PASSED
+"click(findTestObject(""UI/Employee/Uploader/span_There is no data to displ""))",Chrome 71.0.3578.98,,2019-01-23 11:46:04,2019-01-23 11:46:04,0.092s,PASSED
+"click(findTestObject(""UI/Employee/Uploader/span__dropdown""))",Chrome 71.0.3578.98,,2019-01-23 11:46:04,2019-01-23 11:46:04,0.072s,PASSED
+"click(findTestObject(""UI/Employee/Uploader/th_FileName""))",Chrome 71.0.3578.98,,2019-01-23 11:46:04,2019-01-23 11:46:04,0.064s,PASSED
+"click(findTestObject(""UI/Employee/Uploader/td_There is no data to display""))",Chrome 71.0.3578.98,,2019-01-23 11:46:04,2019-01-23 11:46:05,0.066s,PASSED
+"click(findTestObject(""UI/Employee/Uploader/span_Date_dropdown""))",Chrome 71.0.3578.98,,2019-01-23 11:46:05,2019-01-23 11:46:05,0.068s,PASSED
+"click(findTestObject(""UI/Employee/Uploader/th_Size""))",Chrome 71.0.3578.98,,2019-01-23 11:46:05,2019-01-23 11:46:05,0.067s,PASSED
+"click(findTestObject(""UI/Employee/Uploader/button_Close""))",Chrome 71.0.3578.98,,2019-01-23 11:46:05,2019-01-23 11:46:05,0.084s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-23 11:46:05,2019-01-23 11:46:07,2.003s,PASSED
+"setText(findTestObject(""UI/Employee/Uploader/input_Search By Name or Email_""), ""sfrancis@wellsystems.com"")",Chrome 71.0.3578.98,,2019-01-23 11:46:07,2019-01-23 11:46:07,0.204s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-23 11:46:07,2019-01-23 11:46:08,1.002s,PASSED
+"click(findTestObject(""UI/Employee/Uploader/button_Filter""))",Chrome 71.0.3578.98,,2019-01-23 11:46:08,2019-01-23 11:46:08,0.105s,PASSED
+"click(findTestObject(""UI/Employee/Uploader/i_Expires_fa fa-times aria-hid""))",Chrome 71.0.3578.98,,2019-01-23 11:46:08,2019-01-23 11:46:08,0.086s,PASSED
+"click(findTestObject(""UI/Employee/Uploader/span_Size_dropdown""))",Chrome 71.0.3578.98,,2019-01-23 11:46:08,2019-01-23 11:46:08,0.078s,PASSED
+"click(findTestObject(""UI/Employee/Uploader/th_Size (1)""))",Chrome 71.0.3578.98,,2019-01-23 11:46:08,2019-01-23 11:46:08,0.071s,PASSED
+"click(findTestObject(""UI/Employee/Uploader/span_330.3 KB""))",Chrome 71.0.3578.98,,2019-01-23 11:46:08,2019-01-23 11:46:08,0.116s,PASSED
+"click(findTestObject(""UI/Employee/Uploader/th_Size (1)""))",Chrome 71.0.3578.98,,2019-01-23 11:46:08,2019-01-23 11:46:08,0.065s,PASSED
+"click(findTestObject(""UI/Employee/Uploader/span_358.4 KB""))",Chrome 71.0.3578.98,,2019-01-23 11:46:08,2019-01-23 11:46:09,0.048s,PASSED
+"click(findTestObject(""UI/Employee/Uploader/button_Close""))",Chrome 71.0.3578.98,,2019-01-23 11:46:09,2019-01-23 11:46:09,0.079s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-23 11:46:09,2019-01-23 11:46:09,0.655s,PASSED

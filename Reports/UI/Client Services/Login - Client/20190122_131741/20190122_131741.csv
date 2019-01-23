@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Login - Client,Chrome 71.0.3578.98,,2019-01-22 13:18:01,2019-01-22 13:18:10,8.845s,PASSED
+,,,,,,
+Test Cases/UI/General/openBrowser,Chrome 71.0.3578.98,,2019-01-22 13:18:01,2019-01-22 13:18:08,6.723s,PASSED
+"openBrowser(""https://uat.advancedpricing.com/login"")",Chrome 71.0.3578.98,,2019-01-22 13:18:01,2019-01-22 13:18:06,4.935s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-22 13:18:06,2019-01-22 13:18:07,1.170s,PASSED
+"waitForElementPresent(findTestObject(""UI/Client/Client Services/ForgotPassword/a_ForgotPassword""), 5)",Chrome 71.0.3578.98,,2019-01-22 13:18:07,2019-01-22 13:18:07,0.080s,PASSED
+"waitForElementVisible(findTestObject(""UI/Client/Client Services/ForgotPassword/a_ForgotPassword""), 5)",Chrome 71.0.3578.98,,2019-01-22 13:18:07,2019-01-22 13:18:07,0.045s,PASSED
+"waitForElementPresent(findTestObject(""UI/General/Page_LoginPage/button_Login""), 5)",Chrome 71.0.3578.98,,2019-01-22 13:18:07,2019-01-22 13:18:07,0.018s,PASSED
+"waitForElementVisible(findTestObject(""UI/General/Page_LoginPage/button_Login""), 5)",Chrome 71.0.3578.98,,2019-01-22 13:18:07,2019-01-22 13:18:08,0.030s,PASSED
+"waitForElementPresent(findTestObject(""UI/General/Page_LoginPage/input_Password""), 5)",Chrome 71.0.3578.98,,2019-01-22 13:18:08,2019-01-22 13:18:08,0.017s,PASSED
+"waitForElementVisible(findTestObject(""UI/General/Page_LoginPage/input_Password""), 5)",Chrome 71.0.3578.98,,2019-01-22 13:18:08,2019-01-22 13:18:08,0.028s,PASSED
+"waitForElementPresent(findTestObject(""UI/General/Page_LoginPage/input_User""), 5)",Chrome 71.0.3578.98,,2019-01-22 13:18:08,2019-01-22 13:18:08,0.017s,PASSED
+"waitForElementVisible(findTestObject(""UI/General/Page_LoginPage/input_User""), 5)",Chrome 71.0.3578.98,,2019-01-22 13:18:08,2019-01-22 13:18:08,0.025s,PASSED
+,,,,,,
+Test Cases/UI/Client/Client Services/Login/Login - Successful Client,Chrome 71.0.3578.98,,2019-01-22 13:18:08,2019-01-22 13:18:09,1.326s,PASSED
+"setText(findTestObject(""UI/General/Page_LoginPage/input_User""), user)",Chrome 71.0.3578.98,,2019-01-22 13:18:08,2019-01-22 13:18:08,0.151s,PASSED
+"setText(findTestObject(""UI/General/Page_LoginPage/input_Password""), password)",Chrome 71.0.3578.98,,2019-01-22 13:18:08,2019-01-22 13:18:08,0.153s,PASSED
+"click(findTestObject(""UI/General/Page_LoginPage/button_Login""))",Chrome 71.0.3578.98,,2019-01-22 13:18:08,2019-01-22 13:18:08,0.083s,PASSED
+"waitForElementPresent(findTestObject(""UI/General/Page_Employee landing page/img_AMPSLogo""), 5)",Chrome 71.0.3578.98,,2019-01-22 13:18:08,2019-01-22 13:18:09,0.615s,PASSED
+"waitForElementVisible(findTestObject(""UI/General/Page_Employee landing page/img_AMPSLogo""), 5)",Chrome 71.0.3578.98,,2019-01-22 13:18:09,2019-01-22 13:18:09,0.030s,PASSED
+"waitForElementPresent(findTestObject(""UI/General/Page_Client landing page/h1_Claim List Title""), 5)",Chrome 71.0.3578.98,,2019-01-22 13:18:09,2019-01-22 13:18:09,0.019s,PASSED
+"waitForElementVisible(findTestObject(""UI/General/Page_Client landing page/h1_Claim List Title""), 5)",Chrome 71.0.3578.98,,2019-01-22 13:18:09,2019-01-22 13:18:09,0.028s,PASSED
+"waitForElementPresent(findTestObject(""UI/General/Page_Client landing page/span_Claims Menu""), 5)",Chrome 71.0.3578.98,,2019-01-22 13:18:09,2019-01-22 13:18:09,0.024s,PASSED
+"waitForElementVisible(findTestObject(""UI/General/Page_Client landing page/span_Claims Menu""), 5)",Chrome 71.0.3578.98,,2019-01-22 13:18:09,2019-01-22 13:18:09,0.038s,PASSED

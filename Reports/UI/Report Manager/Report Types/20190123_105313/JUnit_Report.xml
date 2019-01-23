@@ -1,0 +1,1251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Report Types" time="33" tests="6" failures="0" errors="0">
+   <testsuite name="Report Types" tests="6" failures="0" errors="0" time="33" timestamp="2019-01-23 11:01:45" hostname="david avalos - TDG-MBL-MTY0359.tiempodev.local" id="Test Suites/UI/Report Manager/Report Types">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\David Avalos\\git\\AMPSAutRegression\\Reports\\UI\\Report Manager\\Report Types\\20190123_105313"/>
+         <property name="logFiles" value="C:\\Users\\David Avalos\\git\\AMPSAutRegression\\Reports\\UI\\Report Manager\\Report Types\\20190123_105313\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="david avalos - TDG-MBL-MTY0359.tiempodev.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.1.97"/>
+         <property name="sessionId" value="216810f91f28a6885b025be0acae158f"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/UI/General/openBrowser" classname="Test Cases/UI/General/openBrowser" status="PASSED">
+         <system-out><![CDATA[2019-01-23 11:01:45 - [TEST_CASE][PASSED] - Test Cases/UI/General/openBrowser: Test Cases/UI/General/openBrowser
+
+2019-01-23 11:01:45 - [TEST_STEP][PASSED] - openBrowser("https://uat.advancedpricing.com/login"): Browser is opened with url: 'https://uat.advancedpricing.com/login'
+
+2019-01-23 11:01:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-23 11:01:45 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-23 11:01:50 - [MESSAGE][PASSED] - Browser is opened with url: 'https://uat.advancedpricing.com/login'
+
+2019-01-23 11:01:50 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-23 11:01:51 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-23 11:01:51 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/Client/Client Services/ForgotPassword/a_ForgotPassword"), 5): Object 'Object Repository/UI/Client/Client Services/ForgotPassword/a_ForgotPassword' is present
+
+2019-01-23 11:01:51 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Client Services/ForgotPassword/a_ForgotPassword' is present
+
+2019-01-23 11:01:51 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/Client/Client Services/ForgotPassword/a_ForgotPassword"), 5): Object 'Object Repository/UI/Client/Client Services/ForgotPassword/a_ForgotPassword' is visible
+
+2019-01-23 11:01:51 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Client Services/ForgotPassword/a_ForgotPassword' is visible
+
+2019-01-23 11:01:51 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/General/Page_LoginPage/button_Login"), 5): Object 'Object Repository/UI/General/Page_LoginPage/button_Login' is present
+
+2019-01-23 11:01:51 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_LoginPage/button_Login' is present
+
+2019-01-23 11:01:51 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/General/Page_LoginPage/button_Login"), 5): Object 'Object Repository/UI/General/Page_LoginPage/button_Login' is visible
+
+2019-01-23 11:01:51 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_LoginPage/button_Login' is visible
+
+2019-01-23 11:01:51 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/General/Page_LoginPage/input_Password"), 5): Object 'Object Repository/UI/General/Page_LoginPage/input_Password' is present
+
+2019-01-23 11:01:51 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_LoginPage/input_Password' is present
+
+2019-01-23 11:01:51 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/General/Page_LoginPage/input_Password"), 5): Object 'Object Repository/UI/General/Page_LoginPage/input_Password' is visible
+
+2019-01-23 11:01:51 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_LoginPage/input_Password' is visible
+
+2019-01-23 11:01:51 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/General/Page_LoginPage/input_User"), 5): Object 'Object Repository/UI/General/Page_LoginPage/input_User' is present
+
+2019-01-23 11:01:51 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_LoginPage/input_User' is present
+
+2019-01-23 11:01:51 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/General/Page_LoginPage/input_User"), 5): Object 'Object Repository/UI/General/Page_LoginPage/input_User' is visible
+
+2019-01-23 11:01:51 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_LoginPage/input_User' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UI/General/Employee Login" classname="Test Cases/UI/General/Employee Login" status="PASSED">
+         <system-out><![CDATA[2019-01-23 11:01:51 - [TEST_CASE][PASSED] - Test Cases/UI/General/Employee Login: Test Cases/UI/General/Employee Login
+
+2019-01-23 11:01:51 - [TEST_STEP][PASSED] - setText(findTestObject("UI/General/Page_LoginPage/input_User"), user): Text 'qaAuto' is set on object 'Object Repository/UI/General/Page_LoginPage/input_User'
+
+2019-01-23 11:01:51 - [MESSAGE][PASSED] - Text 'qaAuto' is set on object 'Object Repository/UI/General/Page_LoginPage/input_User'
+
+2019-01-23 11:01:51 - [TEST_STEP][PASSED] - setText(findTestObject("UI/General/Page_LoginPage/input_Password"), password): Text 'a9yk100dD' is set on object 'Object Repository/UI/General/Page_LoginPage/input_Password'
+
+2019-01-23 11:01:51 - [MESSAGE][PASSED] - Text 'a9yk100dD' is set on object 'Object Repository/UI/General/Page_LoginPage/input_Password'
+
+2019-01-23 11:01:51 - [TEST_STEP][PASSED] - click(findTestObject("UI/General/Page_LoginPage/button_Login")): Object: 'Object Repository/UI/General/Page_LoginPage/button_Login' is clicked on
+
+2019-01-23 11:01:52 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/General/Page_LoginPage/button_Login' is clicked on
+
+2019-01-23 11:01:52 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/General/Page_Employee landing page/img_AMPSLogo"), 5): Object 'Object Repository/UI/General/Page_Employee landing page/img_AMPSLogo' is present
+
+2019-01-23 11:01:52 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_Employee landing page/img_AMPSLogo' is present
+
+2019-01-23 11:01:52 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/General/Page_Employee landing page/img_AMPSLogo"), 5): Object 'Object Repository/UI/General/Page_Employee landing page/img_AMPSLogo' is visible
+
+2019-01-23 11:01:52 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_Employee landing page/img_AMPSLogo' is visible
+
+2019-01-23 11:01:52 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/General/Page_Employee landing page/span_ClientsMenu"), 5): Object 'Object Repository/UI/General/Page_Employee landing page/span_ClientsMenu' is present
+
+2019-01-23 11:01:52 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_Employee landing page/span_ClientsMenu' is present
+
+2019-01-23 11:01:52 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/General/Page_Employee landing page/span_ClientsMenu"), 5): Object 'Object Repository/UI/General/Page_Employee landing page/span_ClientsMenu' is visible
+
+2019-01-23 11:01:52 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_Employee landing page/span_ClientsMenu' is visible
+
+2019-01-23 11:01:52 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/General/Page_Employee landing page/h1_ClientsTitle"), 5): Object 'Object Repository/UI/General/Page_Employee landing page/h1_ClientsTitle' is present
+
+2019-01-23 11:01:52 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_Employee landing page/h1_ClientsTitle' is present
+
+2019-01-23 11:01:52 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/General/Page_Employee landing page/h1_ClientsTitle"), 5): Object 'Object Repository/UI/General/Page_Employee landing page/h1_ClientsTitle' is visible
+
+2019-01-23 11:01:52 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_Employee landing page/h1_ClientsTitle' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UI/Employee/Report Manager/Report Types/Report Types - Validate object presence" classname="Test Cases/UI/Employee/Report Manager/Report Types/Report Types - Validate object presence" status="PASSED">
+         <system-out><![CDATA[2019-01-23 11:01:52 - [TEST_CASE][PASSED] - Test Cases/UI/Employee/Report Manager/Report Types/Report Types - Validate object presence: Test Cases/UI/Employee/Report Manager/Report Types/Report Types - Validate object presence
+
+2019-01-23 11:01:53 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Report Manager/span_Report Management Menu")): Object: 'Object Repository/UI/Employee/Report Manager/span_Report Management Menu' is clicked on
+
+2019-01-23 11:01:53 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Report Manager/span_Report Management Menu' is clicked on
+
+2019-01-23 11:01:53 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Report Manager/span_Report Types Sub Menu")): Object: 'Object Repository/UI/Employee/Report Manager/span_Report Types Sub Menu' is clicked on
+
+2019-01-23 11:01:53 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Report Manager/span_Report Types Sub Menu' is clicked on
+
+2019-01-23 11:01:53 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/Employee/Report Manager/Report Types/h1_Report Types Title"), 5): Object 'Object Repository/UI/Employee/Report Manager/Report Types/h1_Report Types Title' is present
+
+2019-01-23 11:01:53 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/h1_Report Types Title' is present
+
+2019-01-23 11:01:53 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/Employee/Report Manager/Report Types/h1_Report Types Title"), 5): Object 'Object Repository/UI/Employee/Report Manager/Report Types/h1_Report Types Title' is visible
+
+2019-01-23 11:01:53 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/h1_Report Types Title' is visible
+
+2019-01-23 11:01:53 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Employee/Report Manager/Report Types/h1_Report Types Title"), "Report Types", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Report Types/h1_Report Types Title' are matched.
+
+2019-01-23 11:01:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Report Types/h1_Report Types Title' are matched.
+
+2019-01-23 11:01:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Report Types/th_Reports Table_Header_Actions"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/th_Reports Table_Header_Actions' is present
+
+2019-01-23 11:01:53 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/th_Reports Table_Header_Actions' is present
+
+2019-01-23 11:01:53 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Report Types/th_Reports Table_Header_Actions"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/th_Reports Table_Header_Actions' is visible
+
+2019-01-23 11:01:53 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/th_Reports Table_Header_Actions' is visible
+
+2019-01-23 11:01:53 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Employee/Report Manager/Report Types/th_Reports Table_Header_Actions"), "Actions", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Report Types/th_Reports Table_Header_Actions' are matched.
+
+2019-01-23 11:01:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Report Types/th_Reports Table_Header_Actions' are matched.
+
+2019-01-23 11:01:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Report Types/th_Report Table_Header_Active"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/th_Report Table_Header_Active' is present
+
+2019-01-23 11:01:53 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/th_Report Table_Header_Active' is present
+
+2019-01-23 11:01:53 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Report Types/th_Report Table_Header_Active"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/th_Report Table_Header_Active' is visible
+
+2019-01-23 11:01:53 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/th_Report Table_Header_Active' is visible
+
+2019-01-23 11:01:53 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Employee/Report Manager/Report Types/th_Report Table_Header_Active"), "Active", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Report Types/th_Report Table_Header_Active' are matched.
+
+2019-01-23 11:01:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Report Types/th_Report Table_Header_Active' are matched.
+
+2019-01-23 11:01:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Report Types/th_Report Table_Header_Name"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/th_Report Table_Header_Name' is present
+
+2019-01-23 11:01:53 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/th_Report Table_Header_Name' is present
+
+2019-01-23 11:01:53 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Report Types/th_Report Table_Header_Name"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/th_Report Table_Header_Name' is visible
+
+2019-01-23 11:01:53 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/th_Report Table_Header_Name' is visible
+
+2019-01-23 11:01:53 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Employee/Report Manager/Report Types/th_Report Table_Header_Name"), "Name", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Report Types/th_Report Table_Header_Name' are matched.
+
+2019-01-23 11:01:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Report Types/th_Report Table_Header_Name' are matched.
+
+2019-01-23 11:01:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Report Types/th_Report Table_Header_Report Range"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/th_Report Table_Header_Report Range' is present
+
+2019-01-23 11:01:53 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/th_Report Table_Header_Report Range' is present
+
+2019-01-23 11:01:53 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Report Types/th_Report Table_Header_Report Range"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/th_Report Table_Header_Report Range' is visible
+
+2019-01-23 11:01:53 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/th_Report Table_Header_Report Range' is visible
+
+2019-01-23 11:01:53 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Employee/Report Manager/Report Types/th_Report Table_Header_Report Range"), "Report Range", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Report Types/th_Report Table_Header_Report Range' are matched.
+
+2019-01-23 11:01:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Report Types/th_Report Table_Header_Report Range' are matched.
+
+2019-01-23 11:01:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Report Types/th_Report Table_Header_Schedule Dates"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/th_Report Table_Header_Schedule Dates' is present
+
+2019-01-23 11:01:53 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/th_Report Table_Header_Schedule Dates' is present
+
+2019-01-23 11:01:53 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Report Types/th_Report Table_Header_Schedule Dates"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/th_Report Table_Header_Schedule Dates' is visible
+
+2019-01-23 11:01:53 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/th_Report Table_Header_Schedule Dates' is visible
+
+2019-01-23 11:01:53 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Employee/Report Manager/Report Types/th_Report Table_Header_Schedule Dates"), "Schedule Dates", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Report Types/th_Report Table_Header_Schedule Dates' are matched.
+
+2019-01-23 11:01:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Report Types/th_Report Table_Header_Schedule Dates' are matched.
+
+2019-01-23 11:01:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Report Types/th_Report Table_Header_Mass Distributed"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/th_Report Table_Header_Mass Distributed' is present
+
+2019-01-23 11:01:53 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/th_Report Table_Header_Mass Distributed' is present
+
+2019-01-23 11:01:53 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Report Types/th_Report Table_Header_Mass Distributed"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/th_Report Table_Header_Mass Distributed' is visible
+
+2019-01-23 11:01:53 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/th_Report Table_Header_Mass Distributed' is visible
+
+2019-01-23 11:01:53 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Employee/Report Manager/Report Types/th_Report Table_Header_Mass Distributed"), "Mass Distributed", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Report Types/th_Report Table_Header_Mass Distributed' are matched.
+
+2019-01-23 11:01:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Report Types/th_Report Table_Header_Mass Distributed' are matched.
+
+2019-01-23 11:01:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Report Types/th_Report Table_Header_Client Wide"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/th_Report Table_Header_Client Wide' is present
+
+2019-01-23 11:01:54 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/th_Report Table_Header_Client Wide' is present
+
+2019-01-23 11:01:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Report Types/th_Report Table_Header_Client Wide"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/th_Report Table_Header_Client Wide' is visible
+
+2019-01-23 11:01:54 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/th_Report Table_Header_Client Wide' is visible
+
+2019-01-23 11:01:54 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Employee/Report Manager/Report Types/th_Report Table_Header_Client Wide"), "Client Wide", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Report Types/th_Report Table_Header_Client Wide' are matched.
+
+2019-01-23 11:01:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Report Types/th_Report Table_Header_Client Wide' are matched.
+
+2019-01-23 11:01:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Report Types/th_Report Table_Header_Scope"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/th_Report Table_Header_Scope' is present
+
+2019-01-23 11:01:54 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/th_Report Table_Header_Scope' is present
+
+2019-01-23 11:01:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Report Types/th_Report Table_Header_Scope"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/th_Report Table_Header_Scope' is visible
+
+2019-01-23 11:01:54 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/th_Report Table_Header_Scope' is visible
+
+2019-01-23 11:01:54 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Employee/Report Manager/Report Types/th_Report Table_Header_Scope"), "Scope", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Report Types/th_Report Table_Header_Scope' are matched.
+
+2019-01-23 11:01:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Report Types/th_Report Table_Header_Scope' are matched.
+
+2019-01-23 11:01:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Report Types/th_Report Table_ Header_Query Table"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/th_Report Table_ Header_Query Table' is present
+
+2019-01-23 11:01:54 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/th_Report Table_ Header_Query Table' is present
+
+2019-01-23 11:01:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Report Types/th_Report Table_ Header_Query Table"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/th_Report Table_ Header_Query Table' is visible
+
+2019-01-23 11:01:54 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/th_Report Table_ Header_Query Table' is visible
+
+2019-01-23 11:01:54 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Employee/Report Manager/Report Types/th_Report Table_ Header_Query Table"), "Query Table", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Report Types/th_Report Table_ Header_Query Table' are matched.
+
+2019-01-23 11:01:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Report Types/th_Report Table_ Header_Query Table' are matched.
+
+2019-01-23 11:01:54 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Report Manager/Report Types/a_Create New_button")): Object: 'Object Repository/UI/Employee/Report Manager/Report Types/a_Create New_button' is clicked on
+
+2019-01-23 11:01:54 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Report Manager/Report Types/a_Create New_button' is clicked on
+
+2019-01-23 11:01:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/label_Report Name"), 5): Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/label_Report Name' is present
+
+2019-01-23 11:01:54 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/label_Report Name' is present
+
+2019-01-23 11:01:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/label_Report Name"), STOP_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/label_Report Name' is visible
+
+2019-01-23 11:01:54 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/label_Report Name' is visible
+
+2019-01-23 11:01:54 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/label_Report Name"), "Report Name", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/label_Report Name' are matched.
+
+2019-01-23 11:01:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/label_Report Name' are matched.
+
+2019-01-23 11:01:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/input_Report Name"), 5): Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/input_Report Name' is present
+
+2019-01-23 11:01:54 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/input_Report Name' is present
+
+2019-01-23 11:01:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/input_Report Name"), STOP_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/input_Report Name' is visible
+
+2019-01-23 11:01:54 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/input_Report Name' is visible
+
+2019-01-23 11:01:54 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/span_Edit Form Title"), 5): Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/span_Edit Form Title' is present
+
+2019-01-23 11:01:54 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/span_Edit Form Title' is present
+
+2019-01-23 11:01:54 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/span_Edit Form Title"), 5): Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/span_Edit Form Title' is visible
+
+2019-01-23 11:01:54 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/span_Edit Form Title' is visible
+
+2019-01-23 11:01:54 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/span_Edit Form Title"), "Edit Form", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/span_Edit Form Title' are matched.
+
+2019-01-23 11:01:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/span_Edit Form Title' are matched.
+
+2019-01-23 11:01:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/label_File Area Tag"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/label_File Area Tag' is present
+
+2019-01-23 11:01:54 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/label_File Area Tag' is present
+
+2019-01-23 11:01:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/label_File Area Tag"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/label_File Area Tag' is visible
+
+2019-01-23 11:01:54 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/label_File Area Tag' is visible
+
+2019-01-23 11:01:54 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/label_File Area Tag"), "File Area Tag", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/label_File Area Tag' are matched.
+
+2019-01-23 11:01:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/label_File Area Tag' are matched.
+
+2019-01-23 11:01:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/select_File Area Tag dropdown"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/select_File Area Tag dropdown' is present
+
+2019-01-23 11:01:54 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/select_File Area Tag dropdown' is present
+
+2019-01-23 11:01:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/select_File Area Tag dropdown"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/select_File Area Tag dropdown' is visible
+
+2019-01-23 11:01:54 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/select_File Area Tag dropdown' is visible
+
+2019-01-23 11:01:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/label_Active"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/label_Active' is present
+
+2019-01-23 11:01:54 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/label_Active' is present
+
+2019-01-23 11:01:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/label_Active"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/label_Active' is visible
+
+2019-01-23 11:01:54 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/label_Active' is visible
+
+2019-01-23 11:01:54 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/label_Active"), "Active", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/label_Active' are matched.
+
+2019-01-23 11:01:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/label_Active' are matched.
+
+2019-01-23 11:01:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/span_Active_switch"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/span_Active_switch' is present
+
+2019-01-23 11:01:54 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/span_Active_switch' is present
+
+2019-01-23 11:01:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/span_Active_switch"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/span_Active_switch' is visible
+
+2019-01-23 11:01:54 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/span_Active_switch' is visible
+
+2019-01-23 11:01:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/label_Has PHI"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/label_Has PHI' is present
+
+2019-01-23 11:01:54 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/label_Has PHI' is present
+
+2019-01-23 11:01:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/label_Has PHI"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/label_Has PHI' is visible
+
+2019-01-23 11:01:55 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/label_Has PHI' is visible
+
+2019-01-23 11:01:55 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/label_Has PHI"), "Has PHI", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/label_Has PHI' are matched.
+
+2019-01-23 11:01:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/label_Has PHI' are matched.
+
+2019-01-23 11:01:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/span_Has PHI_switch"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/span_Has PHI_switch' is present
+
+2019-01-23 11:01:55 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/span_Has PHI_switch' is present
+
+2019-01-23 11:01:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/span_Has PHI_switch"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/span_Has PHI_switch' is visible
+
+2019-01-23 11:01:55 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/span_Has PHI_switch' is visible
+
+2019-01-23 11:01:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/label_Use Query Central"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/label_Use Query Central' is present
+
+2019-01-23 11:01:55 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/label_Use Query Central' is present
+
+2019-01-23 11:01:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/label_Use Query Central"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/label_Use Query Central' is visible
+
+2019-01-23 11:01:55 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/label_Use Query Central' is visible
+
+2019-01-23 11:01:55 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/label_Use Query Central"), "Use Query Central", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/label_Use Query Central' are matched.
+
+2019-01-23 11:01:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/label_Use Query Central' are matched.
+
+2019-01-23 11:01:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/span_Use Query Central_switch"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/span_Use Query Central_switch' is present
+
+2019-01-23 11:01:55 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/span_Use Query Central_switch' is present
+
+2019-01-23 11:01:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/span_Use Query Central_switch"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/span_Use Query Central_switch' is visible
+
+2019-01-23 11:01:55 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/span_Use Query Central_switch' is visible
+
+2019-01-23 11:01:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/label_Client-Wide Report"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/label_Client-Wide Report' is present
+
+2019-01-23 11:01:55 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/label_Client-Wide Report' is present
+
+2019-01-23 11:01:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/label_Client-Wide Report"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/label_Client-Wide Report' is visible
+
+2019-01-23 11:01:55 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/label_Client-Wide Report' is visible
+
+2019-01-23 11:01:55 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/label_Client-Wide Report"), "Client-Wide Report", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/label_Client-Wide Report' are matched.
+
+2019-01-23 11:01:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/label_Client-Wide Report' are matched.
+
+2019-01-23 11:01:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/span_Client-Wide Report_switch"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/span_Client-Wide Report_switch' is present
+
+2019-01-23 11:01:55 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/span_Client-Wide Report_switch' is present
+
+2019-01-23 11:01:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/span_Client-Wide Report_switch"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/span_Client-Wide Report_switch' is visible
+
+2019-01-23 11:01:55 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/span_Client-Wide Report_switch' is visible
+
+2019-01-23 11:01:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/label_DB Table to Query"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/label_DB Table to Query' is present
+
+2019-01-23 11:01:55 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/label_DB Table to Query' is present
+
+2019-01-23 11:01:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/label_DB Table to Query"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/label_DB Table to Query' is visible
+
+2019-01-23 11:01:55 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/label_DB Table to Query' is visible
+
+2019-01-23 11:01:55 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/label_DB Table to Query"), "DB Table to Query", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/label_DB Table to Query' are matched.
+
+2019-01-23 11:01:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/label_DB Table to Query' are matched.
+
+2019-01-23 11:01:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/select_DB Table to Query dropdown"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/select_DB Table to Query dropdown' is present
+
+2019-01-23 11:01:55 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/select_DB Table to Query dropdown' is present
+
+2019-01-23 11:01:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/select_DB Table to Query dropdown"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/select_DB Table to Query dropdown' is visible
+
+2019-01-23 11:01:55 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/select_DB Table to Query dropdown' is visible
+
+2019-01-23 11:01:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/label_Query Central report query"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/label_Query Central report query' is present
+
+2019-01-23 11:01:55 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/label_Query Central report query' is present
+
+2019-01-23 11:01:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/label_Query Central report query"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/label_Query Central report query' is visible
+
+2019-01-23 11:01:55 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/label_Query Central report query' is visible
+
+2019-01-23 11:01:55 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/label_Query Central report query"), "Query Central report query", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/label_Query Central report query' are matched.
+
+2019-01-23 11:01:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/label_Query Central report query' are matched.
+
+2019-01-23 11:01:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/select_Query Central report query dropdown"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/select_Query Central report query dropdown' is present
+
+2019-01-23 11:01:55 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/select_Query Central report query dropdown' is present
+
+2019-01-23 11:01:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/select_Query Central report query dropdown"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/select_Query Central report query dropdown' is visible
+
+2019-01-23 11:01:55 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/select_Query Central report query dropdown' is visible
+
+2019-01-23 11:01:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/label_Range"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/label_Range' is present
+
+2019-01-23 11:01:55 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/label_Range' is present
+
+2019-01-23 11:01:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/label_Range"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/label_Range' is visible
+
+2019-01-23 11:01:55 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/label_Range' is visible
+
+2019-01-23 11:01:55 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/label_Range"), "Range", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/label_Range' are matched.
+
+2019-01-23 11:01:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/label_Range' are matched.
+
+2019-01-23 11:01:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/select_Range dropdown"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/select_Range dropdown' is present
+
+2019-01-23 11:01:55 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/select_Range dropdown' is present
+
+2019-01-23 11:01:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/select_Range dropdown"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/select_Range dropdown' is visible
+
+2019-01-23 11:01:55 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/select_Range dropdown' is visible
+
+2019-01-23 11:01:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/label_Schedule Dates"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/label_Schedule Dates' is present
+
+2019-01-23 11:01:55 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/label_Schedule Dates' is present
+
+2019-01-23 11:01:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/label_Schedule Dates"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/label_Schedule Dates' is visible
+
+2019-01-23 11:01:55 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/label_Schedule Dates' is visible
+
+2019-01-23 11:01:55 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/label_Schedule Dates"), "Schedule Dates", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/label_Schedule Dates' are matched.
+
+2019-01-23 11:01:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/label_Schedule Dates' are matched.
+
+2019-01-23 11:01:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/i_Schedule dates tip label"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/i_Schedule dates tip label' is present
+
+2019-01-23 11:01:55 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/i_Schedule dates tip label' is present
+
+2019-01-23 11:01:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/i_Schedule dates tip label"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/i_Schedule dates tip label' is visible
+
+2019-01-23 11:01:55 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/i_Schedule dates tip label' is visible
+
+2019-01-23 11:01:55 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/i_Schedule dates tip label"), "Comma separated dates or days of the week. Example: Mon,15,daily", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/i_Schedule dates tip label' are matched.
+
+2019-01-23 11:01:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/i_Schedule dates tip label' are matched.
+
+2019-01-23 11:01:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/input_Schedule dates textbox"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/input_Schedule dates textbox' is present
+
+2019-01-23 11:01:55 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/input_Schedule dates textbox' is present
+
+2019-01-23 11:01:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/input_Schedule dates textbox"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/input_Schedule dates textbox' is visible
+
+2019-01-23 11:01:55 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/input_Schedule dates textbox' is visible
+
+2019-01-23 11:01:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/label_Scope"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/label_Scope' is present
+
+2019-01-23 11:01:55 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/label_Scope' is present
+
+2019-01-23 11:01:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/label_Scope"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/label_Scope' is visible
+
+2019-01-23 11:01:55 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/label_Scope' is visible
+
+2019-01-23 11:01:55 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/label_Scope"), "Scope", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/label_Scope' are matched.
+
+2019-01-23 11:01:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/label_Scope' are matched.
+
+2019-01-23 11:01:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/i_Scope tip label"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/i_Scope tip label' is present
+
+2019-01-23 11:01:55 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/i_Scope tip label' is present
+
+2019-01-23 11:01:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/i_Scope tip label"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/i_Scope tip label' is visible
+
+2019-01-23 11:01:55 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/i_Scope tip label' is visible
+
+2019-01-23 11:01:55 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/i_Scope tip label"), "RBR and MBR scope only affects reports based on Excel templates", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/i_Scope tip label' are matched.
+
+2019-01-23 11:01:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/i_Scope tip label' are matched.
+
+2019-01-23 11:01:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/select_Scope dropdown"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/select_Scope dropdown' is present
+
+2019-01-23 11:01:55 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/select_Scope dropdown' is present
+
+2019-01-23 11:01:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/select_Scope dropdown"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/select_Scope dropdown' is visible
+
+2019-01-23 11:01:56 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/select_Scope dropdown' is visible
+
+2019-01-23 11:01:56 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/label_Filters"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/label_Filters' is present
+
+2019-01-23 11:01:56 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/label_Filters' is present
+
+2019-01-23 11:01:56 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/label_Filters"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/label_Filters' is visible
+
+2019-01-23 11:01:56 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/label_Filters' is visible
+
+2019-01-23 11:01:56 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/label_Filters"), "Filters", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/label_Filters' are matched.
+
+2019-01-23 11:01:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/label_Filters' are matched.
+
+2019-01-23 11:01:56 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/textarea_Filters input"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/textarea_Filters input' is present
+
+2019-01-23 11:01:56 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/textarea_Filters input' is present
+
+2019-01-23 11:01:56 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/textarea_Filters input"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/textarea_Filters input' is visible
+
+2019-01-23 11:01:56 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/textarea_Filters input' is visible
+
+2019-01-23 11:01:56 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/label_Current Report Template"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/label_Current Report Template' is present
+
+2019-01-23 11:01:56 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/label_Current Report Template' is present
+
+2019-01-23 11:01:56 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/label_Current Report Template"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/label_Current Report Template' is visible
+
+2019-01-23 11:01:56 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/label_Current Report Template' is visible
+
+2019-01-23 11:01:56 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/label_Current Report Template"), "Current Report Template (Excel file, with columns defined on Data tab)", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/label_Current Report Template' are matched.
+
+2019-01-23 11:01:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/label_Current Report Template' are matched.
+
+2019-01-23 11:01:56 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/label_Upload Report Template"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/label_Upload Report Template' is present
+
+2019-01-23 11:01:56 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/label_Upload Report Template' is present
+
+2019-01-23 11:01:56 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/label_Upload Report Template"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/label_Upload Report Template' is visible
+
+2019-01-23 11:01:56 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/label_Upload Report Template' is visible
+
+2019-01-23 11:01:56 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/label_Upload Report Template"), "Upload Report Template", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/label_Upload Report Template' are matched.
+
+2019-01-23 11:01:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/label_Upload Report Template' are matched.
+
+2019-01-23 11:01:56 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/i_Upload Report Template tip label"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/i_Upload Report Template tip label' is present
+
+2019-01-23 11:01:56 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/i_Upload Report Template tip label' is present
+
+2019-01-23 11:01:56 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/i_Upload Report Template tip label"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/i_Upload Report Template tip label' is visible
+
+2019-01-23 11:01:56 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/i_Upload Report Template tip label' is visible
+
+2019-01-23 11:01:56 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/i_Upload Report Template tip label"), "Please include a tab named Data with headers that correspond to columns you would like the report to populate. To include dynamic dates, use placeholders enclosed in double curly brackets anywhere in the report: {{today}} {{yesterday}} {{to}} {{from}}", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/i_Upload Report Template tip label' are matched.
+
+2019-01-23 11:01:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/i_Upload Report Template tip label' are matched.
+
+2019-01-23 11:01:56 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/input_choose file button"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/input_choose file button' is present
+
+2019-01-23 11:01:56 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/input_choose file button' is present
+
+2019-01-23 11:01:56 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/input_choose file button"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/input_choose file button' is visible
+
+2019-01-23 11:01:56 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/input_choose file button' is visible
+
+2019-01-23 11:01:56 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/button_Save"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/button_Save' is present
+
+2019-01-23 11:01:56 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/button_Save' is present
+
+2019-01-23 11:01:56 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/button_Save"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/button_Save' is visible
+
+2019-01-23 11:01:56 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/button_Save' is visible
+
+2019-01-23 11:01:56 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/a_Cancel"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/a_Cancel' is present
+
+2019-01-23 11:01:56 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/a_Cancel' is present
+
+2019-01-23 11:01:56 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/a_Cancel"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/a_Cancel' is visible
+
+2019-01-23 11:01:56 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/a_Cancel' is visible
+
+2019-01-23 11:01:56 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/a_Enable Mass Distribution"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/a_Enable Mass Distribution' is present
+
+2019-01-23 11:01:56 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/a_Enable Mass Distribution' is present
+
+2019-01-23 11:01:56 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/a_Enable Mass Distribution"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/a_Enable Mass Distribution' is visible
+
+2019-01-23 11:01:56 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/a_Enable Mass Distribution' is visible
+
+2019-01-23 11:01:56 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/span_Report-On-Demand"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/span_Report-On-Demand' is present
+
+2019-01-23 11:01:56 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/span_Report-On-Demand' is present
+
+2019-01-23 11:01:56 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/span_Report-On-Demand"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/span_Report-On-Demand' is visible
+
+2019-01-23 11:01:56 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/span_Report-On-Demand' is visible
+
+2019-01-23 11:01:56 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/span_Report-On-Demand"), "Report-On-Demand", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/span_Report-On-Demand' are matched.
+
+2019-01-23 11:01:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/span_Report-On-Demand' are matched.
+
+2019-01-23 11:01:56 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/div_Create On-Demand Report"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/div_Create On-Demand Report' is present
+
+2019-01-23 11:01:56 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/div_Create On-Demand Report' is present
+
+2019-01-23 11:01:56 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/div_Create On-Demand Report"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/div_Create On-Demand Report' is visible
+
+2019-01-23 11:01:56 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/div_Create On-Demand Report' is visible
+
+2019-01-23 11:01:56 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/div_Create On-Demand Report"), "Create On-Demand Report for:   ", CONTINUE_ON_FAILURE): Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/div_Create On-Demand Report' are matched.
+
+2019-01-23 11:01:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/div_Create On-Demand Report' are matched.
+
+2019-01-23 11:01:56 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/select_Create On-Deman report dropdown"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/select_Create On-Deman report dropdown' is present
+
+2019-01-23 11:01:56 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/select_Create On-Deman report dropdown' is present
+
+2019-01-23 11:01:56 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/select_Create On-Deman report dropdown"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/select_Create On-Deman report dropdown' is visible
+
+2019-01-23 11:01:56 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/select_Create On-Deman report dropdown' is visible
+
+2019-01-23 11:01:56 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/button_Create and Download"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/button_Create and Download' is present
+
+2019-01-23 11:01:56 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/button_Create and Download' is present
+
+2019-01-23 11:01:56 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/button_Create and Download"), CONTINUE_ON_FAILURE): Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/button_Create and Download' is visible
+
+2019-01-23 11:01:56 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/button_Create and Download' is visible
+
+2019-01-23 11:01:56 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/a_Cancel")): Object: 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/a_Cancel' is clicked on
+
+2019-01-23 11:01:56 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/a_Cancel' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UI/Employee/Report Manager/Report Types/Report Types - Create new report" classname="Test Cases/UI/Employee/Report Manager/Report Types/Report Types - Create new report" status="PASSED">
+         <system-out><![CDATA[2019-01-23 11:01:56 - [TEST_CASE][PASSED] - Test Cases/UI/Employee/Report Manager/Report Types/Report Types - Create new report: Test Cases/UI/Employee/Report Manager/Report Types/Report Types - Create new report
+
+2019-01-23 11:01:56 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Report Manager/span_Report Management Menu")): Object: 'Object Repository/UI/Employee/Report Manager/span_Report Management Menu' is clicked on
+
+2019-01-23 11:01:57 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Report Manager/span_Report Management Menu' is clicked on
+
+2019-01-23 11:01:57 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Report Manager/span_Report Types Sub Menu")): Object: 'Object Repository/UI/Employee/Report Manager/span_Report Types Sub Menu' is clicked on
+
+2019-01-23 11:01:57 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Report Manager/span_Report Types Sub Menu' is clicked on
+
+2019-01-23 11:01:57 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/Employee/Report Manager/Report Types/h1_Report Types Title"), 5): Object 'Object Repository/UI/Employee/Report Manager/Report Types/h1_Report Types Title' is present
+
+2019-01-23 11:01:57 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/h1_Report Types Title' is present
+
+2019-01-23 11:01:57 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/Employee/Report Manager/Report Types/h1_Report Types Title"), 5): Object 'Object Repository/UI/Employee/Report Manager/Report Types/h1_Report Types Title' is visible
+
+2019-01-23 11:01:57 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/h1_Report Types Title' is visible
+
+2019-01-23 11:01:57 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Report Manager/Report Types/a_Create New_button")): Object: 'Object Repository/UI/Employee/Report Manager/Report Types/a_Create New_button' is clicked on
+
+2019-01-23 11:01:57 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Report Manager/Report Types/a_Create New_button' is clicked on
+
+2019-01-23 11:01:57 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/span_Edit Form Title"), 5): Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/span_Edit Form Title' is present
+
+2019-01-23 11:01:57 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/span_Edit Form Title' is present
+
+2019-01-23 11:01:57 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/span_Edit Form Title"), 5): Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/span_Edit Form Title' is visible
+
+2019-01-23 11:01:57 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/span_Edit Form Title' is visible
+
+2019-01-23 11:01:57 - [TEST_STEP][PASSED] - sendKeys(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/input_Report Name"), reportName): Keys 'qaAuto' sent to object: 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/input_Report Name'
+
+2019-01-23 11:01:57 - [MESSAGE][PASSED] - Keys 'qaAuto' sent to object: 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/input_Report Name'
+
+2019-01-23 11:01:57 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/select_File Area Tag dropdown"), 1, STOP_ON_FAILURE): All options with index in [1] are selected on object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/select_File Area Tag dropdown'
+
+2019-01-23 11:01:57 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/select_File Area Tag dropdown'
+
+2019-01-23 11:01:57 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/button_Save"), 0): Scroll to object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/button_Save' successfully
+
+2019-01-23 11:01:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-01-23 11:01:57 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/button_Save' successfully
+
+2019-01-23 11:01:57 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/button_Save")): Object: 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/button_Save' is clicked on
+
+2019-01-23 11:01:57 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/button_Save' is clicked on
+
+2019-01-23 11:01:57 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/Employee/Report Manager/Report Types/a_Create New_button"), 5): Object 'Object Repository/UI/Employee/Report Manager/Report Types/a_Create New_button' is present
+
+2019-01-23 11:01:58 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/a_Create New_button' is present
+
+2019-01-23 11:01:58 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/Employee/Report Manager/Report Types/a_Create New_button"), 5): Object 'Object Repository/UI/Employee/Report Manager/Report Types/a_Create New_button' is visible
+
+2019-01-23 11:01:58 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/a_Create New_button' is visible
+
+2019-01-23 11:01:58 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-01-23 11:01:58 - [TEST_STEP][PASSED] - tableElement = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2019-01-23 11:01:58 - [TEST_STEP][PASSED] - while (true): null
+
+2019-01-23 11:01:58 - [TEST_STEP][PASSED] - for ([rowID = 1, rowID <= 10, (rowID++)]): null
+
+2019-01-23 11:01:58 - [TEST_STEP][PASSED] - tableElement = driver.findElement(By.xpath("//*[@id='content']/div/div/div/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div/div/div[1]/div[2]/table/tbody/tr[" + rowID + "]/td[4]")): null
+
+2019-01-23 11:01:58 - [TEST_STEP][PASSED] - if (reportName.equals(tableElement.getText())): null
+
+2019-01-23 11:01:58 - [TEST_STEP][PASSED] - tableElement = driver.findElement(By.xpath("//*[@id='content']/div/div/div/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div/div/div[1]/div[2]/table/tbody/tr[" + rowID + "]/td[4]")): null
+
+2019-01-23 11:01:58 - [TEST_STEP][PASSED] - if (reportName.equals(tableElement.getText())): null
+
+2019-01-23 11:01:58 - [TEST_STEP][PASSED] - tableElement = driver.findElement(By.xpath("//*[@id='content']/div/div/div/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div/div/div[1]/div[2]/table/tbody/tr[" + rowID + "]/td[4]")): null
+
+2019-01-23 11:01:58 - [TEST_STEP][PASSED] - if (reportName.equals(tableElement.getText())): null
+
+2019-01-23 11:01:58 - [TEST_STEP][PASSED] - tableElement = driver.findElement(By.xpath("//*[@id='content']/div/div/div/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div/div/div[1]/div[2]/table/tbody/tr[" + rowID + "]/td[4]")): null
+
+2019-01-23 11:01:58 - [TEST_STEP][PASSED] - if (reportName.equals(tableElement.getText())): null
+
+2019-01-23 11:01:58 - [TEST_STEP][PASSED] - tableElement = driver.findElement(By.xpath("//*[@id='content']/div/div/div/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div/div/div[1]/div[2]/table/tbody/tr[" + rowID + "]/td[4]")): null
+
+2019-01-23 11:01:58 - [TEST_STEP][PASSED] - if (reportName.equals(tableElement.getText())): null
+
+2019-01-23 11:01:58 - [TEST_STEP][PASSED] - tableElement = driver.findElement(By.xpath("//*[@id='content']/div/div/div/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div/div/div[1]/div[2]/table/tbody/tr[" + rowID + "]/td[4]")): null
+
+2019-01-23 11:01:58 - [TEST_STEP][PASSED] - if (reportName.equals(tableElement.getText())): null
+
+2019-01-23 11:01:58 - [TEST_STEP][PASSED] - tableElement = driver.findElement(By.xpath("//*[@id='content']/div/div/div/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div/div/div[1]/div[2]/table/tbody/tr[" + rowID + "]/td[4]")): null
+
+2019-01-23 11:01:58 - [TEST_STEP][PASSED] - if (reportName.equals(tableElement.getText())): null
+
+2019-01-23 11:01:58 - [TEST_STEP][PASSED] - tableElement = driver.findElement(By.xpath("//*[@id='content']/div/div/div/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div/div/div[1]/div[2]/table/tbody/tr[" + rowID + "]/td[4]")): null
+
+2019-01-23 11:01:58 - [TEST_STEP][PASSED] - if (reportName.equals(tableElement.getText())): null
+
+2019-01-23 11:01:58 - [TEST_STEP][PASSED] - tableElement = driver.findElement(By.xpath("//*[@id='content']/div/div/div/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div/div/div[1]/div[2]/table/tbody/tr[" + rowID + "]/td[4]")): null
+
+2019-01-23 11:01:58 - [TEST_STEP][PASSED] - if (reportName.equals(tableElement.getText())): null
+
+2019-01-23 11:01:58 - [TEST_STEP][PASSED] - tableElement = driver.findElement(By.xpath("//*[@id='content']/div/div/div/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div/div/div[1]/div[2]/table/tbody/tr[" + rowID + "]/td[4]")): null
+
+2019-01-23 11:01:58 - [TEST_STEP][PASSED] - if (reportName.equals(tableElement.getText())): null
+
+2019-01-23 11:01:58 - [TEST_STEP][PASSED] - if (reportName.equals(tableElement.getText())): null
+
+2019-01-23 11:01:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/UI/Employee/Report Manager/Report Types/a_Next Page button")): Object: 'Object Repository/UI/Employee/Report Manager/Report Types/a_Next Page button' is clicked on
+
+2019-01-23 11:01:58 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Report Manager/Report Types/a_Next Page button' is clicked on
+
+2019-01-23 11:01:58 - [TEST_STEP][PASSED] - for ([rowID = 1, rowID <= 10, (rowID++)]): null
+
+2019-01-23 11:01:58 - [TEST_STEP][PASSED] - tableElement = driver.findElement(By.xpath("//*[@id='content']/div/div/div/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div/div/div[1]/div[2]/table/tbody/tr[" + rowID + "]/td[4]")): null
+
+2019-01-23 11:01:58 - [TEST_STEP][PASSED] - if (reportName.equals(tableElement.getText())): null
+
+2019-01-23 11:01:58 - [TEST_STEP][PASSED] - tableElement = driver.findElement(By.xpath("//*[@id='content']/div/div/div/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div/div/div[1]/div[2]/table/tbody/tr[" + rowID + "]/td[4]")): null
+
+2019-01-23 11:01:58 - [TEST_STEP][PASSED] - if (reportName.equals(tableElement.getText())): null
+
+2019-01-23 11:01:58 - [TEST_STEP][PASSED] - tableElement = driver.findElement(By.xpath("//*[@id='content']/div/div/div/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div/div/div[1]/div[2]/table/tbody/tr[" + rowID + "]/td[4]")): null
+
+2019-01-23 11:01:59 - [TEST_STEP][PASSED] - if (reportName.equals(tableElement.getText())): null
+
+2019-01-23 11:01:59 - [TEST_STEP][PASSED] - tableElement = driver.findElement(By.xpath("//*[@id='content']/div/div/div/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div/div/div[1]/div[2]/table/tbody/tr[" + rowID + "]/td[4]")): null
+
+2019-01-23 11:01:59 - [TEST_STEP][PASSED] - if (reportName.equals(tableElement.getText())): null
+
+2019-01-23 11:01:59 - [TEST_STEP][PASSED] - tableElement = driver.findElement(By.xpath("//*[@id='content']/div/div/div/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div/div/div[1]/div[2]/table/tbody/tr[" + rowID + "]/td[4]")): null
+
+2019-01-23 11:01:59 - [TEST_STEP][PASSED] - if (reportName.equals(tableElement.getText())): null
+
+2019-01-23 11:01:59 - [TEST_STEP][PASSED] - tableElement = driver.findElement(By.xpath("//*[@id='content']/div/div/div/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div/div/div[1]/div[2]/table/tbody/tr[" + rowID + "]/td[4]")): null
+
+2019-01-23 11:01:59 - [TEST_STEP][PASSED] - if (reportName.equals(tableElement.getText())): null
+
+2019-01-23 11:01:59 - [TEST_STEP][PASSED] - tableElement = driver.findElement(By.xpath("//*[@id='content']/div/div/div/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div/div/div[1]/div[2]/table/tbody/tr[" + rowID + "]/td[4]")): null
+
+2019-01-23 11:01:59 - [TEST_STEP][PASSED] - if (reportName.equals(tableElement.getText())): null
+
+2019-01-23 11:01:59 - [TEST_STEP][PASSED] - tableElement = driver.findElement(By.xpath("//*[@id='content']/div/div/div/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div/div/div[1]/div[2]/table/tbody/tr[" + rowID + "]/td[4]")): null
+
+2019-01-23 11:01:59 - [TEST_STEP][PASSED] - if (reportName.equals(tableElement.getText())): null
+
+2019-01-23 11:01:59 - [TEST_STEP][PASSED] - tableElement = driver.findElement(By.xpath("//*[@id='content']/div/div/div/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div/div/div[1]/div[2]/table/tbody/tr[" + rowID + "]/td[4]")): null
+
+2019-01-23 11:01:59 - [TEST_STEP][PASSED] - if (reportName.equals(tableElement.getText())): null
+
+2019-01-23 11:01:59 - [TEST_STEP][PASSED] - tableElement = driver.findElement(By.xpath("//*[@id='content']/div/div/div/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div/div/div[1]/div[2]/table/tbody/tr[" + rowID + "]/td[4]")): null
+
+2019-01-23 11:01:59 - [TEST_STEP][PASSED] - if (reportName.equals(tableElement.getText())): null
+
+2019-01-23 11:01:59 - [TEST_STEP][PASSED] - if (reportName.equals(tableElement.getText())): null
+
+2019-01-23 11:01:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/UI/Employee/Report Manager/Report Types/a_Next Page button")): Object: 'Object Repository/UI/Employee/Report Manager/Report Types/a_Next Page button' is clicked on
+
+2019-01-23 11:01:59 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Report Manager/Report Types/a_Next Page button' is clicked on
+
+2019-01-23 11:01:59 - [TEST_STEP][PASSED] - for ([rowID = 1, rowID <= 10, (rowID++)]): null
+
+2019-01-23 11:01:59 - [TEST_STEP][PASSED] - tableElement = driver.findElement(By.xpath("//*[@id='content']/div/div/div/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div/div/div[1]/div[2]/table/tbody/tr[" + rowID + "]/td[4]")): null
+
+2019-01-23 11:01:59 - [TEST_STEP][PASSED] - if (reportName.equals(tableElement.getText())): null
+
+2019-01-23 11:01:59 - [TEST_STEP][PASSED] - tableElement = driver.findElement(By.xpath("//*[@id='content']/div/div/div/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div/div/div[1]/div[2]/table/tbody/tr[" + rowID + "]/td[4]")): null
+
+2019-01-23 11:01:59 - [TEST_STEP][PASSED] - if (reportName.equals(tableElement.getText())): null
+
+2019-01-23 11:01:59 - [TEST_STEP][PASSED] - tableElement = driver.findElement(By.xpath("//*[@id='content']/div/div/div/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div/div/div[1]/div[2]/table/tbody/tr[" + rowID + "]/td[4]")): null
+
+2019-01-23 11:01:59 - [TEST_STEP][PASSED] - if (reportName.equals(tableElement.getText())): null
+
+2019-01-23 11:01:59 - [TEST_STEP][PASSED] - tableElement = driver.findElement(By.xpath("//*[@id='content']/div/div/div/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div/div/div[1]/div[2]/table/tbody/tr[" + rowID + "]/td[4]")): null
+
+2019-01-23 11:01:59 - [TEST_STEP][PASSED] - if (reportName.equals(tableElement.getText())): null
+
+2019-01-23 11:01:59 - [TEST_STEP][PASSED] - tableElement = driver.findElement(By.xpath("//*[@id='content']/div/div/div/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div/div/div[1]/div[2]/table/tbody/tr[" + rowID + "]/td[4]")): null
+
+2019-01-23 11:01:59 - [TEST_STEP][PASSED] - if (reportName.equals(tableElement.getText())): null
+
+2019-01-23 11:01:59 - [TEST_STEP][PASSED] - tableElement = driver.findElement(By.xpath("//*[@id='content']/div/div/div/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div/div/div[1]/div[2]/table/tbody/tr[" + rowID + "]/td[4]")): null
+
+2019-01-23 11:01:59 - [TEST_STEP][PASSED] - if (reportName.equals(tableElement.getText())): null
+
+2019-01-23 11:01:59 - [TEST_STEP][PASSED] - tableElement = driver.findElement(By.xpath("//*[@id='content']/div/div/div/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div/div/div[1]/div[2]/table/tbody/tr[" + rowID + "]/td[4]")): null
+
+2019-01-23 11:01:59 - [TEST_STEP][PASSED] - if (reportName.equals(tableElement.getText())): null
+
+2019-01-23 11:01:59 - [TEST_STEP][PASSED] - tableElement = driver.findElement(By.xpath("//*[@id='content']/div/div/div/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div/div/div[1]/div[2]/table/tbody/tr[" + rowID + "]/td[4]")): null
+
+2019-01-23 11:01:59 - [TEST_STEP][PASSED] - if (reportName.equals(tableElement.getText())): null
+
+2019-01-23 11:01:59 - [TEST_STEP][PASSED] - tableElement = driver.findElement(By.xpath("//*[@id='content']/div/div/div/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div/div/div[1]/div[2]/table/tbody/tr[" + rowID + "]/td[4]")): null
+
+2019-01-23 11:01:59 - [TEST_STEP][PASSED] - if (reportName.equals(tableElement.getText())): null
+
+2019-01-23 11:01:59 - [TEST_STEP][PASSED] - tableElement = driver.findElement(By.xpath("//*[@id='content']/div/div/div/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div/div/div[1]/div[2]/table/tbody/tr[" + rowID + "]/td[4]")): null
+
+2019-01-23 11:01:59 - [TEST_STEP][PASSED] - if (reportName.equals(tableElement.getText())): null
+
+2019-01-23 11:01:59 - [TEST_STEP][PASSED] - if (reportName.equals(tableElement.getText())): null
+
+2019-01-23 11:01:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/UI/Employee/Report Manager/Report Types/a_Next Page button")): Object: 'Object Repository/UI/Employee/Report Manager/Report Types/a_Next Page button' is clicked on
+
+2019-01-23 11:01:59 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Report Manager/Report Types/a_Next Page button' is clicked on
+
+2019-01-23 11:01:59 - [TEST_STEP][PASSED] - for ([rowID = 1, rowID <= 10, (rowID++)]): null
+
+2019-01-23 11:01:59 - [TEST_STEP][PASSED] - tableElement = driver.findElement(By.xpath("//*[@id='content']/div/div/div/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div/div/div[1]/div[2]/table/tbody/tr[" + rowID + "]/td[4]")): null
+
+2019-01-23 11:01:59 - [TEST_STEP][PASSED] - if (reportName.equals(tableElement.getText())): null
+
+2019-01-23 11:01:59 - [TEST_STEP][PASSED] - tableElement = driver.findElement(By.xpath("//*[@id='content']/div/div/div/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div/div/div[1]/div[2]/table/tbody/tr[" + rowID + "]/td[4]")): null
+
+2019-01-23 11:01:59 - [TEST_STEP][PASSED] - if (reportName.equals(tableElement.getText())): null
+
+2019-01-23 11:01:59 - [TEST_STEP][PASSED] - tableElement = driver.findElement(By.xpath("//*[@id='content']/div/div/div/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div/div/div[1]/div[2]/table/tbody/tr[" + rowID + "]/td[4]")): null
+
+2019-01-23 11:01:59 - [TEST_STEP][PASSED] - if (reportName.equals(tableElement.getText())): null
+
+2019-01-23 11:01:59 - [TEST_STEP][PASSED] - tableElement = driver.findElement(By.xpath("//*[@id='content']/div/div/div/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div/div/div[1]/div[2]/table/tbody/tr[" + rowID + "]/td[4]")): null
+
+2019-01-23 11:01:59 - [TEST_STEP][PASSED] - if (reportName.equals(tableElement.getText())): null
+
+2019-01-23 11:01:59 - [TEST_STEP][PASSED] - tableElement = driver.findElement(By.xpath("//*[@id='content']/div/div/div/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div/div/div[1]/div[2]/table/tbody/tr[" + rowID + "]/td[4]")): null
+
+2019-01-23 11:01:59 - [TEST_STEP][PASSED] - if (reportName.equals(tableElement.getText())): null
+
+2019-01-23 11:01:59 - [TEST_STEP][PASSED] - break: null
+
+2019-01-23 11:01:59 - [TEST_STEP][PASSED] - if (reportName.equals(tableElement.getText())): null
+
+2019-01-23 11:01:59 - [TEST_STEP][PASSED] - break: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UI/Employee/Report Manager/Report Types/Report Types - Edit report" classname="Test Cases/UI/Employee/Report Manager/Report Types/Report Types - Edit report" status="PASSED">
+         <system-out><![CDATA[2019-01-23 11:01:59 - [TEST_CASE][PASSED] - Test Cases/UI/Employee/Report Manager/Report Types/Report Types - Edit report: Test Cases/UI/Employee/Report Manager/Report Types/Report Types - Edit report
+
+2019-01-23 11:01:59 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Report Manager/span_Report Management Menu")): Object: 'Object Repository/UI/Employee/Report Manager/span_Report Management Menu' is clicked on
+
+2019-01-23 11:01:59 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Report Manager/span_Report Management Menu' is clicked on
+
+2019-01-23 11:01:59 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Report Manager/span_Report Types Sub Menu")): Object: 'Object Repository/UI/Employee/Report Manager/span_Report Types Sub Menu' is clicked on
+
+2019-01-23 11:02:00 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Report Manager/span_Report Types Sub Menu' is clicked on
+
+2019-01-23 11:02:00 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/Employee/Report Manager/Report Types/h1_Report Types Title"), 5): Object 'Object Repository/UI/Employee/Report Manager/Report Types/h1_Report Types Title' is present
+
+2019-01-23 11:02:00 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/h1_Report Types Title' is present
+
+2019-01-23 11:02:00 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/Employee/Report Manager/Report Types/h1_Report Types Title"), 5): Object 'Object Repository/UI/Employee/Report Manager/Report Types/h1_Report Types Title' is visible
+
+2019-01-23 11:02:00 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/h1_Report Types Title' is visible
+
+2019-01-23 11:02:00 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-01-23 11:02:00 - [TEST_STEP][PASSED] - tableElement = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2019-01-23 11:02:00 - [TEST_STEP][PASSED] - editButton = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2019-01-23 11:02:00 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-23 11:02:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-23 11:02:02 - [TEST_STEP][PASSED] - while (true): null
+
+2019-01-23 11:02:02 - [TEST_STEP][PASSED] - for ([rowID = 1, rowID <= 10, (rowID++)]): null
+
+2019-01-23 11:02:02 - [TEST_STEP][PASSED] - tableElement = driver.findElement(By.xpath("//*[@id='content']/div/div/div/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div/div/div[1]/div[2]/table/tbody/tr[" + rowID + "]/td[4]")): null
+
+2019-01-23 11:02:02 - [TEST_STEP][PASSED] - if (reportName.equals(tableElement.getText())): null
+
+2019-01-23 11:02:02 - [TEST_STEP][PASSED] - tableElement = driver.findElement(By.xpath("//*[@id='content']/div/div/div/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div/div/div[1]/div[2]/table/tbody/tr[" + rowID + "]/td[4]")): null
+
+2019-01-23 11:02:02 - [TEST_STEP][PASSED] - if (reportName.equals(tableElement.getText())): null
+
+2019-01-23 11:02:02 - [TEST_STEP][PASSED] - tableElement = driver.findElement(By.xpath("//*[@id='content']/div/div/div/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div/div/div[1]/div[2]/table/tbody/tr[" + rowID + "]/td[4]")): null
+
+2019-01-23 11:02:02 - [TEST_STEP][PASSED] - if (reportName.equals(tableElement.getText())): null
+
+2019-01-23 11:02:02 - [TEST_STEP][PASSED] - tableElement = driver.findElement(By.xpath("//*[@id='content']/div/div/div/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div/div/div[1]/div[2]/table/tbody/tr[" + rowID + "]/td[4]")): null
+
+2019-01-23 11:02:02 - [TEST_STEP][PASSED] - if (reportName.equals(tableElement.getText())): null
+
+2019-01-23 11:02:02 - [TEST_STEP][PASSED] - tableElement = driver.findElement(By.xpath("//*[@id='content']/div/div/div/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div/div/div[1]/div[2]/table/tbody/tr[" + rowID + "]/td[4]")): null
+
+2019-01-23 11:02:02 - [TEST_STEP][PASSED] - if (reportName.equals(tableElement.getText())): null
+
+2019-01-23 11:02:02 - [TEST_STEP][PASSED] - editButton = driver.findElement(By.xpath("//*[@id="content"]/div/div/div/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div/div/div[1]/div[2]/table/tbody/tr[" + rowID + "]/td[2]/div/a/i")): null
+
+2019-01-23 11:02:02 - [TEST_STEP][PASSED] - break: null
+
+2019-01-23 11:02:02 - [TEST_STEP][PASSED] - if (reportName.equals(tableElement.getText())): null
+
+2019-01-23 11:02:02 - [TEST_STEP][PASSED] - break: null
+
+2019-01-23 11:02:02 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-23 11:02:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-23 11:02:04 - [TEST_STEP][PASSED] - editButton.click(): null
+
+2019-01-23 11:02:04 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/span_Edit Form Title"), 5): Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/span_Edit Form Title' is present
+
+2019-01-23 11:02:04 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/span_Edit Form Title' is present
+
+2019-01-23 11:02:04 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/span_Edit Form Title"), 5): Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/span_Edit Form Title' is visible
+
+2019-01-23 11:02:04 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/span_Edit Form Title' is visible
+
+2019-01-23 11:02:04 - [TEST_STEP][PASSED] - clearText(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/input_Report Name")): Text of object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/input_Report Name' is cleared
+
+2019-01-23 11:02:04 - [MESSAGE][PASSED] - Text of object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/input_Report Name' is cleared
+
+2019-01-23 11:02:04 - [TEST_STEP][PASSED] - sendKeys(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/input_Report Name"), editedReportName): Keys 'qaAutoEdit' sent to object: 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/input_Report Name'
+
+2019-01-23 11:02:04 - [MESSAGE][PASSED] - Keys 'qaAutoEdit' sent to object: 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/input_Report Name'
+
+2019-01-23 11:02:04 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/select_File Area Tag dropdown"), 1, STOP_ON_FAILURE): All options with index in [1] are selected on object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/select_File Area Tag dropdown'
+
+2019-01-23 11:02:04 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/select_File Area Tag dropdown'
+
+2019-01-23 11:02:04 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/button_Save"), 0): Scroll to object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/button_Save' successfully
+
+2019-01-23 11:02:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-01-23 11:02:04 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/button_Save' successfully
+
+2019-01-23 11:02:04 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Report Manager/Report Types/Create and Edit report/button_Save")): Object: 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/button_Save' is clicked on
+
+2019-01-23 11:02:05 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Report Manager/Report Types/Create and Edit report/button_Save' is clicked on
+
+2019-01-23 11:02:05 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/Employee/Report Manager/Report Types/a_Create New_button"), 5): Object 'Object Repository/UI/Employee/Report Manager/Report Types/a_Create New_button' is present
+
+2019-01-23 11:02:05 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/a_Create New_button' is present
+
+2019-01-23 11:02:05 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/Employee/Report Manager/Report Types/a_Create New_button"), 5): Object 'Object Repository/UI/Employee/Report Manager/Report Types/a_Create New_button' is visible
+
+2019-01-23 11:02:05 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/a_Create New_button' is visible
+
+2019-01-23 11:02:05 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-23 11:02:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-23 11:02:07 - [TEST_STEP][PASSED] - while (true): null
+
+2019-01-23 11:02:07 - [TEST_STEP][PASSED] - for ([rowID = 1, rowID <= 10, (rowID++)]): null
+
+2019-01-23 11:02:07 - [TEST_STEP][PASSED] - tableElement = driver.findElement(By.xpath("//*[@id='content']/div/div/div/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div/div/div[1]/div[2]/table/tbody/tr[" + rowID + "]/td[4]")): null
+
+2019-01-23 11:02:07 - [TEST_STEP][PASSED] - if (editedReportName.equals(tableElement.getText())): null
+
+2019-01-23 11:02:07 - [TEST_STEP][PASSED] - tableElement = driver.findElement(By.xpath("//*[@id='content']/div/div/div/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div/div/div[1]/div[2]/table/tbody/tr[" + rowID + "]/td[4]")): null
+
+2019-01-23 11:02:07 - [TEST_STEP][PASSED] - if (editedReportName.equals(tableElement.getText())): null
+
+2019-01-23 11:02:07 - [TEST_STEP][PASSED] - tableElement = driver.findElement(By.xpath("//*[@id='content']/div/div/div/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div/div/div[1]/div[2]/table/tbody/tr[" + rowID + "]/td[4]")): null
+
+2019-01-23 11:02:07 - [TEST_STEP][PASSED] - if (editedReportName.equals(tableElement.getText())): null
+
+2019-01-23 11:02:07 - [TEST_STEP][PASSED] - tableElement = driver.findElement(By.xpath("//*[@id='content']/div/div/div/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div/div/div[1]/div[2]/table/tbody/tr[" + rowID + "]/td[4]")): null
+
+2019-01-23 11:02:07 - [TEST_STEP][PASSED] - if (editedReportName.equals(tableElement.getText())): null
+
+2019-01-23 11:02:07 - [TEST_STEP][PASSED] - tableElement = driver.findElement(By.xpath("//*[@id='content']/div/div/div/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div/div/div[1]/div[2]/table/tbody/tr[" + rowID + "]/td[4]")): null
+
+2019-01-23 11:02:07 - [TEST_STEP][PASSED] - if (editedReportName.equals(tableElement.getText())): null
+
+2019-01-23 11:02:07 - [TEST_STEP][PASSED] - tableElement = driver.findElement(By.xpath("//*[@id='content']/div/div/div/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div/div/div[1]/div[2]/table/tbody/tr[" + rowID + "]/td[4]")): null
+
+2019-01-23 11:02:07 - [TEST_STEP][PASSED] - if (editedReportName.equals(tableElement.getText())): null
+
+2019-01-23 11:02:07 - [TEST_STEP][PASSED] - tableElement = driver.findElement(By.xpath("//*[@id='content']/div/div/div/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div/div/div[1]/div[2]/table/tbody/tr[" + rowID + "]/td[4]")): null
+
+2019-01-23 11:02:07 - [TEST_STEP][PASSED] - if (editedReportName.equals(tableElement.getText())): null
+
+2019-01-23 11:02:07 - [TEST_STEP][PASSED] - tableElement = driver.findElement(By.xpath("//*[@id='content']/div/div/div/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div/div/div[1]/div[2]/table/tbody/tr[" + rowID + "]/td[4]")): null
+
+2019-01-23 11:02:07 - [TEST_STEP][PASSED] - if (editedReportName.equals(tableElement.getText())): null
+
+2019-01-23 11:02:07 - [TEST_STEP][PASSED] - tableElement = driver.findElement(By.xpath("//*[@id='content']/div/div/div/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div/div/div[1]/div[2]/table/tbody/tr[" + rowID + "]/td[4]")): null
+
+2019-01-23 11:02:08 - [TEST_STEP][PASSED] - if (editedReportName.equals(tableElement.getText())): null
+
+2019-01-23 11:02:08 - [TEST_STEP][PASSED] - tableElement = driver.findElement(By.xpath("//*[@id='content']/div/div/div/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div/div/div[1]/div[2]/table/tbody/tr[" + rowID + "]/td[4]")): null
+
+2019-01-23 11:02:08 - [TEST_STEP][PASSED] - if (editedReportName.equals(tableElement.getText())): null
+
+2019-01-23 11:02:08 - [TEST_STEP][PASSED] - if (editedReportName.equals(tableElement.getText())): null
+
+2019-01-23 11:02:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/UI/Employee/Report Manager/Report Types/a_Next Page button")): Object: 'Object Repository/UI/Employee/Report Manager/Report Types/a_Next Page button' is clicked on
+
+2019-01-23 11:02:08 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Report Manager/Report Types/a_Next Page button' is clicked on
+
+2019-01-23 11:02:08 - [TEST_STEP][PASSED] - for ([rowID = 1, rowID <= 10, (rowID++)]): null
+
+2019-01-23 11:02:08 - [TEST_STEP][PASSED] - tableElement = driver.findElement(By.xpath("//*[@id='content']/div/div/div/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div/div/div[1]/div[2]/table/tbody/tr[" + rowID + "]/td[4]")): null
+
+2019-01-23 11:02:08 - [TEST_STEP][PASSED] - if (editedReportName.equals(tableElement.getText())): null
+
+2019-01-23 11:02:08 - [TEST_STEP][PASSED] - tableElement = driver.findElement(By.xpath("//*[@id='content']/div/div/div/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div/div/div[1]/div[2]/table/tbody/tr[" + rowID + "]/td[4]")): null
+
+2019-01-23 11:02:08 - [TEST_STEP][PASSED] - if (editedReportName.equals(tableElement.getText())): null
+
+2019-01-23 11:02:08 - [TEST_STEP][PASSED] - tableElement = driver.findElement(By.xpath("//*[@id='content']/div/div/div/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div/div/div[1]/div[2]/table/tbody/tr[" + rowID + "]/td[4]")): null
+
+2019-01-23 11:02:08 - [TEST_STEP][PASSED] - if (editedReportName.equals(tableElement.getText())): null
+
+2019-01-23 11:02:08 - [TEST_STEP][PASSED] - tableElement = driver.findElement(By.xpath("//*[@id='content']/div/div/div/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div/div/div[1]/div[2]/table/tbody/tr[" + rowID + "]/td[4]")): null
+
+2019-01-23 11:02:08 - [TEST_STEP][PASSED] - if (editedReportName.equals(tableElement.getText())): null
+
+2019-01-23 11:02:08 - [TEST_STEP][PASSED] - tableElement = driver.findElement(By.xpath("//*[@id='content']/div/div/div/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div/div/div[1]/div[2]/table/tbody/tr[" + rowID + "]/td[4]")): null
+
+2019-01-23 11:02:08 - [TEST_STEP][PASSED] - if (editedReportName.equals(tableElement.getText())): null
+
+2019-01-23 11:02:08 - [TEST_STEP][PASSED] - tableElement = driver.findElement(By.xpath("//*[@id='content']/div/div/div/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div/div/div[1]/div[2]/table/tbody/tr[" + rowID + "]/td[4]")): null
+
+2019-01-23 11:02:08 - [TEST_STEP][PASSED] - if (editedReportName.equals(tableElement.getText())): null
+
+2019-01-23 11:02:08 - [TEST_STEP][PASSED] - tableElement = driver.findElement(By.xpath("//*[@id='content']/div/div/div/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div/div/div[1]/div[2]/table/tbody/tr[" + rowID + "]/td[4]")): null
+
+2019-01-23 11:02:08 - [TEST_STEP][PASSED] - if (editedReportName.equals(tableElement.getText())): null
+
+2019-01-23 11:02:08 - [TEST_STEP][PASSED] - tableElement = driver.findElement(By.xpath("//*[@id='content']/div/div/div/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div/div/div[1]/div[2]/table/tbody/tr[" + rowID + "]/td[4]")): null
+
+2019-01-23 11:02:08 - [TEST_STEP][PASSED] - if (editedReportName.equals(tableElement.getText())): null
+
+2019-01-23 11:02:08 - [TEST_STEP][PASSED] - tableElement = driver.findElement(By.xpath("//*[@id='content']/div/div/div/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div/div/div[1]/div[2]/table/tbody/tr[" + rowID + "]/td[4]")): null
+
+2019-01-23 11:02:08 - [TEST_STEP][PASSED] - if (editedReportName.equals(tableElement.getText())): null
+
+2019-01-23 11:02:08 - [TEST_STEP][PASSED] - tableElement = driver.findElement(By.xpath("//*[@id='content']/div/div/div/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div/div/div[1]/div[2]/table/tbody/tr[" + rowID + "]/td[4]")): null
+
+2019-01-23 11:02:08 - [TEST_STEP][PASSED] - if (editedReportName.equals(tableElement.getText())): null
+
+2019-01-23 11:02:08 - [TEST_STEP][PASSED] - if (editedReportName.equals(tableElement.getText())): null
+
+2019-01-23 11:02:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/UI/Employee/Report Manager/Report Types/a_Next Page button")): Object: 'Object Repository/UI/Employee/Report Manager/Report Types/a_Next Page button' is clicked on
+
+2019-01-23 11:02:08 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Report Manager/Report Types/a_Next Page button' is clicked on
+
+2019-01-23 11:02:08 - [TEST_STEP][PASSED] - for ([rowID = 1, rowID <= 10, (rowID++)]): null
+
+2019-01-23 11:02:08 - [TEST_STEP][PASSED] - tableElement = driver.findElement(By.xpath("//*[@id='content']/div/div/div/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div/div/div[1]/div[2]/table/tbody/tr[" + rowID + "]/td[4]")): null
+
+2019-01-23 11:02:08 - [TEST_STEP][PASSED] - if (editedReportName.equals(tableElement.getText())): null
+
+2019-01-23 11:02:08 - [TEST_STEP][PASSED] - tableElement = driver.findElement(By.xpath("//*[@id='content']/div/div/div/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div/div/div[1]/div[2]/table/tbody/tr[" + rowID + "]/td[4]")): null
+
+2019-01-23 11:02:08 - [TEST_STEP][PASSED] - if (editedReportName.equals(tableElement.getText())): null
+
+2019-01-23 11:02:08 - [TEST_STEP][PASSED] - tableElement = driver.findElement(By.xpath("//*[@id='content']/div/div/div/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div/div/div[1]/div[2]/table/tbody/tr[" + rowID + "]/td[4]")): null
+
+2019-01-23 11:02:08 - [TEST_STEP][PASSED] - if (editedReportName.equals(tableElement.getText())): null
+
+2019-01-23 11:02:08 - [TEST_STEP][PASSED] - tableElement = driver.findElement(By.xpath("//*[@id='content']/div/div/div/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div/div/div[1]/div[2]/table/tbody/tr[" + rowID + "]/td[4]")): null
+
+2019-01-23 11:02:08 - [TEST_STEP][PASSED] - if (editedReportName.equals(tableElement.getText())): null
+
+2019-01-23 11:02:08 - [TEST_STEP][PASSED] - tableElement = driver.findElement(By.xpath("//*[@id='content']/div/div/div/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div/div/div[1]/div[2]/table/tbody/tr[" + rowID + "]/td[4]")): null
+
+2019-01-23 11:02:08 - [TEST_STEP][PASSED] - if (editedReportName.equals(tableElement.getText())): null
+
+2019-01-23 11:02:08 - [TEST_STEP][PASSED] - tableElement = driver.findElement(By.xpath("//*[@id='content']/div/div/div/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div/div/div[1]/div[2]/table/tbody/tr[" + rowID + "]/td[4]")): null
+
+2019-01-23 11:02:08 - [TEST_STEP][PASSED] - if (editedReportName.equals(tableElement.getText())): null
+
+2019-01-23 11:02:08 - [TEST_STEP][PASSED] - tableElement = driver.findElement(By.xpath("//*[@id='content']/div/div/div/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div/div/div[1]/div[2]/table/tbody/tr[" + rowID + "]/td[4]")): null
+
+2019-01-23 11:02:08 - [TEST_STEP][PASSED] - if (editedReportName.equals(tableElement.getText())): null
+
+2019-01-23 11:02:08 - [TEST_STEP][PASSED] - tableElement = driver.findElement(By.xpath("//*[@id='content']/div/div/div/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div/div/div[1]/div[2]/table/tbody/tr[" + rowID + "]/td[4]")): null
+
+2019-01-23 11:02:08 - [TEST_STEP][PASSED] - if (editedReportName.equals(tableElement.getText())): null
+
+2019-01-23 11:02:08 - [TEST_STEP][PASSED] - tableElement = driver.findElement(By.xpath("//*[@id='content']/div/div/div/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div/div/div[1]/div[2]/table/tbody/tr[" + rowID + "]/td[4]")): null
+
+2019-01-23 11:02:08 - [TEST_STEP][PASSED] - if (editedReportName.equals(tableElement.getText())): null
+
+2019-01-23 11:02:08 - [TEST_STEP][PASSED] - tableElement = driver.findElement(By.xpath("//*[@id='content']/div/div/div/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div/div/div[1]/div[2]/table/tbody/tr[" + rowID + "]/td[4]")): null
+
+2019-01-23 11:02:08 - [TEST_STEP][PASSED] - if (editedReportName.equals(tableElement.getText())): null
+
+2019-01-23 11:02:08 - [TEST_STEP][PASSED] - if (editedReportName.equals(tableElement.getText())): null
+
+2019-01-23 11:02:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/UI/Employee/Report Manager/Report Types/a_Next Page button")): Object: 'Object Repository/UI/Employee/Report Manager/Report Types/a_Next Page button' is clicked on
+
+2019-01-23 11:02:08 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Report Manager/Report Types/a_Next Page button' is clicked on
+
+2019-01-23 11:02:08 - [TEST_STEP][PASSED] - for ([rowID = 1, rowID <= 10, (rowID++)]): null
+
+2019-01-23 11:02:08 - [TEST_STEP][PASSED] - tableElement = driver.findElement(By.xpath("//*[@id='content']/div/div/div/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div/div/div[1]/div[2]/table/tbody/tr[" + rowID + "]/td[4]")): null
+
+2019-01-23 11:02:08 - [TEST_STEP][PASSED] - if (editedReportName.equals(tableElement.getText())): null
+
+2019-01-23 11:02:08 - [TEST_STEP][PASSED] - tableElement = driver.findElement(By.xpath("//*[@id='content']/div/div/div/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div/div/div[1]/div[2]/table/tbody/tr[" + rowID + "]/td[4]")): null
+
+2019-01-23 11:02:08 - [TEST_STEP][PASSED] - if (editedReportName.equals(tableElement.getText())): null
+
+2019-01-23 11:02:08 - [TEST_STEP][PASSED] - tableElement = driver.findElement(By.xpath("//*[@id='content']/div/div/div/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div/div/div[1]/div[2]/table/tbody/tr[" + rowID + "]/td[4]")): null
+
+2019-01-23 11:02:08 - [TEST_STEP][PASSED] - if (editedReportName.equals(tableElement.getText())): null
+
+2019-01-23 11:02:08 - [TEST_STEP][PASSED] - tableElement = driver.findElement(By.xpath("//*[@id='content']/div/div/div/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div/div/div[1]/div[2]/table/tbody/tr[" + rowID + "]/td[4]")): null
+
+2019-01-23 11:02:08 - [TEST_STEP][PASSED] - if (editedReportName.equals(tableElement.getText())): null
+
+2019-01-23 11:02:08 - [TEST_STEP][PASSED] - break: null
+
+2019-01-23 11:02:08 - [TEST_STEP][PASSED] - if (editedReportName.equals(tableElement.getText())): null
+
+2019-01-23 11:02:08 - [TEST_STEP][PASSED] - break: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UI/Employee/Report Manager/Report Types/Report Types - Delete report" classname="Test Cases/UI/Employee/Report Manager/Report Types/Report Types - Delete report" status="PASSED">
+         <system-out><![CDATA[2019-01-23 11:02:08 - [TEST_CASE][PASSED] - Test Cases/UI/Employee/Report Manager/Report Types/Report Types - Delete report: Test Cases/UI/Employee/Report Manager/Report Types/Report Types - Delete report
+
+2019-01-23 11:02:09 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Report Manager/span_Report Management Menu")): Object: 'Object Repository/UI/Employee/Report Manager/span_Report Management Menu' is clicked on
+
+2019-01-23 11:02:09 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Report Manager/span_Report Management Menu' is clicked on
+
+2019-01-23 11:02:09 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Report Manager/span_Report Types Sub Menu")): Object: 'Object Repository/UI/Employee/Report Manager/span_Report Types Sub Menu' is clicked on
+
+2019-01-23 11:02:09 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Report Manager/span_Report Types Sub Menu' is clicked on
+
+2019-01-23 11:02:09 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/Employee/Report Manager/Report Types/h1_Report Types Title"), 5): Object 'Object Repository/UI/Employee/Report Manager/Report Types/h1_Report Types Title' is present
+
+2019-01-23 11:02:09 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/h1_Report Types Title' is present
+
+2019-01-23 11:02:09 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/Employee/Report Manager/Report Types/h1_Report Types Title"), 5): Object 'Object Repository/UI/Employee/Report Manager/Report Types/h1_Report Types Title' is visible
+
+2019-01-23 11:02:09 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/h1_Report Types Title' is visible
+
+2019-01-23 11:02:09 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/Employee/Report Manager/Report Types/a_Create New_button"), 5): Object 'Object Repository/UI/Employee/Report Manager/Report Types/a_Create New_button' is present
+
+2019-01-23 11:02:09 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/a_Create New_button' is present
+
+2019-01-23 11:02:09 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/Employee/Report Manager/Report Types/a_Create New_button"), 5): Object 'Object Repository/UI/Employee/Report Manager/Report Types/a_Create New_button' is visible
+
+2019-01-23 11:02:09 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/a_Create New_button' is visible
+
+2019-01-23 11:02:09 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-23 11:02:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-23 11:02:11 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-01-23 11:02:11 - [TEST_STEP][PASSED] - tableElement = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2019-01-23 11:02:11 - [TEST_STEP][PASSED] - deleteButton = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2019-01-23 11:02:11 - [TEST_STEP][PASSED] - while (true): null
+
+2019-01-23 11:02:11 - [TEST_STEP][PASSED] - for ([rowID = 1, rowID <= 10, (rowID++)]): null
+
+2019-01-23 11:02:11 - [TEST_STEP][PASSED] - tableElement = driver.findElement(By.xpath("//*[@id='content']/div/div/div/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div/div/div[1]/div[2]/table/tbody/tr[" + rowID + "]/td[4]")): null
+
+2019-01-23 11:02:11 - [TEST_STEP][PASSED] - if (reportName.equals(tableElement.getText())): null
+
+2019-01-23 11:02:11 - [TEST_STEP][PASSED] - tableElement = driver.findElement(By.xpath("//*[@id='content']/div/div/div/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div/div/div[1]/div[2]/table/tbody/tr[" + rowID + "]/td[4]")): null
+
+2019-01-23 11:02:11 - [TEST_STEP][PASSED] - if (reportName.equals(tableElement.getText())): null
+
+2019-01-23 11:02:11 - [TEST_STEP][PASSED] - tableElement = driver.findElement(By.xpath("//*[@id='content']/div/div/div/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div/div/div[1]/div[2]/table/tbody/tr[" + rowID + "]/td[4]")): null
+
+2019-01-23 11:02:11 - [TEST_STEP][PASSED] - if (reportName.equals(tableElement.getText())): null
+
+2019-01-23 11:02:11 - [TEST_STEP][PASSED] - tableElement = driver.findElement(By.xpath("//*[@id='content']/div/div/div/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div/div/div[1]/div[2]/table/tbody/tr[" + rowID + "]/td[4]")): null
+
+2019-01-23 11:02:11 - [TEST_STEP][PASSED] - if (reportName.equals(tableElement.getText())): null
+
+2019-01-23 11:02:11 - [TEST_STEP][PASSED] - deleteButton = driver.findElement(By.xpath("//*[@id='content']/div/div/div/div[3]/div[2]/div/div[1]/div/div/div[2]/div/div/div/div[1]/div[2]/table/tbody/tr[" + rowID + "]/td[2]/div/div/i")): null
+
+2019-01-23 11:02:11 - [TEST_STEP][PASSED] - break: null
+
+2019-01-23 11:02:11 - [TEST_STEP][PASSED] - if (reportName.equals(tableElement.getText())): null
+
+2019-01-23 11:02:11 - [TEST_STEP][PASSED] - break: null
+
+2019-01-23 11:02:11 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-23 11:02:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-23 11:02:13 - [TEST_STEP][PASSED] - deleteButton.click(): null
+
+2019-01-23 11:02:13 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-23 11:02:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-23 11:02:15 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Report Manager/Report Types/button_delete warning message_Yes Button")): Object: 'Object Repository/UI/Employee/Report Manager/Report Types/button_delete warning message_Yes Button' is clicked on
+
+2019-01-23 11:02:15 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Report Manager/Report Types/button_delete warning message_Yes Button' is clicked on
+
+2019-01-23 11:02:15 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-23 11:02:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-23 11:02:17 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/Employee/Report Manager/Report Types/h_Report Deleted Tittle"), 5): Object 'Object Repository/UI/Employee/Report Manager/Report Types/h_Report Deleted Tittle' is present
+
+2019-01-23 11:02:17 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/h_Report Deleted Tittle' is present
+
+2019-01-23 11:02:17 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/Employee/Report Manager/Report Types/h_Report Deleted Tittle"), 5): Object 'Object Repository/UI/Employee/Report Manager/Report Types/h_Report Deleted Tittle' is visible
+
+2019-01-23 11:02:17 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Report Manager/Report Types/h_Report Deleted Tittle' is visible
+
+2019-01-23 11:02:17 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("UI/Employee/Report Manager/Report Types/h_Report Deleted Tittle"), "Report Deleted"): Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Report Types/h_Report Deleted Tittle' are matched.
+
+2019-01-23 11:02:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/UI/Employee/Report Manager/Report Types/h_Report Deleted Tittle' are matched.
+
+2019-01-23 11:02:17 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Report Manager/Report Types/button_delete warning message_Yes Button")): Object: 'Object Repository/UI/Employee/Report Manager/Report Types/button_delete warning message_Yes Button' is clicked on
+
+2019-01-23 11:02:17 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Report Manager/Report Types/button_delete warning message_Yes Button' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-23 11:01:45 - [TEST_SUITE][PASSED] - Report Types: Test Cases/UI/Employee/Report Manager/Report Types/Report Types - Delete report]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

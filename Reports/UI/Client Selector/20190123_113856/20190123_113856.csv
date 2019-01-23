@@ -1,0 +1,86 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Client Selector,Chrome 71.0.3578.98,,2019-01-23 11:43:09,2019-01-23 11:43:30,21.017s,PASSED
+,,,,,,
+Test Cases/UI/General/openBrowser,Chrome 71.0.3578.98,,2019-01-23 11:43:09,2019-01-23 11:43:15,6.126s,PASSED
+"openBrowser(""https://uat.advancedpricing.com/login"")",Chrome 71.0.3578.98,,2019-01-23 11:43:09,2019-01-23 11:43:14,4.479s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-23 11:43:14,2019-01-23 11:43:15,1.141s,PASSED
+"waitForElementPresent(findTestObject(""UI/Client/Client Services/ForgotPassword/a_ForgotPassword""), 5)",Chrome 71.0.3578.98,,2019-01-23 11:43:15,2019-01-23 11:43:15,0.082s,PASSED
+"waitForElementVisible(findTestObject(""UI/Client/Client Services/ForgotPassword/a_ForgotPassword""), 5)",Chrome 71.0.3578.98,,2019-01-23 11:43:15,2019-01-23 11:43:15,0.045s,PASSED
+"waitForElementPresent(findTestObject(""UI/General/Page_LoginPage/button_Login""), 5)",Chrome 71.0.3578.98,,2019-01-23 11:43:15,2019-01-23 11:43:15,0.020s,PASSED
+"waitForElementVisible(findTestObject(""UI/General/Page_LoginPage/button_Login""), 5)",Chrome 71.0.3578.98,,2019-01-23 11:43:15,2019-01-23 11:43:15,0.029s,PASSED
+"waitForElementPresent(findTestObject(""UI/General/Page_LoginPage/input_Password""), 5)",Chrome 71.0.3578.98,,2019-01-23 11:43:15,2019-01-23 11:43:15,0.017s,PASSED
+"waitForElementVisible(findTestObject(""UI/General/Page_LoginPage/input_Password""), 5)",Chrome 71.0.3578.98,,2019-01-23 11:43:15,2019-01-23 11:43:15,0.027s,PASSED
+"waitForElementPresent(findTestObject(""UI/General/Page_LoginPage/input_User""), 5)",Chrome 71.0.3578.98,,2019-01-23 11:43:15,2019-01-23 11:43:15,0.018s,PASSED
+"waitForElementVisible(findTestObject(""UI/General/Page_LoginPage/input_User""), 5)",Chrome 71.0.3578.98,,2019-01-23 11:43:15,2019-01-23 11:43:15,0.025s,PASSED
+,,,,,,
+Test Cases/UI/General/Employee Login,Chrome 71.0.3578.98,,2019-01-23 11:43:15,2019-01-23 11:43:16,1.457s,PASSED
+"setText(findTestObject(""UI/General/Page_LoginPage/input_User""), user)",Chrome 71.0.3578.98,,2019-01-23 11:43:15,2019-01-23 11:43:15,0.254s,PASSED
+"setText(findTestObject(""UI/General/Page_LoginPage/input_Password""), password)",Chrome 71.0.3578.98,,2019-01-23 11:43:15,2019-01-23 11:43:16,0.162s,PASSED
+"click(findTestObject(""UI/General/Page_LoginPage/button_Login""))",Chrome 71.0.3578.98,,2019-01-23 11:43:16,2019-01-23 11:43:16,0.093s,PASSED
+"waitForElementPresent(findTestObject(""UI/General/Page_Employee landing page/img_AMPSLogo""), 5)",Chrome 71.0.3578.98,,2019-01-23 11:43:16,2019-01-23 11:43:16,0.608s,PASSED
+"waitForElementVisible(findTestObject(""UI/General/Page_Employee landing page/img_AMPSLogo""), 5)",Chrome 71.0.3578.98,,2019-01-23 11:43:16,2019-01-23 11:43:16,0.026s,PASSED
+"waitForElementPresent(findTestObject(""UI/General/Page_Employee landing page/span_ClientsMenu""), 5)",Chrome 71.0.3578.98,,2019-01-23 11:43:16,2019-01-23 11:43:16,0.023s,PASSED
+"waitForElementVisible(findTestObject(""UI/General/Page_Employee landing page/span_ClientsMenu""), 5)",Chrome 71.0.3578.98,,2019-01-23 11:43:16,2019-01-23 11:43:16,0.073s,PASSED
+"waitForElementPresent(findTestObject(""UI/General/Page_Employee landing page/h1_ClientsTitle""), 5)",Chrome 71.0.3578.98,,2019-01-23 11:43:16,2019-01-23 11:43:16,0.019s,PASSED
+"waitForElementVisible(findTestObject(""UI/General/Page_Employee landing page/h1_ClientsTitle""), 5)",Chrome 71.0.3578.98,,2019-01-23 11:43:16,2019-01-23 11:43:16,0.031s,PASSED
+,,,,,,
+Test Cases/UI/Employee/Client Selector/Client selector - Filter works correctly,Chrome 71.0.3578.98,,2019-01-23 11:43:16,2019-01-23 11:43:22,5.453s,PASSED
+"click(findTestObject(""UI/Employee/Client Selector/span_ClientsMenu""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-23 11:43:17,2019-01-23 11:43:17,0.096s,PASSED
+"waitForElementPresent(findTestObject(""UI/Employee/Client Selector/h1_ClientsTitle""), 5)",Chrome 71.0.3578.98,,2019-01-23 11:43:17,2019-01-23 11:43:17,0.014s,PASSED
+"waitForElementVisible(findTestObject(""UI/Employee/Client Selector/h1_ClientsTitle""), 5)",Chrome 71.0.3578.98,,2019-01-23 11:43:17,2019-01-23 11:43:17,0.019s,PASSED
+"waitForElementPresent(findTestObject(""UI/Employee/Client Selector/label_Is Active""), 5, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-23 11:43:17,2019-01-23 11:43:17,0.017s,PASSED
+"waitForElementVisible(findTestObject(""UI/Employee/Client Selector/label_Is Active""), 5, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-23 11:43:17,2019-01-23 11:43:17,0.047s,PASSED
+"waitForElementPresent(findTestObject(""UI/Employee/Client Selector/div_Is Active dropdown""), 5, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-23 11:43:17,2019-01-23 11:43:17,0.016s,PASSED
+"waitForElementVisible(findTestObject(""UI/Employee/Client Selector/div_Is Active dropdown""), 5, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-23 11:43:17,2019-01-23 11:43:17,0.040s,PASSED
+"waitForElementPresent(findTestObject(""UI/Employee/Client Selector/button_Filter""), 5, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-23 11:43:17,2019-01-23 11:43:17,0.017s,PASSED
+"waitForElementVisible(findTestObject(""UI/Employee/Client Selector/button_Filter""), 5, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-23 11:43:17,2019-01-23 11:43:17,0.017s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-23 11:43:17,2019-01-23 11:43:22,5.016s,PASSED
+"verifyElementText(findTestObject(""UI/Employee/Client Selector/div_Is Active dropdown""), ""All Clients"")",Chrome 71.0.3578.98,,2019-01-23 11:43:22,2019-01-23 11:43:22,0.043s,PASSED
+"click(findTestObject(""UI/Employee/Client Selector/div_Is Active dropdown""))",Chrome 71.0.3578.98,,2019-01-23 11:43:22,2019-01-23 11:43:22,0.001s,NOT_RUN
+"click(findTestObject(""UI/Employee/Client Selector/div_Filter dropdown_Inactive Clients Only_option""), STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-23 11:43:22,2019-01-23 11:43:22,0.000s,NOT_RUN
+,,,,,,
+Test Cases/UI/Employee/Client Selector/Client selector - Search and select an active client,Chrome 71.0.3578.98,,2019-01-23 11:43:22,2019-01-23 11:43:28,6.119s,PASSED
+"click(findTestObject(""UI/Employee/Client Selector/span_ClientsMenu""))",Chrome 71.0.3578.98,,2019-01-23 11:43:22,2019-01-23 11:43:22,0.058s,PASSED
+"waitForElementPresent(findTestObject(""UI/Employee/Client Selector/h1_ClientsTitle""), 5)",Chrome 71.0.3578.98,,2019-01-23 11:43:22,2019-01-23 11:43:22,0.013s,PASSED
+"waitForElementVisible(findTestObject(""UI/Employee/Client Selector/h1_ClientsTitle""), 5)",Chrome 71.0.3578.98,,2019-01-23 11:43:22,2019-01-23 11:43:22,0.019s,PASSED
+"sendKeys(findTestObject(""UI/Employee/Client Selector/input_Serach textbox""), clientAbbr)",Chrome 71.0.3578.98,,2019-01-23 11:43:22,2019-01-23 11:43:22,0.120s,PASSED
+"click(findTestObject(""UI/Employee/Client Selector/span_Searched Client Abbr""), STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-23 11:43:22,2019-01-23 11:43:23,0.303s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-23 11:43:23,2019-01-23 11:43:28,5.002s,PASSED
+"waitForElementPresent(findTestObject(""UI/Employee/Client Selector/h1_Claim List Title""), 5)",Chrome 71.0.3578.98,,2019-01-23 11:43:28,2019-01-23 11:43:28,0.058s,PASSED
+"waitForElementVisible(findTestObject(""UI/Employee/Client Selector/h1_Claim List Title""), 5)",Chrome 71.0.3578.98,,2019-01-23 11:43:28,2019-01-23 11:43:28,0.026s,PASSED
+"waitForElementPresent(findTestObject(""UI/Employee/Client Selector/span_Claim List_Header with clients Abbr""), 5)",Chrome 71.0.3578.98,,2019-01-23 11:43:28,2019-01-23 11:43:28,0.017s,PASSED
+"waitForElementVisible(findTestObject(""UI/Employee/Client Selector/span_Claim List_Header with clients Abbr""), 5)",Chrome 71.0.3578.98,,2019-01-23 11:43:28,2019-01-23 11:43:28,0.027s,PASSED
+"waitForElementPresent(findTestObject(""UI/Employee/Client Selector/span_Logout button""), 5)",Chrome 71.0.3578.98,,2019-01-23 11:43:28,2019-01-23 11:43:28,0.017s,PASSED
+"waitForElementVisible(findTestObject(""UI/Employee/Client Selector/span_Logout button""), 5)",Chrome 71.0.3578.98,,2019-01-23 11:43:28,2019-01-23 11:43:28,0.025s,PASSED
+"claimListHeaderText = getText(findTestObject(""UI/Employee/Client Selector/span_Claim List_Header with clients Abbr""), STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-23 11:43:28,2019-01-23 11:43:28,0.033s,PASSED
+"logoutButtonText = getText(findTestObject(""UI/Employee/Client Selector/span_Logout button""), STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-23 11:43:28,2019-01-23 11:43:28,0.030s,PASSED
+"verifyEqual(claimListHeaderText.contains(clientAbbr), true)",Chrome 71.0.3578.98,,2019-01-23 11:43:28,2019-01-23 11:43:28,0.007s,PASSED
+"verifyEqual(logoutButtonText.contains(clientAbbr), true)",Chrome 71.0.3578.98,,2019-01-23 11:43:28,2019-01-23 11:43:28,0.001s,PASSED
+"click(findTestObject(""UI/Employee/Client Selector/span_Logout button""), STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-23 11:43:28,2019-01-23 11:43:28,0.146s,PASSED
+"waitForElementPresent(findTestObject(""UI/Employee/Client Selector/h1_ClientsTitle""), 5)",Chrome 71.0.3578.98,,2019-01-23 11:43:28,2019-01-23 11:43:28,0.015s,PASSED
+"waitForElementVisible(findTestObject(""UI/Employee/Client Selector/h1_ClientsTitle""), 5)",Chrome 71.0.3578.98,,2019-01-23 11:43:28,2019-01-23 11:43:28,0.027s,PASSED
+"waitForElementPresent(findTestObject(""UI/Employee/Client Selector/input_Serach textbox""), 5, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-23 11:43:28,2019-01-23 11:43:28,0.013s,PASSED
+"waitForElementVisible(findTestObject(""UI/Employee/Client Selector/input_Serach textbox""), 5, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-23 11:43:28,2019-01-23 11:43:28,0.025s,PASSED
+,,,,,,
+Test Cases/UI/Employee/Client Selector/Client selector - Verify presence of elements,Chrome 71.0.3578.98,,2019-01-23 11:43:28,2019-01-23 11:43:29,0.999s,PASSED
+"click(findTestObject(""UI/Employee/Client Selector/span_ClientsMenu""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-23 11:43:28,2019-01-23 11:43:28,0.064s,PASSED
+"waitForElementPresent(findTestObject(""UI/Employee/Client Selector/h1_ClientsTitle""), 5)",Chrome 71.0.3578.98,,2019-01-23 11:43:28,2019-01-23 11:43:28,0.013s,PASSED
+"waitForElementVisible(findTestObject(""UI/Employee/Client Selector/h1_ClientsTitle""), 5)",Chrome 71.0.3578.98,,2019-01-23 11:43:28,2019-01-23 11:43:28,0.022s,PASSED
+"waitForElementPresent(findTestObject(""UI/Employee/Client Selector/label_Is Active""), 5, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-23 11:43:28,2019-01-23 11:43:28,0.006s,PASSED
+"waitForElementVisible(findTestObject(""UI/Employee/Client Selector/label_Is Active""), 5, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-23 11:43:28,2019-01-23 11:43:28,0.032s,PASSED
+"waitForElementPresent(findTestObject(""UI/Employee/Client Selector/div_Is Active dropdown""), 5, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-23 11:43:28,2019-01-23 11:43:28,0.020s,PASSED
+"waitForElementVisible(findTestObject(""UI/Employee/Client Selector/div_Is Active dropdown""), 5, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-23 11:43:28,2019-01-23 11:43:28,0.031s,PASSED
+"waitForElementPresent(findTestObject(""UI/Employee/Client Selector/button_Filter""), 5, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-23 11:43:28,2019-01-23 11:43:28,0.031s,PASSED
+"waitForElementVisible(findTestObject(""UI/Employee/Client Selector/button_Filter""), 5, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-23 11:43:28,2019-01-23 11:43:28,0.031s,PASSED
+"waitForElementPresent(findTestObject(""UI/Employee/Client Selector/input_Serach textbox""), 5, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-23 11:43:28,2019-01-23 11:43:28,0.032s,PASSED
+"waitForElementVisible(findTestObject(""UI/Employee/Client Selector/input_Serach textbox""), 5, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-23 11:43:28,2019-01-23 11:43:29,0.062s,PASSED
+"waitForElementPresent(findTestObject(""UI/Employee/Client Selector/th_Client List Header_Abbr""), 5, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-23 11:43:29,2019-01-23 11:43:29,0.047s,PASSED
+"waitForElementVisible(findTestObject(""UI/Employee/Client Selector/th_Client List Header_Abbr""), 5, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-23 11:43:29,2019-01-23 11:43:29,0.047s,PASSED
+"waitForElementPresent(findTestObject(""UI/Employee/Client Selector/th_Client List Header_Client""), 5, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-23 11:43:29,2019-01-23 11:43:29,0.033s,PASSED
+"waitForElementVisible(findTestObject(""UI/Employee/Client Selector/th_Client List Header_Client""), 5, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-23 11:43:29,2019-01-23 11:43:29,0.047s,PASSED
+"waitForElementPresent(findTestObject(""UI/Employee/Client Selector/th_Client List Header_Is Active""), 5, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-23 11:43:29,2019-01-23 11:43:29,0.046s,PASSED
+"waitForElementVisible(findTestObject(""UI/Employee/Client Selector/th_Client List Header_Is Active""), 5, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-23 11:43:29,2019-01-23 11:43:29,0.079s,PASSED
+"waitForElementPresent(findTestObject(""UI/Employee/Client Selector/button_Clients per page""), 5, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-23 11:43:29,2019-01-23 11:43:29,0.031s,PASSED
+"waitForElementVisible(findTestObject(""UI/Employee/Client Selector/button_Clients per page""), 5, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-23 11:43:29,2019-01-23 11:43:29,0.074s,PASSED
+"waitForElementPresent(findTestObject(""UI/Employee/Client Selector/ul_Pagination""), 5, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-23 11:43:29,2019-01-23 11:43:29,0.047s,PASSED
+"waitForElementVisible(findTestObject(""UI/Employee/Client Selector/ul_Pagination""), 5, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-23 11:43:29,2019-01-23 11:43:29,0.060s,PASSED

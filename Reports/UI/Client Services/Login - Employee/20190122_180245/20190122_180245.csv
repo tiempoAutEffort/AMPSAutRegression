@@ -1,0 +1,45 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Login - Employee,Chrome 71.0.3578.98,,2019-01-22 18:02:47,2019-01-22 18:03:03,15.823s,PASSED
+,,,,,,
+Test Cases/UI/Employee/Client Services/Login/Login - Successful Employee,Chrome 71.0.3578.98,,2019-01-22 18:02:47,2019-01-22 18:02:56,8.689s,PASSED
+"openBrowser(""https://uat.advancedpricing.com/login"")",Chrome 71.0.3578.98,,2019-01-22 18:02:48,2019-01-22 18:02:53,5.100s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-22 18:02:53,2019-01-22 18:02:54,1.137s,PASSED
+"waitForElementPresent(findTestObject(""UI/Employee/Client Services/ForgotPassword/a_ForgotPassword""), 5)",Chrome 71.0.3578.98,,2019-01-22 18:02:54,2019-01-22 18:02:54,0.074s,PASSED
+"waitForElementVisible(findTestObject(""UI/Employee/Client Services/ForgotPassword/a_ForgotPassword""), 5)",Chrome 71.0.3578.98,,2019-01-22 18:02:54,2019-01-22 18:02:54,0.047s,PASSED
+"waitForElementPresent(findTestObject(""UI/General/Page_LoginPage/button_Login""), 5)",Chrome 71.0.3578.98,,2019-01-22 18:02:54,2019-01-22 18:02:54,0.021s,PASSED
+"waitForElementVisible(findTestObject(""UI/General/Page_LoginPage/button_Login""), 5)",Chrome 71.0.3578.98,,2019-01-22 18:02:54,2019-01-22 18:02:54,0.027s,PASSED
+"waitForElementPresent(findTestObject(""UI/Employee/Client Services/Login/input_Password""), 5)",Chrome 71.0.3578.98,,2019-01-22 18:02:54,2019-01-22 18:02:54,0.021s,PASSED
+"waitForElementVisible(findTestObject(""UI/Employee/Client Services/Login/input_Password""), 5)",Chrome 71.0.3578.98,,2019-01-22 18:02:54,2019-01-22 18:02:54,0.027s,PASSED
+"waitForElementPresent(findTestObject(""UI/Employee/Client Services/Login/input_User""), 5)",Chrome 71.0.3578.98,,2019-01-22 18:02:54,2019-01-22 18:02:54,0.020s,PASSED
+"waitForElementVisible(findTestObject(""UI/Employee/Client Services/Login/input_User""), 5)",Chrome 71.0.3578.98,,2019-01-22 18:02:54,2019-01-22 18:02:54,0.025s,PASSED
+"setText(findTestObject(""UI/Employee/Client Services/Login/input_User""), user)",Chrome 71.0.3578.98,,2019-01-22 18:02:54,2019-01-22 18:02:54,0.143s,PASSED
+"setText(findTestObject(""UI/Employee/Client Services/Login/input_Password""), password)",Chrome 71.0.3578.98,,2019-01-22 18:02:54,2019-01-22 18:02:55,0.148s,PASSED
+"click(findTestObject(""UI/Employee/Client Services/Login/button_Login""))",Chrome 71.0.3578.98,,2019-01-22 18:02:55,2019-01-22 18:02:55,0.085s,PASSED
+"waitForElementPresent(findTestObject(""UI/General/Page_Employee landing page/img_AMPSLogo""), 5)",Chrome 71.0.3578.98,,2019-01-22 18:02:55,2019-01-22 18:02:55,0.597s,PASSED
+"waitForElementVisible(findTestObject(""UI/General/Page_Employee landing page/img_AMPSLogo""), 5)",Chrome 71.0.3578.98,,2019-01-22 18:02:55,2019-01-22 18:02:55,0.048s,PASSED
+"waitForElementPresent(findTestObject(""UI/General/Page_Employee landing page/span_ClientsMenu""), 5)",Chrome 71.0.3578.98,,2019-01-22 18:02:55,2019-01-22 18:02:55,0.057s,PASSED
+"waitForElementVisible(findTestObject(""UI/General/Page_Employee landing page/span_ClientsMenu""), 5)",Chrome 71.0.3578.98,,2019-01-22 18:02:55,2019-01-22 18:02:55,0.030s,PASSED
+"waitForElementPresent(findTestObject(""UI/General/Page_Employee landing page/h1_ClientsTitle""), 5)",Chrome 71.0.3578.98,,2019-01-22 18:02:55,2019-01-22 18:02:55,0.019s,PASSED
+"waitForElementVisible(findTestObject(""UI/General/Page_Employee landing page/h1_ClientsTitle""), 5)",Chrome 71.0.3578.98,,2019-01-22 18:02:55,2019-01-22 18:02:55,0.026s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-22 18:02:55,2019-01-22 18:02:56,0.626s,PASSED
+,,,,,,
+Test Cases/UI/General/openBrowser,Chrome 71.0.3578.98,,2019-01-22 18:02:56,2019-01-22 18:03:01,5.287s,PASSED
+"openBrowser(""https://uat.advancedpricing.com/login"")",Chrome 71.0.3578.98,,2019-01-22 18:02:56,2019-01-22 18:03:00,3.763s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-22 18:03:00,2019-01-22 18:03:01,1.132s,PASSED
+"waitForElementPresent(findTestObject(""UI/Client/Client Services/ForgotPassword/a_ForgotPassword""), 5)",Chrome 71.0.3578.98,,2019-01-22 18:03:01,2019-01-22 18:03:01,0.045s,PASSED
+"waitForElementVisible(findTestObject(""UI/Client/Client Services/ForgotPassword/a_ForgotPassword""), 5)",Chrome 71.0.3578.98,,2019-01-22 18:03:01,2019-01-22 18:03:01,0.043s,PASSED
+"waitForElementPresent(findTestObject(""UI/General/Page_LoginPage/button_Login""), 5)",Chrome 71.0.3578.98,,2019-01-22 18:03:01,2019-01-22 18:03:01,0.018s,PASSED
+"waitForElementVisible(findTestObject(""UI/General/Page_LoginPage/button_Login""), 5)",Chrome 71.0.3578.98,,2019-01-22 18:03:01,2019-01-22 18:03:01,0.029s,PASSED
+"waitForElementPresent(findTestObject(""UI/General/Page_LoginPage/input_Password""), 5)",Chrome 71.0.3578.98,,2019-01-22 18:03:01,2019-01-22 18:03:01,0.019s,PASSED
+"waitForElementVisible(findTestObject(""UI/General/Page_LoginPage/input_Password""), 5)",Chrome 71.0.3578.98,,2019-01-22 18:03:01,2019-01-22 18:03:01,0.025s,PASSED
+"waitForElementPresent(findTestObject(""UI/General/Page_LoginPage/input_User""), 5)",Chrome 71.0.3578.98,,2019-01-22 18:03:01,2019-01-22 18:03:01,0.017s,PASSED
+"waitForElementVisible(findTestObject(""UI/General/Page_LoginPage/input_User""), 5)",Chrome 71.0.3578.98,,2019-01-22 18:03:01,2019-01-22 18:03:01,0.027s,PASSED
+,,,,,,
+Test Cases/UI/Employee/Client Services/Login/Login - Incorrect credentials,Chrome 71.0.3578.98,,2019-01-22 18:03:01,2019-01-22 18:03:02,1.089s,PASSED
+"setText(findTestObject(""UI/Employee/Client Services/Login/input_User""), invalidUser)",Chrome 71.0.3578.98,,2019-01-22 18:03:01,2019-01-22 18:03:02,0.102s,PASSED
+"setText(findTestObject(""UI/Employee/Client Services/Login/input_Password""), invalidPassword)",Chrome 71.0.3578.98,,2019-01-22 18:03:02,2019-01-22 18:03:02,0.101s,PASSED
+"click(findTestObject(""UI/Employee/Client Services/Login/button_Login""))",Chrome 71.0.3578.98,,2019-01-22 18:03:02,2019-01-22 18:03:02,0.088s,PASSED
+"waitForElementPresent(findTestObject(""UI/Employee/Client Services/Login/div_AuthenticationFailedMessage""), 5)",Chrome 71.0.3578.98,,2019-01-22 18:03:02,2019-01-22 18:03:02,0.557s,PASSED
+"waitForElementVisible(findTestObject(""UI/Employee/Client Services/Login/div_AuthenticationFailedMessage""), 5)",Chrome 71.0.3578.98,,2019-01-22 18:03:02,2019-01-22 18:03:02,0.046s,PASSED
+"actualFailMessage = getText(findTestObject(""UI/Employee/Client Services/Login/div_AuthenticationFailedMessage""))",Chrome 71.0.3578.98,,2019-01-22 18:03:02,2019-01-22 18:03:02,0.046s,PASSED
+"verifyEqual(actualFailMessage, expectedFailMessage)",Chrome 71.0.3578.98,,2019-01-22 18:03:02,2019-01-22 18:03:02,0.015s,PASSED

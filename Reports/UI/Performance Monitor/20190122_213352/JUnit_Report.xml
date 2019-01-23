@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Performance Monitor" time="36" tests="6" failures="0" errors="0">
+   <testsuite name="Performance Monitor" tests="6" failures="0" errors="0" time="36" timestamp="2019-01-22 21:33:55" hostname="david avalos - TDG-MBL-MTY0359.tiempodev.local" id="Test Suites/UI/Performance Monitor">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\David Avalos\\git\\AMPSAutRegression\\Reports\\UI\\Performance Monitor\\20190122_213352"/>
+         <property name="logFiles" value="C:\\Users\\David Avalos\\git\\AMPSAutRegression\\Reports\\UI\\Performance Monitor\\20190122_213352\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="david avalos - TDG-MBL-MTY0359.tiempodev.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.1.97"/>
+         <property name="sessionId" value="84d899627f6f957ac6a7fc704ce0754d"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/UI/General/openBrowser" classname="Test Cases/UI/General/openBrowser" status="PASSED">
+         <system-out><![CDATA[2019-01-22 21:33:56 - [TEST_CASE][PASSED] - Test Cases/UI/General/openBrowser: Test Cases/UI/General/openBrowser
+
+2019-01-22 21:33:56 - [TEST_STEP][PASSED] - openBrowser("https://uat.advancedpricing.com/login"): Browser is opened with url: 'https://uat.advancedpricing.com/login'
+
+2019-01-22 21:33:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-22 21:33:56 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-22 21:34:01 - [MESSAGE][PASSED] - Browser is opened with url: 'https://uat.advancedpricing.com/login'
+
+2019-01-22 21:34:01 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-22 21:34:02 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-22 21:34:02 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/Client/Client Services/ForgotPassword/a_ForgotPassword"), 5): Object 'Object Repository/UI/Client/Client Services/ForgotPassword/a_ForgotPassword' is present
+
+2019-01-22 21:34:02 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Client Services/ForgotPassword/a_ForgotPassword' is present
+
+2019-01-22 21:34:02 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/Client/Client Services/ForgotPassword/a_ForgotPassword"), 5): Object 'Object Repository/UI/Client/Client Services/ForgotPassword/a_ForgotPassword' is visible
+
+2019-01-22 21:34:02 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Client Services/ForgotPassword/a_ForgotPassword' is visible
+
+2019-01-22 21:34:02 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/General/Page_LoginPage/button_Login"), 5): Object 'Object Repository/UI/General/Page_LoginPage/button_Login' is present
+
+2019-01-22 21:34:02 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_LoginPage/button_Login' is present
+
+2019-01-22 21:34:02 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/General/Page_LoginPage/button_Login"), 5): Object 'Object Repository/UI/General/Page_LoginPage/button_Login' is visible
+
+2019-01-22 21:34:02 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_LoginPage/button_Login' is visible
+
+2019-01-22 21:34:02 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/General/Page_LoginPage/input_Password"), 5): Object 'Object Repository/UI/General/Page_LoginPage/input_Password' is present
+
+2019-01-22 21:34:02 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_LoginPage/input_Password' is present
+
+2019-01-22 21:34:02 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/General/Page_LoginPage/input_Password"), 5): Object 'Object Repository/UI/General/Page_LoginPage/input_Password' is visible
+
+2019-01-22 21:34:02 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_LoginPage/input_Password' is visible
+
+2019-01-22 21:34:02 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/General/Page_LoginPage/input_User"), 5): Object 'Object Repository/UI/General/Page_LoginPage/input_User' is present
+
+2019-01-22 21:34:02 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_LoginPage/input_User' is present
+
+2019-01-22 21:34:02 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/General/Page_LoginPage/input_User"), 5): Object 'Object Repository/UI/General/Page_LoginPage/input_User' is visible
+
+2019-01-22 21:34:02 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_LoginPage/input_User' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UI/General/Employee Login" classname="Test Cases/UI/General/Employee Login" status="PASSED">
+         <system-out><![CDATA[2019-01-22 21:34:02 - [TEST_CASE][PASSED] - Test Cases/UI/General/Employee Login: Test Cases/UI/General/Employee Login
+
+2019-01-22 21:34:02 - [TEST_STEP][PASSED] - setText(findTestObject("UI/General/Page_LoginPage/input_User"), user): Text 'qaAuto' is set on object 'Object Repository/UI/General/Page_LoginPage/input_User'
+
+2019-01-22 21:34:02 - [MESSAGE][PASSED] - Text 'qaAuto' is set on object 'Object Repository/UI/General/Page_LoginPage/input_User'
+
+2019-01-22 21:34:02 - [TEST_STEP][PASSED] - setText(findTestObject("UI/General/Page_LoginPage/input_Password"), password): Text 'a9yk100dD' is set on object 'Object Repository/UI/General/Page_LoginPage/input_Password'
+
+2019-01-22 21:34:03 - [MESSAGE][PASSED] - Text 'a9yk100dD' is set on object 'Object Repository/UI/General/Page_LoginPage/input_Password'
+
+2019-01-22 21:34:03 - [TEST_STEP][PASSED] - click(findTestObject("UI/General/Page_LoginPage/button_Login")): Object: 'Object Repository/UI/General/Page_LoginPage/button_Login' is clicked on
+
+2019-01-22 21:34:03 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/General/Page_LoginPage/button_Login' is clicked on
+
+2019-01-22 21:34:03 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/General/Page_Employee landing page/img_AMPSLogo"), 5): Object 'Object Repository/UI/General/Page_Employee landing page/img_AMPSLogo' is present
+
+2019-01-22 21:34:03 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_Employee landing page/img_AMPSLogo' is present
+
+2019-01-22 21:34:03 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/General/Page_Employee landing page/img_AMPSLogo"), 5): Object 'Object Repository/UI/General/Page_Employee landing page/img_AMPSLogo' is visible
+
+2019-01-22 21:34:03 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_Employee landing page/img_AMPSLogo' is visible
+
+2019-01-22 21:34:03 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/General/Page_Employee landing page/span_ClientsMenu"), 5): Object 'Object Repository/UI/General/Page_Employee landing page/span_ClientsMenu' is present
+
+2019-01-22 21:34:03 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_Employee landing page/span_ClientsMenu' is present
+
+2019-01-22 21:34:03 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/General/Page_Employee landing page/span_ClientsMenu"), 5): Object 'Object Repository/UI/General/Page_Employee landing page/span_ClientsMenu' is visible
+
+2019-01-22 21:34:03 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_Employee landing page/span_ClientsMenu' is visible
+
+2019-01-22 21:34:03 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/General/Page_Employee landing page/h1_ClientsTitle"), 5): Object 'Object Repository/UI/General/Page_Employee landing page/h1_ClientsTitle' is present
+
+2019-01-22 21:34:03 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_Employee landing page/h1_ClientsTitle' is present
+
+2019-01-22 21:34:03 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/General/Page_Employee landing page/h1_ClientsTitle"), 5): Object 'Object Repository/UI/General/Page_Employee landing page/h1_ClientsTitle' is visible
+
+2019-01-22 21:34:03 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_Employee landing page/h1_ClientsTitle' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UI/Employee/Performance Monitor/Verify there is a change on the graphic" classname="Test Cases/UI/Employee/Performance Monitor/Verify there is a change on the graphic" status="PASSED">
+         <system-out><![CDATA[2019-01-22 21:34:03 - [TEST_CASE][PASSED] - Test Cases/UI/Employee/Performance Monitor/Verify there is a change on the graphic: Test Cases/UI/Employee/Performance Monitor/Verify there is a change on the graphic
+
+2019-01-22 21:34:04 - [TEST_STEP][PASSED] - actualSavings = findTestObject("UI/Employee/Performance Monitor/Objects Performance Monitor/Page_AMPS Portal/div_979268824"): null
+
+2019-01-22 21:34:04 - [TEST_STEP][PASSED] - last3MonthsSavings = findTestObject("UI/Employee/Performance Monitor/Objects Performance Monitor/Page_AMPS Portal/div_67758396"): null
+
+2019-01-22 21:34:04 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("UI/General/AdminLogin"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("UI/General/AdminLogin"), [:], STOP_ON_FAILURE)
+
+2019-01-22 21:34:04 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("UI/General/AdminLogin"), [:], STOP_ON_FAILURE)
+
+2019-01-22 21:34:04 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Performance Monitor/Objects Performance Monitor/Page_AMPS Portal/span_Performance Monitor")): Object: 'Object Repository/UI/Employee/Performance Monitor/Objects Performance Monitor/Page_AMPS Portal/span_Performance Monitor' is clicked on
+
+2019-01-22 21:34:04 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Performance Monitor/Objects Performance Monitor/Page_AMPS Portal/span_Performance Monitor' is clicked on
+
+2019-01-22 21:34:04 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-22 21:34:09 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-22 21:34:09 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Performance Monitor/Objects Performance Monitor/Page_AMPS Portal/button_Last 3 Months")): Object: 'Object Repository/UI/Employee/Performance Monitor/Objects Performance Monitor/Page_AMPS Portal/button_Last 3 Months' is clicked on
+
+2019-01-22 21:34:09 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Performance Monitor/Objects Performance Monitor/Page_AMPS Portal/button_Last 3 Months' is clicked on
+
+2019-01-22 21:34:09 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-22 21:34:14 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-22 21:34:14 - [TEST_STEP][PASSED] - verifyNotEqual(actualSavings, last3MonthsSavings): Actual object 'TestObject - 'Object Repository/UI/Employee/Performance Monitor/Objects Performance Monitor/Page_AMPS Portal/div_979268824'' and expected object 'TestObject - 'Object Repository/UI/Employee/Performance Monitor/Objects Performance Monitor/Page_AMPS Portal/div_67758396'' are not equal
+
+2019-01-22 21:34:14 - [MESSAGE][PASSED] - Actual object 'TestObject - 'Object Repository/UI/Employee/Performance Monitor/Objects Performance Monitor/Page_AMPS Portal/div_979268824'' and expected object 'TestObject - 'Object Repository/UI/Employee/Performance Monitor/Objects Performance Monitor/Page_AMPS Portal/div_67758396'' are not equal
+
+2019-01-22 21:34:14 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Performance Monitor/Objects Performance Monitor/Page_AMPS Portal/button_ITD")): Object: 'Object Repository/UI/Employee/Performance Monitor/Objects Performance Monitor/Page_AMPS Portal/button_ITD' is clicked on
+
+2019-01-22 21:34:14 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Performance Monitor/Objects Performance Monitor/Page_AMPS Portal/button_ITD' is clicked on
+
+2019-01-22 21:34:14 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-22 21:34:19 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-22 21:34:19 - [TEST_STEP][PASSED] - verifyEqual(actualSavings, actualSavings): Actual object 'TestObject - 'Object Repository/UI/Employee/Performance Monitor/Objects Performance Monitor/Page_AMPS Portal/div_979268824'' and expected object 'TestObject - 'Object Repository/UI/Employee/Performance Monitor/Objects Performance Monitor/Page_AMPS Portal/div_979268824'' are equal
+
+2019-01-22 21:34:19 - [MESSAGE][PASSED] - Actual object 'TestObject - 'Object Repository/UI/Employee/Performance Monitor/Objects Performance Monitor/Page_AMPS Portal/div_979268824'' and expected object 'TestObject - 'Object Repository/UI/Employee/Performance Monitor/Objects Performance Monitor/Page_AMPS Portal/div_979268824'' are equal
+
+2019-01-22 21:34:19 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-22 21:34:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UI/General/openBrowser" classname="Test Cases/UI/General/openBrowser" status="PASSED">
+         <system-out><![CDATA[2019-01-22 21:34:20 - [TEST_CASE][PASSED] - Test Cases/UI/General/openBrowser: Test Cases/UI/General/openBrowser
+
+2019-01-22 21:34:20 - [TEST_STEP][PASSED] - openBrowser("https://uat.advancedpricing.com/login"): Browser is opened with url: 'https://uat.advancedpricing.com/login'
+
+2019-01-22 21:34:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-22 21:34:24 - [MESSAGE][PASSED] - Browser is opened with url: 'https://uat.advancedpricing.com/login'
+
+2019-01-22 21:34:24 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-22 21:34:25 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-22 21:34:25 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/Client/Client Services/ForgotPassword/a_ForgotPassword"), 5): Object 'Object Repository/UI/Client/Client Services/ForgotPassword/a_ForgotPassword' is present
+
+2019-01-22 21:34:25 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Client Services/ForgotPassword/a_ForgotPassword' is present
+
+2019-01-22 21:34:25 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/Client/Client Services/ForgotPassword/a_ForgotPassword"), 5): Object 'Object Repository/UI/Client/Client Services/ForgotPassword/a_ForgotPassword' is visible
+
+2019-01-22 21:34:25 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Client Services/ForgotPassword/a_ForgotPassword' is visible
+
+2019-01-22 21:34:25 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/General/Page_LoginPage/button_Login"), 5): Object 'Object Repository/UI/General/Page_LoginPage/button_Login' is present
+
+2019-01-22 21:34:25 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_LoginPage/button_Login' is present
+
+2019-01-22 21:34:25 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/General/Page_LoginPage/button_Login"), 5): Object 'Object Repository/UI/General/Page_LoginPage/button_Login' is visible
+
+2019-01-22 21:34:25 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_LoginPage/button_Login' is visible
+
+2019-01-22 21:34:25 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/General/Page_LoginPage/input_Password"), 5): Object 'Object Repository/UI/General/Page_LoginPage/input_Password' is present
+
+2019-01-22 21:34:25 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_LoginPage/input_Password' is present
+
+2019-01-22 21:34:25 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/General/Page_LoginPage/input_Password"), 5): Object 'Object Repository/UI/General/Page_LoginPage/input_Password' is visible
+
+2019-01-22 21:34:25 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_LoginPage/input_Password' is visible
+
+2019-01-22 21:34:25 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/General/Page_LoginPage/input_User"), 5): Object 'Object Repository/UI/General/Page_LoginPage/input_User' is present
+
+2019-01-22 21:34:25 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_LoginPage/input_User' is present
+
+2019-01-22 21:34:25 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/General/Page_LoginPage/input_User"), 5): Object 'Object Repository/UI/General/Page_LoginPage/input_User' is visible
+
+2019-01-22 21:34:25 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_LoginPage/input_User' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UI/General/Employee Login" classname="Test Cases/UI/General/Employee Login" status="PASSED">
+         <system-out><![CDATA[2019-01-22 21:34:25 - [TEST_CASE][PASSED] - Test Cases/UI/General/Employee Login: Test Cases/UI/General/Employee Login
+
+2019-01-22 21:34:25 - [TEST_STEP][PASSED] - setText(findTestObject("UI/General/Page_LoginPage/input_User"), user): Text 'qaAuto' is set on object 'Object Repository/UI/General/Page_LoginPage/input_User'
+
+2019-01-22 21:34:25 - [MESSAGE][PASSED] - Text 'qaAuto' is set on object 'Object Repository/UI/General/Page_LoginPage/input_User'
+
+2019-01-22 21:34:25 - [TEST_STEP][PASSED] - setText(findTestObject("UI/General/Page_LoginPage/input_Password"), password): Text 'a9yk100dD' is set on object 'Object Repository/UI/General/Page_LoginPage/input_Password'
+
+2019-01-22 21:34:25 - [MESSAGE][PASSED] - Text 'a9yk100dD' is set on object 'Object Repository/UI/General/Page_LoginPage/input_Password'
+
+2019-01-22 21:34:25 - [TEST_STEP][PASSED] - click(findTestObject("UI/General/Page_LoginPage/button_Login")): Object: 'Object Repository/UI/General/Page_LoginPage/button_Login' is clicked on
+
+2019-01-22 21:34:25 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/General/Page_LoginPage/button_Login' is clicked on
+
+2019-01-22 21:34:25 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/General/Page_Employee landing page/img_AMPSLogo"), 5): Object 'Object Repository/UI/General/Page_Employee landing page/img_AMPSLogo' is present
+
+2019-01-22 21:34:26 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_Employee landing page/img_AMPSLogo' is present
+
+2019-01-22 21:34:26 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/General/Page_Employee landing page/img_AMPSLogo"), 5): Object 'Object Repository/UI/General/Page_Employee landing page/img_AMPSLogo' is visible
+
+2019-01-22 21:34:26 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_Employee landing page/img_AMPSLogo' is visible
+
+2019-01-22 21:34:26 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/General/Page_Employee landing page/span_ClientsMenu"), 5): Object 'Object Repository/UI/General/Page_Employee landing page/span_ClientsMenu' is present
+
+2019-01-22 21:34:26 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_Employee landing page/span_ClientsMenu' is present
+
+2019-01-22 21:34:26 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/General/Page_Employee landing page/span_ClientsMenu"), 5): Object 'Object Repository/UI/General/Page_Employee landing page/span_ClientsMenu' is visible
+
+2019-01-22 21:34:26 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_Employee landing page/span_ClientsMenu' is visible
+
+2019-01-22 21:34:26 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/General/Page_Employee landing page/h1_ClientsTitle"), 5): Object 'Object Repository/UI/General/Page_Employee landing page/h1_ClientsTitle' is present
+
+2019-01-22 21:34:26 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_Employee landing page/h1_ClientsTitle' is present
+
+2019-01-22 21:34:26 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/General/Page_Employee landing page/h1_ClientsTitle"), 5): Object 'Object Repository/UI/General/Page_Employee landing page/h1_ClientsTitle' is visible
+
+2019-01-22 21:34:26 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Page_Employee landing page/h1_ClientsTitle' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UI/Employee/Performance Monitor/General Display" classname="Test Cases/UI/Employee/Performance Monitor/General Display" status="PASSED">
+         <system-out><![CDATA[2019-01-22 21:34:26 - [TEST_CASE][PASSED] - Test Cases/UI/Employee/Performance Monitor/General Display: Test Cases/UI/Employee/Performance Monitor/General Display
+
+2019-01-22 21:34:26 - [TEST_STEP][PASSED] - actualText = findTestObject("UI/Employee/Performance Monitor/Objects Performance Monitor/Page_AMPS Portal/span_Performance Monitor"): null
+
+2019-01-22 21:34:26 - [TEST_STEP][NOT_RUN] - callTestCase(findTestCase("UI/General/AdminLogin"), [:], STOP_ON_FAILURE): NOT_RUN: callTestCase(findTestCase("UI/General/AdminLogin"), [:], STOP_ON_FAILURE)
+
+2019-01-22 21:34:26 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase(findTestCase("UI/General/AdminLogin"), [:], STOP_ON_FAILURE)
+
+2019-01-22 21:34:26 - [TEST_STEP][PASSED] - click(findTestObject("UI/Employee/Performance Monitor/Objects Performance Monitor/Page_AMPS Portal/span_Performance Monitor")): Object: 'Object Repository/UI/Employee/Performance Monitor/Objects Performance Monitor/Page_AMPS Portal/span_Performance Monitor' is clicked on
+
+2019-01-22 21:34:26 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Employee/Performance Monitor/Objects Performance Monitor/Page_AMPS Portal/span_Performance Monitor' is clicked on
+
+2019-01-22 21:34:26 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-22 21:34:31 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-22 21:34:31 - [TEST_STEP][PASSED] - verifyElementPresent(actualText, 0): Object 'Object Repository/UI/Employee/Performance Monitor/Objects Performance Monitor/Page_AMPS Portal/span_Performance Monitor' is present
+
+2019-01-22 21:34:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-01-22 21:34:31 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Employee/Performance Monitor/Objects Performance Monitor/Page_AMPS Portal/span_Performance Monitor' is present
+
+2019-01-22 21:34:31 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-22 21:34:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-22 21:33:55 - [TEST_SUITE][PASSED] - Performance Monitor: Test Cases/UI/Employee/Performance Monitor/General Display]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

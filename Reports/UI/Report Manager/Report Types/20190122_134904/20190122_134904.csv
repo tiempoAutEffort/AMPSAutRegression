@@ -1,0 +1,221 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Report Types,Chrome 71.0.3578.98,,2019-01-22 13:49:06,2019-01-22 13:49:40,34.390s,PASSED
+,,,,,,
+Test Cases/UI/General/openBrowser,Chrome 71.0.3578.98,,2019-01-22 13:49:06,2019-01-22 13:49:13,6.717s,PASSED
+"openBrowser(""https://uat.advancedpricing.com/login"")",Chrome 71.0.3578.98,,2019-01-22 13:49:06,2019-01-22 13:49:11,4.952s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-22 13:49:11,2019-01-22 13:49:12,1.169s,PASSED
+"waitForElementPresent(findTestObject(""UI/Client/Client Services/ForgotPassword/a_ForgotPassword""), 5)",Chrome 71.0.3578.98,,2019-01-22 13:49:12,2019-01-22 13:49:12,0.086s,PASSED
+"waitForElementVisible(findTestObject(""UI/Client/Client Services/ForgotPassword/a_ForgotPassword""), 5)",Chrome 71.0.3578.98,,2019-01-22 13:49:12,2019-01-22 13:49:12,0.044s,PASSED
+"waitForElementPresent(findTestObject(""UI/General/Page_LoginPage/button_Login""), 5)",Chrome 71.0.3578.98,,2019-01-22 13:49:12,2019-01-22 13:49:12,0.033s,PASSED
+"waitForElementVisible(findTestObject(""UI/General/Page_LoginPage/button_Login""), 5)",Chrome 71.0.3578.98,,2019-01-22 13:49:12,2019-01-22 13:49:13,0.037s,PASSED
+"waitForElementPresent(findTestObject(""UI/General/Page_LoginPage/input_Password""), 5)",Chrome 71.0.3578.98,,2019-01-22 13:49:13,2019-01-22 13:49:13,0.024s,PASSED
+"waitForElementVisible(findTestObject(""UI/General/Page_LoginPage/input_Password""), 5)",Chrome 71.0.3578.98,,2019-01-22 13:49:13,2019-01-22 13:49:13,0.037s,PASSED
+"waitForElementPresent(findTestObject(""UI/General/Page_LoginPage/input_User""), 5)",Chrome 71.0.3578.98,,2019-01-22 13:49:13,2019-01-22 13:49:13,0.025s,PASSED
+"waitForElementVisible(findTestObject(""UI/General/Page_LoginPage/input_User""), 5)",Chrome 71.0.3578.98,,2019-01-22 13:49:13,2019-01-22 13:49:13,0.031s,PASSED
+,,,,,,
+Test Cases/UI/General/Employee Login,Chrome 71.0.3578.98,,2019-01-22 13:49:13,2019-01-22 13:49:14,1.340s,PASSED
+"setText(findTestObject(""UI/General/Page_LoginPage/input_User""), user)",Chrome 71.0.3578.98,,2019-01-22 13:49:13,2019-01-22 13:49:13,0.138s,PASSED
+"setText(findTestObject(""UI/General/Page_LoginPage/input_Password""), password)",Chrome 71.0.3578.98,,2019-01-22 13:49:13,2019-01-22 13:49:13,0.150s,PASSED
+"click(findTestObject(""UI/General/Page_LoginPage/button_Login""))",Chrome 71.0.3578.98,,2019-01-22 13:49:13,2019-01-22 13:49:13,0.101s,PASSED
+"waitForElementPresent(findTestObject(""UI/General/Page_Employee landing page/img_AMPSLogo""), 5)",Chrome 71.0.3578.98,,2019-01-22 13:49:13,2019-01-22 13:49:14,0.609s,PASSED
+"waitForElementVisible(findTestObject(""UI/General/Page_Employee landing page/img_AMPSLogo""), 5)",Chrome 71.0.3578.98,,2019-01-22 13:49:14,2019-01-22 13:49:14,0.030s,PASSED
+"waitForElementPresent(findTestObject(""UI/General/Page_Employee landing page/span_ClientsMenu""), 5)",Chrome 71.0.3578.98,,2019-01-22 13:49:14,2019-01-22 13:49:14,0.019s,PASSED
+"waitForElementVisible(findTestObject(""UI/General/Page_Employee landing page/span_ClientsMenu""), 5)",Chrome 71.0.3578.98,,2019-01-22 13:49:14,2019-01-22 13:49:14,0.028s,PASSED
+"waitForElementPresent(findTestObject(""UI/General/Page_Employee landing page/h1_ClientsTitle""), 5)",Chrome 71.0.3578.98,,2019-01-22 13:49:14,2019-01-22 13:49:14,0.023s,PASSED
+"waitForElementVisible(findTestObject(""UI/General/Page_Employee landing page/h1_ClientsTitle""), 5)",Chrome 71.0.3578.98,,2019-01-22 13:49:14,2019-01-22 13:49:14,0.039s,PASSED
+,,,,,,
+Test Cases/UI/Employee/Report Manager/Report Types/Report Types - Validate object presence,Chrome 71.0.3578.98,,2019-01-22 13:49:14,2019-01-22 13:49:18,3.891s,PASSED
+"click(findTestObject(""UI/Employee/Report Manager/span_Report Management Menu""))",Chrome 71.0.3578.98,,2019-01-22 13:49:14,2019-01-22 13:49:14,0.082s,PASSED
+"click(findTestObject(""UI/Employee/Report Manager/span_Report Types Sub Menu""))",Chrome 71.0.3578.98,,2019-01-22 13:49:14,2019-01-22 13:49:14,0.113s,PASSED
+"waitForElementPresent(findTestObject(""UI/Employee/Report Manager/Report Types/h1_Report Types Title""), 5)",Chrome 71.0.3578.98,,2019-01-22 13:49:14,2019-01-22 13:49:14,0.018s,PASSED
+"waitForElementVisible(findTestObject(""UI/Employee/Report Manager/Report Types/h1_Report Types Title""), 5)",Chrome 71.0.3578.98,,2019-01-22 13:49:14,2019-01-22 13:49:14,0.031s,PASSED
+"verifyElementText(findTestObject(""UI/Employee/Report Manager/Report Types/h1_Report Types Title""), ""Report Types"", CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:14,2019-01-22 13:49:15,0.064s,PASSED
+"verifyElementPresent(findTestObject(""UI/Employee/Report Manager/Report Types/th_Reports Table_Header_Actions""), 5, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:15,2019-01-22 13:49:15,0.030s,PASSED
+"verifyElementVisible(findTestObject(""UI/Employee/Report Manager/Report Types/th_Reports Table_Header_Actions""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:15,2019-01-22 13:49:15,0.037s,PASSED
+"verifyElementText(findTestObject(""UI/Employee/Report Manager/Report Types/th_Reports Table_Header_Actions""), ""Actions"", CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:15,2019-01-22 13:49:15,0.031s,PASSED
+"verifyElementPresent(findTestObject(""UI/Employee/Report Manager/Report Types/th_Report Table_Header_Active""), 5, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:15,2019-01-22 13:49:15,0.018s,PASSED
+"verifyElementVisible(findTestObject(""UI/Employee/Report Manager/Report Types/th_Report Table_Header_Active""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:15,2019-01-22 13:49:15,0.031s,PASSED
+"verifyElementText(findTestObject(""UI/Employee/Report Manager/Report Types/th_Report Table_Header_Active""), ""Active"", CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:15,2019-01-22 13:49:15,0.029s,PASSED
+"verifyElementPresent(findTestObject(""UI/Employee/Report Manager/Report Types/th_Report Table_Header_Name""), 5, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:15,2019-01-22 13:49:15,0.018s,PASSED
+"verifyElementVisible(findTestObject(""UI/Employee/Report Manager/Report Types/th_Report Table_Header_Name""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:15,2019-01-22 13:49:15,0.026s,PASSED
+"verifyElementText(findTestObject(""UI/Employee/Report Manager/Report Types/th_Report Table_Header_Name""), ""Name"", CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:15,2019-01-22 13:49:15,0.033s,PASSED
+"verifyElementPresent(findTestObject(""UI/Employee/Report Manager/Report Types/th_Report Table_Header_Report Range""), 5, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:15,2019-01-22 13:49:15,0.018s,PASSED
+"verifyElementVisible(findTestObject(""UI/Employee/Report Manager/Report Types/th_Report Table_Header_Report Range""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:15,2019-01-22 13:49:15,0.028s,PASSED
+"verifyElementText(findTestObject(""UI/Employee/Report Manager/Report Types/th_Report Table_Header_Report Range""), ""Report Range"", CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:15,2019-01-22 13:49:15,0.033s,PASSED
+"verifyElementPresent(findTestObject(""UI/Employee/Report Manager/Report Types/th_Report Table_Header_Schedule Dates""), 5, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:15,2019-01-22 13:49:15,0.018s,PASSED
+"verifyElementVisible(findTestObject(""UI/Employee/Report Manager/Report Types/th_Report Table_Header_Schedule Dates""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:15,2019-01-22 13:49:15,0.029s,PASSED
+"verifyElementText(findTestObject(""UI/Employee/Report Manager/Report Types/th_Report Table_Header_Schedule Dates""), ""Schedule Dates"", CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:15,2019-01-22 13:49:15,0.035s,PASSED
+"verifyElementPresent(findTestObject(""UI/Employee/Report Manager/Report Types/th_Report Table_Header_Mass Distributed""), 5, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:15,2019-01-22 13:49:15,0.018s,PASSED
+"verifyElementVisible(findTestObject(""UI/Employee/Report Manager/Report Types/th_Report Table_Header_Mass Distributed""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:15,2019-01-22 13:49:15,0.028s,PASSED
+"verifyElementText(findTestObject(""UI/Employee/Report Manager/Report Types/th_Report Table_Header_Mass Distributed""), ""Mass Distributed"", CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:15,2019-01-22 13:49:15,0.032s,PASSED
+"verifyElementPresent(findTestObject(""UI/Employee/Report Manager/Report Types/th_Report Table_Header_Client Wide""), 5, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:15,2019-01-22 13:49:15,0.018s,PASSED
+"verifyElementVisible(findTestObject(""UI/Employee/Report Manager/Report Types/th_Report Table_Header_Client Wide""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:15,2019-01-22 13:49:15,0.028s,PASSED
+"verifyElementText(findTestObject(""UI/Employee/Report Manager/Report Types/th_Report Table_Header_Client Wide""), ""Client Wide"", CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:15,2019-01-22 13:49:15,0.032s,PASSED
+"verifyElementPresent(findTestObject(""UI/Employee/Report Manager/Report Types/th_Report Table_Header_Scope""), 5, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:15,2019-01-22 13:49:15,0.019s,PASSED
+"verifyElementVisible(findTestObject(""UI/Employee/Report Manager/Report Types/th_Report Table_Header_Scope""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:15,2019-01-22 13:49:15,0.028s,PASSED
+"verifyElementText(findTestObject(""UI/Employee/Report Manager/Report Types/th_Report Table_Header_Scope""), ""Scope"", CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:15,2019-01-22 13:49:15,0.028s,PASSED
+"verifyElementPresent(findTestObject(""UI/Employee/Report Manager/Report Types/th_Report Table_ Header_Query Table""), 5, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:15,2019-01-22 13:49:15,0.017s,PASSED
+"verifyElementVisible(findTestObject(""UI/Employee/Report Manager/Report Types/th_Report Table_ Header_Query Table""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:15,2019-01-22 13:49:15,0.028s,PASSED
+"verifyElementText(findTestObject(""UI/Employee/Report Manager/Report Types/th_Report Table_ Header_Query Table""), ""Query Table"", CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:15,2019-01-22 13:49:15,0.028s,PASSED
+"click(findTestObject(""UI/Employee/Report Manager/Report Types/a_Create New_button""))",Chrome 71.0.3578.98,,2019-01-22 13:49:15,2019-01-22 13:49:16,0.316s,PASSED
+"verifyElementPresent(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/label_Report Name""), 5)",Chrome 71.0.3578.98,,2019-01-22 13:49:16,2019-01-22 13:49:16,0.031s,PASSED
+"verifyElementVisible(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/label_Report Name""), STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:16,2019-01-22 13:49:16,0.029s,PASSED
+"verifyElementText(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/label_Report Name""), ""Report Name"", CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:16,2019-01-22 13:49:16,0.030s,PASSED
+"verifyElementPresent(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/input_Report Name""), 5)",Chrome 71.0.3578.98,,2019-01-22 13:49:16,2019-01-22 13:49:16,0.016s,PASSED
+"verifyElementVisible(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/input_Report Name""), STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:16,2019-01-22 13:49:16,0.026s,PASSED
+"waitForElementPresent(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/span_Edit Form Title""), 5)",Chrome 71.0.3578.98,,2019-01-22 13:49:16,2019-01-22 13:49:16,0.018s,PASSED
+"waitForElementVisible(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/span_Edit Form Title""), 5)",Chrome 71.0.3578.98,,2019-01-22 13:49:16,2019-01-22 13:49:16,0.026s,PASSED
+"verifyElementText(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/span_Edit Form Title""), ""Edit Form"", CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:16,2019-01-22 13:49:16,0.028s,PASSED
+"verifyElementPresent(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/label_File Area Tag""), 5, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:16,2019-01-22 13:49:16,0.019s,PASSED
+"verifyElementVisible(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/label_File Area Tag""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:16,2019-01-22 13:49:16,0.027s,PASSED
+"verifyElementText(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/label_File Area Tag""), ""File Area Tag"", CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:16,2019-01-22 13:49:16,0.031s,PASSED
+"verifyElementPresent(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/select_File Area Tag dropdown""), 5, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:16,2019-01-22 13:49:16,0.018s,PASSED
+"verifyElementVisible(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/select_File Area Tag dropdown""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:16,2019-01-22 13:49:16,0.028s,PASSED
+"verifyElementPresent(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/label_Active""), 5, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:16,2019-01-22 13:49:16,0.018s,PASSED
+"verifyElementVisible(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/label_Active""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:16,2019-01-22 13:49:16,0.027s,PASSED
+"verifyElementText(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/label_Active""), ""Active"", CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:16,2019-01-22 13:49:16,0.028s,PASSED
+"verifyElementPresent(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/span_Active_switch""), 5, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:16,2019-01-22 13:49:16,0.018s,PASSED
+"verifyElementVisible(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/span_Active_switch""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:16,2019-01-22 13:49:16,0.030s,PASSED
+"verifyElementPresent(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/label_Has PHI""), 5, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:16,2019-01-22 13:49:16,0.017s,PASSED
+"verifyElementVisible(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/label_Has PHI""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:16,2019-01-22 13:49:16,0.029s,PASSED
+"verifyElementText(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/label_Has PHI""), ""Has PHI"", CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:16,2019-01-22 13:49:16,0.026s,PASSED
+"verifyElementPresent(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/span_Has PHI_switch""), 5, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:16,2019-01-22 13:49:16,0.020s,PASSED
+"verifyElementVisible(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/span_Has PHI_switch""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:16,2019-01-22 13:49:16,0.025s,PASSED
+"verifyElementPresent(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/label_Use Query Central""), 5, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:16,2019-01-22 13:49:16,0.016s,PASSED
+"verifyElementVisible(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/label_Use Query Central""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:16,2019-01-22 13:49:16,0.026s,PASSED
+"verifyElementText(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/label_Use Query Central""), ""Use Query Central"", CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:16,2019-01-22 13:49:16,0.028s,PASSED
+"verifyElementPresent(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/span_Use Query Central_switch""), 5, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:16,2019-01-22 13:49:16,0.018s,PASSED
+"verifyElementVisible(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/span_Use Query Central_switch""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:16,2019-01-22 13:49:16,0.025s,PASSED
+"verifyElementPresent(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/label_Client-Wide Report""), 5, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:16,2019-01-22 13:49:16,0.016s,PASSED
+"verifyElementVisible(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/label_Client-Wide Report""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:16,2019-01-22 13:49:16,0.026s,PASSED
+"verifyElementText(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/label_Client-Wide Report""), ""Client-Wide Report"", CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:16,2019-01-22 13:49:16,0.027s,PASSED
+"verifyElementPresent(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/span_Client-Wide Report_switch""), 5, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:16,2019-01-22 13:49:16,0.016s,PASSED
+"verifyElementVisible(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/span_Client-Wide Report_switch""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:16,2019-01-22 13:49:16,0.027s,PASSED
+"verifyElementPresent(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/label_DB Table to Query""), 5, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:16,2019-01-22 13:49:16,0.017s,PASSED
+"verifyElementVisible(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/label_DB Table to Query""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:16,2019-01-22 13:49:16,0.026s,PASSED
+"verifyElementText(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/label_DB Table to Query""), ""DB Table to Query"", CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:16,2019-01-22 13:49:16,0.026s,PASSED
+"verifyElementPresent(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/select_DB Table to Query dropdown""), 5, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:16,2019-01-22 13:49:16,0.017s,PASSED
+"verifyElementVisible(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/select_DB Table to Query dropdown""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:16,2019-01-22 13:49:16,0.024s,PASSED
+"verifyElementPresent(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/label_Query Central report query""), 5, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:16,2019-01-22 13:49:17,0.019s,PASSED
+"verifyElementVisible(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/label_Query Central report query""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:17,2019-01-22 13:49:17,0.025s,PASSED
+"verifyElementText(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/label_Query Central report query""), ""Query Central report query"", CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:17,2019-01-22 13:49:17,0.028s,PASSED
+"verifyElementPresent(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/select_Query Central report query dropdown""), 5, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:17,2019-01-22 13:49:17,0.017s,PASSED
+"verifyElementVisible(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/select_Query Central report query dropdown""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:17,2019-01-22 13:49:17,0.025s,PASSED
+"verifyElementPresent(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/label_Range""), 5, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:17,2019-01-22 13:49:17,0.017s,PASSED
+"verifyElementVisible(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/label_Range""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:17,2019-01-22 13:49:17,0.027s,PASSED
+"verifyElementText(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/label_Range""), ""Range"", CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:17,2019-01-22 13:49:17,0.024s,PASSED
+"verifyElementPresent(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/select_Range dropdown""), 5, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:17,2019-01-22 13:49:17,0.017s,PASSED
+"verifyElementVisible(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/select_Range dropdown""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:17,2019-01-22 13:49:17,0.026s,PASSED
+"verifyElementPresent(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/label_Schedule Dates""), 5, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:17,2019-01-22 13:49:17,0.016s,PASSED
+"verifyElementVisible(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/label_Schedule Dates""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:17,2019-01-22 13:49:17,0.025s,PASSED
+"verifyElementText(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/label_Schedule Dates""), ""Schedule Dates"", CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:17,2019-01-22 13:49:17,0.028s,PASSED
+"verifyElementPresent(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/i_Schedule dates tip label""), 5, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:17,2019-01-22 13:49:17,0.016s,PASSED
+"verifyElementVisible(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/i_Schedule dates tip label""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:17,2019-01-22 13:49:17,0.026s,PASSED
+"verifyElementText(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/i_Schedule dates tip label""), ""Comma separated dates or days of the week. Example: Mon,15,daily"", CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:17,2019-01-22 13:49:17,0.027s,PASSED
+"verifyElementPresent(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/input_Schedule dates textbox""), 5, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:17,2019-01-22 13:49:17,0.016s,PASSED
+"verifyElementVisible(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/input_Schedule dates textbox""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:17,2019-01-22 13:49:17,0.025s,PASSED
+"verifyElementPresent(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/label_Scope""), 5, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:17,2019-01-22 13:49:17,0.015s,PASSED
+"verifyElementVisible(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/label_Scope""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:17,2019-01-22 13:49:17,0.025s,PASSED
+"verifyElementText(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/label_Scope""), ""Scope"", CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:17,2019-01-22 13:49:17,0.027s,PASSED
+"verifyElementPresent(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/i_Scope tip label""), 5, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:17,2019-01-22 13:49:17,0.016s,PASSED
+"verifyElementVisible(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/i_Scope tip label""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:17,2019-01-22 13:49:17,0.024s,PASSED
+"verifyElementText(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/i_Scope tip label""), ""RBR and MBR scope only affects reports based on Excel templates"", CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:17,2019-01-22 13:49:17,0.026s,PASSED
+"verifyElementPresent(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/select_Scope dropdown""), 5, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:17,2019-01-22 13:49:17,0.016s,PASSED
+"verifyElementVisible(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/select_Scope dropdown""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:17,2019-01-22 13:49:17,0.025s,PASSED
+"verifyElementPresent(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/label_Filters""), 5, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:17,2019-01-22 13:49:17,0.019s,PASSED
+"verifyElementVisible(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/label_Filters""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:17,2019-01-22 13:49:17,0.023s,PASSED
+"verifyElementText(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/label_Filters""), ""Filters"", CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:17,2019-01-22 13:49:17,0.028s,PASSED
+"verifyElementPresent(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/textarea_Filters input""), 5, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:17,2019-01-22 13:49:17,0.016s,PASSED
+"verifyElementVisible(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/textarea_Filters input""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:17,2019-01-22 13:49:17,0.026s,PASSED
+"verifyElementPresent(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/label_Current Report Template""), 5, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:17,2019-01-22 13:49:17,0.016s,PASSED
+"verifyElementVisible(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/label_Current Report Template""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:17,2019-01-22 13:49:17,0.025s,PASSED
+"verifyElementText(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/label_Current Report Template""), ""Current Report Template (Excel file, with columns defined on Data tab)"", CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:17,2019-01-22 13:49:17,0.025s,PASSED
+"verifyElementPresent(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/label_Upload Report Template""), 5, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:17,2019-01-22 13:49:17,0.016s,PASSED
+"verifyElementVisible(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/label_Upload Report Template""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:17,2019-01-22 13:49:17,0.027s,PASSED
+"verifyElementText(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/label_Upload Report Template""), ""Upload Report Template"", CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:17,2019-01-22 13:49:17,0.027s,PASSED
+"verifyElementPresent(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/i_Upload Report Template tip label""), 5, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:17,2019-01-22 13:49:17,0.017s,PASSED
+"verifyElementVisible(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/i_Upload Report Template tip label""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:17,2019-01-22 13:49:17,0.026s,PASSED
+"verifyElementText(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/i_Upload Report Template tip label""), ""Please include a tab named Data with headers that correspond to columns you would like the report to populate. To include dynamic dates, use placeholders enclosed in double curly brackets anywhere in the report: {{today}} {{yesterday}} {{to}} {{from}}"", CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:17,2019-01-22 13:49:17,0.027s,PASSED
+"verifyElementPresent(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/input_choose file button""), 5, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:17,2019-01-22 13:49:17,0.016s,PASSED
+"verifyElementVisible(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/input_choose file button""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:17,2019-01-22 13:49:17,0.024s,PASSED
+"verifyElementPresent(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/button_Save""), 5, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:17,2019-01-22 13:49:17,0.016s,PASSED
+"verifyElementVisible(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/button_Save""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:17,2019-01-22 13:49:17,0.023s,PASSED
+"verifyElementPresent(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/a_Cancel""), 5, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:17,2019-01-22 13:49:17,0.017s,PASSED
+"verifyElementVisible(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/a_Cancel""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:17,2019-01-22 13:49:18,0.025s,PASSED
+"verifyElementPresent(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/a_Enable Mass Distribution""), 5, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:18,2019-01-22 13:49:18,0.019s,PASSED
+"verifyElementVisible(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/a_Enable Mass Distribution""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:18,2019-01-22 13:49:18,0.026s,PASSED
+"verifyElementPresent(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/span_Report-On-Demand""), 5, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:18,2019-01-22 13:49:18,0.016s,PASSED
+"verifyElementVisible(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/span_Report-On-Demand""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:18,2019-01-22 13:49:18,0.025s,PASSED
+"verifyElementText(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/span_Report-On-Demand""), ""Report-On-Demand"", CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:18,2019-01-22 13:49:18,0.026s,PASSED
+"verifyElementPresent(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/div_Create On-Demand Report""), 5, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:18,2019-01-22 13:49:18,0.016s,PASSED
+"verifyElementVisible(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/div_Create On-Demand Report""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:18,2019-01-22 13:49:18,0.024s,PASSED
+"verifyElementText(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/div_Create On-Demand Report""), ""Create On-Demand Report for:   "", CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:18,2019-01-22 13:49:18,0.027s,PASSED
+"verifyElementPresent(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/select_Create On-Deman report dropdown""), 5, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:18,2019-01-22 13:49:18,0.017s,PASSED
+"verifyElementVisible(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/select_Create On-Deman report dropdown""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:18,2019-01-22 13:49:18,0.023s,PASSED
+"verifyElementPresent(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/button_Create and Download""), 5, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:18,2019-01-22 13:49:18,0.015s,PASSED
+"verifyElementVisible(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/button_Create and Download""), CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:18,2019-01-22 13:49:18,0.025s,PASSED
+"click(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/a_Cancel""))",Chrome 71.0.3578.98,,2019-01-22 13:49:18,2019-01-22 13:49:18,0.103s,PASSED
+,,,,,,
+Test Cases/UI/Employee/Report Manager/Report Types/Report Types - Create new report,Chrome 71.0.3578.98,,2019-01-22 13:49:18,2019-01-22 13:49:21,3.095s,PASSED
+"click(findTestObject(""UI/Employee/Report Manager/span_Report Management Menu""))",Chrome 71.0.3578.98,,2019-01-22 13:49:18,2019-01-22 13:49:18,0.059s,PASSED
+"click(findTestObject(""UI/Employee/Report Manager/span_Report Types Sub Menu""))",Chrome 71.0.3578.98,,2019-01-22 13:49:18,2019-01-22 13:49:18,0.071s,PASSED
+"waitForElementPresent(findTestObject(""UI/Employee/Report Manager/Report Types/h1_Report Types Title""), 5)",Chrome 71.0.3578.98,,2019-01-22 13:49:18,2019-01-22 13:49:18,0.014s,PASSED
+"waitForElementVisible(findTestObject(""UI/Employee/Report Manager/Report Types/h1_Report Types Title""), 5)",Chrome 71.0.3578.98,,2019-01-22 13:49:18,2019-01-22 13:49:18,0.029s,PASSED
+"click(findTestObject(""UI/Employee/Report Manager/Report Types/a_Create New_button""))",Chrome 71.0.3578.98,,2019-01-22 13:49:18,2019-01-22 13:49:19,0.341s,PASSED
+"waitForElementPresent(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/span_Edit Form Title""), 5)",Chrome 71.0.3578.98,,2019-01-22 13:49:19,2019-01-22 13:49:19,0.012s,PASSED
+"waitForElementVisible(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/span_Edit Form Title""), 5)",Chrome 71.0.3578.98,,2019-01-22 13:49:19,2019-01-22 13:49:19,0.023s,PASSED
+"sendKeys(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/input_Report Name""), reportName)",Chrome 71.0.3578.98,,2019-01-22 13:49:19,2019-01-22 13:49:19,0.130s,PASSED
+"selectOptionByIndex(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/select_File Area Tag dropdown""), 1, STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:19,2019-01-22 13:49:19,0.126s,PASSED
+"scrollToElement(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/button_Save""), 0)",Chrome 71.0.3578.98,,2019-01-22 13:49:19,2019-01-22 13:49:19,0.025s,PASSED
+"click(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/button_Save""))",Chrome 71.0.3578.98,,2019-01-22 13:49:19,2019-01-22 13:49:19,0.080s,PASSED
+"waitForElementPresent(findTestObject(""UI/Employee/Report Manager/Report Types/a_Create New_button""), 5)",Chrome 71.0.3578.98,,2019-01-22 13:49:19,2019-01-22 13:49:20,0.564s,PASSED
+"waitForElementVisible(findTestObject(""UI/Employee/Report Manager/Report Types/a_Create New_button""), 5)",Chrome 71.0.3578.98,,2019-01-22 13:49:20,2019-01-22 13:49:20,0.025s,PASSED
+driver = getWebDriver(),Chrome 71.0.3578.98,,2019-01-22 13:49:20,2019-01-22 13:49:20,0.006s,PASSED
+tableElement = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 71.0.3578.98,,2019-01-22 13:49:20,2019-01-22 13:49:20,0.000s,PASSED
+while (true),Chrome 71.0.3578.98,,2019-01-22 13:49:20,2019-01-22 13:49:21,1.414s,PASSED
+,,,,,,
+Test Cases/UI/Employee/Report Manager/Report Types/Report Types - Edit report,Chrome 71.0.3578.98,,2019-01-22 13:49:21,2019-01-22 13:49:30,9.443s,PASSED
+"click(findTestObject(""UI/Employee/Report Manager/span_Report Management Menu""))",Chrome 71.0.3578.98,,2019-01-22 13:49:21,2019-01-22 13:49:21,0.050s,PASSED
+"click(findTestObject(""UI/Employee/Report Manager/span_Report Types Sub Menu""))",Chrome 71.0.3578.98,,2019-01-22 13:49:21,2019-01-22 13:49:21,0.065s,PASSED
+"waitForElementPresent(findTestObject(""UI/Employee/Report Manager/Report Types/h1_Report Types Title""), 5)",Chrome 71.0.3578.98,,2019-01-22 13:49:21,2019-01-22 13:49:21,0.015s,PASSED
+"waitForElementVisible(findTestObject(""UI/Employee/Report Manager/Report Types/h1_Report Types Title""), 5)",Chrome 71.0.3578.98,,2019-01-22 13:49:21,2019-01-22 13:49:21,0.026s,PASSED
+driver = getWebDriver(),Chrome 71.0.3578.98,,2019-01-22 13:49:21,2019-01-22 13:49:21,0.000s,PASSED
+tableElement = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 71.0.3578.98,,2019-01-22 13:49:21,2019-01-22 13:49:21,0.000s,PASSED
+editButton = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 71.0.3578.98,,2019-01-22 13:49:21,2019-01-22 13:49:21,0.001s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-22 13:49:21,2019-01-22 13:49:23,2.018s,PASSED
+while (true),Chrome 71.0.3578.98,,2019-01-22 13:49:23,2019-01-22 13:49:24,0.347s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-22 13:49:24,2019-01-22 13:49:26,2.001s,PASSED
+editButton.click(),Chrome 71.0.3578.98,,2019-01-22 13:49:26,2019-01-22 13:49:26,0.390s,PASSED
+"waitForElementPresent(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/span_Edit Form Title""), 5)",Chrome 71.0.3578.98,,2019-01-22 13:49:26,2019-01-22 13:49:26,0.013s,PASSED
+"waitForElementVisible(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/span_Edit Form Title""), 5)",Chrome 71.0.3578.98,,2019-01-22 13:49:26,2019-01-22 13:49:26,0.027s,PASSED
+"clearText(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/input_Report Name""))",Chrome 71.0.3578.98,,2019-01-22 13:49:26,2019-01-22 13:49:26,0.062s,PASSED
+"sendKeys(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/input_Report Name""), editedReportName)",Chrome 71.0.3578.98,,2019-01-22 13:49:26,2019-01-22 13:49:26,0.152s,PASSED
+"selectOptionByIndex(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/select_File Area Tag dropdown""), 1, STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 13:49:26,2019-01-22 13:49:26,0.073s,PASSED
+"scrollToElement(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/button_Save""), 0)",Chrome 71.0.3578.98,,2019-01-22 13:49:26,2019-01-22 13:49:26,0.019s,PASSED
+"click(findTestObject(""UI/Employee/Report Manager/Report Types/Create and Edit report/button_Save""))",Chrome 71.0.3578.98,,2019-01-22 13:49:26,2019-01-22 13:49:26,0.083s,PASSED
+"waitForElementPresent(findTestObject(""UI/Employee/Report Manager/Report Types/a_Create New_button""), 5)",Chrome 71.0.3578.98,,2019-01-22 13:49:26,2019-01-22 13:49:27,0.592s,PASSED
+"waitForElementVisible(findTestObject(""UI/Employee/Report Manager/Report Types/a_Create New_button""), 5)",Chrome 71.0.3578.98,,2019-01-22 13:49:27,2019-01-22 13:49:27,0.026s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-22 13:49:27,2019-01-22 13:49:29,2.001s,PASSED
+while (true),Chrome 71.0.3578.98,,2019-01-22 13:49:29,2019-01-22 13:49:30,1.323s,PASSED
+,,,,,,
+Test Cases/UI/Employee/Report Manager/Report Types/Report Types - Delete report,Chrome 71.0.3578.98,,2019-01-22 13:49:30,2019-01-22 13:49:39,9.052s,PASSED
+"click(findTestObject(""UI/Employee/Report Manager/span_Report Management Menu""))",Chrome 71.0.3578.98,,2019-01-22 13:49:31,2019-01-22 13:49:31,0.049s,PASSED
+"click(findTestObject(""UI/Employee/Report Manager/span_Report Types Sub Menu""))",Chrome 71.0.3578.98,,2019-01-22 13:49:31,2019-01-22 13:49:31,0.056s,PASSED
+"waitForElementPresent(findTestObject(""UI/Employee/Report Manager/Report Types/h1_Report Types Title""), 5)",Chrome 71.0.3578.98,,2019-01-22 13:49:31,2019-01-22 13:49:31,0.015s,PASSED
+"waitForElementVisible(findTestObject(""UI/Employee/Report Manager/Report Types/h1_Report Types Title""), 5)",Chrome 71.0.3578.98,,2019-01-22 13:49:31,2019-01-22 13:49:31,0.027s,PASSED
+"waitForElementPresent(findTestObject(""UI/Employee/Report Manager/Report Types/a_Create New_button""), 5)",Chrome 71.0.3578.98,,2019-01-22 13:49:31,2019-01-22 13:49:31,0.012s,PASSED
+"waitForElementVisible(findTestObject(""UI/Employee/Report Manager/Report Types/a_Create New_button""), 5)",Chrome 71.0.3578.98,,2019-01-22 13:49:31,2019-01-22 13:49:31,0.026s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-22 13:49:31,2019-01-22 13:49:33,2.000s,PASSED
+driver = getWebDriver(),Chrome 71.0.3578.98,,2019-01-22 13:49:33,2019-01-22 13:49:33,0.000s,PASSED
+tableElement = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 71.0.3578.98,,2019-01-22 13:49:33,2019-01-22 13:49:33,0.001s,PASSED
+deleteButton = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 71.0.3578.98,,2019-01-22 13:49:33,2019-01-22 13:49:33,0.000s,PASSED
+while (true),Chrome 71.0.3578.98,,2019-01-22 13:49:33,2019-01-22 13:49:33,0.184s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-22 13:49:33,2019-01-22 13:49:35,2.001s,PASSED
+deleteButton.click(),Chrome 71.0.3578.98,,2019-01-22 13:49:35,2019-01-22 13:49:35,0.111s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-22 13:49:35,2019-01-22 13:49:37,2.001s,PASSED
+"click(findTestObject(""UI/Employee/Report Manager/Report Types/button_delete warning message_Yes Button""))",Chrome 71.0.3578.98,,2019-01-22 13:49:37,2019-01-22 13:49:37,0.159s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-22 13:49:37,2019-01-22 13:49:39,2.001s,PASSED
+"waitForElementPresent(findTestObject(""UI/Employee/Report Manager/Report Types/h_Report Deleted Tittle""), 5)",Chrome 71.0.3578.98,,2019-01-22 13:49:39,2019-01-22 13:49:39,0.049s,PASSED
+"waitForElementVisible(findTestObject(""UI/Employee/Report Manager/Report Types/h_Report Deleted Tittle""), 5)",Chrome 71.0.3578.98,,2019-01-22 13:49:39,2019-01-22 13:49:39,0.035s,PASSED
+"verifyElementText(findTestObject(""UI/Employee/Report Manager/Report Types/h_Report Deleted Tittle""), ""Report Deleted"")",Chrome 71.0.3578.98,,2019-01-22 13:49:39,2019-01-22 13:49:39,0.041s,PASSED
+"click(findTestObject(""UI/Employee/Report Manager/Report Types/button_delete warning message_Yes Button""))",Chrome 71.0.3578.98,,2019-01-22 13:49:39,2019-01-22 13:49:39,0.109s,PASSED

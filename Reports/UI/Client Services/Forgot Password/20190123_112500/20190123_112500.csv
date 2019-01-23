@@ -1,0 +1,50 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Forgot Password,Chrome 71.0.3578.98,,2019-01-23 11:25:51,2019-01-23 11:25:59,8.261s,PASSED
+,,,,,,
+Test Cases/UI/General/openBrowser,Chrome 71.0.3578.98,,2019-01-23 11:25:51,2019-01-23 11:25:57,6.197s,PASSED
+"openBrowser(""https://uat.advancedpricing.com/login"")",Chrome 71.0.3578.98,,2019-01-23 11:25:51,2019-01-23 11:25:55,4.427s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-23 11:25:55,2019-01-23 11:25:57,1.160s,PASSED
+"waitForElementPresent(findTestObject(""UI/Client/Client Services/ForgotPassword/a_ForgotPassword""), 5)",Chrome 71.0.3578.98,,2019-01-23 11:25:57,2019-01-23 11:25:57,0.074s,PASSED
+"waitForElementVisible(findTestObject(""UI/Client/Client Services/ForgotPassword/a_ForgotPassword""), 5)",Chrome 71.0.3578.98,,2019-01-23 11:25:57,2019-01-23 11:25:57,0.045s,PASSED
+"waitForElementPresent(findTestObject(""UI/General/Page_LoginPage/button_Login""), 5)",Chrome 71.0.3578.98,,2019-01-23 11:25:57,2019-01-23 11:25:57,0.019s,PASSED
+"waitForElementVisible(findTestObject(""UI/General/Page_LoginPage/button_Login""), 5)",Chrome 71.0.3578.98,,2019-01-23 11:25:57,2019-01-23 11:25:57,0.027s,PASSED
+"waitForElementPresent(findTestObject(""UI/General/Page_LoginPage/input_Password""), 5)",Chrome 71.0.3578.98,,2019-01-23 11:25:57,2019-01-23 11:25:57,0.019s,PASSED
+"waitForElementVisible(findTestObject(""UI/General/Page_LoginPage/input_Password""), 5)",Chrome 71.0.3578.98,,2019-01-23 11:25:57,2019-01-23 11:25:57,0.025s,PASSED
+"waitForElementPresent(findTestObject(""UI/General/Page_LoginPage/input_User""), 5)",Chrome 71.0.3578.98,,2019-01-23 11:25:57,2019-01-23 11:25:57,0.020s,PASSED
+"waitForElementVisible(findTestObject(""UI/General/Page_LoginPage/input_User""), 5)",Chrome 71.0.3578.98,,2019-01-23 11:25:57,2019-01-23 11:25:57,0.023s,PASSED
+,,,,,,
+Test Cases/UI/Employee/Client Services/Forgot Password/Forgot password - page fields validation,Chrome 71.0.3578.98,,2019-01-23 11:25:57,2019-01-23 11:25:58,0.782s,PASSED
+"click(findTestObject(""UI/Employee/Client Services/ForgotPassword/a_ForgotPassword""))",Chrome 71.0.3578.98,,2019-01-23 11:25:57,2019-01-23 11:25:57,0.395s,PASSED
+"waitForElementPresent(findTestObject(""UI/Employee/Client Services/ForgotPassword/div_Forgot Password Title""), 5)",Chrome 71.0.3578.98,,2019-01-23 11:25:57,2019-01-23 11:25:57,0.027s,PASSED
+"waitForElementVisible(findTestObject(""UI/Employee/Client Services/ForgotPassword/div_Forgot Password Title""), 5)",Chrome 71.0.3578.98,,2019-01-23 11:25:57,2019-01-23 11:25:57,0.028s,PASSED
+"waitForElementPresent(findTestObject(""UI/Employee/Client Services/ForgotPassword/input_ForgotPassword_Code TextBox""), 5)",Chrome 71.0.3578.98,,2019-01-23 11:25:57,2019-01-23 11:25:57,0.021s,PASSED
+"waitForElementVisible(findTestObject(""UI/Employee/Client Services/ForgotPassword/input_ForgotPassword_Code TextBox""), 5)",Chrome 71.0.3578.98,,2019-01-23 11:25:57,2019-01-23 11:25:57,0.025s,PASSED
+"waitForElementPresent(findTestObject(""UI/Employee/Client Services/ForgotPassword/input_ForgotPassword_Submit Button""), 5)",Chrome 71.0.3578.98,,2019-01-23 11:25:57,2019-01-23 11:25:58,0.019s,PASSED
+"waitForElementVisible(findTestObject(""UI/Employee/Client Services/ForgotPassword/input_ForgotPassword_Submit Button""), 5)",Chrome 71.0.3578.98,,2019-01-23 11:25:58,2019-01-23 11:25:58,0.026s,PASSED
+"actualTitle = getText(findTestObject(""UI/Employee/Client Services/ForgotPassword/div_Forgot Password Title""))",Chrome 71.0.3578.98,,2019-01-23 11:25:58,2019-01-23 11:25:58,0.040s,PASSED
+"verifyEqual(actualTitle, expectedTitle)",Chrome 71.0.3578.98,,2019-01-23 11:25:58,2019-01-23 11:25:58,0.017s,PASSED
+,,,,,,
+Test Cases/UI/Employee/Client Services/Forgot Password/Forgot password - No code and click submit,Chrome 71.0.3578.98,,2019-01-23 11:25:58,2019-01-23 11:25:58,0.179s,PASSED
+"click(findTestObject(""UI/Employee/Client Services/ForgotPassword/a_ForgotPassword""))",Chrome 71.0.3578.98,,2019-01-23 11:25:58,2019-01-23 11:25:58,0.003s,NOT_RUN
+"waitForElementPresent(findTestObject(""UI/Employee/Client Services/ForgotPassword/div_Forgot Password Title""), 5)",Chrome 71.0.3578.98,,2019-01-23 11:25:58,2019-01-23 11:25:58,0.002s,NOT_RUN
+"waitForElementVisible(findTestObject(""UI/Employee/Client Services/ForgotPassword/div_Forgot Password Title""), 5)",Chrome 71.0.3578.98,,2019-01-23 11:25:58,2019-01-23 11:25:58,0.001s,NOT_RUN
+"waitForElementPresent(findTestObject(""UI/Employee/Client Services/ForgotPassword/input_ForgotPassword_Code TextBox""), 5)",Chrome 71.0.3578.98,,2019-01-23 11:25:58,2019-01-23 11:25:58,0.000s,NOT_RUN
+"waitForElementVisible(findTestObject(""UI/Employee/Client Services/ForgotPassword/input_ForgotPassword_Code TextBox""), 5)",Chrome 71.0.3578.98,,2019-01-23 11:25:58,2019-01-23 11:25:58,0.001s,NOT_RUN
+"waitForElementPresent(findTestObject(""UI/Employee/Client Services/ForgotPassword/input_ForgotPassword_Submit Button""), 5)",Chrome 71.0.3578.98,,2019-01-23 11:25:58,2019-01-23 11:25:58,0.001s,NOT_RUN
+"waitForElementVisible(findTestObject(""UI/Employee/Client Services/ForgotPassword/input_ForgotPassword_Submit Button""), 5)",Chrome 71.0.3578.98,,2019-01-23 11:25:58,2019-01-23 11:25:58,0.001s,NOT_RUN
+"click(findTestObject(""UI/Employee/Client Services/ForgotPassword/input_ForgotPassword_Submit Button""))",Chrome 71.0.3578.98,,2019-01-23 11:25:58,2019-01-23 11:25:58,0.063s,PASSED
+,,,,,,
+Test Cases/UI/Employee/Client Services/Forgot Password/Forgot password - Incorrect code and clicks submit,Chrome 71.0.3578.98,,2019-01-23 11:25:58,2019-01-23 11:25:58,0.370s,PASSED
+"click(findTestObject(""UI/Employee/Client Services/ForgotPassword/a_ForgotPassword""))",Chrome 71.0.3578.98,,2019-01-23 11:25:58,2019-01-23 11:25:58,0.001s,NOT_RUN
+"waitForElementPresent(findTestObject(""UI/Employee/Client Services/ForgotPassword/div_Forgot Password Title""), 5)",Chrome 71.0.3578.98,,2019-01-23 11:25:58,2019-01-23 11:25:58,0.000s,NOT_RUN
+"waitForElementVisible(findTestObject(""UI/Employee/Client Services/ForgotPassword/div_Forgot Password Title""), 5)",Chrome 71.0.3578.98,,2019-01-23 11:25:58,2019-01-23 11:25:58,0.000s,NOT_RUN
+"waitForElementPresent(findTestObject(""UI/Employee/Client Services/ForgotPassword/input_ForgotPassword_Code TextBox""), 5)",Chrome 71.0.3578.98,,2019-01-23 11:25:58,2019-01-23 11:25:58,0.001s,NOT_RUN
+"waitForElementVisible(findTestObject(""UI/Employee/Client Services/ForgotPassword/input_ForgotPassword_Code TextBox""), 5)",Chrome 71.0.3578.98,,2019-01-23 11:25:58,2019-01-23 11:25:58,0.000s,NOT_RUN
+"waitForElementPresent(findTestObject(""UI/Employee/Client Services/ForgotPassword/input_ForgotPassword_Submit Button""), 5)",Chrome 71.0.3578.98,,2019-01-23 11:25:58,2019-01-23 11:25:58,0.000s,NOT_RUN
+"waitForElementVisible(findTestObject(""UI/Employee/Client Services/ForgotPassword/input_ForgotPassword_Submit Button""), 5)",Chrome 71.0.3578.98,,2019-01-23 11:25:58,2019-01-23 11:25:58,0.000s,NOT_RUN
+"sendKeys(findTestObject(""UI/Employee/Client Services/ForgotPassword/input_ForgotPassword_Code TextBox""), ""test"")",Chrome 71.0.3578.98,,2019-01-23 11:25:58,2019-01-23 11:25:58,0.066s,PASSED
+"click(findTestObject(""UI/Employee/Client Services/ForgotPassword/input_ForgotPassword_Submit Button""))",Chrome 71.0.3578.98,,2019-01-23 11:25:58,2019-01-23 11:25:58,0.067s,PASSED
+"waitForElementPresent(findTestObject(""UI/Employee/Client Services/ForgotPassword/div_Forgot Password Title""), 5)",Chrome 71.0.3578.98,,2019-01-23 11:25:58,2019-01-23 11:25:58,0.012s,PASSED
+"waitForElementVisible(findTestObject(""UI/Employee/Client Services/ForgotPassword/div_Forgot Password Title""), 5)",Chrome 71.0.3578.98,,2019-01-23 11:25:58,2019-01-23 11:25:58,0.020s,PASSED
+"verifyElementPresent(findTestObject(""UI/Employee/Client Services/ForgotPassword/input_ForgotPassword_Code TextBox""), 5)",Chrome 71.0.3578.98,,2019-01-23 11:25:58,2019-01-23 11:25:58,0.020s,PASSED
+"verifyElementPresent(findTestObject(""UI/Employee/Client Services/ForgotPassword/input_ForgotPassword_Submit Button""), 5)",Chrome 71.0.3578.98,,2019-01-23 11:25:58,2019-01-23 11:25:58,0.037s,PASSED

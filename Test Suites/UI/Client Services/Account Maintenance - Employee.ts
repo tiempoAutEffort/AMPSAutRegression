@@ -35,6 +35,12 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
+      <guid>70fbf5b8-7243-4645-a4f2-155b908157ee</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/UI/Employee/Client Services/Account Maintenance/Account - Fields and buttons validation</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>1505acff-2011-4a80-8234-25ce510bd918</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -43,44 +49,38 @@
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>edaab091-cf2e-4394-8a2b-081db5b8e16d</variableId>
+         <variableId>f9bb0fe3-2594-4ad0-88c9-a742673123d1</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>4c3a8e24-36ea-4941-bde1-3c31f71da11e</variableId>
+         <variableId>9a0b18be-a020-4521-bd54-2519e50c7135</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>b0b90f6b-d15b-4dd2-9581-dd71c12784df</variableId>
+         <variableId>3d5d7513-2776-490e-badf-79ea1921f959</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>dcab0bed-a2ad-40c0-a9a8-cbddacc9eb11</variableId>
+         <variableId>f88c6f10-e158-47e6-af21-29eb685b0a7a</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>52b380c5-5eca-4e45-b2bd-333bacb85b5e</variableId>
+         <variableId>aa8d5e0f-a443-41a9-a277-de2b9f90c016</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>8672b346-0a33-47f9-a0f3-4d82e325a011</variableId>
+         <variableId>9b14d778-5bd0-4fcb-9549-e8126cca0fce</variableId>
       </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>70fbf5b8-7243-4645-a4f2-155b908157ee</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/UI/Employee/Client Services/Account Maintenance/Account - Fields and buttons validation</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>3239290e-d1a4-491b-b8bd-90dd566303a7</guid>
@@ -91,25 +91,25 @@
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>9dce466d-920f-4232-9980-a775ccc9d881</variableId>
+         <variableId>b14869d3-95fb-464b-b145-8f6f6ffeb591</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>68daeff0-9013-44c5-a5d8-3be7355a1388</variableId>
+         <variableId>6a0c6ca7-3312-4282-8917-a7d50d6731aa</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>db7839f9-360b-4b1e-a941-62648f230f54</variableId>
+         <variableId>111ec7c8-f121-459a-a6a9-59d2f736d84c</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>b08eef27-9977-4da3-8f76-f670d7ba8bc2</variableId>
+         <variableId>9b8a3cfa-33de-4e2d-9627-2a2eb8bb89a1</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

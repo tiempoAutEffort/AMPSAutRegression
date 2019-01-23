@@ -1,0 +1,45 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+user editor,Chrome 71.0.3578.98,,2019-01-23 08:33:06,2019-01-23 08:36:28,3m - 22.877s,FAILED
+,,,,,,
+Test Cases/UI/Employee/Users Editor/Create not an AMPS user normal customer,Chrome 71.0.3578.98,,2019-01-23 08:33:06,2019-01-23 08:33:19,13.575s,FAILED
+"callTestCase(findTestCase(""UI/General/AdminLogin""), [:], STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-23 08:33:06,2019-01-23 08:33:12,6.486s,PASSED
+"click(findTestObject(""UI/Employee/user detail/Create new User/Page_AMPS Portal/span_Users""))",Chrome 71.0.3578.98,,2019-01-23 08:33:12,2019-01-23 08:33:13,0.930s,PASSED
+"verifyElementClickable(findTestObject(""UI/Employee/user detail/Create new User/Page_AMPS Portal/a_Create New User""))",Chrome 71.0.3578.98,,2019-01-23 08:33:13,2019-01-23 08:33:13,0.076s,PASSED
+"click(findTestObject(""UI/Employee/user detail/Create new User/Page_AMPS Portal/a_Create New User""))",Chrome 71.0.3578.98,,2019-01-23 08:33:13,2019-01-23 08:33:14,0.374s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-23 08:33:14,2019-01-23 08:33:19,5.005s,PASSED
+"click(findTestObject(""UI/Employee/user detail/Create new User/Page_AMPS Portal/span_customer_Select-arrow""))",Chrome 71.0.3578.98,,2019-01-23 08:33:19,2019-01-23 08:33:19,0.454s,FAILED
+,,,,,,
+Test Cases/UI/Employee/Users Editor/User with no admin role can not edit users,Chrome 71.0.3578.98,,2019-01-23 08:33:19,2019-01-23 08:33:26,6.247s,FAILED
+"callTestCase(findTestCase(""UI/General/No Admin Login""), [:], STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-23 08:33:19,2019-01-23 08:33:26,6.128s,FAILED
+,,,,,,
+Test Cases/UI/Employee/Users Editor/User with edit role can edit users,Chrome 71.0.3578.98,,2019-01-23 08:33:26,2019-01-23 08:34:04,38.282s,FAILED
+"callTestCase(findTestCase(""UI/General/AdminLogin""), [:], STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-23 08:33:26,2019-01-23 08:33:32,6.499s,PASSED
+"click(findTestObject(""UI/Employee/user detail/modify user/Page_AMPS Portal/Page_AMPS Portal/span_Users""))",Chrome 71.0.3578.98,,2019-01-23 08:33:32,2019-01-23 08:34:04,31.647s,FAILED
+,,,,,,
+Test Cases/UI/Employee/Users Editor/User with edit role can edit admin users,Chrome 71.0.3578.98,,2019-01-23 08:34:04,2019-01-23 08:34:23,18.892s,FAILED
+"callTestCase(findTestCase(""UI/General/AdminLogin""), [:], STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-23 08:34:04,2019-01-23 08:34:10,6.017s,PASSED
+"click(findTestObject(""UI/Employee/user detail/modify user/Page_AMPS Portal/Page_AMPS Portal/span_Users""))",Chrome 71.0.3578.98,,2019-01-23 08:34:10,2019-01-23 08:34:17,7.036s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-23 08:34:17,2019-01-23 08:34:22,5.002s,PASSED
+"setText(findTestObject(""UI/Employee/user detail/modify user/Page_AMPS Portal/Page_AMPS Portal/input_User Code_code""), ""purposeTest"")",Chrome 71.0.3578.98,,2019-01-23 08:34:22,2019-01-23 08:34:22,0.295s,PASSED
+"click(findTestObject(""UI/Employee/user detail/modify user/Page_AMPS Portal/Page_AMPS Portal/button_Filter""))",Chrome 71.0.3578.98,,2019-01-23 08:34:22,2019-01-23 08:34:23,0.418s,FAILED
+,,,,,,
+Test Cases/UI/Employee/Users Editor/Create an AMPS user,Chrome 71.0.3578.98,,2019-01-23 08:34:23,2019-01-23 08:35:00,37.634s,FAILED
+"callTestCase(findTestCase(""UI/General/AdminLogin""), [:], STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-23 08:34:23,2019-01-23 08:34:29,5.927s,PASSED
+"click(findTestObject(""UI/Employee/user detail/Create new User/Page_AMPS Portal/span_Users""))",Chrome 71.0.3578.98,,2019-01-23 08:34:29,2019-01-23 08:35:00,31.569s,FAILED
+,,,,,,
+Test Cases/UI/Employee/Users Editor/user can disable another user,Chrome 71.0.3578.98,,2019-01-23 08:35:00,2019-01-23 08:35:25,24.672s,FAILED
+"callTestCase(findTestCase(""UI/General/AdminLogin""), [:], STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-23 08:35:00,2019-01-23 08:35:06,5.955s,PASSED
+"click(findTestObject(""UI/Employee/user detail/modify user/Page_AMPS Portal/Page_AMPS Portal/span_Users""))",Chrome 71.0.3578.98,,2019-01-23 08:35:06,2019-01-23 08:35:20,13.230s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-23 08:35:20,2019-01-23 08:35:25,5.001s,PASSED
+"setText(findTestObject(""Page_AMPS Portal/input_User Code_code""), ""noEditUser"")",Chrome 71.0.3578.98,,2019-01-23 08:35:25,2019-01-23 08:35:25,0.368s,FAILED
+,,,,,,
+Test Cases/UI/Employee/Users Editor/user can make active another user,Chrome 71.0.3578.98,,2019-01-23 08:35:25,2019-01-23 08:36:03,37.743s,FAILED
+"callTestCase(findTestCase(""UI/General/AdminLogin""), [:], STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-23 08:35:25,2019-01-23 08:35:31,6.055s,PASSED
+"click(findTestObject(""UI/Employee/user detail/modify user/Page_AMPS Portal/Page_AMPS Portal/span_Users""))",Chrome 71.0.3578.98,,2019-01-23 08:35:31,2019-01-23 08:36:03,31.539s,FAILED
+,,,,,,
+Test Cases/UI/Employee/Users Editor/User can send a Welcome Email,Chrome 71.0.3578.98,,2019-01-23 08:36:03,2019-01-23 08:36:28,24.932s,FAILED
+"callTestCase(findTestCase(""UI/General/AdminLogin""), [:], STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-23 08:36:03,2019-01-23 08:36:12,8.912s,PASSED
+"click(findTestObject(""UI/Employee/user detail/modify user/Page_AMPS Portal/Page_AMPS Portal/span_Users""))",Chrome 71.0.3578.98,,2019-01-23 08:36:12,2019-01-23 08:36:22,10.184s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-23 08:36:22,2019-01-23 08:36:27,5.002s,PASSED
+"setText(findTestObject(""UI/Employee/user detail/modify user/Page_AMPS Portal/Page_AMPS Portal/input_User Code_code""), ""purposeTest"")",Chrome 71.0.3578.98,,2019-01-23 08:36:27,2019-01-23 08:36:27,0.303s,PASSED
+"click(findTestObject(""UI/Employee/user detail/modify user/Page_AMPS Portal/Page_AMPS Portal/button_Filter""))",Chrome 71.0.3578.98,,2019-01-23 08:36:27,2019-01-23 08:36:28,0.414s,FAILED

@@ -1,0 +1,1489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Rule Editor" time="216" tests="2" failures="2" errors="0">
+   <testsuite name="Rule Editor" tests="2" failures="2" errors="0" time="216" timestamp="2019-01-22 19:38:07" hostname="david avalos - TDG-MBL-MTY0359.tiempodev.local" id="Test Suites/UI/Rule Editor/Rule Editor">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\David Avalos\\git\\AMPSAutRegression\\Reports\\UI\\Rule Editor\\Rule Editor\\20190122_193804"/>
+         <property name="logFiles" value="C:\\Users\\David Avalos\\git\\AMPSAutRegression\\Reports\\UI\\Rule Editor\\Rule Editor\\20190122_193804\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\David Avalos\\git\\AMPSAutRegression\\Reports\\UI\\Rule Editor\\Rule Editor\\20190122_193804\\1548207674146.png"/>
+         <property name="hostName" value="david avalos - TDG-MBL-MTY0359.tiempodev.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.1.97"/>
+         <property name="sessionId" value="5a363cf14bdc0cba79c30c311ec7a772"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/UI/Client/Rule Editor/Search for Rule Set" classname="Test Cases/UI/Client/Rule Editor/Search for Rule Set" status="PASSED">
+         <system-out><![CDATA[2019-01-22 19:38:08 - [TEST_CASE][PASSED] - Test Cases/UI/Client/Rule Editor/Search for Rule Set: Test Cases/UI/Client/Rule Editor/Search for Rule Set
+
+2019-01-22 19:38:08 - [TEST_STEP][PASSED] - UAT = "https://uat.advancedpricing.com": null
+
+2019-01-22 19:38:08 - [TEST_STEP][PASSED] - USER = "qaAuto": null
+
+2019-01-22 19:38:08 - [TEST_STEP][PASSED] - PASSWD = "a9yk100dD": null
+
+2019-01-22 19:38:08 - [TEST_STEP][PASSED] - CLEAR = "": null
+
+2019-01-22 19:38:08 - [TEST_STEP][PASSED] - RULESETNAME = "Arkansas": null
+
+2019-01-22 19:38:08 - [TEST_STEP][PASSED] - RULESETNAME2 = "a": null
+
+2019-01-22 19:38:08 - [TEST_STEP][PASSED] - INVALIDNAME = "QWERTY": null
+
+2019-01-22 19:38:08 - [TEST_STEP][PASSED] - INVALIDNAME2 = "0000": null
+
+2019-01-22 19:38:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-22 19:38:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-22 19:38:08 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-22 19:38:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-22 19:38:11 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-22 19:38:12 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-22 19:38:12 - [TEST_STEP][PASSED] - navigateToUrl(UAT): Navigate to 'https://uat.advancedpricing.com' successfully
+
+2019-01-22 19:38:14 - [MESSAGE][PASSED] - Navigate to 'https://uat.advancedpricing.com' successfully
+
+2019-01-22 19:38:14 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-01-22 19:38:14 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-22 19:38:14 - [TEST_STEP][PASSED] - setText(findTestObject("UI/Client/Claim Services/input_userCode"), USER): Text 'qaAuto' is set on object 'Object Repository/UI/Client/Claim Services/input_userCode'
+
+2019-01-22 19:38:14 - [MESSAGE][PASSED] - Text 'qaAuto' is set on object 'Object Repository/UI/Client/Claim Services/input_userCode'
+
+2019-01-22 19:38:14 - [TEST_STEP][PASSED] - setText(findTestObject("UI/Client/Claim Services/input_userPassword"), PASSWD): Text 'a9yk100dD' is set on object 'Object Repository/UI/Client/Claim Services/input_userPassword'
+
+2019-01-22 19:38:15 - [MESSAGE][PASSED] - Text 'a9yk100dD' is set on object 'Object Repository/UI/Client/Claim Services/input_userPassword'
+
+2019-01-22 19:38:15 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI/Client/Claim Services/input_loginButton"), 5): Object 'Object Repository/UI/Client/Claim Services/input_loginButton' is clickable
+
+2019-01-22 19:38:15 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Claim Services/input_loginButton' is clickable
+
+2019-01-22 19:38:15 - [TEST_STEP][PASSED] - click(findTestObject("UI/Client/Claim Services/input_loginButton")): Object: 'Object Repository/UI/Client/Claim Services/input_loginButton' is clicked on
+
+2019-01-22 19:38:15 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Client/Claim Services/input_loginButton' is clicked on
+
+2019-01-22 19:38:15 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-22 19:38:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-22 19:38:16 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-01-22 19:38:16 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-22 19:38:16 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/Client/Rule Editor/h1_Clients"), 5): Object 'Object Repository/UI/Client/Rule Editor/h1_Clients' is present
+
+2019-01-22 19:38:16 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Rule Editor/h1_Clients' is present
+
+2019-01-22 19:38:16 - [TEST_STEP][PASSED] - pageTitle = getText(findTestObject("UI/Client/Rule Editor/h1_Clients")): Text of object 'Object Repository/UI/Client/Rule Editor/h1_Clients' is: 'Clients'
+
+2019-01-22 19:38:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/UI/Client/Rule Editor/h1_Clients' is: 'Clients'
+
+2019-01-22 19:38:16 - [TEST_STEP][PASSED] - verifyMatch(pageTitle, "Clients", false): Actual text 'Clients' and expected text 'Clients' are matched 
+
+2019-01-22 19:38:16 - [MESSAGE][PASSED] - Actual text 'Clients' and expected text 'Clients' are matched 
+
+2019-01-22 19:38:16 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-22 19:38:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-22 19:38:19 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI/Client/Rule Editor/span_ruleEditorMenu"), 5): Object 'Object Repository/UI/Client/Rule Editor/span_ruleEditorMenu' is clickable
+
+2019-01-22 19:38:19 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Rule Editor/span_ruleEditorMenu' is clickable
+
+2019-01-22 19:38:19 - [TEST_STEP][PASSED] - click(findTestObject("UI/Client/Rule Editor/span_ruleEditorMenu")): Object: 'Object Repository/UI/Client/Rule Editor/span_ruleEditorMenu' is clicked on
+
+2019-01-22 19:38:19 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Client/Rule Editor/span_ruleEditorMenu' is clicked on
+
+2019-01-22 19:38:19 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-22 19:38:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-22 19:38:20 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-01-22 19:38:20 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-22 19:38:20 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/Client/Rule Editor/h1_ruleEditor"), 5): Object 'Object Repository/UI/Client/Rule Editor/h1_ruleEditor' is present
+
+2019-01-22 19:38:20 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Rule Editor/h1_ruleEditor' is present
+
+2019-01-22 19:38:20 - [TEST_STEP][PASSED] - pageTitle = getText(findTestObject("UI/Client/Rule Editor/h1_ruleEditor")): Text of object 'Object Repository/UI/Client/Rule Editor/h1_ruleEditor' is: 'Rule Editor'
+
+2019-01-22 19:38:20 - [MESSAGE][PASSED] - Text of object 'Object Repository/UI/Client/Rule Editor/h1_ruleEditor' is: 'Rule Editor'
+
+2019-01-22 19:38:20 - [TEST_STEP][PASSED] - verifyMatch(pageTitle, "Rule Editor", false): Actual text 'Rule Editor' and expected text 'Rule Editor' are matched 
+
+2019-01-22 19:38:20 - [MESSAGE][PASSED] - Actual text 'Rule Editor' and expected text 'Rule Editor' are matched 
+
+2019-01-22 19:38:20 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-22 19:38:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-22 19:38:23 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/Client/Rule Editor/Search Rule Set/input_searchRuleSet"), 5): Object 'Object Repository/UI/Client/Rule Editor/Search Rule Set/input_searchRuleSet' is visible
+
+2019-01-22 19:38:23 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Rule Editor/Search Rule Set/input_searchRuleSet' is visible
+
+2019-01-22 19:38:23 - [TEST_STEP][PASSED] - setText(findTestObject("UI/Client/Rule Editor/Search Rule Set/input_searchRuleSet"), RULESETNAME): Text 'Arkansas' is set on object 'Object Repository/UI/Client/Rule Editor/Search Rule Set/input_searchRuleSet'
+
+2019-01-22 19:38:24 - [MESSAGE][PASSED] - Text 'Arkansas' is set on object 'Object Repository/UI/Client/Rule Editor/Search Rule Set/input_searchRuleSet'
+
+2019-01-22 19:38:24 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-22 19:38:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-22 19:38:27 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("UI/Client/Rule Editor/Search Rule Set/div_noSearchResults"), 5): Web element with id: 'Object Repository/UI/Client/Rule Editor/Search Rule Set/div_noSearchResults' located by 'By.xpath: //*[@id="content"]//div[contains(text(), "No Data")]' is not present after '5' second(s)
+
+2019-01-22 19:38:27 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/UI/Client/Rule Editor/Search Rule Set/div_noSearchResults' located by 'By.xpath: //*[@id="content"]//div[contains(text(), "No Data")]' is not present after '5' second(s)
+
+2019-01-22 19:38:27 - [TEST_STEP][PASSED] - setText(findTestObject("UI/Client/Rule Editor/Search Rule Set/input_searchRuleSet"), CLEAR): Text '' is set on object 'Object Repository/UI/Client/Rule Editor/Search Rule Set/input_searchRuleSet'
+
+2019-01-22 19:38:27 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/UI/Client/Rule Editor/Search Rule Set/input_searchRuleSet'
+
+2019-01-22 19:38:27 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-22 19:38:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-22 19:38:30 - [TEST_STEP][PASSED] - setText(findTestObject("UI/Client/Rule Editor/Search Rule Set/input_searchRuleSet"), RULESETNAME2): Text 'a' is set on object 'Object Repository/UI/Client/Rule Editor/Search Rule Set/input_searchRuleSet'
+
+2019-01-22 19:38:30 - [MESSAGE][PASSED] - Text 'a' is set on object 'Object Repository/UI/Client/Rule Editor/Search Rule Set/input_searchRuleSet'
+
+2019-01-22 19:38:30 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-22 19:38:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-22 19:38:33 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("UI/Client/Rule Editor/Search Rule Set/div_noSearchResults"), 5): Web element with id: 'Object Repository/UI/Client/Rule Editor/Search Rule Set/div_noSearchResults' located by 'By.xpath: //*[@id="content"]//div[contains(text(), "No Data")]' is not present after '5' second(s)
+
+2019-01-22 19:38:33 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/UI/Client/Rule Editor/Search Rule Set/div_noSearchResults' located by 'By.xpath: //*[@id="content"]//div[contains(text(), "No Data")]' is not present after '5' second(s)
+
+2019-01-22 19:38:33 - [TEST_STEP][PASSED] - setText(findTestObject("UI/Client/Rule Editor/Search Rule Set/input_searchRuleSet"), CLEAR): Text '' is set on object 'Object Repository/UI/Client/Rule Editor/Search Rule Set/input_searchRuleSet'
+
+2019-01-22 19:38:33 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/UI/Client/Rule Editor/Search Rule Set/input_searchRuleSet'
+
+2019-01-22 19:38:33 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-22 19:38:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-22 19:38:36 - [TEST_STEP][PASSED] - setText(findTestObject("UI/Client/Rule Editor/Search Rule Set/input_searchRuleSet"), INVALIDNAME): Text 'QWERTY' is set on object 'Object Repository/UI/Client/Rule Editor/Search Rule Set/input_searchRuleSet'
+
+2019-01-22 19:38:36 - [MESSAGE][PASSED] - Text 'QWERTY' is set on object 'Object Repository/UI/Client/Rule Editor/Search Rule Set/input_searchRuleSet'
+
+2019-01-22 19:38:36 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-22 19:38:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-22 19:38:39 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Client/Rule Editor/Search Rule Set/div_noSearchResults"), 5): Object 'Object Repository/UI/Client/Rule Editor/Search Rule Set/div_noSearchResults' is present
+
+2019-01-22 19:38:39 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Rule Editor/Search Rule Set/div_noSearchResults' is present
+
+2019-01-22 19:38:39 - [TEST_STEP][PASSED] - setText(findTestObject("UI/Client/Rule Editor/Search Rule Set/input_searchRuleSet"), CLEAR): Text '' is set on object 'Object Repository/UI/Client/Rule Editor/Search Rule Set/input_searchRuleSet'
+
+2019-01-22 19:38:39 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/UI/Client/Rule Editor/Search Rule Set/input_searchRuleSet'
+
+2019-01-22 19:38:39 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-22 19:38:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-22 19:38:42 - [TEST_STEP][PASSED] - setText(findTestObject("UI/Client/Rule Editor/Search Rule Set/input_searchRuleSet"), INVALIDNAME2): Text '0000' is set on object 'Object Repository/UI/Client/Rule Editor/Search Rule Set/input_searchRuleSet'
+
+2019-01-22 19:38:43 - [MESSAGE][PASSED] - Text '0000' is set on object 'Object Repository/UI/Client/Rule Editor/Search Rule Set/input_searchRuleSet'
+
+2019-01-22 19:38:43 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-22 19:38:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-22 19:38:46 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Client/Rule Editor/Search Rule Set/div_noSearchResults"), 5): Object 'Object Repository/UI/Client/Rule Editor/Search Rule Set/div_noSearchResults' is present
+
+2019-01-22 19:38:46 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Rule Editor/Search Rule Set/div_noSearchResults' is present
+
+2019-01-22 19:38:46 - [TEST_STEP][PASSED] - setText(findTestObject("UI/Client/Rule Editor/Search Rule Set/input_searchRuleSet"), CLEAR): Text '' is set on object 'Object Repository/UI/Client/Rule Editor/Search Rule Set/input_searchRuleSet'
+
+2019-01-22 19:38:46 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/UI/Client/Rule Editor/Search Rule Set/input_searchRuleSet'
+
+2019-01-22 19:38:46 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-22 19:38:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-22 19:38:49 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI/General/Log/a_userAvatar"), 5): Object 'Object Repository/UI/General/Log/a_userAvatar' is clickable
+
+2019-01-22 19:38:49 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Log/a_userAvatar' is clickable
+
+2019-01-22 19:38:49 - [TEST_STEP][PASSED] - click(findTestObject("UI/General/Log/a_userAvatar")): Object: 'Object Repository/UI/General/Log/a_userAvatar' is clicked on
+
+2019-01-22 19:38:49 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/General/Log/a_userAvatar' is clicked on
+
+2019-01-22 19:38:49 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-22 19:38:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-22 19:38:50 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI/General/Log/a_signOutAMPS"), 5): Object 'Object Repository/UI/General/Log/a_signOutAMPS' is clickable
+
+2019-01-22 19:38:50 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Log/a_signOutAMPS' is clickable
+
+2019-01-22 19:38:50 - [TEST_STEP][PASSED] - click(findTestObject("UI/General/Log/a_signOutAMPS")): Object: 'Object Repository/UI/General/Log/a_signOutAMPS' is clicked on
+
+2019-01-22 19:38:50 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/General/Log/a_signOutAMPS' is clicked on
+
+2019-01-22 19:38:50 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-22 19:38:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-22 19:38:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-22 19:38:52 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UI/Client/Rule Editor/Create New Rule Set" classname="Test Cases/UI/Client/Rule Editor/Create New Rule Set" status="PASSED">
+         <system-out><![CDATA[2019-01-22 19:38:52 - [TEST_CASE][PASSED] - Test Cases/UI/Client/Rule Editor/Create New Rule Set: Test Cases/UI/Client/Rule Editor/Create New Rule Set
+
+2019-01-22 19:38:52 - [TEST_STEP][PASSED] - UAT = "https://uat.advancedpricing.com": null
+
+2019-01-22 19:38:52 - [TEST_STEP][PASSED] - USER = "qaAuto": null
+
+2019-01-22 19:38:52 - [TEST_STEP][PASSED] - PASSWD = "a9yk100dD": null
+
+2019-01-22 19:38:52 - [TEST_STEP][PASSED] - RULESETNAME = "AAAA Rule Set": null
+
+2019-01-22 19:38:52 - [TEST_STEP][PASSED] - VALIDFROM = "01/18/2019": null
+
+2019-01-22 19:38:52 - [TEST_STEP][PASSED] - VALIDTO = "01/30/2019": null
+
+2019-01-22 19:38:52 - [TEST_STEP][PASSED] - RULESETTYPE = "Claim": null
+
+2019-01-22 19:38:52 - [TEST_STEP][PASSED] - RULENAME = "First Rule": null
+
+2019-01-22 19:38:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-22 19:38:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-22 19:38:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-22 19:38:54 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-22 19:38:55 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-22 19:38:55 - [TEST_STEP][PASSED] - navigateToUrl(UAT): Navigate to 'https://uat.advancedpricing.com' successfully
+
+2019-01-22 19:38:57 - [MESSAGE][PASSED] - Navigate to 'https://uat.advancedpricing.com' successfully
+
+2019-01-22 19:38:57 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-01-22 19:38:57 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-22 19:38:57 - [TEST_STEP][PASSED] - setText(findTestObject("UI/Client/Claim Services/input_userCode"), USER): Text 'qaAuto' is set on object 'Object Repository/UI/Client/Claim Services/input_userCode'
+
+2019-01-22 19:38:57 - [MESSAGE][PASSED] - Text 'qaAuto' is set on object 'Object Repository/UI/Client/Claim Services/input_userCode'
+
+2019-01-22 19:38:57 - [TEST_STEP][PASSED] - setText(findTestObject("UI/Client/Claim Services/input_userPassword"), PASSWD): Text 'a9yk100dD' is set on object 'Object Repository/UI/Client/Claim Services/input_userPassword'
+
+2019-01-22 19:38:58 - [MESSAGE][PASSED] - Text 'a9yk100dD' is set on object 'Object Repository/UI/Client/Claim Services/input_userPassword'
+
+2019-01-22 19:38:58 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI/Client/Claim Services/input_loginButton"), 5): Object 'Object Repository/UI/Client/Claim Services/input_loginButton' is clickable
+
+2019-01-22 19:38:58 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Claim Services/input_loginButton' is clickable
+
+2019-01-22 19:38:58 - [TEST_STEP][PASSED] - click(findTestObject("UI/Client/Claim Services/input_loginButton")): Object: 'Object Repository/UI/Client/Claim Services/input_loginButton' is clicked on
+
+2019-01-22 19:38:58 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Client/Claim Services/input_loginButton' is clicked on
+
+2019-01-22 19:38:58 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-22 19:38:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-22 19:38:59 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-01-22 19:38:59 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-22 19:38:59 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/Client/Rule Editor/h1_Clients"), 5): Object 'Object Repository/UI/Client/Rule Editor/h1_Clients' is present
+
+2019-01-22 19:38:59 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Rule Editor/h1_Clients' is present
+
+2019-01-22 19:38:59 - [TEST_STEP][PASSED] - pageTitle = getText(findTestObject("UI/Client/Rule Editor/h1_Clients")): Text of object 'Object Repository/UI/Client/Rule Editor/h1_Clients' is: 'Clients'
+
+2019-01-22 19:38:59 - [MESSAGE][PASSED] - Text of object 'Object Repository/UI/Client/Rule Editor/h1_Clients' is: 'Clients'
+
+2019-01-22 19:38:59 - [TEST_STEP][PASSED] - verifyMatch(pageTitle, "Clients", false): Actual text 'Clients' and expected text 'Clients' are matched 
+
+2019-01-22 19:38:59 - [MESSAGE][PASSED] - Actual text 'Clients' and expected text 'Clients' are matched 
+
+2019-01-22 19:38:59 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-22 19:39:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-22 19:39:02 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI/Client/Rule Editor/span_ruleEditorMenu"), 5): Object 'Object Repository/UI/Client/Rule Editor/span_ruleEditorMenu' is clickable
+
+2019-01-22 19:39:02 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Rule Editor/span_ruleEditorMenu' is clickable
+
+2019-01-22 19:39:02 - [TEST_STEP][PASSED] - click(findTestObject("UI/Client/Rule Editor/span_ruleEditorMenu")): Object: 'Object Repository/UI/Client/Rule Editor/span_ruleEditorMenu' is clicked on
+
+2019-01-22 19:39:02 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Client/Rule Editor/span_ruleEditorMenu' is clicked on
+
+2019-01-22 19:39:02 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-22 19:39:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-22 19:39:03 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-01-22 19:39:03 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-22 19:39:03 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/Client/Rule Editor/h1_ruleEditor"), 5): Object 'Object Repository/UI/Client/Rule Editor/h1_ruleEditor' is present
+
+2019-01-22 19:39:03 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Rule Editor/h1_ruleEditor' is present
+
+2019-01-22 19:39:03 - [TEST_STEP][PASSED] - pageTitle = getText(findTestObject("UI/Client/Rule Editor/h1_ruleEditor")): Text of object 'Object Repository/UI/Client/Rule Editor/h1_ruleEditor' is: 'Rule Editor'
+
+2019-01-22 19:39:03 - [MESSAGE][PASSED] - Text of object 'Object Repository/UI/Client/Rule Editor/h1_ruleEditor' is: 'Rule Editor'
+
+2019-01-22 19:39:03 - [TEST_STEP][PASSED] - verifyMatch(pageTitle, "Rule Editor", false): Actual text 'Rule Editor' and expected text 'Rule Editor' are matched 
+
+2019-01-22 19:39:03 - [MESSAGE][PASSED] - Actual text 'Rule Editor' and expected text 'Rule Editor' are matched 
+
+2019-01-22 19:39:03 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-22 19:39:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-22 19:39:06 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI/Client/Rule Editor/Create Rule Set/a_createNewRuleSet"), 5): Object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/a_createNewRuleSet' is clickable
+
+2019-01-22 19:39:06 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/a_createNewRuleSet' is clickable
+
+2019-01-22 19:39:06 - [TEST_STEP][PASSED] - click(findTestObject("UI/Client/Rule Editor/Create Rule Set/a_createNewRuleSet")): Object: 'Object Repository/UI/Client/Rule Editor/Create Rule Set/a_createNewRuleSet' is clicked on
+
+2019-01-22 19:39:06 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Client/Rule Editor/Create Rule Set/a_createNewRuleSet' is clicked on
+
+2019-01-22 19:39:06 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-22 19:39:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-22 19:39:07 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-01-22 19:39:07 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-22 19:39:07 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/Client/Rule Editor/Create Rule Set/h2_newRulesetForm"), 5): Object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/h2_newRulesetForm' is present
+
+2019-01-22 19:39:07 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/h2_newRulesetForm' is present
+
+2019-01-22 19:39:08 - [TEST_STEP][PASSED] - formTitle = getText(findTestObject("UI/Client/Rule Editor/Create Rule Set/h2_newRulesetForm")): Text of object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/h2_newRulesetForm' is: 'New Ruleset'
+
+2019-01-22 19:39:08 - [MESSAGE][PASSED] - Text of object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/h2_newRulesetForm' is: 'New Ruleset'
+
+2019-01-22 19:39:08 - [TEST_STEP][PASSED] - verifyMatch(formTitle, "New Ruleset", false): Actual text 'New Ruleset' and expected text 'New Ruleset' are matched 
+
+2019-01-22 19:39:08 - [MESSAGE][PASSED] - Actual text 'New Ruleset' and expected text 'New Ruleset' are matched 
+
+2019-01-22 19:39:08 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-22 19:39:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-22 19:39:11 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/Client/Rule Editor/Create Rule Set/input_ruleSetName"), 5): Object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/input_ruleSetName' is visible
+
+2019-01-22 19:39:11 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/input_ruleSetName' is visible
+
+2019-01-22 19:39:11 - [TEST_STEP][PASSED] - setText(findTestObject("UI/Client/Rule Editor/Create Rule Set/input_ruleSetName"), RULESETNAME): Text 'AAAA Rule Set' is set on object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/input_ruleSetName'
+
+2019-01-22 19:39:11 - [MESSAGE][PASSED] - Text 'AAAA Rule Set' is set on object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/input_ruleSetName'
+
+2019-01-22 19:39:11 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-22 19:39:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-22 19:39:13 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/Client/Rule Editor/Create Rule Set/input_validFromDate"), 5): Object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/input_validFromDate' is visible
+
+2019-01-22 19:39:13 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/input_validFromDate' is visible
+
+2019-01-22 19:39:13 - [TEST_STEP][PASSED] - setText(findTestObject("UI/Client/Rule Editor/Create Rule Set/input_validFromDate"), VALIDFROM): Text '01/18/2019' is set on object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/input_validFromDate'
+
+2019-01-22 19:39:13 - [MESSAGE][PASSED] - Text '01/18/2019' is set on object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/input_validFromDate'
+
+2019-01-22 19:39:13 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-22 19:39:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-22 19:39:15 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/Client/Rule Editor/Create Rule Set/input_validToDate"), 5): Object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/input_validToDate' is visible
+
+2019-01-22 19:39:15 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/input_validToDate' is visible
+
+2019-01-22 19:39:15 - [TEST_STEP][PASSED] - setText(findTestObject("UI/Client/Rule Editor/Create Rule Set/input_validToDate"), VALIDTO): Text '01/30/2019' is set on object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/input_validToDate'
+
+2019-01-22 19:39:15 - [MESSAGE][PASSED] - Text '01/30/2019' is set on object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/input_validToDate'
+
+2019-01-22 19:39:15 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-22 19:39:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-22 19:39:17 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI/Client/Rule Editor/Create Rule Set/select_ruleSetType"), 5): Object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/select_ruleSetType' is clickable
+
+2019-01-22 19:39:17 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/select_ruleSetType' is clickable
+
+2019-01-22 19:39:17 - [TEST_STEP][PASSED] - click(findTestObject("UI/Client/Rule Editor/Create Rule Set/select_ruleSetType")): Object: 'Object Repository/UI/Client/Rule Editor/Create Rule Set/select_ruleSetType' is clicked on
+
+2019-01-22 19:39:18 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Client/Rule Editor/Create Rule Set/select_ruleSetType' is clicked on
+
+2019-01-22 19:39:18 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-22 19:39:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-22 19:39:20 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/Client/Rule Editor/Create Rule Set/option_claimType"), 5): Object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/option_claimType' is present
+
+2019-01-22 19:39:20 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/option_claimType' is present
+
+2019-01-22 19:39:20 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/Client/Rule Editor/Create Rule Set/option_claimType"), 5): Object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/option_claimType' is visible
+
+2019-01-22 19:39:20 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/option_claimType' is visible
+
+2019-01-22 19:39:20 - [TEST_STEP][PASSED] - sendKeys(findTestObject("UI/Client/Rule Editor/Create Rule Set/option_claimType"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/UI/Client/Rule Editor/Create Rule Set/option_claimType'
+
+2019-01-22 19:39:20 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/UI/Client/Rule Editor/Create Rule Set/option_claimType'
+
+2019-01-22 19:39:20 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-22 19:39:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-22 19:39:22 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI/Client/Rule Editor/Create Rule Set/button_saveRuleSet"), 5): Object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/button_saveRuleSet' is clickable
+
+2019-01-22 19:39:22 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/button_saveRuleSet' is clickable
+
+2019-01-22 19:39:22 - [TEST_STEP][PASSED] - click(findTestObject("UI/Client/Rule Editor/Create Rule Set/button_saveRuleSet")): Object: 'Object Repository/UI/Client/Rule Editor/Create Rule Set/button_saveRuleSet' is clicked on
+
+2019-01-22 19:39:22 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Client/Rule Editor/Create Rule Set/button_saveRuleSet' is clicked on
+
+2019-01-22 19:39:22 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-22 19:39:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-22 19:39:23 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-01-22 19:39:23 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-22 19:39:23 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/Client/Rule Editor/Create Rule Set/div_alertRuleSetSaved"), 5): Object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/div_alertRuleSetSaved' is present
+
+2019-01-22 19:39:23 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/div_alertRuleSetSaved' is present
+
+2019-01-22 19:39:23 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/Client/Rule Editor/Create Rule Set/div_alertRuleSetSaved"), 5): Object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/div_alertRuleSetSaved' is visible
+
+2019-01-22 19:39:23 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/div_alertRuleSetSaved' is visible
+
+2019-01-22 19:39:23 - [TEST_STEP][PASSED] - focus(findTestObject("UI/Client/Rule Editor/Create Rule Set/div_alertRuleSetSaved")): Object: 'Object Repository/UI/Client/Rule Editor/Create Rule Set/div_alertRuleSetSaved' is focused
+
+2019-01-22 19:39:23 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Client/Rule Editor/Create Rule Set/div_alertRuleSetSaved' is focused
+
+2019-01-22 19:39:23 - [TEST_STEP][PASSED] - click(findTestObject("UI/Client/Rule Editor/Create Rule Set/button_acceptRuleSetSavedPopUp")): Object: 'Object Repository/UI/Client/Rule Editor/Create Rule Set/button_acceptRuleSetSavedPopUp' is clicked on
+
+2019-01-22 19:39:23 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Client/Rule Editor/Create Rule Set/button_acceptRuleSetSavedPopUp' is clicked on
+
+2019-01-22 19:39:23 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-22 19:39:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-22 19:39:26 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-01-22 19:39:26 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-22 19:39:26 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/Client/Rule Editor/Create Rule Set/h2_editRulesetForm"), 5): Object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/h2_editRulesetForm' is present
+
+2019-01-22 19:39:26 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/h2_editRulesetForm' is present
+
+2019-01-22 19:39:26 - [TEST_STEP][PASSED] - formTitle = getText(findTestObject("UI/Client/Rule Editor/Create Rule Set/h2_editRulesetForm")): Text of object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/h2_editRulesetForm' is: 'Edit Ruleset'
+
+2019-01-22 19:39:26 - [MESSAGE][PASSED] - Text of object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/h2_editRulesetForm' is: 'Edit Ruleset'
+
+2019-01-22 19:39:26 - [TEST_STEP][PASSED] - verifyMatch(formTitle, "Edit Ruleset", false): Actual text 'Edit Ruleset' and expected text 'Edit Ruleset' are matched 
+
+2019-01-22 19:39:26 - [MESSAGE][PASSED] - Actual text 'Edit Ruleset' and expected text 'Edit Ruleset' are matched 
+
+2019-01-22 19:39:26 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-22 19:39:29 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-22 19:39:29 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("UI/Client/Rule Editor/Create Rule Set/span_noRulesYet"), 5): Web element with id: 'Object Repository/UI/Client/Rule Editor/Create Rule Set/span_noRulesYet' located by 'By.xpath: //div[@class="panel panel-primary"]//span[@class="handle"]' is not present after '5' second(s)
+
+2019-01-22 19:39:29 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/UI/Client/Rule Editor/Create Rule Set/span_noRulesYet' located by 'By.xpath: //div[@class="panel panel-primary"]//span[@class="handle"]' is not present after '5' second(s)
+
+2019-01-22 19:39:29 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-22 19:39:32 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-22 19:39:32 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI/Client/Rule Editor/Create Rule Set/a_addRuleToRuleSet"), 5): Object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/a_addRuleToRuleSet' is clickable
+
+2019-01-22 19:39:32 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/a_addRuleToRuleSet' is clickable
+
+2019-01-22 19:39:32 - [TEST_STEP][PASSED] - click(findTestObject("UI/Client/Rule Editor/Create Rule Set/a_addRuleToRuleSet")): Object: 'Object Repository/UI/Client/Rule Editor/Create Rule Set/a_addRuleToRuleSet' is clicked on
+
+2019-01-22 19:39:33 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Client/Rule Editor/Create Rule Set/a_addRuleToRuleSet' is clicked on
+
+2019-01-22 19:39:33 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-22 19:39:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-22 19:39:34 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-01-22 19:39:34 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-22 19:39:34 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/Client/Rule Editor/Create Rule Set/h2_newRulesForm"), 5): Object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/h2_newRulesForm' is present
+
+2019-01-22 19:39:34 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/h2_newRulesForm' is present
+
+2019-01-22 19:39:34 - [TEST_STEP][PASSED] - formTitle = getText(findTestObject("UI/Client/Rule Editor/Create Rule Set/h2_newRulesForm")): Text of object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/h2_newRulesForm' is: 'New Rules'
+
+2019-01-22 19:39:34 - [MESSAGE][PASSED] - Text of object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/h2_newRulesForm' is: 'New Rules'
+
+2019-01-22 19:39:34 - [TEST_STEP][PASSED] - verifyMatch(formTitle, "New Rules", false): Actual text 'New Rules' and expected text 'New Rules' are matched 
+
+2019-01-22 19:39:34 - [MESSAGE][PASSED] - Actual text 'New Rules' and expected text 'New Rules' are matched 
+
+2019-01-22 19:39:34 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-22 19:39:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-22 19:39:37 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/Client/Rule Editor/Create Rule Set/input_ruleName"), 5): Object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/input_ruleName' is visible
+
+2019-01-22 19:39:37 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/input_ruleName' is visible
+
+2019-01-22 19:39:37 - [TEST_STEP][PASSED] - setText(findTestObject("UI/Client/Rule Editor/Create Rule Set/input_ruleName"), RULENAME): Text 'First Rule' is set on object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/input_ruleName'
+
+2019-01-22 19:39:37 - [MESSAGE][PASSED] - Text 'First Rule' is set on object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/input_ruleName'
+
+2019-01-22 19:39:37 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-22 19:39:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-22 19:39:39 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI/Client/Rule Editor/Create Rule Set/select_addCondition"), 5): Object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/select_addCondition' is clickable
+
+2019-01-22 19:39:39 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/select_addCondition' is clickable
+
+2019-01-22 19:39:39 - [TEST_STEP][PASSED] - click(findTestObject("UI/Client/Rule Editor/Create Rule Set/select_addCondition")): Object: 'Object Repository/UI/Client/Rule Editor/Create Rule Set/select_addCondition' is clicked on
+
+2019-01-22 19:39:39 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Client/Rule Editor/Create Rule Set/select_addCondition' is clicked on
+
+2019-01-22 19:39:39 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-22 19:39:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-22 19:39:41 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/Client/Rule Editor/Create Rule Set/option_conditionType"), 5): Object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/option_conditionType' is present
+
+2019-01-22 19:39:41 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/option_conditionType' is present
+
+2019-01-22 19:39:41 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/Client/Rule Editor/Create Rule Set/option_conditionType"), 5): Object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/option_conditionType' is visible
+
+2019-01-22 19:39:41 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/option_conditionType' is visible
+
+2019-01-22 19:39:41 - [TEST_STEP][PASSED] - sendKeys(findTestObject("UI/Client/Rule Editor/Create Rule Set/option_conditionType"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/UI/Client/Rule Editor/Create Rule Set/option_conditionType'
+
+2019-01-22 19:39:41 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/UI/Client/Rule Editor/Create Rule Set/option_conditionType'
+
+2019-01-22 19:39:41 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-22 19:39:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-22 19:39:43 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI/Client/Rule Editor/Create Rule Set/select_addAction"), 5): Object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/select_addAction' is clickable
+
+2019-01-22 19:39:43 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/select_addAction' is clickable
+
+2019-01-22 19:39:43 - [TEST_STEP][PASSED] - click(findTestObject("UI/Client/Rule Editor/Create Rule Set/select_addAction")): Object: 'Object Repository/UI/Client/Rule Editor/Create Rule Set/select_addAction' is clicked on
+
+2019-01-22 19:39:44 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Client/Rule Editor/Create Rule Set/select_addAction' is clicked on
+
+2019-01-22 19:39:44 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-22 19:39:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-22 19:39:46 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/Client/Rule Editor/Create Rule Set/option_actionType"), 5): Object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/option_actionType' is present
+
+2019-01-22 19:39:46 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/option_actionType' is present
+
+2019-01-22 19:39:46 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/Client/Rule Editor/Create Rule Set/option_actionType"), 5): Object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/option_actionType' is visible
+
+2019-01-22 19:39:46 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/option_actionType' is visible
+
+2019-01-22 19:39:46 - [TEST_STEP][PASSED] - sendKeys(findTestObject("UI/Client/Rule Editor/Create Rule Set/option_actionType"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/UI/Client/Rule Editor/Create Rule Set/option_actionType'
+
+2019-01-22 19:39:46 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/UI/Client/Rule Editor/Create Rule Set/option_actionType'
+
+2019-01-22 19:39:46 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-22 19:39:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-22 19:39:48 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI/Client/Rule Editor/Create Rule Set/button_saveRule"), 5): Object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/button_saveRule' is clickable
+
+2019-01-22 19:39:48 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/button_saveRule' is clickable
+
+2019-01-22 19:39:48 - [TEST_STEP][PASSED] - click(findTestObject("UI/Client/Rule Editor/Create Rule Set/button_saveRule")): Object: 'Object Repository/UI/Client/Rule Editor/Create Rule Set/button_saveRule' is clicked on
+
+2019-01-22 19:39:48 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Client/Rule Editor/Create Rule Set/button_saveRule' is clicked on
+
+2019-01-22 19:39:48 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-22 19:39:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-22 19:39:49 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-01-22 19:39:49 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-22 19:39:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("UI/Client/Rule Editor/Create Rule Set/span_firstRule"), 5): Object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/span_firstRule' is present
+
+2019-01-22 19:39:49 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/span_firstRule' is present
+
+2019-01-22 19:39:49 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-22 19:39:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-22 19:39:51 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI/Client/Rule Editor/Create Rule Set/button_saveRuleSet"), 5): Object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/button_saveRuleSet' is clickable
+
+2019-01-22 19:39:51 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/button_saveRuleSet' is clickable
+
+2019-01-22 19:39:51 - [TEST_STEP][PASSED] - click(findTestObject("UI/Client/Rule Editor/Create Rule Set/button_saveRuleSet")): Object: 'Object Repository/UI/Client/Rule Editor/Create Rule Set/button_saveRuleSet' is clicked on
+
+2019-01-22 19:39:51 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Client/Rule Editor/Create Rule Set/button_saveRuleSet' is clicked on
+
+2019-01-22 19:39:51 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-22 19:39:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-22 19:39:52 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-01-22 19:39:52 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-22 19:39:52 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/Client/Rule Editor/Create Rule Set/div_alertRuleAdded"), 5): Object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/div_alertRuleAdded' is present
+
+2019-01-22 19:39:52 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/div_alertRuleAdded' is present
+
+2019-01-22 19:39:52 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/Client/Rule Editor/Create Rule Set/div_alertRuleAdded"), 5): Object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/div_alertRuleAdded' is visible
+
+2019-01-22 19:39:52 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/div_alertRuleAdded' is visible
+
+2019-01-22 19:39:52 - [TEST_STEP][PASSED] - focus(findTestObject("UI/Client/Rule Editor/Create Rule Set/div_alertRuleAdded")): Object: 'Object Repository/UI/Client/Rule Editor/Create Rule Set/div_alertRuleAdded' is focused
+
+2019-01-22 19:39:52 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Client/Rule Editor/Create Rule Set/div_alertRuleAdded' is focused
+
+2019-01-22 19:39:52 - [TEST_STEP][PASSED] - click(findTestObject("UI/Client/Rule Editor/Create Rule Set/button_acceptRuleAddedPopUp")): Object: 'Object Repository/UI/Client/Rule Editor/Create Rule Set/button_acceptRuleAddedPopUp' is clicked on
+
+2019-01-22 19:39:53 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Client/Rule Editor/Create Rule Set/button_acceptRuleAddedPopUp' is clicked on
+
+2019-01-22 19:39:53 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-22 19:39:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-22 19:39:54 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-01-22 19:39:54 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-22 19:39:54 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-22 19:39:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-22 19:39:57 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/Client/Rule Editor/Create Rule Set/td_ruleSetAddedList"), 5): Object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/td_ruleSetAddedList' is present
+
+2019-01-22 19:39:57 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/td_ruleSetAddedList' is present
+
+2019-01-22 19:39:57 - [TEST_STEP][PASSED] - firstRuleSetName = getText(findTestObject("UI/Client/Rule Editor/Create Rule Set/td_ruleSetAddedList")): Text of object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/td_ruleSetAddedList' is: 'AAAA Rule Set'
+
+2019-01-22 19:39:57 - [MESSAGE][PASSED] - Text of object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/td_ruleSetAddedList' is: 'AAAA Rule Set'
+
+2019-01-22 19:39:57 - [TEST_STEP][PASSED] - verifyMatch(firstRuleSetName, RULESETNAME, false): Actual text 'AAAA Rule Set' and expected text 'AAAA Rule Set' are matched 
+
+2019-01-22 19:39:57 - [MESSAGE][PASSED] - Actual text 'AAAA Rule Set' and expected text 'AAAA Rule Set' are matched 
+
+2019-01-22 19:39:57 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-22 19:40:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-22 19:40:00 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI/General/Log/a_userAvatar"), 5): Object 'Object Repository/UI/General/Log/a_userAvatar' is clickable
+
+2019-01-22 19:40:00 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Log/a_userAvatar' is clickable
+
+2019-01-22 19:40:00 - [TEST_STEP][PASSED] - click(findTestObject("UI/General/Log/a_userAvatar")): Object: 'Object Repository/UI/General/Log/a_userAvatar' is clicked on
+
+2019-01-22 19:40:00 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/General/Log/a_userAvatar' is clicked on
+
+2019-01-22 19:40:00 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-22 19:40:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-22 19:40:01 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI/General/Log/a_signOutAMPS"), 5): Object 'Object Repository/UI/General/Log/a_signOutAMPS' is clickable
+
+2019-01-22 19:40:01 - [MESSAGE][PASSED] - Object 'Object Repository/UI/General/Log/a_signOutAMPS' is clickable
+
+2019-01-22 19:40:01 - [TEST_STEP][PASSED] - click(findTestObject("UI/General/Log/a_signOutAMPS")): Object: 'Object Repository/UI/General/Log/a_signOutAMPS' is clicked on
+
+2019-01-22 19:40:01 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/General/Log/a_signOutAMPS' is clicked on
+
+2019-01-22 19:40:01 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-22 19:40:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-22 19:40:02 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-22 19:40:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UI/Client/Rule Editor/Edit Rule Set" classname="Test Cases/UI/Client/Rule Editor/Edit Rule Set" status="FAILED">
+         <failure type="FAILED" message="Test Cases/UI/Client/Rule Editor/Edit Rule Set FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to focus on object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/div_alertRuleAdded' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/UI/Client/Rule Editor/Create Rule Set/div_alertRuleAdded' located by 'By.xpath: //div[@class=&quot;sweet-alert showSweetAlert visible&quot;]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.FocusKeyword.focus(FocusKeyword.groovy:90)
+	at com.kms.katalon.core.webui.keyword.builtin.FocusKeyword.execute(FocusKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.focus(WebUiBuiltInKeywords.groovy:859)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$focus$13.call(Unknown Source)
+	at Edit Rule Set.run(Edit Rule Set:106)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548207484546.run(TempTestSuite1548207484546.groovy:36)
+"/>
+         <system-out><![CDATA[2019-01-22 19:40:03 - [TEST_CASE][FAILED] - Test Cases/UI/Client/Rule Editor/Edit Rule Set: Test Cases/UI/Client/Rule Editor/Edit Rule Set FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to focus on object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/div_alertRuleAdded' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/UI/Client/Rule Editor/Create Rule Set/div_alertRuleAdded' located by 'By.xpath: //div[@class="sweet-alert showSweetAlert visible"]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.FocusKeyword.focus(FocusKeyword.groovy:90)
+	at com.kms.katalon.core.webui.keyword.builtin.FocusKeyword.execute(FocusKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.focus(WebUiBuiltInKeywords.groovy:859)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$focus$13.call(Unknown Source)
+	at Edit Rule Set.run(Edit Rule Set:106)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548207484546.run(TempTestSuite1548207484546.groovy:36)
+
+
+2019-01-22 19:40:03 - [TEST_STEP][PASSED] - UAT = "https://uat.advancedpricing.com": null
+
+2019-01-22 19:40:03 - [TEST_STEP][PASSED] - USER = "qaAuto": null
+
+2019-01-22 19:40:03 - [TEST_STEP][PASSED] - PASSWD = "a9yk100dD": null
+
+2019-01-22 19:40:03 - [TEST_STEP][PASSED] - RULESETNAME = "AAAA Rule Set EDITED": null
+
+2019-01-22 19:40:03 - [TEST_STEP][PASSED] - VALIDFROM = "01/02/2019": null
+
+2019-01-22 19:40:03 - [TEST_STEP][PASSED] - VALIDTO = "12/31/2019": null
+
+2019-01-22 19:40:03 - [TEST_STEP][PASSED] - RULESETTYPE = "Claim": null
+
+2019-01-22 19:40:03 - [TEST_STEP][PASSED] - RULENAME = "Second Rule": null
+
+2019-01-22 19:40:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-22 19:40:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-22 19:40:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-22 19:40:05 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-22 19:40:06 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-22 19:40:06 - [TEST_STEP][PASSED] - navigateToUrl(UAT): Navigate to 'https://uat.advancedpricing.com' successfully
+
+2019-01-22 19:40:08 - [MESSAGE][PASSED] - Navigate to 'https://uat.advancedpricing.com' successfully
+
+2019-01-22 19:40:08 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-01-22 19:40:08 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-22 19:40:08 - [TEST_STEP][PASSED] - setText(findTestObject("UI/Client/Claim Services/input_userCode"), USER): Text 'qaAuto' is set on object 'Object Repository/UI/Client/Claim Services/input_userCode'
+
+2019-01-22 19:40:09 - [MESSAGE][PASSED] - Text 'qaAuto' is set on object 'Object Repository/UI/Client/Claim Services/input_userCode'
+
+2019-01-22 19:40:09 - [TEST_STEP][PASSED] - setText(findTestObject("UI/Client/Claim Services/input_userPassword"), PASSWD): Text 'a9yk100dD' is set on object 'Object Repository/UI/Client/Claim Services/input_userPassword'
+
+2019-01-22 19:40:09 - [MESSAGE][PASSED] - Text 'a9yk100dD' is set on object 'Object Repository/UI/Client/Claim Services/input_userPassword'
+
+2019-01-22 19:40:09 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI/Client/Claim Services/input_loginButton"), 5): Object 'Object Repository/UI/Client/Claim Services/input_loginButton' is clickable
+
+2019-01-22 19:40:09 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Claim Services/input_loginButton' is clickable
+
+2019-01-22 19:40:09 - [TEST_STEP][PASSED] - click(findTestObject("UI/Client/Claim Services/input_loginButton")): Object: 'Object Repository/UI/Client/Claim Services/input_loginButton' is clicked on
+
+2019-01-22 19:40:09 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Client/Claim Services/input_loginButton' is clicked on
+
+2019-01-22 19:40:09 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-22 19:40:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-22 19:40:10 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-01-22 19:40:10 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-22 19:40:10 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/Client/Rule Editor/h1_Clients"), 5): Object 'Object Repository/UI/Client/Rule Editor/h1_Clients' is present
+
+2019-01-22 19:40:10 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Rule Editor/h1_Clients' is present
+
+2019-01-22 19:40:10 - [TEST_STEP][PASSED] - pageTitle = getText(findTestObject("UI/Client/Rule Editor/h1_Clients")): Text of object 'Object Repository/UI/Client/Rule Editor/h1_Clients' is: 'Clients'
+
+2019-01-22 19:40:10 - [MESSAGE][PASSED] - Text of object 'Object Repository/UI/Client/Rule Editor/h1_Clients' is: 'Clients'
+
+2019-01-22 19:40:10 - [TEST_STEP][PASSED] - verifyMatch(pageTitle, "Clients", false): Actual text 'Clients' and expected text 'Clients' are matched 
+
+2019-01-22 19:40:10 - [MESSAGE][PASSED] - Actual text 'Clients' and expected text 'Clients' are matched 
+
+2019-01-22 19:40:10 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-22 19:40:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-22 19:40:13 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI/Client/Rule Editor/span_ruleEditorMenu"), 5): Object 'Object Repository/UI/Client/Rule Editor/span_ruleEditorMenu' is clickable
+
+2019-01-22 19:40:13 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Rule Editor/span_ruleEditorMenu' is clickable
+
+2019-01-22 19:40:13 - [TEST_STEP][PASSED] - click(findTestObject("UI/Client/Rule Editor/span_ruleEditorMenu")): Object: 'Object Repository/UI/Client/Rule Editor/span_ruleEditorMenu' is clicked on
+
+2019-01-22 19:40:13 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Client/Rule Editor/span_ruleEditorMenu' is clicked on
+
+2019-01-22 19:40:13 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-22 19:40:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-22 19:40:14 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-01-22 19:40:14 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-22 19:40:14 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/Client/Rule Editor/h1_ruleEditor"), 5): Object 'Object Repository/UI/Client/Rule Editor/h1_ruleEditor' is present
+
+2019-01-22 19:40:14 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Rule Editor/h1_ruleEditor' is present
+
+2019-01-22 19:40:14 - [TEST_STEP][PASSED] - pageTitle = getText(findTestObject("UI/Client/Rule Editor/h1_ruleEditor")): Text of object 'Object Repository/UI/Client/Rule Editor/h1_ruleEditor' is: 'Rule Editor'
+
+2019-01-22 19:40:14 - [MESSAGE][PASSED] - Text of object 'Object Repository/UI/Client/Rule Editor/h1_ruleEditor' is: 'Rule Editor'
+
+2019-01-22 19:40:14 - [TEST_STEP][PASSED] - verifyMatch(pageTitle, "Rule Editor", false): Actual text 'Rule Editor' and expected text 'Rule Editor' are matched 
+
+2019-01-22 19:40:14 - [MESSAGE][PASSED] - Actual text 'Rule Editor' and expected text 'Rule Editor' are matched 
+
+2019-01-22 19:40:14 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-22 19:40:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-22 19:40:17 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI/Client/Rule Editor/Edit Rule Set/a_editRuleSetIcon"), 5): Object 'Object Repository/UI/Client/Rule Editor/Edit Rule Set/a_editRuleSetIcon' is clickable
+
+2019-01-22 19:40:17 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Rule Editor/Edit Rule Set/a_editRuleSetIcon' is clickable
+
+2019-01-22 19:40:17 - [TEST_STEP][PASSED] - click(findTestObject("UI/Client/Rule Editor/Edit Rule Set/a_editRuleSetIcon")): Object: 'Object Repository/UI/Client/Rule Editor/Edit Rule Set/a_editRuleSetIcon' is clicked on
+
+2019-01-22 19:40:17 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Client/Rule Editor/Edit Rule Set/a_editRuleSetIcon' is clicked on
+
+2019-01-22 19:40:17 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-22 19:40:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-22 19:40:18 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-01-22 19:40:18 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-22 19:40:18 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/Client/Rule Editor/Create Rule Set/h2_editRulesetForm"), 5): Object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/h2_editRulesetForm' is present
+
+2019-01-22 19:40:19 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/h2_editRulesetForm' is present
+
+2019-01-22 19:40:19 - [TEST_STEP][PASSED] - formTitle = getText(findTestObject("UI/Client/Rule Editor/Create Rule Set/h2_editRulesetForm")): Text of object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/h2_editRulesetForm' is: 'Edit Ruleset'
+
+2019-01-22 19:40:19 - [MESSAGE][PASSED] - Text of object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/h2_editRulesetForm' is: 'Edit Ruleset'
+
+2019-01-22 19:40:19 - [TEST_STEP][PASSED] - verifyMatch(formTitle, "Edit Ruleset", false): Actual text 'Edit Ruleset' and expected text 'Edit Ruleset' are matched 
+
+2019-01-22 19:40:19 - [MESSAGE][PASSED] - Actual text 'Edit Ruleset' and expected text 'Edit Ruleset' are matched 
+
+2019-01-22 19:40:19 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-22 19:40:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-22 19:40:22 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/Client/Rule Editor/Create Rule Set/input_ruleSetName"), 5): Object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/input_ruleSetName' is visible
+
+2019-01-22 19:40:22 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/input_ruleSetName' is visible
+
+2019-01-22 19:40:22 - [TEST_STEP][PASSED] - setText(findTestObject("UI/Client/Rule Editor/Create Rule Set/input_ruleSetName"), RULESETNAME): Text 'AAAA Rule Set EDITED' is set on object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/input_ruleSetName'
+
+2019-01-22 19:40:22 - [MESSAGE][PASSED] - Text 'AAAA Rule Set EDITED' is set on object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/input_ruleSetName'
+
+2019-01-22 19:40:22 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-22 19:40:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-22 19:40:24 - [TEST_STEP][PASSED] - click(findTestObject("UI/Client/Rule Editor/Edit Rule Set/span_clearValidFrom")): Object: 'Object Repository/UI/Client/Rule Editor/Edit Rule Set/span_clearValidFrom' is clicked on
+
+2019-01-22 19:40:24 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Client/Rule Editor/Edit Rule Set/span_clearValidFrom' is clicked on
+
+2019-01-22 19:40:24 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-22 19:40:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-22 19:40:25 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/Client/Rule Editor/Create Rule Set/input_validFromDate"), 5): Object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/input_validFromDate' is visible
+
+2019-01-22 19:40:25 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/input_validFromDate' is visible
+
+2019-01-22 19:40:25 - [TEST_STEP][PASSED] - setText(findTestObject("UI/Client/Rule Editor/Create Rule Set/input_validFromDate"), VALIDFROM): Text '01/02/2019' is set on object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/input_validFromDate'
+
+2019-01-22 19:40:25 - [MESSAGE][PASSED] - Text '01/02/2019' is set on object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/input_validFromDate'
+
+2019-01-22 19:40:25 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-22 19:40:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-22 19:40:27 - [TEST_STEP][PASSED] - click(findTestObject("UI/Client/Rule Editor/Edit Rule Set/span_clearValidTo")): Object: 'Object Repository/UI/Client/Rule Editor/Edit Rule Set/span_clearValidTo' is clicked on
+
+2019-01-22 19:40:27 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Client/Rule Editor/Edit Rule Set/span_clearValidTo' is clicked on
+
+2019-01-22 19:40:27 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-22 19:40:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-22 19:40:28 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/Client/Rule Editor/Create Rule Set/input_validToDate"), 5): Object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/input_validToDate' is visible
+
+2019-01-22 19:40:29 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/input_validToDate' is visible
+
+2019-01-22 19:40:29 - [TEST_STEP][PASSED] - setText(findTestObject("UI/Client/Rule Editor/Create Rule Set/input_validToDate"), VALIDTO): Text '12/31/2019' is set on object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/input_validToDate'
+
+2019-01-22 19:40:29 - [MESSAGE][PASSED] - Text '12/31/2019' is set on object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/input_validToDate'
+
+2019-01-22 19:40:29 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-22 19:40:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-22 19:40:31 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI/Client/Rule Editor/Create Rule Set/button_saveRuleSet"), 5): Object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/button_saveRuleSet' is clickable
+
+2019-01-22 19:40:31 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/button_saveRuleSet' is clickable
+
+2019-01-22 19:40:31 - [TEST_STEP][PASSED] - click(findTestObject("UI/Client/Rule Editor/Create Rule Set/button_saveRuleSet")): Object: 'Object Repository/UI/Client/Rule Editor/Create Rule Set/button_saveRuleSet' is clicked on
+
+2019-01-22 19:40:31 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Client/Rule Editor/Create Rule Set/button_saveRuleSet' is clicked on
+
+2019-01-22 19:40:31 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-22 19:40:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-22 19:40:32 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-01-22 19:40:32 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-22 19:40:32 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/Client/Rule Editor/Create Rule Set/div_alertRuleAdded"), 5): Object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/div_alertRuleAdded' is not present after 5 second(s)
+
+2019-01-22 19:40:37 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@class="sweet-alert showSweetAlert visible"]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-01-22 19:40:37 - [MESSAGE][WARNING] - Object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/div_alertRuleAdded' is not present after 5 second(s)
+
+2019-01-22 19:40:37 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/Client/Rule Editor/Create Rule Set/div_alertRuleAdded"), 5): Web element with id: 'Object Repository/UI/Client/Rule Editor/Create Rule Set/div_alertRuleAdded' located by 'By.xpath: //div[@class="sweet-alert showSweetAlert visible"]' not found
+
+2019-01-22 19:40:42 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@class="sweet-alert showSweetAlert visible"]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-01-22 19:40:42 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/UI/Client/Rule Editor/Create Rule Set/div_alertRuleAdded' located by 'By.xpath: //div[@class="sweet-alert showSweetAlert visible"]' not found
+
+2019-01-22 19:40:42 - [TEST_STEP][FAILED] - focus(findTestObject("UI/Client/Rule Editor/Create Rule Set/div_alertRuleAdded")): focus(findTestObject("UI/Client/Rule Editor/Create Rule Set/div_alertRuleAdded")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to focus on object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/div_alertRuleAdded' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/UI/Client/Rule Editor/Create Rule Set/div_alertRuleAdded' located by 'By.xpath: //div[@class="sweet-alert showSweetAlert visible"]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.FocusKeyword.focus(FocusKeyword.groovy:90)
+	at com.kms.katalon.core.webui.keyword.builtin.FocusKeyword.execute(FocusKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.focus(WebUiBuiltInKeywords.groovy:859)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$focus$13.call(Unknown Source)
+	at Edit Rule Set.run(Edit Rule Set:106)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548207484546.run(TempTestSuite1548207484546.groovy:36)
+
+
+2019-01-22 19:41:14 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@class="sweet-alert showSweetAlert visible"]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-01-22 19:41:14 - [MESSAGE][FAILED] - Unable to focus on object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/div_alertRuleAdded' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/UI/Client/Rule Editor/Create Rule Set/div_alertRuleAdded' located by 'By.xpath: //div[@class="sweet-alert showSweetAlert visible"]' not found)
+[[ATTACHMENT|C:\\Users\\David Avalos\\git\\AMPSAutRegression\\Reports\\UI\\Rule Editor\\Rule Editor\\20190122_193804\\1548207674146.png]]
+
+2019-01-22 19:41:14 - [MESSAGE][FAILED] - focus(findTestObject("UI/Client/Rule Editor/Create Rule Set/div_alertRuleAdded")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to focus on object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/div_alertRuleAdded' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/UI/Client/Rule Editor/Create Rule Set/div_alertRuleAdded' located by 'By.xpath: //div[@class="sweet-alert showSweetAlert visible"]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.FocusKeyword.focus(FocusKeyword.groovy:90)
+	at com.kms.katalon.core.webui.keyword.builtin.FocusKeyword.execute(FocusKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.focus(WebUiBuiltInKeywords.groovy:859)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$focus$13.call(Unknown Source)
+	at Edit Rule Set.run(Edit Rule Set:106)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548207484546.run(TempTestSuite1548207484546.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-01-22 19:40:03 - [TEST_CASE][FAILED] - Test Cases/UI/Client/Rule Editor/Edit Rule Set: Test Cases/UI/Client/Rule Editor/Edit Rule Set FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to focus on object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/div_alertRuleAdded' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/UI/Client/Rule Editor/Create Rule Set/div_alertRuleAdded' located by 'By.xpath: //div[@class="sweet-alert showSweetAlert visible"]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.FocusKeyword.focus(FocusKeyword.groovy:90)
+	at com.kms.katalon.core.webui.keyword.builtin.FocusKeyword.execute(FocusKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.focus(WebUiBuiltInKeywords.groovy:859)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$focus$13.call(Unknown Source)
+	at Edit Rule Set.run(Edit Rule Set:106)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548207484546.run(TempTestSuite1548207484546.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UI/Client/Rule Editor/Delete Rule Set" classname="Test Cases/UI/Client/Rule Editor/Delete Rule Set" status="FAILED">
+         <failure type="FAILED" message="Test Cases/UI/Client/Rule Editor/Delete Rule Set FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify match between actual text 'AAAA Rule Set' and expected text 'AAAA Rule Set EDITED' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'AAAA Rule Set' and expected text 'AAAA Rule Set EDITED' are not matched)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:73)
+	at Delete Rule Set.run(Delete Rule Set:110)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548207484546.run(TempTestSuite1548207484546.groovy:36)
+"/>
+         <system-out><![CDATA[2019-01-22 19:41:14 - [TEST_CASE][FAILED] - Test Cases/UI/Client/Rule Editor/Delete Rule Set: Test Cases/UI/Client/Rule Editor/Delete Rule Set FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify match between actual text 'AAAA Rule Set' and expected text 'AAAA Rule Set EDITED' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'AAAA Rule Set' and expected text 'AAAA Rule Set EDITED' are not matched)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:73)
+	at Delete Rule Set.run(Delete Rule Set:110)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548207484546.run(TempTestSuite1548207484546.groovy:36)
+
+
+2019-01-22 19:41:14 - [TEST_STEP][PASSED] - UAT = "https://uat.advancedpricing.com": null
+
+2019-01-22 19:41:14 - [TEST_STEP][PASSED] - USER = "qaAuto": null
+
+2019-01-22 19:41:14 - [TEST_STEP][PASSED] - PASSWD = "a9yk100dD": null
+
+2019-01-22 19:41:14 - [TEST_STEP][PASSED] - RULESETNAME = "AAAA Rule Set EDITED": null
+
+2019-01-22 19:41:14 - [TEST_STEP][PASSED] - VALIDFROM = "01/02/2019": null
+
+2019-01-22 19:41:14 - [TEST_STEP][PASSED] - VALIDTO = "12/31/2019": null
+
+2019-01-22 19:41:14 - [TEST_STEP][PASSED] - RULESETTYPE = "Claim": null
+
+2019-01-22 19:41:14 - [TEST_STEP][PASSED] - RULENAME = "Second Rule": null
+
+2019-01-22 19:41:14 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-22 19:41:14 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-01-22 19:41:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-22 19:41:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-22 19:41:17 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-22 19:41:18 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-22 19:41:18 - [TEST_STEP][PASSED] - navigateToUrl(UAT): Navigate to 'https://uat.advancedpricing.com' successfully
+
+2019-01-22 19:41:20 - [MESSAGE][PASSED] - Navigate to 'https://uat.advancedpricing.com' successfully
+
+2019-01-22 19:41:20 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-01-22 19:41:20 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-22 19:41:20 - [TEST_STEP][PASSED] - setText(findTestObject("UI/Client/Claim Services/input_userCode"), USER): Text 'qaAuto' is set on object 'Object Repository/UI/Client/Claim Services/input_userCode'
+
+2019-01-22 19:41:20 - [MESSAGE][PASSED] - Text 'qaAuto' is set on object 'Object Repository/UI/Client/Claim Services/input_userCode'
+
+2019-01-22 19:41:20 - [TEST_STEP][PASSED] - setText(findTestObject("UI/Client/Claim Services/input_userPassword"), PASSWD): Text 'a9yk100dD' is set on object 'Object Repository/UI/Client/Claim Services/input_userPassword'
+
+2019-01-22 19:41:21 - [MESSAGE][PASSED] - Text 'a9yk100dD' is set on object 'Object Repository/UI/Client/Claim Services/input_userPassword'
+
+2019-01-22 19:41:21 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI/Client/Claim Services/input_loginButton"), 5): Object 'Object Repository/UI/Client/Claim Services/input_loginButton' is clickable
+
+2019-01-22 19:41:21 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Claim Services/input_loginButton' is clickable
+
+2019-01-22 19:41:21 - [TEST_STEP][PASSED] - click(findTestObject("UI/Client/Claim Services/input_loginButton")): Object: 'Object Repository/UI/Client/Claim Services/input_loginButton' is clicked on
+
+2019-01-22 19:41:21 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Client/Claim Services/input_loginButton' is clicked on
+
+2019-01-22 19:41:21 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-22 19:41:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-22 19:41:22 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-01-22 19:41:22 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-22 19:41:22 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/Client/Rule Editor/h1_Clients"), 5): Object 'Object Repository/UI/Client/Rule Editor/h1_Clients' is present
+
+2019-01-22 19:41:22 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Rule Editor/h1_Clients' is present
+
+2019-01-22 19:41:22 - [TEST_STEP][PASSED] - pageTitle = getText(findTestObject("UI/Client/Rule Editor/h1_Clients")): Text of object 'Object Repository/UI/Client/Rule Editor/h1_Clients' is: 'Clients'
+
+2019-01-22 19:41:22 - [MESSAGE][PASSED] - Text of object 'Object Repository/UI/Client/Rule Editor/h1_Clients' is: 'Clients'
+
+2019-01-22 19:41:22 - [TEST_STEP][PASSED] - verifyMatch(pageTitle, "Clients", false): Actual text 'Clients' and expected text 'Clients' are matched 
+
+2019-01-22 19:41:22 - [MESSAGE][PASSED] - Actual text 'Clients' and expected text 'Clients' are matched 
+
+2019-01-22 19:41:22 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-22 19:41:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-22 19:41:25 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI/Client/Rule Editor/span_ruleEditorMenu"), 5): Object 'Object Repository/UI/Client/Rule Editor/span_ruleEditorMenu' is clickable
+
+2019-01-22 19:41:25 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Rule Editor/span_ruleEditorMenu' is clickable
+
+2019-01-22 19:41:25 - [TEST_STEP][PASSED] - click(findTestObject("UI/Client/Rule Editor/span_ruleEditorMenu")): Object: 'Object Repository/UI/Client/Rule Editor/span_ruleEditorMenu' is clicked on
+
+2019-01-22 19:41:25 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Client/Rule Editor/span_ruleEditorMenu' is clicked on
+
+2019-01-22 19:41:25 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-22 19:41:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-22 19:41:26 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-01-22 19:41:26 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-22 19:41:26 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/Client/Rule Editor/h1_ruleEditor"), 5): Object 'Object Repository/UI/Client/Rule Editor/h1_ruleEditor' is present
+
+2019-01-22 19:41:26 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Rule Editor/h1_ruleEditor' is present
+
+2019-01-22 19:41:26 - [TEST_STEP][PASSED] - pageTitle = getText(findTestObject("UI/Client/Rule Editor/h1_ruleEditor")): Text of object 'Object Repository/UI/Client/Rule Editor/h1_ruleEditor' is: 'Rule Editor'
+
+2019-01-22 19:41:26 - [MESSAGE][PASSED] - Text of object 'Object Repository/UI/Client/Rule Editor/h1_ruleEditor' is: 'Rule Editor'
+
+2019-01-22 19:41:26 - [TEST_STEP][PASSED] - verifyMatch(pageTitle, "Rule Editor", false): Actual text 'Rule Editor' and expected text 'Rule Editor' are matched 
+
+2019-01-22 19:41:26 - [MESSAGE][PASSED] - Actual text 'Rule Editor' and expected text 'Rule Editor' are matched 
+
+2019-01-22 19:41:26 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-22 19:41:29 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-22 19:41:29 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI/Client/Rule Editor/Edit Rule Set/a_editRuleSetIcon"), 5): Object 'Object Repository/UI/Client/Rule Editor/Edit Rule Set/a_editRuleSetIcon' is clickable
+
+2019-01-22 19:41:29 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Rule Editor/Edit Rule Set/a_editRuleSetIcon' is clickable
+
+2019-01-22 19:41:29 - [TEST_STEP][PASSED] - click(findTestObject("UI/Client/Rule Editor/Edit Rule Set/a_editRuleSetIcon")): Object: 'Object Repository/UI/Client/Rule Editor/Edit Rule Set/a_editRuleSetIcon' is clicked on
+
+2019-01-22 19:41:29 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Client/Rule Editor/Edit Rule Set/a_editRuleSetIcon' is clicked on
+
+2019-01-22 19:41:29 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-22 19:41:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-22 19:41:30 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-01-22 19:41:30 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-22 19:41:30 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI/Client/Rule Editor/Delete Rule Set/div_deleteRule"), 5): Object 'Object Repository/UI/Client/Rule Editor/Delete Rule Set/div_deleteRule' is clickable
+
+2019-01-22 19:41:31 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Rule Editor/Delete Rule Set/div_deleteRule' is clickable
+
+2019-01-22 19:41:31 - [TEST_STEP][PASSED] - click(findTestObject("UI/Client/Rule Editor/Delete Rule Set/div_deleteRule")): Object: 'Object Repository/UI/Client/Rule Editor/Delete Rule Set/div_deleteRule' is clicked on
+
+2019-01-22 19:41:31 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Client/Rule Editor/Delete Rule Set/div_deleteRule' is clicked on
+
+2019-01-22 19:41:31 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-22 19:41:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-22 19:41:32 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-01-22 19:41:32 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-22 19:41:32 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/Client/Rule Editor/Delete Rule Set/div_alertDeleteRule"), 5): Object 'Object Repository/UI/Client/Rule Editor/Delete Rule Set/div_alertDeleteRule' is present
+
+2019-01-22 19:41:32 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Rule Editor/Delete Rule Set/div_alertDeleteRule' is present
+
+2019-01-22 19:41:32 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/Client/Rule Editor/Delete Rule Set/div_alertDeleteRule"), 5): Object 'Object Repository/UI/Client/Rule Editor/Delete Rule Set/div_alertDeleteRule' is visible
+
+2019-01-22 19:41:32 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Rule Editor/Delete Rule Set/div_alertDeleteRule' is visible
+
+2019-01-22 19:41:32 - [TEST_STEP][PASSED] - focus(findTestObject("UI/Client/Rule Editor/Delete Rule Set/div_alertDeleteRule")): Object: 'Object Repository/UI/Client/Rule Editor/Delete Rule Set/div_alertDeleteRule' is focused
+
+2019-01-22 19:41:32 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Client/Rule Editor/Delete Rule Set/div_alertDeleteRule' is focused
+
+2019-01-22 19:41:32 - [TEST_STEP][PASSED] - click(findTestObject("UI/Client/Rule Editor/Delete Rule Set/button_confirmDeleteRule")): Object: 'Object Repository/UI/Client/Rule Editor/Delete Rule Set/button_confirmDeleteRule' is clicked on
+
+2019-01-22 19:41:32 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Client/Rule Editor/Delete Rule Set/button_confirmDeleteRule' is clicked on
+
+2019-01-22 19:41:32 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-22 19:41:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-22 19:41:33 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-01-22 19:41:33 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-22 19:41:33 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-22 19:41:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-22 19:41:36 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("UI/Client/Rule Editor/Create Rule Set/span_secondRule"), 5): Web element with id: 'Object Repository/UI/Client/Rule Editor/Create Rule Set/span_secondRule' located by 'By.xpath: //*[@class="panel panel-primary"]//table/tbody/tr[2]/td[1]/span[contains(@class, "handle")]' is not present after '5' second(s)
+
+2019-01-22 19:41:36 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/UI/Client/Rule Editor/Create Rule Set/span_secondRule' located by 'By.xpath: //*[@class="panel panel-primary"]//table/tbody/tr[2]/td[1]/span[contains(@class, "handle")]' is not present after '5' second(s)
+
+2019-01-22 19:41:36 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-01-22 19:41:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-01-22 19:41:38 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("UI/Client/Rule Editor/Create Rule Set/button_saveRuleSet"), 5): Object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/button_saveRuleSet' is clickable
+
+2019-01-22 19:41:38 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/button_saveRuleSet' is clickable
+
+2019-01-22 19:41:38 - [TEST_STEP][PASSED] - click(findTestObject("UI/Client/Rule Editor/Create Rule Set/button_saveRuleSet")): Object: 'Object Repository/UI/Client/Rule Editor/Create Rule Set/button_saveRuleSet' is clicked on
+
+2019-01-22 19:41:38 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Client/Rule Editor/Create Rule Set/button_saveRuleSet' is clicked on
+
+2019-01-22 19:41:38 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-22 19:41:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-22 19:41:39 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-01-22 19:41:39 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-22 19:41:39 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/Client/Rule Editor/Create Rule Set/div_alertRuleAdded"), 5): Object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/div_alertRuleAdded' is present
+
+2019-01-22 19:41:39 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/div_alertRuleAdded' is present
+
+2019-01-22 19:41:39 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("UI/Client/Rule Editor/Create Rule Set/div_alertRuleAdded"), 5): Object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/div_alertRuleAdded' is visible
+
+2019-01-22 19:41:39 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/div_alertRuleAdded' is visible
+
+2019-01-22 19:41:39 - [TEST_STEP][PASSED] - focus(findTestObject("UI/Client/Rule Editor/Create Rule Set/div_alertRuleAdded")): Object: 'Object Repository/UI/Client/Rule Editor/Create Rule Set/div_alertRuleAdded' is focused
+
+2019-01-22 19:41:39 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Client/Rule Editor/Create Rule Set/div_alertRuleAdded' is focused
+
+2019-01-22 19:41:39 - [TEST_STEP][PASSED] - click(findTestObject("UI/Client/Rule Editor/Create Rule Set/button_acceptRuleSetSavedPopUp")): Object: 'Object Repository/UI/Client/Rule Editor/Create Rule Set/button_acceptRuleSetSavedPopUp' is clicked on
+
+2019-01-22 19:41:39 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Client/Rule Editor/Create Rule Set/button_acceptRuleSetSavedPopUp' is clicked on
+
+2019-01-22 19:41:39 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-22 19:41:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-22 19:41:40 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-01-22 19:41:40 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-01-22 19:41:40 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-22 19:41:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-22 19:41:43 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("UI/Client/Rule Editor/Create Rule Set/td_ruleSetAddedList"), 5): Object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/td_ruleSetAddedList' is present
+
+2019-01-22 19:41:43 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/td_ruleSetAddedList' is present
+
+2019-01-22 19:41:43 - [TEST_STEP][PASSED] - firstRuleSetName = getText(findTestObject("UI/Client/Rule Editor/Create Rule Set/td_ruleSetAddedList")): Text of object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/td_ruleSetAddedList' is: 'AAAA Rule Set'
+
+2019-01-22 19:41:43 - [MESSAGE][PASSED] - Text of object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/td_ruleSetAddedList' is: 'AAAA Rule Set'
+
+2019-01-22 19:41:43 - [TEST_STEP][FAILED] - verifyMatch(firstRuleSetName, RULESETNAME, false): verifyMatch(firstRuleSetName, RULESETNAME, false) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify match between actual text 'AAAA Rule Set' and expected text 'AAAA Rule Set EDITED' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'AAAA Rule Set' and expected text 'AAAA Rule Set EDITED' are not matched)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:73)
+	at Delete Rule Set.run(Delete Rule Set:110)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548207484546.run(TempTestSuite1548207484546.groovy:36)
+
+
+2019-01-22 19:41:44 - [MESSAGE][FAILED] - Unable to verify match between actual text 'AAAA Rule Set' and expected text 'AAAA Rule Set EDITED' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'AAAA Rule Set' and expected text 'AAAA Rule Set EDITED' are not matched)
+
+2019-01-22 19:41:44 - [MESSAGE][FAILED] - verifyMatch(firstRuleSetName, RULESETNAME, false) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify match between actual text 'AAAA Rule Set' and expected text 'AAAA Rule Set EDITED' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'AAAA Rule Set' and expected text 'AAAA Rule Set EDITED' are not matched)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:73)
+	at Delete Rule Set.run(Delete Rule Set:110)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548207484546.run(TempTestSuite1548207484546.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-01-22 19:41:14 - [TEST_CASE][FAILED] - Test Cases/UI/Client/Rule Editor/Delete Rule Set: Test Cases/UI/Client/Rule Editor/Delete Rule Set FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify match between actual text 'AAAA Rule Set' and expected text 'AAAA Rule Set EDITED' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'AAAA Rule Set' and expected text 'AAAA Rule Set EDITED' are not matched)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:73)
+	at Delete Rule Set.run(Delete Rule Set:110)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548207484546.run(TempTestSuite1548207484546.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-22 19:38:07 - [TEST_SUITE][FAILED] - Rule Editor: Test Cases/UI/Client/Rule Editor/Edit Rule Set FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to focus on object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/div_alertRuleAdded' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/UI/Client/Rule Editor/Create Rule Set/div_alertRuleAdded' located by 'By.xpath: //div[@class="sweet-alert showSweetAlert visible"]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.FocusKeyword.focus(FocusKeyword.groovy:90)
+	at com.kms.katalon.core.webui.keyword.builtin.FocusKeyword.execute(FocusKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.focus(WebUiBuiltInKeywords.groovy:859)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$focus$13.call(Unknown Source)
+	at Edit Rule Set.run(Edit Rule Set:106)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548207484546.run(TempTestSuite1548207484546.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-01-22 19:38:07 - [TEST_SUITE][FAILED] - Rule Editor: Test Cases/UI/Client/Rule Editor/Edit Rule Set FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to focus on object 'Object Repository/UI/Client/Rule Editor/Create Rule Set/div_alertRuleAdded' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/UI/Client/Rule Editor/Create Rule Set/div_alertRuleAdded' located by 'By.xpath: //div[@class="sweet-alert showSweetAlert visible"]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.FocusKeyword.focus(FocusKeyword.groovy:90)
+	at com.kms.katalon.core.webui.keyword.builtin.FocusKeyword.execute(FocusKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.focus(WebUiBuiltInKeywords.groovy:859)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$focus$13.call(Unknown Source)
+	at Edit Rule Set.run(Edit Rule Set:106)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548207484546.run(TempTestSuite1548207484546.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>
