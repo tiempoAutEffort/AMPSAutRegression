@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GlobalVariableEntities>
    <description></description>
-   <name>default</name>
+   <name>admin</name>
    <tag></tag>
-   <defaultProfile>true</defaultProfile>
+   <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'https://uat.advancedpricing.com/'</initValue>
@@ -18,5 +18,10 @@
       <description></description>
       <initValue>'a9yk100dD'</initValue>
       <name>Password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'qaAuto/noEditUser_ameriben'</initValue>
+      <name>UserNameNoAdmin</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

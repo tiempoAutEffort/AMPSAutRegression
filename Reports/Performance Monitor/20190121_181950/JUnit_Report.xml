@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Performance Monitor" time="31" tests="2" failures="0" errors="0">
+   <testsuite name="Performance Monitor" tests="2" failures="0" errors="0" time="31" timestamp="2019-01-21 18:19:52" hostname="juan padilla - 172.20.13.17" id="Test Suites/Performance Monitor">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/juan padilla/git/AMPSAutRegression/Reports/Performance Monitor/20190121_181950"/>
+         <property name="logFiles" value="/Users/juan padilla/git/AMPSAutRegression/Reports/Performance Monitor/20190121_181950/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="juan padilla - 172.20.13.17"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="172.20.13.17"/>
+         <property name="sessionId" value="48549722c31a4e552807881e625aee45"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/UI/Performance Monitor/General Display" classname="Test Cases/UI/Performance Monitor/General Display" status="PASSED">
+         <system-out><![CDATA[2019-01-21 18:19:52 - [TEST_CASE][PASSED] - Test Cases/UI/Performance Monitor/General Display: Test Cases/UI/Performance Monitor/General Display
+
+2019-01-21 18:19:53 - [TEST_STEP][PASSED] - actualText = findTestObject("Object Repository/UI/Performance Monitor/Objects Performance Monitor/Page_AMPS Portal/span_Performance Monitor"): null
+
+2019-01-21 18:19:53 - [TEST_STEP][PASSED] - callTestCase(findTestCase("UI/General/AdminLogin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/UI/General/AdminLogin' successfully
+
+2019-01-21 18:19:53 - [TEST_CASE][PASSED] - Test Cases/UI/General/AdminLogin: Test Cases/UI/General/AdminLogin
+
+2019-01-21 18:19:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-21 18:19:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-21 18:19:53 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-21 18:19:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-21 18:19:55 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-21 18:19:55 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-21 18:19:55 - [TEST_STEP][PASSED] - navigateToUrl(Url): Navigate to 'https://uat.advancedpricing.com/' successfully
+
+2019-01-21 18:19:57 - [MESSAGE][PASSED] - Navigate to 'https://uat.advancedpricing.com/' successfully
+
+2019-01-21 18:19:57 - [TEST_STEP][PASSED] - setText(findTestObject("UI/General/Page_LoginPage/input_User"), UserName): Text 'qaAuto' is set on object 'Object Repository/UI/General/Page_LoginPage/input_User'
+
+2019-01-21 18:19:57 - [MESSAGE][PASSED] - Text 'qaAuto' is set on object 'Object Repository/UI/General/Page_LoginPage/input_User'
+
+2019-01-21 18:19:57 - [TEST_STEP][PASSED] - setText(findTestObject("UI/General/Page_LoginPage/input_Password"), Password): Text 'a9yk100dD' is set on object 'Object Repository/UI/General/Page_LoginPage/input_Password'
+
+2019-01-21 18:19:58 - [MESSAGE][PASSED] - Text 'a9yk100dD' is set on object 'Object Repository/UI/General/Page_LoginPage/input_Password'
+
+2019-01-21 18:19:58 - [TEST_STEP][PASSED] - click(findTestObject("UI/General/Page_LoginPage/button_Login")): Object: 'Object Repository/UI/General/Page_LoginPage/button_Login' is clicked on
+
+2019-01-21 18:19:58 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/General/Page_LoginPage/button_Login' is clicked on
+
+2019-01-21 18:19:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UI/General/AdminLogin' successfully
+
+2019-01-21 18:19:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/UI/Performance Monitor/Objects Performance Monitor/Page_AMPS Portal/span_Performance Monitor")): Object: 'Object Repository/UI/Performance Monitor/Objects Performance Monitor/Page_AMPS Portal/span_Performance Monitor' is clicked on
+
+2019-01-21 18:19:59 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Performance Monitor/Objects Performance Monitor/Page_AMPS Portal/span_Performance Monitor' is clicked on
+
+2019-01-21 18:19:59 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-21 18:20:04 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-21 18:20:04 - [TEST_STEP][PASSED] - verifyElementPresent(actualText, 0): Object 'Object Repository/UI/Performance Monitor/Objects Performance Monitor/Page_AMPS Portal/span_Performance Monitor' is present
+
+2019-01-21 18:20:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-01-21 18:20:04 - [MESSAGE][PASSED] - Object 'Object Repository/UI/Performance Monitor/Objects Performance Monitor/Page_AMPS Portal/span_Performance Monitor' is present
+
+2019-01-21 18:20:04 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-21 18:20:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UI/Performance Monitor/Verify there is a change on the graphic" classname="Test Cases/UI/Performance Monitor/Verify there is a change on the graphic" status="PASSED">
+         <system-out><![CDATA[2019-01-21 18:20:04 - [TEST_CASE][PASSED] - Test Cases/UI/Performance Monitor/Verify there is a change on the graphic: Test Cases/UI/Performance Monitor/Verify there is a change on the graphic
+
+2019-01-21 18:20:04 - [TEST_STEP][PASSED] - actualSavings = findTestObject("Object Repository/UI/Performance Monitor/Objects Performance Monitor/Page_AMPS Portal/div_979268824"): null
+
+2019-01-21 18:20:04 - [TEST_STEP][PASSED] - last3MonthsSavings = findTestObject("Object Repository/UI/Performance Monitor/Objects Performance Monitor/Page_AMPS Portal/div_67758396"): null
+
+2019-01-21 18:20:04 - [TEST_STEP][PASSED] - callTestCase(findTestCase("UI/General/AdminLogin"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/UI/General/AdminLogin' successfully
+
+2019-01-21 18:20:04 - [TEST_CASE][PASSED] - Test Cases/UI/General/AdminLogin: Test Cases/UI/General/AdminLogin
+
+2019-01-21 18:20:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-21 18:20:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-21 18:20:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-21 18:20:05 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-21 18:20:05 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-21 18:20:05 - [TEST_STEP][PASSED] - navigateToUrl(Url): Navigate to 'https://uat.advancedpricing.com/' successfully
+
+2019-01-21 18:20:07 - [MESSAGE][PASSED] - Navigate to 'https://uat.advancedpricing.com/' successfully
+
+2019-01-21 18:20:07 - [TEST_STEP][PASSED] - setText(findTestObject("UI/General/Page_LoginPage/input_User"), UserName): Text 'qaAuto' is set on object 'Object Repository/UI/General/Page_LoginPage/input_User'
+
+2019-01-21 18:20:07 - [MESSAGE][PASSED] - Text 'qaAuto' is set on object 'Object Repository/UI/General/Page_LoginPage/input_User'
+
+2019-01-21 18:20:07 - [TEST_STEP][PASSED] - setText(findTestObject("UI/General/Page_LoginPage/input_Password"), Password): Text 'a9yk100dD' is set on object 'Object Repository/UI/General/Page_LoginPage/input_Password'
+
+2019-01-21 18:20:07 - [MESSAGE][PASSED] - Text 'a9yk100dD' is set on object 'Object Repository/UI/General/Page_LoginPage/input_Password'
+
+2019-01-21 18:20:07 - [TEST_STEP][PASSED] - click(findTestObject("UI/General/Page_LoginPage/button_Login")): Object: 'Object Repository/UI/General/Page_LoginPage/button_Login' is clicked on
+
+2019-01-21 18:20:08 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/General/Page_LoginPage/button_Login' is clicked on
+
+2019-01-21 18:20:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UI/General/AdminLogin' successfully
+
+2019-01-21 18:20:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/UI/Performance Monitor/Objects Performance Monitor/Page_AMPS Portal/span_Performance Monitor")): Object: 'Object Repository/UI/Performance Monitor/Objects Performance Monitor/Page_AMPS Portal/span_Performance Monitor' is clicked on
+
+2019-01-21 18:20:08 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Performance Monitor/Objects Performance Monitor/Page_AMPS Portal/span_Performance Monitor' is clicked on
+
+2019-01-21 18:20:08 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-21 18:20:13 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-21 18:20:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/UI/Performance Monitor/Objects Performance Monitor/Page_AMPS Portal/button_Last 3 Months")): Object: 'Object Repository/UI/Performance Monitor/Objects Performance Monitor/Page_AMPS Portal/button_Last 3 Months' is clicked on
+
+2019-01-21 18:20:13 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Performance Monitor/Objects Performance Monitor/Page_AMPS Portal/button_Last 3 Months' is clicked on
+
+2019-01-21 18:20:13 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-21 18:20:18 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-21 18:20:18 - [TEST_STEP][PASSED] - verifyNotEqual(actualSavings, last3MonthsSavings): Actual object 'TestObject - 'Object Repository/UI/Performance Monitor/Objects Performance Monitor/Page_AMPS Portal/div_979268824'' and expected object 'TestObject - 'Object Repository/UI/Performance Monitor/Objects Performance Monitor/Page_AMPS Portal/div_67758396'' are not equal
+
+2019-01-21 18:20:18 - [MESSAGE][PASSED] - Actual object 'TestObject - 'Object Repository/UI/Performance Monitor/Objects Performance Monitor/Page_AMPS Portal/div_979268824'' and expected object 'TestObject - 'Object Repository/UI/Performance Monitor/Objects Performance Monitor/Page_AMPS Portal/div_67758396'' are not equal
+
+2019-01-21 18:20:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/UI/Performance Monitor/Objects Performance Monitor/Page_AMPS Portal/button_ITD")): Object: 'Object Repository/UI/Performance Monitor/Objects Performance Monitor/Page_AMPS Portal/button_ITD' is clicked on
+
+2019-01-21 18:20:19 - [MESSAGE][PASSED] - Object: 'Object Repository/UI/Performance Monitor/Objects Performance Monitor/Page_AMPS Portal/button_ITD' is clicked on
+
+2019-01-21 18:20:19 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-21 18:20:24 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-21 18:20:24 - [TEST_STEP][PASSED] - verifyEqual(actualSavings, actualSavings): Actual object 'TestObject - 'Object Repository/UI/Performance Monitor/Objects Performance Monitor/Page_AMPS Portal/div_979268824'' and expected object 'TestObject - 'Object Repository/UI/Performance Monitor/Objects Performance Monitor/Page_AMPS Portal/div_979268824'' are equal
+
+2019-01-21 18:20:24 - [MESSAGE][PASSED] - Actual object 'TestObject - 'Object Repository/UI/Performance Monitor/Objects Performance Monitor/Page_AMPS Portal/div_979268824'' and expected object 'TestObject - 'Object Repository/UI/Performance Monitor/Objects Performance Monitor/Page_AMPS Portal/div_979268824'' are equal
+
+2019-01-21 18:20:24 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-21 18:20:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-21 18:19:52 - [TEST_SUITE][PASSED] - Performance Monitor: Test Cases/UI/Performance Monitor/Verify there is a change on the graphic]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

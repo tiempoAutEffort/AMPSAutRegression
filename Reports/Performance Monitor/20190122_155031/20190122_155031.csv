@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Performance Monitor,Chrome 71.0.3578.98,,2019-01-22 15:50:33,2019-01-22 15:51:15,41.702s,PASSED
+,,,,,,
+Test Cases/UI/Performance Monitor/General Display,Chrome 71.0.3578.98,,2019-01-22 15:50:34,2019-01-22 15:50:50,16.792s,PASSED
+"actualText = findTestObject(""UI/Employee/Performance Monitor/Objects Performance Monitor/Page_AMPS Portal/span_Performance Monitor"")",Chrome 71.0.3578.98,,2019-01-22 15:50:34,2019-01-22 15:50:34,0.029s,PASSED
+"callTestCase(findTestCase(""UI/General/AdminLogin""), [:], STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 15:50:34,2019-01-22 15:50:44,10.268s,PASSED
+"click(findTestObject(""UI/Employee/Performance Monitor/Objects Performance Monitor/Page_AMPS Portal/span_Performance Monitor""))",Chrome 71.0.3578.98,,2019-01-22 15:50:44,2019-01-22 15:50:45,0.934s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-22 15:50:45,2019-01-22 15:50:50,5.013s,PASSED
+"verifyElementPresent(actualText, 0)",Chrome 71.0.3578.98,,2019-01-22 15:50:50,2019-01-22 15:50:50,0.028s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-22 15:50:50,2019-01-22 15:50:50,0.170s,PASSED
+,,,,,,
+Test Cases/UI/Performance Monitor/Verify there is a change on the graphic,Chrome 71.0.3578.98,,2019-01-22 15:50:50,2019-01-22 15:51:15,24.523s,PASSED
+"actualSavings = findTestObject(""UI/Employee/Performance Monitor/Objects Performance Monitor/Page_AMPS Portal/div_979268824"")",Chrome 71.0.3578.98,,2019-01-22 15:50:51,2019-01-22 15:50:51,0.013s,PASSED
+"last3MonthsSavings = findTestObject(""UI/Employee/Performance Monitor/Objects Performance Monitor/Page_AMPS Portal/div_67758396"")",Chrome 71.0.3578.98,,2019-01-22 15:50:51,2019-01-22 15:50:51,0.007s,PASSED
+"callTestCase(findTestCase(""UI/General/AdminLogin""), [:], STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-22 15:50:51,2019-01-22 15:50:58,7.644s,PASSED
+"click(findTestObject(""UI/Employee/Performance Monitor/Objects Performance Monitor/Page_AMPS Portal/span_Performance Monitor""))",Chrome 71.0.3578.98,,2019-01-22 15:50:58,2019-01-22 15:50:59,0.944s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-22 15:50:59,2019-01-22 15:51:04,5.009s,PASSED
+"click(findTestObject(""UI/Employee/Performance Monitor/Objects Performance Monitor/Page_AMPS Portal/button_Last 3 Months""))",Chrome 71.0.3578.98,,2019-01-22 15:51:04,2019-01-22 15:51:05,0.189s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-22 15:51:05,2019-01-22 15:51:10,5.006s,PASSED
+"verifyNotEqual(actualSavings, last3MonthsSavings)",Chrome 71.0.3578.98,,2019-01-22 15:51:10,2019-01-22 15:51:10,0.014s,PASSED
+"click(findTestObject(""UI/Employee/Performance Monitor/Objects Performance Monitor/Page_AMPS Portal/button_ITD""))",Chrome 71.0.3578.98,,2019-01-22 15:51:10,2019-01-22 15:51:10,0.358s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-22 15:51:10,2019-01-22 15:51:15,5.007s,PASSED
+"verifyEqual(actualSavings, actualSavings)",Chrome 71.0.3578.98,,2019-01-22 15:51:15,2019-01-22 15:51:15,0.006s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-22 15:51:15,2019-01-22 15:51:15,0.119s,PASSED

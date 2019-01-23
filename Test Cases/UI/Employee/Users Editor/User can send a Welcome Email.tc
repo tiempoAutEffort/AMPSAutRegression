@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>User can send a Welcome Email</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9e8cadcb-d45e-4523-8aef-2651b610741f</testCaseGuid>
+</TestCaseEntity>
