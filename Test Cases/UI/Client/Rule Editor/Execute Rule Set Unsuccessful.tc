@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>A Rule Set will not be executed successfully when using an invalid Claim id.</description>
+   <name>Execute Rule Set Unsuccessful</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8607b461-fdc4-4f4d-a185-36e22bc6a65c</testCaseGuid>
+</TestCaseEntity>

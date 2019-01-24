@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>A Rule Set will be executed using a valid Claim id.</description>
+   <name>Execute Rule Set Successful</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c6db771c-cfa7-4950-916e-82127db6a416</testCaseGuid>
+</TestCaseEntity>
