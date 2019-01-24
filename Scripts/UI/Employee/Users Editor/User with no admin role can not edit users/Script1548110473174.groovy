@@ -23,6 +23,8 @@ WebUI.navigateToUrl('https://uat.advancedpricing.com/users/new')
 
 WebUI.delay(3)
 
+WebUI.waitForElementPresent(findTestObject('UI/General/Page_LoginPage/button_Login'), 5)
+
 WebUI.closeBrowser()
 
 

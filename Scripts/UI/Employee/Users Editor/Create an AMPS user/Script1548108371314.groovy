@@ -69,10 +69,10 @@ WebUI.click(findTestObject('UI/Employee/user detail/Create new User/Page_AMPS Po
 
 WebUI.delay(2)
 
-/*WebUI.click(findTestObject('UI/Employee/user detail/Create new User/Page_AMPS Portal/button_Save'))
+WebUI.click(findTestObject('UI/Employee/user detail/Create new User/Page_AMPS Portal/button_Save'))
 
-WebUI.verifyTextPresent('User created', false)
+WebUI.verifyTextPresent('User Created', false)
 
-WebUI.click(findTestObject('UI/Employee/user detail/Create new User/Page_AMPS Portal/button_OK'))*/
+WebUI.click(findTestObject('UI/Employee/user detail/Create new User/Page_AMPS Portal/button_OK'))
 WebUI.closeBrowser()
 
