@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>td_ruleSetAddedList</name>
+   <name>a_addAction</name>
    <tag></tag>
-   <elementGuidId>7400476c-91e6-49be-80d8-2f1237bcf8a0</elementGuidId>
+   <elementGuidId>851c3288-4140-40f9-9201-c96dc9cc017c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;content&quot;]//table/tbody/tr[1]/td[3]</value>
+         <value>//*[@id=&quot;content&quot;]//div[2]/div/div[1]/div[1]/span/a</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;content&quot;]//table/tbody/tr[1]/td[3]</value>
+         <value>//*[@id=&quot;content&quot;]//div[2]/div/div[1]/div[1]/span/a</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;content&quot;]//table/tbody/tr[1]/td[3]</value>
+      <value>//*[@id=&quot;content&quot;]//div[2]/div/div[1]/div[1]/span/a</value>
    </webElementProperties>
 </WebElementEntity>

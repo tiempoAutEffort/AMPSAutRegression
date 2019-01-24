@@ -1,0 +1,406 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Rule Editor,Chrome 71.0.3578.98,,2019-01-22 16:43:49,2019-01-22 16:47:37,3m - 48.467s,PASSED
+,,,,,,
+Test Cases/UI/Client/Rule Editor/Create New Rule Set,Chrome 71.0.3578.98,Create a new Rule Set with rules in it and create another new Rule Set without any rules.,2019-01-22 16:43:49,2019-01-22 16:45:01,1m - 11.842s,PASSED
+"UAT = ""https://uat.advancedpricing.com""",Chrome 71.0.3578.98,,2019-01-22 16:43:50,2019-01-22 16:43:50,0.002s,PASSED
+"USER = ""qaAuto""",Chrome 71.0.3578.98,,2019-01-22 16:43:50,2019-01-22 16:43:50,0.000s,PASSED
+"PASSWD = ""a9yk100dD""",Chrome 71.0.3578.98,,2019-01-22 16:43:50,2019-01-22 16:43:50,0.000s,PASSED
+"RULESETNAME = ""AAAA Rule Set""",Chrome 71.0.3578.98,,2019-01-22 16:43:50,2019-01-22 16:43:50,0.000s,PASSED
+"VALIDFROM = ""01/18/2019""",Chrome 71.0.3578.98,,2019-01-22 16:43:50,2019-01-22 16:43:50,0.000s,PASSED
+"VALIDTO = ""01/30/2019""",Chrome 71.0.3578.98,,2019-01-22 16:43:50,2019-01-22 16:43:50,0.000s,PASSED
+"RULESETTYPE = ""Claim""",Chrome 71.0.3578.98,,2019-01-22 16:43:50,2019-01-22 16:43:50,0.000s,PASSED
+"RULENAME = ""First Rule""",Chrome 71.0.3578.98,,2019-01-22 16:43:50,2019-01-22 16:43:50,0.000s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-22 16:43:50,2019-01-22 16:43:53,3.173s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-22 16:43:53,2019-01-22 16:43:54,1.142s,PASSED
+navigateToUrl(UAT),Chrome 71.0.3578.98,,2019-01-22 16:43:54,2019-01-22 16:43:55,1.493s,PASSED
+waitForPageLoad(5),Chrome 71.0.3578.98,,2019-01-22 16:43:55,2019-01-22 16:43:56,0.059s,PASSED
+"setText(findTestObject(""UI/Client/Claim Services/input_userCode""), USER)",Chrome 71.0.3578.98,,2019-01-22 16:43:56,2019-01-22 16:43:56,0.184s,PASSED
+"setText(findTestObject(""UI/Client/Claim Services/input_userPassword""), PASSWD)",Chrome 71.0.3578.98,,2019-01-22 16:43:56,2019-01-22 16:43:56,0.147s,PASSED
+"waitForElementClickable(findTestObject(""UI/Client/Claim Services/input_loginButton""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:43:56,2019-01-22 16:43:56,0.054s,PASSED
+"click(findTestObject(""UI/Client/Claim Services/input_loginButton""))",Chrome 71.0.3578.98,,2019-01-22 16:43:56,2019-01-22 16:43:56,0.113s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-22 16:43:56,2019-01-22 16:43:57,1.020s,PASSED
+waitForPageLoad(5),Chrome 71.0.3578.98,,2019-01-22 16:43:57,2019-01-22 16:43:57,0.044s,PASSED
+"waitForElementPresent(findTestObject(""UI/Client/Rule Editor/h1_Clients""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:43:57,2019-01-22 16:43:57,0.100s,PASSED
+"pageTitle = getText(findTestObject(""UI/Client/Rule Editor/h1_Clients""))",Chrome 71.0.3578.98,,2019-01-22 16:43:57,2019-01-22 16:43:57,0.042s,PASSED
+"verifyMatch(pageTitle, ""Clients"", false)",Chrome 71.0.3578.98,,2019-01-22 16:43:57,2019-01-22 16:43:57,0.006s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-22 16:43:57,2019-01-22 16:44:00,3.002s,PASSED
+"waitForElementClickable(findTestObject(""UI/Client/Rule Editor/span_ruleEditorMenu""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:44:00,2019-01-22 16:44:00,0.035s,PASSED
+"click(findTestObject(""UI/Client/Rule Editor/span_ruleEditorMenu""))",Chrome 71.0.3578.98,,2019-01-22 16:44:00,2019-01-22 16:44:00,0.178s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-22 16:44:00,2019-01-22 16:44:01,1.001s,PASSED
+waitForPageLoad(5),Chrome 71.0.3578.98,,2019-01-22 16:44:01,2019-01-22 16:44:01,0.004s,PASSED
+"waitForElementPresent(findTestObject(""UI/Client/Rule Editor/h1_ruleEditor""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:44:01,2019-01-22 16:44:01,0.044s,PASSED
+"pageTitle = getText(findTestObject(""UI/Client/Rule Editor/h1_ruleEditor""))",Chrome 71.0.3578.98,,2019-01-22 16:44:01,2019-01-22 16:44:02,0.038s,PASSED
+"verifyMatch(pageTitle, ""Rule Editor"", false)",Chrome 71.0.3578.98,,2019-01-22 16:44:02,2019-01-22 16:44:02,0.000s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-22 16:44:02,2019-01-22 16:44:05,3.001s,PASSED
+"waitForElementClickable(findTestObject(""UI/Client/Rule Editor/Create Rule Set/a_createNewRuleSet""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:44:05,2019-01-22 16:44:05,0.027s,PASSED
+"click(findTestObject(""UI/Client/Rule Editor/Create Rule Set/a_createNewRuleSet""))",Chrome 71.0.3578.98,,2019-01-22 16:44:05,2019-01-22 16:44:05,0.185s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-22 16:44:05,2019-01-22 16:44:06,1.003s,PASSED
+waitForPageLoad(5),Chrome 71.0.3578.98,,2019-01-22 16:44:06,2019-01-22 16:44:06,0.020s,PASSED
+"waitForElementPresent(findTestObject(""UI/Client/Rule Editor/Create Rule Set/h2_newRulesetForm""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:44:06,2019-01-22 16:44:06,0.036s,PASSED
+"formTitle = getText(findTestObject(""UI/Client/Rule Editor/Create Rule Set/h2_newRulesetForm""))",Chrome 71.0.3578.98,,2019-01-22 16:44:06,2019-01-22 16:44:06,0.039s,PASSED
+"verifyMatch(formTitle, ""New Ruleset"", false)",Chrome 71.0.3578.98,,2019-01-22 16:44:06,2019-01-22 16:44:06,0.000s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-22 16:44:06,2019-01-22 16:44:09,3.001s,PASSED
+"waitForElementVisible(findTestObject(""UI/Client/Rule Editor/Create Rule Set/input_ruleSetName""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:44:09,2019-01-22 16:44:09,0.083s,PASSED
+"setText(findTestObject(""UI/Client/Rule Editor/Create Rule Set/input_ruleSetName""), RULESETNAME)",Chrome 71.0.3578.98,,2019-01-22 16:44:09,2019-01-22 16:44:09,0.236s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-22 16:44:09,2019-01-22 16:44:11,2.003s,PASSED
+"waitForElementVisible(findTestObject(""UI/Client/Rule Editor/Create Rule Set/input_validFromDate""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:44:11,2019-01-22 16:44:11,0.094s,PASSED
+"setText(findTestObject(""UI/Client/Rule Editor/Create Rule Set/input_validFromDate""), VALIDFROM)",Chrome 71.0.3578.98,,2019-01-22 16:44:11,2019-01-22 16:44:11,0.217s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-22 16:44:11,2019-01-22 16:44:13,2.003s,PASSED
+"waitForElementVisible(findTestObject(""UI/Client/Rule Editor/Create Rule Set/input_validToDate""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:44:13,2019-01-22 16:44:14,0.083s,PASSED
+"setText(findTestObject(""UI/Client/Rule Editor/Create Rule Set/input_validToDate""), VALIDTO)",Chrome 71.0.3578.98,,2019-01-22 16:44:14,2019-01-22 16:44:14,0.179s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-22 16:44:14,2019-01-22 16:44:16,2.003s,PASSED
+"waitForElementClickable(findTestObject(""UI/Client/Rule Editor/Create Rule Set/select_ruleSetType""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:44:16,2019-01-22 16:44:16,0.089s,PASSED
+"click(findTestObject(""UI/Client/Rule Editor/Create Rule Set/select_ruleSetType""))",Chrome 71.0.3578.98,,2019-01-22 16:44:16,2019-01-22 16:44:16,0.101s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-22 16:44:16,2019-01-22 16:44:18,2.003s,PASSED
+"waitForElementPresent(findTestObject(""UI/Client/Rule Editor/Create Rule Set/option_claimType""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:44:18,2019-01-22 16:44:18,0.074s,PASSED
+"waitForElementVisible(findTestObject(""UI/Client/Rule Editor/Create Rule Set/option_claimType""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:44:18,2019-01-22 16:44:18,0.036s,PASSED
+"sendKeys(findTestObject(""UI/Client/Rule Editor/Create Rule Set/option_claimType""), Keys.chord(ENTER))",Chrome 71.0.3578.98,,2019-01-22 16:44:18,2019-01-22 16:44:18,0.069s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-22 16:44:18,2019-01-22 16:44:20,2.003s,PASSED
+"waitForElementClickable(findTestObject(""UI/Client/Rule Editor/Create Rule Set/button_saveRuleSet""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:44:20,2019-01-22 16:44:20,0.092s,PASSED
+"click(findTestObject(""UI/Client/Rule Editor/Create Rule Set/button_saveRuleSet""))",Chrome 71.0.3578.98,,2019-01-22 16:44:20,2019-01-22 16:44:20,0.091s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-22 16:44:20,2019-01-22 16:44:21,1.003s,PASSED
+waitForPageLoad(5),Chrome 71.0.3578.98,,2019-01-22 16:44:21,2019-01-22 16:44:21,0.081s,PASSED
+"waitForElementPresent(findTestObject(""UI/Client/Rule Editor/Create Rule Set/div_alertRuleSetSaved""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:44:21,2019-01-22 16:44:21,0.021s,PASSED
+"waitForElementVisible(findTestObject(""UI/Client/Rule Editor/Create Rule Set/div_alertRuleSetSaved""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:44:21,2019-01-22 16:44:21,0.027s,PASSED
+"focus(findTestObject(""UI/Client/Rule Editor/Create Rule Set/div_alertRuleSetSaved""))",Chrome 71.0.3578.98,,2019-01-22 16:44:21,2019-01-22 16:44:22,0.066s,PASSED
+"click(findTestObject(""UI/Client/Rule Editor/Create Rule Set/button_acceptRuleSetSavedPopUp""))",Chrome 71.0.3578.98,,2019-01-22 16:44:22,2019-01-22 16:44:22,0.084s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-22 16:44:22,2019-01-22 16:44:25,3.003s,PASSED
+waitForPageLoad(5),Chrome 71.0.3578.98,,2019-01-22 16:44:25,2019-01-22 16:44:25,0.023s,PASSED
+"waitForElementPresent(findTestObject(""UI/Client/Rule Editor/Create Rule Set/h2_editRulesetForm""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:44:25,2019-01-22 16:44:25,0.053s,PASSED
+"formTitle = getText(findTestObject(""UI/Client/Rule Editor/Create Rule Set/h2_editRulesetForm""))",Chrome 71.0.3578.98,,2019-01-22 16:44:25,2019-01-22 16:44:25,0.049s,PASSED
+"verifyMatch(formTitle, ""Edit Ruleset"", false)",Chrome 71.0.3578.98,,2019-01-22 16:44:25,2019-01-22 16:44:25,0.000s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-22 16:44:25,2019-01-22 16:44:28,3.002s,PASSED
+"verifyElementNotPresent(findTestObject(""UI/Client/Rule Editor/Create Rule Set/span_noRulesYet""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:44:28,2019-01-22 16:44:28,0.070s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-22 16:44:28,2019-01-22 16:44:31,3.003s,PASSED
+"waitForElementClickable(findTestObject(""UI/Client/Rule Editor/Create Rule Set/a_addRuleToRuleSet""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:44:31,2019-01-22 16:44:31,0.105s,PASSED
+"click(findTestObject(""UI/Client/Rule Editor/Create Rule Set/a_addRuleToRuleSet""))",Chrome 71.0.3578.98,,2019-01-22 16:44:31,2019-01-22 16:44:31,0.205s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-22 16:44:31,2019-01-22 16:44:32,1.001s,PASSED
+waitForPageLoad(5),Chrome 71.0.3578.98,,2019-01-22 16:44:32,2019-01-22 16:44:32,0.026s,PASSED
+"waitForElementPresent(findTestObject(""UI/Client/Rule Editor/Create Rule Set/h2_newRulesForm""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:44:32,2019-01-22 16:44:32,0.030s,PASSED
+"formTitle = getText(findTestObject(""UI/Client/Rule Editor/Create Rule Set/h2_newRulesForm""))",Chrome 71.0.3578.98,,2019-01-22 16:44:32,2019-01-22 16:44:32,0.037s,PASSED
+"verifyMatch(formTitle, ""New Rules"", false)",Chrome 71.0.3578.98,,2019-01-22 16:44:32,2019-01-22 16:44:32,0.000s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-22 16:44:32,2019-01-22 16:44:35,3.003s,PASSED
+"waitForElementVisible(findTestObject(""UI/Client/Rule Editor/Create Rule Set/input_ruleName""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:44:35,2019-01-22 16:44:35,0.090s,PASSED
+"setText(findTestObject(""UI/Client/Rule Editor/Create Rule Set/input_ruleName""), RULENAME)",Chrome 71.0.3578.98,,2019-01-22 16:44:35,2019-01-22 16:44:36,0.232s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-22 16:44:36,2019-01-22 16:44:38,2.002s,PASSED
+"waitForElementClickable(findTestObject(""UI/Client/Rule Editor/Create Rule Set/select_addCondition""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:44:38,2019-01-22 16:44:38,0.075s,PASSED
+"click(findTestObject(""UI/Client/Rule Editor/Create Rule Set/select_addCondition""))",Chrome 71.0.3578.98,,2019-01-22 16:44:38,2019-01-22 16:44:38,0.086s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-22 16:44:38,2019-01-22 16:44:40,2.003s,PASSED
+"waitForElementPresent(findTestObject(""UI/Client/Rule Editor/Create Rule Set/option_conditionType""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:44:40,2019-01-22 16:44:40,0.031s,PASSED
+"waitForElementVisible(findTestObject(""UI/Client/Rule Editor/Create Rule Set/option_conditionType""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:44:40,2019-01-22 16:44:40,0.036s,PASSED
+"sendKeys(findTestObject(""UI/Client/Rule Editor/Create Rule Set/option_conditionType""), Keys.chord(ENTER))",Chrome 71.0.3578.98,,2019-01-22 16:44:40,2019-01-22 16:44:40,0.086s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-22 16:44:40,2019-01-22 16:44:42,2.001s,PASSED
+"waitForElementClickable(findTestObject(""UI/Client/Rule Editor/Create Rule Set/select_addAction""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:44:42,2019-01-22 16:44:42,0.058s,PASSED
+"click(findTestObject(""UI/Client/Rule Editor/Create Rule Set/select_addAction""))",Chrome 71.0.3578.98,,2019-01-22 16:44:42,2019-01-22 16:44:42,0.086s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-22 16:44:42,2019-01-22 16:44:44,2.002s,PASSED
+"waitForElementPresent(findTestObject(""UI/Client/Rule Editor/Create Rule Set/option_actionType""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:44:44,2019-01-22 16:44:44,0.027s,PASSED
+"waitForElementVisible(findTestObject(""UI/Client/Rule Editor/Create Rule Set/option_actionType""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:44:44,2019-01-22 16:44:44,0.055s,PASSED
+"sendKeys(findTestObject(""UI/Client/Rule Editor/Create Rule Set/option_actionType""), Keys.chord(ENTER))",Chrome 71.0.3578.98,,2019-01-22 16:44:44,2019-01-22 16:44:44,0.064s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-22 16:44:44,2019-01-22 16:44:46,2.002s,PASSED
+"waitForElementClickable(findTestObject(""UI/Client/Rule Editor/Create Rule Set/button_saveRule""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:44:46,2019-01-22 16:44:46,0.077s,PASSED
+"click(findTestObject(""UI/Client/Rule Editor/Create Rule Set/button_saveRule""))",Chrome 71.0.3578.98,,2019-01-22 16:44:46,2019-01-22 16:44:46,0.116s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-22 16:44:46,2019-01-22 16:44:47,1.003s,PASSED
+waitForPageLoad(5),Chrome 71.0.3578.98,,2019-01-22 16:44:47,2019-01-22 16:44:47,0.078s,PASSED
+"verifyElementPresent(findTestObject(""UI/Client/Rule Editor/Create Rule Set/span_firstRule""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:44:47,2019-01-22 16:44:47,0.037s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-22 16:44:47,2019-01-22 16:44:49,2.000s,PASSED
+"waitForElementClickable(findTestObject(""UI/Client/Rule Editor/Create Rule Set/button_saveRuleSet""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:44:49,2019-01-22 16:44:49,0.029s,PASSED
+"click(findTestObject(""UI/Client/Rule Editor/Create Rule Set/button_saveRuleSet""))",Chrome 71.0.3578.98,,2019-01-22 16:44:49,2019-01-22 16:44:50,0.091s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-22 16:44:50,2019-01-22 16:44:51,1.003s,PASSED
+waitForPageLoad(5),Chrome 71.0.3578.98,,2019-01-22 16:44:51,2019-01-22 16:44:51,0.072s,PASSED
+"waitForElementPresent(findTestObject(""UI/Client/Rule Editor/Create Rule Set/div_alertRuleAdded""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:44:51,2019-01-22 16:44:51,0.015s,PASSED
+"waitForElementVisible(findTestObject(""UI/Client/Rule Editor/Create Rule Set/div_alertRuleAdded""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:44:51,2019-01-22 16:44:51,0.026s,PASSED
+"focus(findTestObject(""UI/Client/Rule Editor/Create Rule Set/div_alertRuleAdded""))",Chrome 71.0.3578.98,,2019-01-22 16:44:51,2019-01-22 16:44:51,0.040s,PASSED
+"click(findTestObject(""UI/Client/Rule Editor/Create Rule Set/button_acceptRuleAddedPopUp""))",Chrome 71.0.3578.98,,2019-01-22 16:44:51,2019-01-22 16:44:51,0.101s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-22 16:44:51,2019-01-22 16:44:52,1.002s,PASSED
+waitForPageLoad(5),Chrome 71.0.3578.98,,2019-01-22 16:44:52,2019-01-22 16:44:52,0.013s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-22 16:44:52,2019-01-22 16:44:55,3.002s,PASSED
+"waitForElementPresent(findTestObject(""UI/Client/Rule Editor/Create Rule Set/td_ruleSetAddedList""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:44:55,2019-01-22 16:44:55,0.045s,PASSED
+"firstRuleSetName = getText(findTestObject(""UI/Client/Rule Editor/Create Rule Set/td_ruleSetAddedList""))",Chrome 71.0.3578.98,,2019-01-22 16:44:55,2019-01-22 16:44:55,0.061s,PASSED
+"verifyMatch(firstRuleSetName, RULESETNAME, false)",Chrome 71.0.3578.98,,2019-01-22 16:44:55,2019-01-22 16:44:55,0.000s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-22 16:44:55,2019-01-22 16:44:58,3.002s,PASSED
+"waitForElementClickable(findTestObject(""UI/General/Log/a_userAvatar""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:44:58,2019-01-22 16:44:58,0.066s,PASSED
+"click(findTestObject(""UI/General/Log/a_userAvatar""))",Chrome 71.0.3578.98,,2019-01-22 16:44:58,2019-01-22 16:44:58,0.075s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-22 16:44:58,2019-01-22 16:44:59,1.002s,PASSED
+"waitForElementClickable(findTestObject(""UI/General/Log/a_signOutAMPS""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:44:59,2019-01-22 16:44:59,0.075s,PASSED
+"click(findTestObject(""UI/General/Log/a_signOutAMPS""))",Chrome 71.0.3578.98,,2019-01-22 16:44:59,2019-01-22 16:44:59,0.133s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-22 16:44:59,2019-01-22 16:45:00,1.002s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-22 16:45:00,2019-01-22 16:45:01,0.673s,PASSED
+,,,,,,
+Test Cases/UI/Client/Rule Editor/Edit Rule Set,Chrome 71.0.3578.98,Edit a Rule Set by adding rules to it.,2019-01-22 16:45:01,2019-01-22 16:46:08,1m - 7.432s,PASSED
+"UAT = ""https://uat.advancedpricing.com""",Chrome 71.0.3578.98,,2019-01-22 16:45:01,2019-01-22 16:45:01,0.001s,PASSED
+"USER = ""qaAuto""",Chrome 71.0.3578.98,,2019-01-22 16:45:01,2019-01-22 16:45:01,0.000s,PASSED
+"PASSWD = ""a9yk100dD""",Chrome 71.0.3578.98,,2019-01-22 16:45:01,2019-01-22 16:45:01,0.000s,PASSED
+"RULESETNAME = ""AAAA Rule Set EDITED""",Chrome 71.0.3578.98,,2019-01-22 16:45:01,2019-01-22 16:45:01,0.000s,PASSED
+"VALIDFROM = ""01/02/2019""",Chrome 71.0.3578.98,,2019-01-22 16:45:01,2019-01-22 16:45:01,0.000s,PASSED
+"VALIDTO = ""12/31/2019""",Chrome 71.0.3578.98,,2019-01-22 16:45:01,2019-01-22 16:45:01,0.000s,PASSED
+"RULESETTYPE = ""Claim""",Chrome 71.0.3578.98,,2019-01-22 16:45:01,2019-01-22 16:45:01,0.000s,PASSED
+"RULENAME = ""Second Rule""",Chrome 71.0.3578.98,,2019-01-22 16:45:01,2019-01-22 16:45:01,0.000s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-22 16:45:01,2019-01-22 16:45:03,2.163s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-22 16:45:03,2019-01-22 16:45:05,1.122s,PASSED
+navigateToUrl(UAT),Chrome 71.0.3578.98,,2019-01-22 16:45:05,2019-01-22 16:45:06,1.463s,PASSED
+waitForPageLoad(5),Chrome 71.0.3578.98,,2019-01-22 16:45:06,2019-01-22 16:45:06,0.006s,PASSED
+"setText(findTestObject(""UI/Client/Claim Services/input_userCode""), USER)",Chrome 71.0.3578.98,,2019-01-22 16:45:06,2019-01-22 16:45:06,0.145s,PASSED
+"setText(findTestObject(""UI/Client/Claim Services/input_userPassword""), PASSWD)",Chrome 71.0.3578.98,,2019-01-22 16:45:06,2019-01-22 16:45:06,0.153s,PASSED
+"waitForElementClickable(findTestObject(""UI/Client/Claim Services/input_loginButton""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:45:06,2019-01-22 16:45:06,0.033s,PASSED
+"click(findTestObject(""UI/Client/Claim Services/input_loginButton""))",Chrome 71.0.3578.98,,2019-01-22 16:45:06,2019-01-22 16:45:06,0.098s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-22 16:45:06,2019-01-22 16:45:07,1.001s,PASSED
+waitForPageLoad(5),Chrome 71.0.3578.98,,2019-01-22 16:45:07,2019-01-22 16:45:08,0.090s,PASSED
+"waitForElementPresent(findTestObject(""UI/Client/Rule Editor/h1_Clients""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:45:08,2019-01-22 16:45:08,0.011s,PASSED
+"pageTitle = getText(findTestObject(""UI/Client/Rule Editor/h1_Clients""))",Chrome 71.0.3578.98,,2019-01-22 16:45:08,2019-01-22 16:45:08,0.041s,PASSED
+"verifyMatch(pageTitle, ""Clients"", false)",Chrome 71.0.3578.98,,2019-01-22 16:45:08,2019-01-22 16:45:08,0.000s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-22 16:45:08,2019-01-22 16:45:11,3.001s,PASSED
+"waitForElementClickable(findTestObject(""UI/Client/Rule Editor/span_ruleEditorMenu""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:45:11,2019-01-22 16:45:11,0.027s,PASSED
+"click(findTestObject(""UI/Client/Rule Editor/span_ruleEditorMenu""))",Chrome 71.0.3578.98,,2019-01-22 16:45:11,2019-01-22 16:45:11,0.176s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-22 16:45:11,2019-01-22 16:45:12,1.001s,PASSED
+waitForPageLoad(5),Chrome 71.0.3578.98,,2019-01-22 16:45:12,2019-01-22 16:45:12,0.003s,PASSED
+"waitForElementPresent(findTestObject(""UI/Client/Rule Editor/h1_ruleEditor""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:45:12,2019-01-22 16:45:12,0.010s,PASSED
+"pageTitle = getText(findTestObject(""UI/Client/Rule Editor/h1_ruleEditor""))",Chrome 71.0.3578.98,,2019-01-22 16:45:12,2019-01-22 16:45:12,0.038s,PASSED
+"verifyMatch(pageTitle, ""Rule Editor"", false)",Chrome 71.0.3578.98,,2019-01-22 16:45:12,2019-01-22 16:45:12,0.000s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-22 16:45:12,2019-01-22 16:45:15,3.002s,PASSED
+"waitForElementClickable(findTestObject(""UI/Client/Rule Editor/Edit Rule Set/a_editRuleSetIcon""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:45:15,2019-01-22 16:45:15,0.078s,PASSED
+"click(findTestObject(""UI/Client/Rule Editor/Edit Rule Set/a_editRuleSetIcon""))",Chrome 71.0.3578.98,,2019-01-22 16:45:15,2019-01-22 16:45:15,0.186s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-22 16:45:15,2019-01-22 16:45:16,1.002s,PASSED
+waitForPageLoad(5),Chrome 71.0.3578.98,,2019-01-22 16:45:16,2019-01-22 16:45:16,0.021s,PASSED
+"waitForElementPresent(findTestObject(""UI/Client/Rule Editor/Create Rule Set/h2_editRulesetForm""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:45:16,2019-01-22 16:45:16,0.039s,PASSED
+"formTitle = getText(findTestObject(""UI/Client/Rule Editor/Create Rule Set/h2_editRulesetForm""))",Chrome 71.0.3578.98,,2019-01-22 16:45:16,2019-01-22 16:45:16,0.041s,PASSED
+"verifyMatch(formTitle, ""Edit Ruleset"", false)",Chrome 71.0.3578.98,,2019-01-22 16:45:16,2019-01-22 16:45:16,0.000s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-22 16:45:16,2019-01-22 16:45:19,3.003s,PASSED
+"waitForElementVisible(findTestObject(""UI/Client/Rule Editor/Create Rule Set/input_ruleSetName""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:45:19,2019-01-22 16:45:19,0.084s,PASSED
+"setText(findTestObject(""UI/Client/Rule Editor/Create Rule Set/input_ruleSetName""), RULESETNAME)",Chrome 71.0.3578.98,,2019-01-22 16:45:19,2019-01-22 16:45:20,0.327s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-22 16:45:20,2019-01-22 16:45:22,2.002s,PASSED
+"click(findTestObject(""UI/Client/Rule Editor/Edit Rule Set/span_clearValidFrom""))",Chrome 71.0.3578.98,,2019-01-22 16:45:22,2019-01-22 16:45:22,0.145s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-22 16:45:22,2019-01-22 16:45:23,1.002s,PASSED
+"waitForElementVisible(findTestObject(""UI/Client/Rule Editor/Create Rule Set/input_validFromDate""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:45:23,2019-01-22 16:45:23,0.077s,PASSED
+"setText(findTestObject(""UI/Client/Rule Editor/Create Rule Set/input_validFromDate""), VALIDFROM)",Chrome 71.0.3578.98,,2019-01-22 16:45:23,2019-01-22 16:45:23,0.208s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-22 16:45:23,2019-01-22 16:45:25,2.002s,PASSED
+"click(findTestObject(""UI/Client/Rule Editor/Edit Rule Set/span_clearValidTo""))",Chrome 71.0.3578.98,,2019-01-22 16:45:25,2019-01-22 16:45:25,0.113s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-22 16:45:25,2019-01-22 16:45:26,1.002s,PASSED
+"waitForElementVisible(findTestObject(""UI/Client/Rule Editor/Create Rule Set/input_validToDate""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:45:26,2019-01-22 16:45:26,0.071s,PASSED
+"setText(findTestObject(""UI/Client/Rule Editor/Create Rule Set/input_validToDate""), VALIDTO)",Chrome 71.0.3578.98,,2019-01-22 16:45:26,2019-01-22 16:45:27,0.199s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-22 16:45:27,2019-01-22 16:45:29,2.003s,PASSED
+"waitForElementClickable(findTestObject(""UI/Client/Rule Editor/Create Rule Set/button_saveRuleSet""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:45:29,2019-01-22 16:45:29,0.065s,PASSED
+"click(findTestObject(""UI/Client/Rule Editor/Create Rule Set/button_saveRuleSet""))",Chrome 71.0.3578.98,,2019-01-22 16:45:29,2019-01-22 16:45:29,0.098s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-22 16:45:29,2019-01-22 16:45:30,1.002s,PASSED
+waitForPageLoad(5),Chrome 71.0.3578.98,,2019-01-22 16:45:30,2019-01-22 16:45:30,0.083s,PASSED
+"waitForElementPresent(findTestObject(""UI/Client/Rule Editor/Create Rule Set/div_alertRuleAdded""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:45:30,2019-01-22 16:45:30,0.020s,PASSED
+"waitForElementVisible(findTestObject(""UI/Client/Rule Editor/Create Rule Set/div_alertRuleAdded""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:45:30,2019-01-22 16:45:30,0.027s,PASSED
+"focus(findTestObject(""UI/Client/Rule Editor/Create Rule Set/div_alertRuleAdded""))",Chrome 71.0.3578.98,,2019-01-22 16:45:30,2019-01-22 16:45:30,0.037s,PASSED
+"click(findTestObject(""UI/Client/Rule Editor/Create Rule Set/button_acceptRuleAddedPopUp""))",Chrome 71.0.3578.98,,2019-01-22 16:45:30,2019-01-22 16:45:30,0.093s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-22 16:45:30,2019-01-22 16:45:31,1.002s,PASSED
+waitForPageLoad(5),Chrome 71.0.3578.98,,2019-01-22 16:45:31,2019-01-22 16:45:31,0.010s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-22 16:45:31,2019-01-22 16:45:34,3.001s,PASSED
+"waitForElementPresent(findTestObject(""UI/Client/Rule Editor/Create Rule Set/td_ruleSetAddedList""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:45:34,2019-01-22 16:45:34,0.041s,PASSED
+"firstRuleSetName = getText(findTestObject(""UI/Client/Rule Editor/Create Rule Set/td_ruleSetAddedList""))",Chrome 71.0.3578.98,,2019-01-22 16:45:34,2019-01-22 16:45:34,0.049s,PASSED
+"verifyMatch(firstRuleSetName, RULESETNAME, false)",Chrome 71.0.3578.98,,2019-01-22 16:45:34,2019-01-22 16:45:34,0.000s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-22 16:45:34,2019-01-22 16:45:37,3.002s,PASSED
+"waitForElementClickable(findTestObject(""UI/Client/Rule Editor/Edit Rule Set/a_editRuleSetIcon""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:45:37,2019-01-22 16:45:37,0.061s,PASSED
+"click(findTestObject(""UI/Client/Rule Editor/Edit Rule Set/a_editRuleSetIcon""))",Chrome 71.0.3578.98,,2019-01-22 16:45:37,2019-01-22 16:45:37,0.186s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-22 16:45:37,2019-01-22 16:45:38,1.001s,PASSED
+waitForPageLoad(5),Chrome 71.0.3578.98,,2019-01-22 16:45:38,2019-01-22 16:45:38,0.026s,PASSED
+"waitForElementClickable(findTestObject(""UI/Client/Rule Editor/Create Rule Set/a_addRuleToRuleSet""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:45:38,2019-01-22 16:45:38,0.071s,PASSED
+"click(findTestObject(""UI/Client/Rule Editor/Create Rule Set/a_addRuleToRuleSet""))",Chrome 71.0.3578.98,,2019-01-22 16:45:38,2019-01-22 16:45:39,0.202s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-22 16:45:39,2019-01-22 16:45:40,1.002s,PASSED
+waitForPageLoad(5),Chrome 71.0.3578.98,,2019-01-22 16:45:40,2019-01-22 16:45:40,0.040s,PASSED
+"waitForElementPresent(findTestObject(""UI/Client/Rule Editor/Create Rule Set/h2_newRulesForm""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:45:40,2019-01-22 16:45:40,0.038s,PASSED
+"formTitle = getText(findTestObject(""UI/Client/Rule Editor/Create Rule Set/h2_newRulesForm""))",Chrome 71.0.3578.98,,2019-01-22 16:45:40,2019-01-22 16:45:40,0.026s,PASSED
+"verifyMatch(formTitle, ""New Rules"", false)",Chrome 71.0.3578.98,,2019-01-22 16:45:40,2019-01-22 16:45:40,0.000s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-22 16:45:40,2019-01-22 16:45:43,3.017s,PASSED
+"waitForElementVisible(findTestObject(""UI/Client/Rule Editor/Create Rule Set/input_ruleName""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:45:43,2019-01-22 16:45:43,0.064s,PASSED
+"setText(findTestObject(""UI/Client/Rule Editor/Create Rule Set/input_ruleName""), RULENAME)",Chrome 71.0.3578.98,,2019-01-22 16:45:43,2019-01-22 16:45:43,0.240s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-22 16:45:43,2019-01-22 16:45:45,2.003s,PASSED
+"waitForElementClickable(findTestObject(""UI/Client/Rule Editor/Create Rule Set/select_addCondition""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:45:45,2019-01-22 16:45:45,0.066s,PASSED
+"click(findTestObject(""UI/Client/Rule Editor/Create Rule Set/select_addCondition""))",Chrome 71.0.3578.98,,2019-01-22 16:45:45,2019-01-22 16:45:45,0.090s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-22 16:45:45,2019-01-22 16:45:47,2.001s,PASSED
+"waitForElementPresent(findTestObject(""UI/Client/Rule Editor/Create Rule Set/option_conditionType""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:45:47,2019-01-22 16:45:47,0.021s,PASSED
+"waitForElementVisible(findTestObject(""UI/Client/Rule Editor/Create Rule Set/option_conditionType""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:45:47,2019-01-22 16:45:47,0.025s,PASSED
+"sendKeys(findTestObject(""UI/Client/Rule Editor/Create Rule Set/option_conditionType""), Keys.chord(ENTER))",Chrome 71.0.3578.98,,2019-01-22 16:45:47,2019-01-22 16:45:47,0.085s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-22 16:45:47,2019-01-22 16:45:49,2.004s,PASSED
+"waitForElementClickable(findTestObject(""UI/Client/Rule Editor/Create Rule Set/select_addAction""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:45:49,2019-01-22 16:45:49,0.061s,PASSED
+"click(findTestObject(""UI/Client/Rule Editor/Create Rule Set/select_addAction""))",Chrome 71.0.3578.98,,2019-01-22 16:45:49,2019-01-22 16:45:49,0.104s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-22 16:45:49,2019-01-22 16:45:51,2.002s,PASSED
+"waitForElementPresent(findTestObject(""UI/Client/Rule Editor/Create Rule Set/option_actionType""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:45:51,2019-01-22 16:45:52,0.027s,PASSED
+"waitForElementVisible(findTestObject(""UI/Client/Rule Editor/Create Rule Set/option_actionType""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:45:52,2019-01-22 16:45:52,0.046s,PASSED
+"sendKeys(findTestObject(""UI/Client/Rule Editor/Create Rule Set/option_actionType""), Keys.chord(ENTER))",Chrome 71.0.3578.98,,2019-01-22 16:45:52,2019-01-22 16:45:52,0.065s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-22 16:45:52,2019-01-22 16:45:54,2.002s,PASSED
+"waitForElementClickable(findTestObject(""UI/Client/Rule Editor/Create Rule Set/button_saveRule""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:45:54,2019-01-22 16:45:54,0.072s,PASSED
+"click(findTestObject(""UI/Client/Rule Editor/Create Rule Set/button_saveRule""))",Chrome 71.0.3578.98,,2019-01-22 16:45:54,2019-01-22 16:45:54,0.118s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-22 16:45:54,2019-01-22 16:45:55,1.001s,PASSED
+waitForPageLoad(5),Chrome 71.0.3578.98,,2019-01-22 16:45:55,2019-01-22 16:45:55,0.081s,PASSED
+"verifyElementPresent(findTestObject(""UI/Client/Rule Editor/Create Rule Set/span_firstRule""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:45:55,2019-01-22 16:45:55,0.022s,PASSED
+"verifyElementPresent(findTestObject(""UI/Client/Rule Editor/Create Rule Set/span_secondRule""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:45:55,2019-01-22 16:45:55,0.018s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-22 16:45:55,2019-01-22 16:45:57,2.000s,PASSED
+"waitForElementClickable(findTestObject(""UI/Client/Rule Editor/Create Rule Set/button_saveRuleSet""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:45:57,2019-01-22 16:45:57,0.070s,PASSED
+"click(findTestObject(""UI/Client/Rule Editor/Create Rule Set/button_saveRuleSet""))",Chrome 71.0.3578.98,,2019-01-22 16:45:57,2019-01-22 16:45:57,0.088s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-22 16:45:57,2019-01-22 16:45:58,1.001s,PASSED
+waitForPageLoad(5),Chrome 71.0.3578.98,,2019-01-22 16:45:58,2019-01-22 16:45:58,0.085s,PASSED
+"waitForElementPresent(findTestObject(""UI/Client/Rule Editor/Create Rule Set/div_alertRuleAdded""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:45:58,2019-01-22 16:45:58,0.016s,PASSED
+"waitForElementVisible(findTestObject(""UI/Client/Rule Editor/Create Rule Set/div_alertRuleAdded""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:45:58,2019-01-22 16:45:58,0.025s,PASSED
+"focus(findTestObject(""UI/Client/Rule Editor/Create Rule Set/div_alertRuleAdded""))",Chrome 71.0.3578.98,,2019-01-22 16:45:58,2019-01-22 16:45:58,0.044s,PASSED
+"click(findTestObject(""UI/Client/Rule Editor/Create Rule Set/button_acceptRuleAddedPopUp""))",Chrome 71.0.3578.98,,2019-01-22 16:45:58,2019-01-22 16:45:58,0.085s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-22 16:45:58,2019-01-22 16:45:59,1.002s,PASSED
+waitForPageLoad(5),Chrome 71.0.3578.98,,2019-01-22 16:45:59,2019-01-22 16:45:59,0.013s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-22 16:45:59,2019-01-22 16:46:02,3.002s,PASSED
+"waitForElementPresent(findTestObject(""UI/Client/Rule Editor/Create Rule Set/td_ruleSetAddedList""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:46:02,2019-01-22 16:46:02,0.049s,PASSED
+"firstRuleSetName = getText(findTestObject(""UI/Client/Rule Editor/Create Rule Set/td_ruleSetAddedList""))",Chrome 71.0.3578.98,,2019-01-22 16:46:02,2019-01-22 16:46:02,0.052s,PASSED
+"verifyMatch(firstRuleSetName, RULESETNAME, false)",Chrome 71.0.3578.98,,2019-01-22 16:46:02,2019-01-22 16:46:02,0.000s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-22 16:46:02,2019-01-22 16:46:05,3.001s,PASSED
+"waitForElementClickable(findTestObject(""UI/General/Log/a_userAvatar""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:46:05,2019-01-22 16:46:06,0.047s,PASSED
+"click(findTestObject(""UI/General/Log/a_userAvatar""))",Chrome 71.0.3578.98,,2019-01-22 16:46:06,2019-01-22 16:46:06,0.087s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-22 16:46:06,2019-01-22 16:46:07,1.002s,PASSED
+"waitForElementClickable(findTestObject(""UI/General/Log/a_signOutAMPS""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:46:07,2019-01-22 16:46:07,0.061s,PASSED
+"click(findTestObject(""UI/General/Log/a_signOutAMPS""))",Chrome 71.0.3578.98,,2019-01-22 16:46:07,2019-01-22 16:46:07,0.113s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-22 16:46:07,2019-01-22 16:46:08,1.001s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-22 16:46:08,2019-01-22 16:46:08,0.639s,PASSED
+,,,,,,
+Test Cases/UI/Client/Rule Editor/Delete Rule Set,Chrome 71.0.3578.98,Delete an existing Rule Set.,2019-01-22 16:46:08,2019-01-22 16:46:55,46.914s,PASSED
+"UAT = ""https://uat.advancedpricing.com""",Chrome 71.0.3578.98,,2019-01-22 16:46:09,2019-01-22 16:46:09,0.000s,PASSED
+"USER = ""qaAuto""",Chrome 71.0.3578.98,,2019-01-22 16:46:09,2019-01-22 16:46:09,0.001s,PASSED
+"PASSWD = ""a9yk100dD""",Chrome 71.0.3578.98,,2019-01-22 16:46:09,2019-01-22 16:46:09,0.000s,PASSED
+"RULESETNAME = ""AAAA Rule Set EDITED""",Chrome 71.0.3578.98,,2019-01-22 16:46:09,2019-01-22 16:46:09,0.000s,PASSED
+"VALIDFROM = ""01/02/2019""",Chrome 71.0.3578.98,,2019-01-22 16:46:09,2019-01-22 16:46:09,0.000s,PASSED
+"VALIDTO = ""12/31/2019""",Chrome 71.0.3578.98,,2019-01-22 16:46:09,2019-01-22 16:46:09,0.000s,PASSED
+"RULESETTYPE = ""Claim""",Chrome 71.0.3578.98,,2019-01-22 16:46:09,2019-01-22 16:46:09,0.000s,PASSED
+"RULENAME = ""Second Rule""",Chrome 71.0.3578.98,,2019-01-22 16:46:09,2019-01-22 16:46:09,0.000s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-22 16:46:09,2019-01-22 16:46:11,2.223s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-22 16:46:11,2019-01-22 16:46:12,1.168s,PASSED
+navigateToUrl(UAT),Chrome 71.0.3578.98,,2019-01-22 16:46:12,2019-01-22 16:46:14,1.538s,PASSED
+waitForPageLoad(5),Chrome 71.0.3578.98,,2019-01-22 16:46:14,2019-01-22 16:46:14,0.007s,PASSED
+"setText(findTestObject(""UI/Client/Claim Services/input_userCode""), USER)",Chrome 71.0.3578.98,,2019-01-22 16:46:14,2019-01-22 16:46:14,0.146s,PASSED
+"setText(findTestObject(""UI/Client/Claim Services/input_userPassword""), PASSWD)",Chrome 71.0.3578.98,,2019-01-22 16:46:14,2019-01-22 16:46:14,0.147s,PASSED
+"waitForElementClickable(findTestObject(""UI/Client/Claim Services/input_loginButton""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:46:14,2019-01-22 16:46:14,0.028s,PASSED
+"click(findTestObject(""UI/Client/Claim Services/input_loginButton""))",Chrome 71.0.3578.98,,2019-01-22 16:46:14,2019-01-22 16:46:14,0.096s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-22 16:46:14,2019-01-22 16:46:15,1.001s,PASSED
+waitForPageLoad(5),Chrome 71.0.3578.98,,2019-01-22 16:46:15,2019-01-22 16:46:15,0.038s,PASSED
+"waitForElementPresent(findTestObject(""UI/Client/Rule Editor/h1_Clients""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:46:15,2019-01-22 16:46:15,0.009s,PASSED
+"pageTitle = getText(findTestObject(""UI/Client/Rule Editor/h1_Clients""))",Chrome 71.0.3578.98,,2019-01-22 16:46:15,2019-01-22 16:46:15,0.035s,PASSED
+"verifyMatch(pageTitle, ""Clients"", false)",Chrome 71.0.3578.98,,2019-01-22 16:46:15,2019-01-22 16:46:15,0.011s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-22 16:46:15,2019-01-22 16:46:18,3.000s,PASSED
+"waitForElementClickable(findTestObject(""UI/Client/Rule Editor/span_ruleEditorMenu""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:46:18,2019-01-22 16:46:18,0.054s,PASSED
+"click(findTestObject(""UI/Client/Rule Editor/span_ruleEditorMenu""))",Chrome 71.0.3578.98,,2019-01-22 16:46:18,2019-01-22 16:46:18,0.184s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-22 16:46:18,2019-01-22 16:46:19,1.002s,PASSED
+waitForPageLoad(5),Chrome 71.0.3578.98,,2019-01-22 16:46:19,2019-01-22 16:46:19,0.023s,PASSED
+"waitForElementPresent(findTestObject(""UI/Client/Rule Editor/h1_ruleEditor""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:46:19,2019-01-22 16:46:19,0.033s,PASSED
+"pageTitle = getText(findTestObject(""UI/Client/Rule Editor/h1_ruleEditor""))",Chrome 71.0.3578.98,,2019-01-22 16:46:19,2019-01-22 16:46:19,0.048s,PASSED
+"verifyMatch(pageTitle, ""Rule Editor"", false)",Chrome 71.0.3578.98,,2019-01-22 16:46:19,2019-01-22 16:46:19,0.000s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-22 16:46:19,2019-01-22 16:46:22,3.001s,PASSED
+"waitForElementClickable(findTestObject(""UI/Client/Rule Editor/Edit Rule Set/a_editRuleSetIcon""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:46:22,2019-01-22 16:46:23,0.057s,PASSED
+"click(findTestObject(""UI/Client/Rule Editor/Edit Rule Set/a_editRuleSetIcon""))",Chrome 71.0.3578.98,,2019-01-22 16:46:23,2019-01-22 16:46:23,0.207s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-22 16:46:23,2019-01-22 16:46:24,1.001s,PASSED
+waitForPageLoad(5),Chrome 71.0.3578.98,,2019-01-22 16:46:24,2019-01-22 16:46:24,0.022s,PASSED
+"waitForElementClickable(findTestObject(""UI/Client/Rule Editor/Delete Rule Set/div_deleteRule""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:46:24,2019-01-22 16:46:24,0.061s,PASSED
+"click(findTestObject(""UI/Client/Rule Editor/Delete Rule Set/div_deleteRule""))",Chrome 71.0.3578.98,,2019-01-22 16:46:24,2019-01-22 16:46:24,0.079s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-22 16:46:24,2019-01-22 16:46:25,1.002s,PASSED
+waitForPageLoad(5),Chrome 71.0.3578.98,,2019-01-22 16:46:25,2019-01-22 16:46:25,0.015s,PASSED
+"waitForElementPresent(findTestObject(""UI/Client/Rule Editor/Delete Rule Set/div_alertDeleteRule""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:46:25,2019-01-22 16:46:25,0.051s,PASSED
+"waitForElementVisible(findTestObject(""UI/Client/Rule Editor/Delete Rule Set/div_alertDeleteRule""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:46:25,2019-01-22 16:46:25,0.041s,PASSED
+"focus(findTestObject(""UI/Client/Rule Editor/Delete Rule Set/div_alertDeleteRule""))",Chrome 71.0.3578.98,,2019-01-22 16:46:25,2019-01-22 16:46:25,0.042s,PASSED
+"click(findTestObject(""UI/Client/Rule Editor/Delete Rule Set/button_confirmDeleteRule""))",Chrome 71.0.3578.98,,2019-01-22 16:46:25,2019-01-22 16:46:25,0.094s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-22 16:46:25,2019-01-22 16:46:26,1.001s,PASSED
+waitForPageLoad(5),Chrome 71.0.3578.98,,2019-01-22 16:46:26,2019-01-22 16:46:26,0.008s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-22 16:46:26,2019-01-22 16:46:29,3.001s,PASSED
+"verifyElementNotPresent(findTestObject(""UI/Client/Rule Editor/Create Rule Set/span_secondRule""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:46:29,2019-01-22 16:46:29,0.050s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-22 16:46:29,2019-01-22 16:46:31,2.001s,PASSED
+"waitForElementClickable(findTestObject(""UI/Client/Rule Editor/Create Rule Set/button_saveRuleSet""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:46:31,2019-01-22 16:46:31,0.078s,PASSED
+"click(findTestObject(""UI/Client/Rule Editor/Create Rule Set/button_saveRuleSet""))",Chrome 71.0.3578.98,,2019-01-22 16:46:31,2019-01-22 16:46:31,0.093s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-22 16:46:31,2019-01-22 16:46:32,1.002s,PASSED
+waitForPageLoad(5),Chrome 71.0.3578.98,,2019-01-22 16:46:32,2019-01-22 16:46:32,0.057s,PASSED
+"waitForElementPresent(findTestObject(""UI/Client/Rule Editor/Create Rule Set/div_alertRuleAdded""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:46:32,2019-01-22 16:46:32,0.012s,PASSED
+"waitForElementVisible(findTestObject(""UI/Client/Rule Editor/Create Rule Set/div_alertRuleAdded""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:46:32,2019-01-22 16:46:32,0.021s,PASSED
+"focus(findTestObject(""UI/Client/Rule Editor/Create Rule Set/div_alertRuleAdded""))",Chrome 71.0.3578.98,,2019-01-22 16:46:32,2019-01-22 16:46:33,0.041s,PASSED
+"click(findTestObject(""UI/Client/Rule Editor/Create Rule Set/button_acceptRuleSetSavedPopUp""))",Chrome 71.0.3578.98,,2019-01-22 16:46:33,2019-01-22 16:46:33,0.074s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-22 16:46:33,2019-01-22 16:46:34,1.001s,PASSED
+waitForPageLoad(5),Chrome 71.0.3578.98,,2019-01-22 16:46:34,2019-01-22 16:46:34,0.009s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-22 16:46:34,2019-01-22 16:46:37,3.000s,PASSED
+"waitForElementPresent(findTestObject(""UI/Client/Rule Editor/Create Rule Set/td_ruleSetAddedList""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:46:37,2019-01-22 16:46:37,0.040s,PASSED
+"firstRuleSetName = getText(findTestObject(""UI/Client/Rule Editor/Create Rule Set/td_ruleSetAddedList""))",Chrome 71.0.3578.98,,2019-01-22 16:46:37,2019-01-22 16:46:37,0.065s,PASSED
+"verifyMatch(firstRuleSetName, RULESETNAME, false)",Chrome 71.0.3578.98,,2019-01-22 16:46:37,2019-01-22 16:46:37,0.000s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-22 16:46:37,2019-01-22 16:46:40,3.000s,PASSED
+"waitForElementClickable(findTestObject(""UI/Client/Rule Editor/Delete Rule Set/div_deleteRuleSet""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:46:40,2019-01-22 16:46:40,0.068s,PASSED
+"click(findTestObject(""UI/Client/Rule Editor/Delete Rule Set/div_deleteRuleSet""))",Chrome 71.0.3578.98,,2019-01-22 16:46:40,2019-01-22 16:46:40,0.104s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-22 16:46:40,2019-01-22 16:46:41,1.001s,PASSED
+waitForPageLoad(5),Chrome 71.0.3578.98,,2019-01-22 16:46:41,2019-01-22 16:46:41,0.015s,PASSED
+"waitForElementPresent(findTestObject(""UI/Client/Rule Editor/Delete Rule Set/div_alertDeleteRule""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:46:41,2019-01-22 16:46:41,0.036s,PASSED
+"waitForElementVisible(findTestObject(""UI/Client/Rule Editor/Delete Rule Set/div_alertDeleteRule""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:46:41,2019-01-22 16:46:41,0.026s,PASSED
+"focus(findTestObject(""UI/Client/Rule Editor/Delete Rule Set/div_alertDeleteRule""))",Chrome 71.0.3578.98,,2019-01-22 16:46:41,2019-01-22 16:46:41,0.038s,PASSED
+"click(findTestObject(""UI/Client/Rule Editor/Delete Rule Set/button_confirmDeleteRule""))",Chrome 71.0.3578.98,,2019-01-22 16:46:41,2019-01-22 16:46:41,0.083s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-22 16:46:41,2019-01-22 16:46:42,1.000s,PASSED
+waitForPageLoad(5),Chrome 71.0.3578.98,,2019-01-22 16:46:42,2019-01-22 16:46:42,0.015s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-22 16:46:42,2019-01-22 16:46:45,3.003s,PASSED
+"waitForElementPresent(findTestObject(""UI/Client/Rule Editor/Create Rule Set/td_ruleSetAddedList""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:46:45,2019-01-22 16:46:45,0.034s,PASSED
+"firstRuleSetName = getText(findTestObject(""UI/Client/Rule Editor/Create Rule Set/td_ruleSetAddedList""))",Chrome 71.0.3578.98,,2019-01-22 16:46:45,2019-01-22 16:46:45,0.047s,PASSED
+"verifyNotMatch(firstRuleSetName, RULESETNAME, false)",Chrome 71.0.3578.98,,2019-01-22 16:46:45,2019-01-22 16:46:45,0.008s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-22 16:46:45,2019-01-22 16:46:48,3.001s,PASSED
+"waitForElementPresent(findTestObject(""UI/Client/Rule Editor/Delete Rule Set/div_alertDeleteRule""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:46:48,2019-01-22 16:46:48,0.026s,PASSED
+"waitForElementVisible(findTestObject(""UI/Client/Rule Editor/Delete Rule Set/div_alertDeleteRule""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:46:48,2019-01-22 16:46:48,0.046s,PASSED
+"focus(findTestObject(""UI/Client/Rule Editor/Delete Rule Set/div_alertDeleteRule""))",Chrome 71.0.3578.98,,2019-01-22 16:46:48,2019-01-22 16:46:48,0.048s,PASSED
+"click(findTestObject(""UI/Client/Rule Editor/Delete Rule Set/button_confirmDeleteRule""))",Chrome 71.0.3578.98,,2019-01-22 16:46:48,2019-01-22 16:46:48,0.046s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-22 16:46:48,2019-01-22 16:46:49,1.002s,PASSED
+waitForPageLoad(5),Chrome 71.0.3578.98,,2019-01-22 16:46:49,2019-01-22 16:46:49,0.011s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-22 16:46:49,2019-01-22 16:46:52,3.001s,PASSED
+"waitForElementClickable(findTestObject(""UI/General/Log/a_userAvatar""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:46:52,2019-01-22 16:46:52,0.056s,PASSED
+"click(findTestObject(""UI/General/Log/a_userAvatar""))",Chrome 71.0.3578.98,,2019-01-22 16:46:52,2019-01-22 16:46:53,0.072s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-22 16:46:53,2019-01-22 16:46:54,1.002s,PASSED
+"waitForElementClickable(findTestObject(""UI/General/Log/a_signOutAMPS""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:46:54,2019-01-22 16:46:54,0.063s,PASSED
+"click(findTestObject(""UI/General/Log/a_signOutAMPS""))",Chrome 71.0.3578.98,,2019-01-22 16:46:54,2019-01-22 16:46:54,0.135s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-22 16:46:54,2019-01-22 16:46:55,1.001s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-22 16:46:55,2019-01-22 16:46:55,0.615s,PASSED
+,,,,,,
+Test Cases/UI/Client/Rule Editor/Search for Rule Set,Chrome 71.0.3578.98,Search for a Rule Set using valid and invalid data.,2019-01-22 16:46:55,2019-01-22 16:47:37,42.060s,PASSED
+"UAT = ""https://uat.advancedpricing.com""",Chrome 71.0.3578.98,,2019-01-22 16:46:56,2019-01-22 16:46:56,0.000s,PASSED
+"USER = ""qaAuto""",Chrome 71.0.3578.98,,2019-01-22 16:46:56,2019-01-22 16:46:56,0.000s,PASSED
+"PASSWD = ""a9yk100dD""",Chrome 71.0.3578.98,,2019-01-22 16:46:56,2019-01-22 16:46:56,0.001s,PASSED
+"CLEAR = """"",Chrome 71.0.3578.98,,2019-01-22 16:46:56,2019-01-22 16:46:56,0.000s,PASSED
+"RULESETNAME = ""Arkansas""",Chrome 71.0.3578.98,,2019-01-22 16:46:56,2019-01-22 16:46:56,0.000s,PASSED
+"RULESETNAME2 = ""a""",Chrome 71.0.3578.98,,2019-01-22 16:46:56,2019-01-22 16:46:56,0.000s,PASSED
+"INVALIDNAME = ""QWERTY""",Chrome 71.0.3578.98,,2019-01-22 16:46:56,2019-01-22 16:46:56,0.000s,PASSED
+"INVALIDNAME2 = ""0000""",Chrome 71.0.3578.98,,2019-01-22 16:46:56,2019-01-22 16:46:56,0.000s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-22 16:46:56,2019-01-22 16:46:58,2.092s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-22 16:46:58,2019-01-22 16:46:59,1.122s,PASSED
+navigateToUrl(UAT),Chrome 71.0.3578.98,,2019-01-22 16:46:59,2019-01-22 16:47:00,1.511s,PASSED
+waitForPageLoad(5),Chrome 71.0.3578.98,,2019-01-22 16:47:00,2019-01-22 16:47:00,0.005s,PASSED
+"setText(findTestObject(""UI/Client/Claim Services/input_userCode""), USER)",Chrome 71.0.3578.98,,2019-01-22 16:47:00,2019-01-22 16:47:00,0.142s,PASSED
+"setText(findTestObject(""UI/Client/Claim Services/input_userPassword""), PASSWD)",Chrome 71.0.3578.98,,2019-01-22 16:47:00,2019-01-22 16:47:01,0.147s,PASSED
+"waitForElementClickable(findTestObject(""UI/Client/Claim Services/input_loginButton""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:47:01,2019-01-22 16:47:01,0.026s,PASSED
+"click(findTestObject(""UI/Client/Claim Services/input_loginButton""))",Chrome 71.0.3578.98,,2019-01-22 16:47:01,2019-01-22 16:47:01,0.090s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-22 16:47:01,2019-01-22 16:47:02,1.000s,PASSED
+waitForPageLoad(5),Chrome 71.0.3578.98,,2019-01-22 16:47:02,2019-01-22 16:47:02,0.071s,PASSED
+"waitForElementPresent(findTestObject(""UI/Client/Rule Editor/h1_Clients""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:47:02,2019-01-22 16:47:02,0.016s,PASSED
+"pageTitle = getText(findTestObject(""UI/Client/Rule Editor/h1_Clients""))",Chrome 71.0.3578.98,,2019-01-22 16:47:02,2019-01-22 16:47:02,0.039s,PASSED
+"verifyMatch(pageTitle, ""Clients"", false)",Chrome 71.0.3578.98,,2019-01-22 16:47:02,2019-01-22 16:47:02,0.000s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-22 16:47:02,2019-01-22 16:47:05,3.001s,PASSED
+"waitForElementClickable(findTestObject(""UI/Client/Rule Editor/span_ruleEditorMenu""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:47:05,2019-01-22 16:47:05,0.065s,PASSED
+"click(findTestObject(""UI/Client/Rule Editor/span_ruleEditorMenu""))",Chrome 71.0.3578.98,,2019-01-22 16:47:05,2019-01-22 16:47:05,0.167s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-22 16:47:05,2019-01-22 16:47:06,1.002s,PASSED
+waitForPageLoad(5),Chrome 71.0.3578.98,,2019-01-22 16:47:06,2019-01-22 16:47:06,0.022s,PASSED
+"waitForElementPresent(findTestObject(""UI/Client/Rule Editor/h1_ruleEditor""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:47:06,2019-01-22 16:47:06,0.034s,PASSED
+"pageTitle = getText(findTestObject(""UI/Client/Rule Editor/h1_ruleEditor""))",Chrome 71.0.3578.98,,2019-01-22 16:47:06,2019-01-22 16:47:06,0.036s,PASSED
+"verifyMatch(pageTitle, ""Rule Editor"", false)",Chrome 71.0.3578.98,,2019-01-22 16:47:06,2019-01-22 16:47:06,0.000s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-22 16:47:06,2019-01-22 16:47:09,3.001s,PASSED
+"waitForElementVisible(findTestObject(""UI/Client/Rule Editor/Search Rule Set/input_searchRuleSet""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:47:09,2019-01-22 16:47:09,0.079s,PASSED
+"setText(findTestObject(""UI/Client/Rule Editor/Search Rule Set/input_searchRuleSet""), RULESETNAME)",Chrome 71.0.3578.98,,2019-01-22 16:47:09,2019-01-22 16:47:09,0.214s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-22 16:47:09,2019-01-22 16:47:12,3.002s,PASSED
+"verifyElementNotPresent(findTestObject(""UI/Client/Rule Editor/Search Rule Set/div_noSearchResults""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:47:12,2019-01-22 16:47:13,0.064s,PASSED
+"setText(findTestObject(""UI/Client/Rule Editor/Search Rule Set/input_searchRuleSet""), CLEAR)",Chrome 71.0.3578.98,,2019-01-22 16:47:13,2019-01-22 16:47:13,0.077s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-22 16:47:13,2019-01-22 16:47:16,3.001s,PASSED
+"setText(findTestObject(""UI/Client/Rule Editor/Search Rule Set/input_searchRuleSet""), RULESETNAME2)",Chrome 71.0.3578.98,,2019-01-22 16:47:16,2019-01-22 16:47:16,0.111s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-22 16:47:16,2019-01-22 16:47:19,3.002s,PASSED
+"verifyElementNotPresent(findTestObject(""UI/Client/Rule Editor/Search Rule Set/div_noSearchResults""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:47:19,2019-01-22 16:47:19,0.048s,PASSED
+"setText(findTestObject(""UI/Client/Rule Editor/Search Rule Set/input_searchRuleSet""), CLEAR)",Chrome 71.0.3578.98,,2019-01-22 16:47:19,2019-01-22 16:47:19,0.080s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-22 16:47:19,2019-01-22 16:47:22,3.001s,PASSED
+"setText(findTestObject(""UI/Client/Rule Editor/Search Rule Set/input_searchRuleSet""), INVALIDNAME)",Chrome 71.0.3578.98,,2019-01-22 16:47:22,2019-01-22 16:47:22,0.183s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-22 16:47:22,2019-01-22 16:47:25,3.000s,PASSED
+"verifyElementPresent(findTestObject(""UI/Client/Rule Editor/Search Rule Set/div_noSearchResults""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:47:25,2019-01-22 16:47:25,0.045s,PASSED
+"setText(findTestObject(""UI/Client/Rule Editor/Search Rule Set/input_searchRuleSet""), CLEAR)",Chrome 71.0.3578.98,,2019-01-22 16:47:25,2019-01-22 16:47:25,0.080s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-22 16:47:25,2019-01-22 16:47:28,3.001s,PASSED
+"setText(findTestObject(""UI/Client/Rule Editor/Search Rule Set/input_searchRuleSet""), INVALIDNAME2)",Chrome 71.0.3578.98,,2019-01-22 16:47:28,2019-01-22 16:47:28,0.184s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-22 16:47:28,2019-01-22 16:47:31,3.000s,PASSED
+"verifyElementPresent(findTestObject(""UI/Client/Rule Editor/Search Rule Set/div_noSearchResults""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:47:31,2019-01-22 16:47:31,0.024s,PASSED
+"setText(findTestObject(""UI/Client/Rule Editor/Search Rule Set/input_searchRuleSet""), CLEAR)",Chrome 71.0.3578.98,,2019-01-22 16:47:31,2019-01-22 16:47:31,0.101s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-22 16:47:31,2019-01-22 16:47:34,3.001s,PASSED
+"waitForElementClickable(findTestObject(""UI/General/Log/a_userAvatar""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:47:34,2019-01-22 16:47:35,0.052s,PASSED
+"click(findTestObject(""UI/General/Log/a_userAvatar""))",Chrome 71.0.3578.98,,2019-01-22 16:47:35,2019-01-22 16:47:35,0.086s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-22 16:47:35,2019-01-22 16:47:36,1.002s,PASSED
+"waitForElementClickable(findTestObject(""UI/General/Log/a_signOutAMPS""), 5)",Chrome 71.0.3578.98,,2019-01-22 16:47:36,2019-01-22 16:47:36,0.022s,PASSED
+"click(findTestObject(""UI/General/Log/a_signOutAMPS""))",Chrome 71.0.3578.98,,2019-01-22 16:47:36,2019-01-22 16:47:36,0.121s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-22 16:47:36,2019-01-22 16:47:37,1.000s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-22 16:47:37,2019-01-22 16:47:37,0.641s,PASSED

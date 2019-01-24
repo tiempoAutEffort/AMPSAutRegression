@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[@class=&quot;Select-control&quot;]//div[contains(text(), &quot;Select Condition&quot;)]</value>
+         <value>id(&quot;react-select-5--value&quot;)/div[@class=&quot;Select-input&quot;]/input[1]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@class=&quot;Select-control&quot;]//div[contains(text(), &quot;Select Condition&quot;)]</value>
+         <value>id(&quot;react-select-5--value&quot;)/div[@class=&quot;Select-input&quot;]/input[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -21,6 +21,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[@class=&quot;Select-control&quot;]//div[contains(text(), &quot;Select Condition&quot;)]</value>
+      <value>id(&quot;react-select-5--value&quot;)/div[@class=&quot;Select-input&quot;]/input[1]</value>
    </webElementProperties>
 </WebElementEntity>

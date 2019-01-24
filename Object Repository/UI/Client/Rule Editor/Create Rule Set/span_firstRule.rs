@@ -14,7 +14,7 @@
          <value>//*[@class=&quot;panel panel-primary&quot;]//table/tbody/tr[1]/td[1]/span[contains(@class, &quot;handle&quot;)]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

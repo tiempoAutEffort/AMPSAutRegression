@@ -19,7 +19,7 @@ USER = 'qaAuto'
 PASSWD = 'a9yk100dD'
 
 //Rule Set data
-RULESETNAME = "AAAA Rule Set EDITED"
+RULESETNAME = "AAAAAAN Empty Rule Set"
 VALIDFROM = "01/02/2019"
 VALIDTO = "12/31/2019"
 RULESETTYPE = "Claim"
@@ -86,7 +86,7 @@ WebUI.waitForPageLoad(5)
 WebUI.delay(3)
 
 //Verify Rule is not displayed
-WebUI.verifyElementNotPresent(findTestObject('UI/Client/Rule Editor/Create Rule Set/span_secondRule'), 5)
+WebUI.verifyElementNotPresent(findTestObject('UI/Client/Rule Editor/Create Rule Set/span_firstRule'), 5)
 WebUI.delay(2)
 
 //Click on Save to save the Rule Set

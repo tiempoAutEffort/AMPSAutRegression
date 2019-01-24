@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>td_ruleSetAddedList</name>
+   <name>select_focusAddAction</name>
    <tag></tag>
-   <elementGuidId>7400476c-91e6-49be-80d8-2f1237bcf8a0</elementGuidId>
+   <elementGuidId>e1e96af0-d53f-4f52-9f5d-fea007b7954b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;content&quot;]//table/tbody/tr[1]/td[3]</value>
+         <value>//*[@id=&quot;react-select-6--value&quot;]/div[2]/input</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;content&quot;]//table/tbody/tr[1]/td[3]</value>
+         <value>//*[@id=&quot;react-select-6--value&quot;]/div[2]/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +21,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;content&quot;]//table/tbody/tr[1]/td[3]</value>
+      <value>//*[@id=&quot;react-select-6--value&quot;]/div[2]/input</value>
    </webElementProperties>
 </WebElementEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>An existing Rule Set will be edited by adding a rule that will be executed on a specific Claim.</description>
+   <name>Edit Rule Set To Execute</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>57eb7ade-aae5-415c-bc91-538e5be4bb78</testCaseGuid>
+</TestCaseEntity>

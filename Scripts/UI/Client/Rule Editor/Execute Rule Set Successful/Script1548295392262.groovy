@@ -13,19 +13,17 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+import org.openqa.selenium.Keys as Keys
+
 //Env and user credentials
+
 UAT = 'https://uat.advancedpricing.com'
 USER = 'qaAuto'
 PASSWD = 'a9yk100dD'
 
-//Valid Rule Set data
-CLEAR = ""
-RULESETNAME = "empty rule"
-RULESETNAME2 = "AA"
-
-//Invalid Rule Set data
-INVALIDNAME = "QWERTY"
-INVALIDNAME2 = "0000"
+//Rule data
+RULENAME = "Date Creation Rule"
+CLAIMID = "1027963"
 
 //Open browser and navigate to AMPS login page
 WebUI.openBrowser('')
@@ -61,39 +59,34 @@ pageTitle = WebUI.getText(findTestObject('UI/Client/Rule Editor/h1_ruleEditor'))
 WebUI.verifyMatch(pageTitle, "Rule Editor", false)
 WebUI.delay(3)
 
-//**** Search using valid data - Search results displayed
-
-//Enter valid search data
-WebUI.waitForElementVisible(findTestObject('UI/Client/Rule Editor/Search Rule Set/input_searchRuleSet'), 5)
-WebUI.setText(findTestObject('UI/Client/Rule Editor/Search Rule Set/input_searchRuleSet'), RULESETNAME)
-WebUI.delay(3)
-WebUI.verifyElementNotPresent(findTestObject('UI/Client/Rule Editor/Search Rule Set/div_noSearchResults'), 5)
-WebUI.setText(findTestObject('UI/Client/Rule Editor/Search Rule Set/input_searchRuleSet'), CLEAR)
+//Display Rule Set Details
+WebUI.waitForElementVisible(findTestObject('Object Repository/UI/Client/Rule Editor/Execute Rule Set/td_expandRuleSet'), 5)
+WebUI.click(findTestObject('Object Repository/UI/Client/Rule Editor/Execute Rule Set/td_expandRuleSet'))
+WebUI.waitForPageLoad(5)
 WebUI.delay(3)
 
-
-WebUI.setText(findTestObject('UI/Client/Rule Editor/Search Rule Set/input_searchRuleSet'), RULESETNAME2)
-WebUI.delay(3)
-WebUI.verifyElementNotPresent(findTestObject('UI/Client/Rule Editor/Search Rule Set/div_noSearchResults'), 5)
-WebUI.setText(findTestObject('UI/Client/Rule Editor/Search Rule Set/input_searchRuleSet'), CLEAR)
-WebUI.delay(3)
-
-
-
-//**** Search using invalid data - No search results displayed
-WebUI.setText(findTestObject('UI/Client/Rule Editor/Search Rule Set/input_searchRuleSet'), INVALIDNAME)
-WebUI.delay(3)
-WebUI.verifyElementPresent(findTestObject('UI/Client/Rule Editor/Search Rule Set/div_noSearchResults'), 5)
-WebUI.setText(findTestObject('UI/Client/Rule Editor/Search Rule Set/input_searchRuleSet'), CLEAR)
+//Enter valid Claim id
+WebUI.waitForElementPresent(findTestObject('Object Repository/UI/Client/Rule Editor/Execute Rule Set/input_claimID'), 5)
+WebUI.waitForElementVisible(findTestObject('Object Repository/UI/Client/Rule Editor/Execute Rule Set/input_claimID'), 5)
+WebUI.setText(findTestObject('Object Repository/UI/Client/Rule Editor/Execute Rule Set/input_claimID'), CLAIMID)
 WebUI.delay(3)
 
+//Click on Run button
+WebUI.waitForElementClickable(findTestObject('Object Repository/UI/Client/Rule Editor/Execute Rule Set/button_runButton'), 5)
+WebUI.click(findTestObject('Object Repository/UI/Client/Rule Editor/Execute Rule Set/button_runButton'))
+WebUI.delay(1)
+WebUI.waitForPageLoad(5)
 
-WebUI.setText(findTestObject('UI/Client/Rule Editor/Search Rule Set/input_searchRuleSet'), INVALIDNAME2)
-WebUI.delay(3)
-WebUI.verifyElementPresent(findTestObject('UI/Client/Rule Editor/Search Rule Set/div_noSearchResults'), 5)
-WebUI.setText(findTestObject('UI/Client/Rule Editor/Search Rule Set/input_searchRuleSet'), CLEAR)
-WebUI.delay(3)
+//Verify Script Output table is displayed
+WebUI.waitForElementPresent(findTestObject('Object Repository/UI/Client/Rule Editor/Execute Rule Set/label_scriptOutputTable'), 5)
+formTitle = WebUI.getText(findTestObject('Object Repository/UI/Client/Rule Editor/Execute Rule Set/label_scriptOutputTable'))
+WebUI.verifyMatch(formTitle, "Script Output", false)
 
+//Verify executed Rule table is displayed
+WebUI.waitForElementPresent(findTestObject('Object Repository/UI/Client/Rule Editor/Execute Rule Set/td_executedRuleTable'), 5)
+formTitle = WebUI.getText(findTestObject('Object Repository/UI/Client/Rule Editor/Execute Rule Set/td_executedRuleTable'))
+WebUI.verifyMatch(formTitle, RULENAME, false)
+WebUI.delay(3)
 
 //Logout
 WebUI.waitForElementClickable(findTestObject('UI/General/Log/a_userAvatar'), 5)
