@@ -45,7 +45,7 @@ WebUI.setText(findTestObject('UI/Employee/user detail/modify user/Page_AMPS Port
 
 WebUI.click(findTestObject('UI/Employee/user detail/modify user/Page_AMPS Portal/Page_AMPS Portal/button_Resend Email'))
 
-WebUI.verifyElementPresent((findTestObject('UI/Employee/user detail/modify user/Page_AMPS Portal/Page_AMPS Portal/h2_eMail Sent')), 3)
+WebUI.verifyElementPresent((findTestObject('Object Repository/UI/Employee/user detail/modify user/Page_AMPS Portal/Page_AMPS Portal/h2_eMail Sent')), 3)
 
 WebUI.delay(3)
 

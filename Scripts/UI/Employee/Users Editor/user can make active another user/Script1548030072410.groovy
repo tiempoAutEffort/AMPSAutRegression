@@ -19,7 +19,7 @@ WebUI.click(findTestObject('UI/Employee/user detail/modify user/Page_AMPS Portal
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('Page_AMPS Portal/input_User Code_code'), 'noEditUser')
+WebUI.setText(findTestObject('UI/Employee/user detail/modify user/Page_AMPS Portal/Page_AMPS Portal/input_User Code_code'), 'noEditUser')
 
 WebUI.click(findTestObject('UI/Employee/user detail/modify user/Page_AMPS Portal/Page_AMPS Portal/button_Filter'))
 
@@ -56,7 +56,7 @@ WebUI.click(findTestObject('UI/Employee/user detail/modify user/Page_AMPS Portal
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('Page_AMPS Portal/input_User Code_code'), 'noEditUser')
+WebUI.setText(findTestObject('UI/Employee/user detail/modify user/Page_AMPS Portal/Page_AMPS Portal/input_User Code_code'), 'noEditUser')
 
 WebUI.click(findTestObject('UI/Employee/user detail/modify user/Page_AMPS Portal/Page_AMPS Portal/button_Filter'))
 
