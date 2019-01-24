@@ -12,4 +12,69 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+
+WebUI.callTestCase(findTestCase('UI/General/AdminLogin'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('UI/Employee/user detail/Create new User/Page_AMPS Portal/span_Users'))
+
+WebUI.verifyElementClickable(findTestObject('UI/Employee/user detail/Create new User/Page_AMPS Portal/a_Create New User'))
+
+WebUI.click(findTestObject('UI/Employee/user detail/Create new User/Page_AMPS Portal/a_Create New User'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('UI/Employee/user detail/Create new User/Page_AMPS Portal/span_customer_Select-arrow'))
+
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.ARROW_DOWN))
+
+WebUI.sendKeys(findTestObject(null), Keys.chord(Keys.ENTER))
+
+//WebUI.click(findTestObject('UI/Employee/user detail/Create new User/Page_AMPS Portal/Selector_account_Type_option3'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('UI/Employee/user detail/Create new User/Page_AMPS Portal/span_Select..._Select-arrow'))
+
+WebUI.sendKeys(findTestObject('UI/Employee/user detail/Create new User/Page_AMPS Portal/INPUT_dropdown_Role'), 'ameriben')
+
+WebUI.click(findTestObject('UI/Employee/user detail/Create new User/Page_AMPS Portal/Selector_Role_Always_Option1'))
+
+WebUI.click(findTestObject('UI/Employee/user detail/Create new User/Page_AMPS Portal/div_Select...'))
+
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('UI/Employee/user detail/Create new User/Page_AMPS Portal/input_User Code_code'), 'TestAmeri')
+
+WebUI.setText(findTestObject('UI/Employee/user detail/Create new User/Page_AMPS Portal/input_Email_email'), 'Jacob@ameriben.com')
+
+WebUI.setText(findTestObject('UI/Employee/user detail/Create new User/Page_AMPS Portal/input_First Name_firstName'), 'Jacob')
+
+WebUI.setText(findTestObject('UI/Employee/user detail/Create new User/Page_AMPS Portal/input_Last Name_lastName'), 'Howart')
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('UI/Employee/user detail/Create new User/Page_AMPS Portal/a_Access'))
+
+WebUI.click(findTestObject('UI/Employee/user detail/Create new User/Page_AMPS Portal/span_All Groups'))
+
+WebUI.click(findTestObject('UI/Employee/user detail/Create new User/Page_AMPS Portal/a_'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('UI/Employee/user detail/Create new User/Page_AMPS Portal/a_Permissions'))
+
+WebUI.setText(findTestObject('UI/Employee/user detail/Create new User/Page_AMPS Portal/input_All Groups_form-control'), 
+    'user')
+
+WebUI.click(findTestObject('UI/Employee/user detail/Create new User/Page_AMPS Portal/input_Description_permissions5'))
+
+WebUI.delay(2)
+
+/*WebUI.click(findTestObject('UI/Employee/user detail/Create new User/Page_AMPS Portal/button_Save'))
+
+WebUI.verifyTextPresent('User created', false)
+
+WebUI.click(findTestObject('UI/Employee/user detail/Create new User/Page_AMPS Portal/button_OK'))*/
+WebUI.closeBrowser()
 
